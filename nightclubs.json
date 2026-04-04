@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-04T22:42:40.340725",
+    "generated_at": "2026-04-04T22:49:21.908069",
     "total_clubs": 24,
     "cities": [
       "Stockholm"
@@ -16,7 +16,7 @@
     {
       "name": "Trädgården",
       "city": "Stockholm",
-      "description": "Utomhusklubb under Skanstullbron på Södermalm. Kulturbas och nöjesplats för Stockholm med fokus på electronic musik, house och techno. Känd för att värna om en säker, inkluderande miljö fri från diskriminering.",
+      "description": "Kulturnattklub på Söder under Skanstullbron. Känd för att vara en viktig del av Stockholms kulturliv med fokus på elektronisk musik, live sessions och kulturella evenemang. Manifestet betonar inkludering, säkerhet och frihet från diskriminering.",
       "address": "Hammarby Slussväg 2, 118 60 Stockholm, Sweden",
       "lat": 59.3047676,
       "lng": 18.077811099999998,
@@ -30,17 +30,17 @@
         "saturday": "17:00-03:00",
         "sunday": "stängt"
       },
-      "seasonal_info": "Öppen 1 maj - 19 september",
+      "seasonal_info": "2026: 1 maj - 19 september",
       "age_limit": 23,
       "dress_code": null,
       "website": "http://www.tradgarden.com/",
       "instagram": "https://instagram.com/tradgarden",
       "phone": null,
       "images": [
-        "https://places.googleapis.com/v1/places/ChIJTex4ofV3X0YRq79nToaz98Q/photos/AU_ZVEEov5FpoWH4QYsCr9FD7vvZbezkYk_wKLTGs8XQ7y8wu0J4DcRQTArsEEoJRFsMLpRfrLnYWLcCooFVxWDrIrk4GCt0kDyfI39flTvzoza4RlCsqr2rJ4B30ImKVT1p9Twij4aWxb1ZLjnus1aHQmSzvB8U9Zv2Y817feKt2qvBoBLcOZh3o8leQtlphjDawwYaOiU7PTVZB-R4EOxQ7rF3jd66_pdeUFNtFO3BzGoiWpTCF5LEjKLuUgQwStHG6smkq_JQPHzkfY_0PwOrJBIEbv4HzmKRIOHrU5bhHEziSnUgVV-Kq9XDqtN6J_BY_BhW7zPgXL3BOR09o01IESnFxtn2WfJpp2-NJNntwVPYVqfS6VgnC2LKAOjWR7E5_sOESaAlz-OtqGNihFGbf4CuuHsx-egvxOLs9ErS8zpoew/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJTex4ofV3X0YRq79nToaz98Q/photos/AU_ZVEE1s1YuVVs6pUmFsSd3UobASLzxFjunFRa3hUtyQBbqCtlMoyfI8Ks7jETd1UZEpKDbxY6Bw8kXf7blyuXf87lmsV_gg09XpWIMgV73K0rjR5ID_cuWy6_rcOteCa-BhZc4K9yxA0nctfH7khAuZj8BluZiQkOQkq6QLJ55LTfsUhrSlOWJXL0HcVh-0esdVCaO0_haHswePxMG9nCEo9wWq4fdwqkBKDkXSOwQP2Kx8s7OUzpqtB5i0YX7ZNxaAYW--Gotqr_QfVx9ovOW7RxQ0cpQr2Id9Gi8dnpA7P8Q92p6CeMHwzFQaGVu0fEuCD7ZxEOUdOzsc0KL8SEekxPo4Ux3KCx0b76HL_tzkYRWIRChmtq89pLXdAIFMruEoKVbumut_w6IRrSbR--M1hyQ-VoMtCOTo7BJm44EhRTU3lZFi2DvmrhUrxKJxQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJTex4ofV3X0YRq79nToaz98Q/photos/AU_ZVEFcqcnVzkFs9apWhF6ZYmWkn65sr0YC97vAwJBaqek06T88tTbSneSiru1c5TDJ9IMOfK3oce_shDn_h4B6yPm5xrpYre-Zo8N5gPKOreSymuvWle_RA1lqwHh3CCfeOBZrPLRZY9HCkghOHgguZdBeyfGrpd_L5EKYh40TbkcQRFlj03Ppzc90BcWDkv-nL9YhYu1rkIajTm33FVjP7HjSeu6aouXGqL2c_E7doDtgwNDNS16dnc2KPA7DgJl3ArkEPRMJ15_du6QTIcq1RZGG0319EFlqzA8x12APF7FR9SFwcv76DoWbEshECFKugVT57OU9klXEcQDiWjUNjTkVyao-Qs6SnHd8SnYfnpCYyjQRYEa4oFnEIcfKj-jLmNpFIoEugKnE2TKnTAK_VFdY9XT3qB1cKq0jrZGWofA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJTex4ofV3X0YRq79nToaz98Q/photos/AU_ZVEG_v_7PGbYAtVkwngMp0TqLC5yh1-rUdeP8B402aEudKgGzShC15TSnikVXBDcUbW5Cq4gHzuyzz_15yVvcFoJyg9n-s81ioU8oYZC4b_cbeq85ZVo-VBHGNv6NmBJaopPj6K8RFK3ukYRBwV7Mooq6OawHu4bhbl5uw_zOg_0S6NPd0m7QFlRtOw1A0p5WQTfuHm_i5uT_ueSYplLzy7wMjAVwENv4jhbuXkjU3VlYsTPWsC_-zsjz5BjHosBK0VnbMQ3Wvdmd2UwiMPOCnGgI6GhYgR8QE3MBTQ_euiTu5oM_dJRK4bBWAHpAisq87UiPe_En_Jv-H_giCOXMldq8PoxQLFLQ5BFrrcTUtHspNLACh8TMkWQ0SwP26A3RxBDkprG09hi6CnGV4m8F4zRsrgMtBb-yo4sqy7GInGW9BA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
+        "https://places.googleapis.com/v1/places/ChIJTex4ofV3X0YRq79nToaz98Q/photos/AU_ZVEFwJh5JlOLHVFDQuqBI448VTWCdYLuWCPd4xVROeyh_PtZSw9x-4PEwJbs0P6OhbQn0fKbN23QKi-LbxULy76niWgP01O11sMuiEg9CWtt2fQHe1CXOpxWqCcx4PvJHPZc2xoaph1BwkdTeHfW-ejyaX6yot7ktrU6pCSBjNATxmLLx4mVy-N-dkzMIgtIAdelch7QTN6JapjJ6rFBRqGYXMp6FwXKA9raDFGETOoLvMdeP_t7NCHnj37DnUXHkJds46uJ6vOVH9IieJlx_NTZ6CkteMhqJ3J-GP9KCU5_1ndkMQH1dr-OLhjFvJSMn5gygkljSI6EO8EsT7e_tMzseaXUGQ5ZS7u6rHoRvAxJ6HuNH5qv9rVeGbfM6OCpICWIWapnN2zgU-o4A_f9z-bVZX3LyBFAjFhMgQPYHS70xYQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJTex4ofV3X0YRq79nToaz98Q/photos/AU_ZVEG_StIIs0KEDh7nVT31q2A7QC34Nf-e0uwqCH5Xh5o7LAlu8ehwHRW_cAsbEcDa4HSVTZJm6k8KIy44uiLG5MwJBH0MFq0LOnMHMTzk8389sjLVoRE6YYcppbc7EYZ2M0pLvzfD0exWBQcjZMXLfCFojDKjWRBzSGG4-0--muT05BM1hkGiDycSa8D5_bwOzR-5m9ai3HgL4CV_nZPSpm8hzepTdhTOT0yDA_T0Zr1D5OM-qlE4lo6d-TvN9J8g6lrhQVJqNvPu4KMOVxE_AlLBn99Zbs3cyQvIzI4OXLAdCFWAC-AJsGWwLVkfFF0WRmlPKLhHHyRbspyKap3b0FD9bI9gHVrT8dPknLKk6DEmrfCj4lRD-_Y-5mwoQ3Bl_Eny0KA4tpmxZUZfimLeOosHc5sSBMOOqGeeVWNo3_eshrMrTccwTp7VPIBgFQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJTex4ofV3X0YRq79nToaz98Q/photos/AU_ZVEHRc8gVdwd7j_N3HGqk5yhQjOtYLfkibwTWYYnJWMFeqhQghi9zo5A8bcfOefrPdCgMIvzGfDCU-xUCe_daXV_K4wnDwRuXHe3Eu8zab9H2VMxdt3gFB0cGialnctpcH5vL5BcEK7lEkHgkAwftINdLQQt2FcuMDUe0j7GuoOibgZ0HQRPma4ZuITak5boyfYtXMYLL_fhIdgkn2gbkXn-jI4aX60E76Dz5Vucvy_n6nwCrbRyoMJDSeqAYr5NMPmXwIeDrI6-hdPKuJzVGo1ZZsJPfuVB1cF3rQl4K2inEgy3vytQIFyg1smq5QIf5byNx8eOzaIugrXMmAD3MpIHY0q42ugamL1NSpS8UXyM79W8vk2lDrFFgp5GWMjJ8amHvOfQOIpJcE0EijyRhR56IXwIyZphioIsflAPzohQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJTex4ofV3X0YRq79nToaz98Q/photos/AU_ZVEEQmrO22n5NkTZH7f20PJdx9SJAeX6VgbAHlQbcL9cWm1aSSEIMKSX3lE5YtDlwY6AlGWXv7iXCtBmGSXKnCXJs-83RhntCVuPucje99WkqQdCgkQ47ComkEkvf5Ta9lsziv0wbrUH7sxJb_Q6tOGe97T8RE4suEzN3GoeKfpMBK4y_zxSonjdcpfQ34W48APnDCojf0-pl7BJjau4PD_9Y33zeRT9vt_UaRCorgHfMTCnRJkk3gtaOoXsNsdSbwddC05K7oxj5yx5OWN3bMc9cBfCj37PtErgiyCZ_R4Mxnp0q3bEc8ZuxMHdWkVKIWcr-CiDpPfBPpXpS41kNYKdAKsLlABV1BrtXik8IDqWab9-HaOdkFm7IthhabfsXFbe19hEzsXLqMXWAfG_rwWpLikHUHB4QmBL-hiDW0sYdfQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
       ],
       "google_rating": 4,
       "google_reviews": 1237,
@@ -56,13 +56,13 @@
         "listing_site": false,
         "google_search": false
       },
-      "last_scraped": "2026-04-04T22:40:48.613734",
+      "last_scraped": "2026-04-04T22:47:25.846627",
       "data_fresh": true
     },
     {
       "name": "Sense Stockholm",
       "city": "Stockholm",
-      "description": "Exklusiv nattklub i Mood Gallerian med nyrenoverade lokaler och uteterass",
+      "description": "Exklusiv nattklub belägen i Mood Gallerian med nyrenoverade lokaler och uteterass",
       "address": "Jakobsbergsgatan 15, 111 44 Stockholm, Sweden",
       "lat": 59.33462359999999,
       "lng": 18.0693177,
@@ -83,10 +83,10 @@
       "instagram": "https://instagram.com/sensesthlm",
       "phone": null,
       "images": [
-        "https://places.googleapis.com/v1/places/ChIJcV3G6F2dX0YRmPdSKZDwvuw/photos/AU_ZVEGx5vDqARseb4J_Orx-I1hDVrB007UDkZza0DzAQOMNf3eXQAPnt4fDwuAVHjmxSFYOj3wXaFsD_XeJ3WIC95bB6ashk7iKpNYpAsZLQPq-7ueWuaTjaUnak1e-5-Sz2YODvVl4Vt5VKuZd9sOZPAdWWk3xc3gdl835eL_SFQp7cTpt2Nb23WLJtmaXaz6ybdlio82YF2duTRt0hWg0aKaxgwFTEAbKAGbT2n4vLA8p5l_eeQgom0tR9qfUJyyhA6HeZ1ItO-odKblBK4TBwdt5pM1HaRkONhDK-6NzijUjRw/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJcV3G6F2dX0YRmPdSKZDwvuw/photos/AU_ZVEH9-Fygqtf1hPmXEpqi6ZLBkupCwwmeTKZu-WgE7Vs2QlUgCMhosntlKsBe0BJYBlSs91AMz4__k-NMK_Fkw2t1X_3kfoAMurT5b9X-Dyvp_H3Y1YpJWYMaDQom0SzLP-lHcXjywuFf456YtzEhHZEf_S1m39T7CRK0IvNU522_onT11fOhijtc5B1Rbx2xcjmtllkAyyDJ40GHP4ItCtKF6mEcnX9FUsITwv439vYKM9wTjG6IWmz9tAkP4OUjTDD18fWFZ-jidpG5LyE5udsBZ-9XVqCWuqG4atz1q42EbA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJcV3G6F2dX0YRmPdSKZDwvuw/photos/AU_ZVEFmG82tpyTFQ69h4mOfhrOXPFxz0q1qfuxGHjEsQxN4ggb_t-JGHax-1guhRqFOKUPfaXkBSnIV87TlVmwx8Ze2AblW5I0YQ7EppGmbg3wSCTRGMfzBJFU-lfLKbgDzZgondEc7_mi0AtssFrZjKYfLE6jr2HRrCT6heLMATdgEuVLb3h0m9j_-bIkdhgoSaJfK0m-KOzUFTyqWmxHpFGeVr7jSbc9zkxch44zbm4-UhgHYkdPtB0qwnZ1aoG45p8TcdXgJwDC1FNt-NWXAr6-u9FARAqqhXjk3rrieU4AA2eeYPHmCxGLTufjfxneuZC_sB5L2XFDrdnS_08L4jXJiTcc7GA5VHRzRpdNOYkVL59A-r8Hqk_NMoYpYlu1tLnMdjQBnwNsNGivqscCiAwBeIWc-VU9-cLUHvuyqJFDbGJqk/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJcV3G6F2dX0YRmPdSKZDwvuw/photos/AU_ZVEGec01LSo_k5JZY1PF1j5aTW_3wMU-4fhw7r50jvXu0ryBVyPIHMl5n6_mXyxflDRDqX3hTN5ssH1ASBl_A9Cl0M0P908kuSbWndP1CIZcz-j30z1pi85JvFVrAnLxknkDYjK3SScVomwTjqGxDlxUFQw9SilrUNoqKQ3PYVGClkDd26hdskAiWCJ1omKaYgGIgc3StcbC1-AJtzLiGgvJ6nMHLYi1FCYsUf0Db3dH0L28aFZLtB9OC8TymfwXaR5DYyqLwOc2_TT4p6Bxif0kGYOAs0r8zz8GfZsPN_o3shg/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
+        "https://places.googleapis.com/v1/places/ChIJcV3G6F2dX0YRmPdSKZDwvuw/photos/AU_ZVEGHLgklm8MqL11se7GNzubksf42sOI1d3cBtmMn9UNaq0G_axdQHSZgiNRAwPRXDWq_bvXKe3NIZI0uME6_LLTxvC-06cmgnOuI4e_oShgLvWTAyPzXHzRSF5TCWVKJw0kKQkPBY7vhW6GjLv7-iEIhP-6Qf35fuVP4govzOIjbp3jOJmEFGgLazM51sA8qgf6bioIzaXbGQsZzLakCtJ1y-7gPEvNa3Zys-5jSHLO98fKp6U-6x33SnXB3dYU_f5eIfZqTt1Hz1AdWvdh42FjQpBixzSwb7a1v6VDGlMvL1A/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJcV3G6F2dX0YRmPdSKZDwvuw/photos/AU_ZVEFmUK3OrPuiAzUiQsCOtlgZKOIlEwcV8cBYkTj58Oui-Wiq-vJyBRa93iez_kAdTBS0fAuB5fmGk7cPE98DOeCOU026kCGOhsX-9wGi67Wwn2GQJQqm5A_2lYUhc5fPk_J4tqH3sF34C-U1_ZmBTqIoq9Ri5cMYBc7Prb-d81JzfggG1mq_Tq84_5sTnaiTa0zBhHAGFfRXjzk3RVMO769X_vv-HhfDVpAzj7ga4qx8e3V1d82tjxGtv2Ep7UU0bg8mD9xh6OE8rFiBv6UQ8t4IUiaXNceudNC8X93OhQLXqw/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJcV3G6F2dX0YRmPdSKZDwvuw/photos/AU_ZVEFh-0pPLLvhd3tpjXUIbizQ3RvRrMdNhzfnnbHkhuGgrbjxeln4T4cJ5vn-OYYBPxJzrtwJhVM-FJxRqfUAaHWpMbLPHGpnJgKURSNB5N0KTFcC7_9aU9U5z91VauXN5NLW7czthMBwgptXMNdVJAvXGv5RKKj2xwCzT6yeOzkDvN4OoA_mBamdL0dW0pvCTncjO5J1QYrhIcW2oRplBPeN6aKQ5Incu6KCpL3xIZ2Y15wIXkUwE5j-1PHi8hJV_QIZAgEK9640zJSMp1vBwTNEwAjrfe7IaALXNmxVv1jUVdAYbb_ydRDHHQP9R9d6-p8FSZNwUccZA8g4QP0vFAdv8GhWZSfGwLc6O81F0KrdX1MHos-8VQVm_3ZY7HjWJqBigIH7Xh4iDHipd3s4WKrhYvK9byIWihXiY8O4E0sAHWsf/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJcV3G6F2dX0YRmPdSKZDwvuw/photos/AU_ZVEFBgCALxxFV6N1QPawJy6jE1Fjhc1znUPwNWulIGZNi_W16d-jhdhJ4SZOG-UIdf66TZO5VMnsoxPQacGzh9tqNy9GU3E-KJRgeMEdSpODgIwXW6OcI3u-oB3rdRFGf0XMdTNS_bNW2NWnG4NmC_Hpl2FxBI4hiRZaZ6z24sUJn_EwcARm3n26nq4mS2_7ee6Tg-8IK5Ar0h8hyfIsIM54Ajg903QOc8AJ_B06cf0rjv7L7Yf0jVR5zaTS3L7oynGQYQuZ1LeBYyWmrITc43HvGefFhFox0oM9dmqBzR0pO2g/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
       ],
       "google_rating": 3.3,
       "google_reviews": 235,
@@ -102,29 +102,29 @@
         "listing_site": false,
         "google_search": false
       },
-      "last_scraped": "2026-04-04T22:40:52.004395",
+      "last_scraped": "2026-04-04T22:47:29.353811",
       "data_fresh": true
     },
     {
       "name": "Hyde Stockholm",
       "city": "Stockholm",
-      "description": "Nattklubb på Jakobsbergsgatan 15, Stockholm",
+      "description": "Nattklubb belägen på Jakobsbergsgatan 15, Stockholm",
       "address": "Jakobsbergsgatan 13, 111 44 Stockholm, Sweden",
       "lat": 59.3346124,
       "lng": 18.0699377,
       "google_maps_url": "https://maps.google.com/?cid=6491369156635404383&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
       "opening_hours": null,
-      "seasonal_info": "Hyde kommer tillbaka på ny lokal under 2026. För närvarande rekommenderas Club Sense.",
+      "seasonal_info": "Hyde Stockholm stänger och öppnas på ny lokal under 2026. Gäster hänvisas till Club Sense tills dess.",
       "age_limit": null,
       "dress_code": null,
       "website": "http://www.hydestockholm.se/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=3412205991565579115",
       "instagram": null,
       "phone": null,
       "images": [
-        "https://places.googleapis.com/v1/places/ChIJwxayD9OdX0YRXygu79r5FVo/photos/AU_ZVEHMlvPmcwzWgfhwgbdfrgP3tE0dAXxRQdOeE5uMLjSI74ugpTPzC1uY5CBcow6L8Ttnj6N8LHWiPttbX9LerA8Lu8WW07ino5mG_q4dNCUNF6gMWwDTW7o4VfjpGS6GJmu4ZqB_3LLqp2cxEXaElomQwMVFqxBDbMf7ytkhwEXPF9yyl3b8HN27kGnmv2Km__u891tipeYSaTeOAQQKaaJI56Ei0EcXhdyc52NVCVParurBZ0K-8UdT9zlVC13Zl-NUKRR3UBCuIIBH_SuIIGKVPCs2M11dXCtoUvGPjacDOw/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJwxayD9OdX0YRXygu79r5FVo/photos/AU_ZVEErjOKc8efqeFAVpm4RZNsd_7vryR45m6QDDZLVl-nv-8rGfsCTr0I3ZVw07CoOLiYn7TJKRs-eo63lTmA8f9YhFmLPDdCmspPkaDjVnl4JZGi18De0wEGbc55J_N8Wj0h5mpJMcJbmUZOn2gT90-Nq2MoNyWalFY4teuHxTD2O39ywo9vzaUg-bSLOSArIWOowyh1LG-enyOagCgHldU5-PS34HgdIX5Ma_qSLv-MmEYsq-OQsB-0NlZcm5DBgvZxRmmqiUC2I8wAo4JWDnl_WnpXpkXaWuT1rUzc2u0ZucQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJwxayD9OdX0YRXygu79r5FVo/photos/AU_ZVEHkAg_oOiHLy9F_t9uZCqd9XQ_x7oKuKhzGP4LKC0Y5ZhBXnaLO3dJDMsHTQRjgpp2hdglTb78im3XP622hVUmH0vTksMda9EhDAE1VsHBoEk7-LUkI2KGI6ZgckvC6DipUhpqrNSkZLX9MP_YWfvp6t5mdGqypObkgebVHlN2qqgU-V-i173iftklzAO3oZ1k6tLoxEJaOJvz4fOzVhTBAxGP0jBpQlwH7VPlX7jbOwKzGi0HLPEo-7iPno6GRnzOCPmtu8As06KhHO6BQLItN1QKCLRYaJ8E7VmniZutoHqhS-u5AbHm2PjrLSUG0SquexqsjMZbiouVemTMrFIEGeODT5Jw5hIZmIJ_4YaPDwN9cbhirTFY-FGw57dm9l41sif-5JdmWqOOQ_wkl20Mj9posIkskqDyVjNShVgn5Nj_21URH5t4FwyTdUU0r/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJwxayD9OdX0YRXygu79r5FVo/photos/AU_ZVEFpWcBXcfRigDdevR8asomMozsZ2c9V1YUMzwusZ_tgzCBcdNEkgw9O4HFwRX6sVF6rY565XPofjThawoT0HrpypASdiT349JQHRpjNriCC9XmUhJA1IGspDhxqmiRCgbBN81YSvlaCwFX2PgRprvNVl5llV9Izo3VIiCBUdBr8zY9FGpjo3R_kaI5RncgHtDKI2Uy2ZIrHsDbsNHUOjlr1kr129OIB4cwxF8MBuRxOEYarI3R5ZC0UI-DbnEJfpH9OD4X-SsA8lPn-JtAUnRfBjuxexp3qzvxdO_TJuMqy7w/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
+        "https://places.googleapis.com/v1/places/ChIJwxayD9OdX0YRXygu79r5FVo/photos/AU_ZVEGjUyIEEUe0kFxPN-0JQHJkhc2V4uqlqb48NTP9FemSbDdxIGB33YtTHKTOUpl8WGSxys8nFRJvm74achxEfDFRVMklMpxWoWKb3Lgi6YAUajvKe9Oma0lO2KIuLMpe5cYHd1zu3KlFGZ1jR-IsIXergWmfPZEHWhPJhtlpFaIDilxoaikbX3j0M0_bOYqf6sQxopi_y7Zdp86L-yFJ8-Rc1XMPA4kmwRRutRyENyYP-4omVSlEO_8C2-GWTIcYbPxVdRrlsN_499C6rGTxy4XvVO5JeugKszcb4e3SMaRdWA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJwxayD9OdX0YRXygu79r5FVo/photos/AU_ZVEG7SvhyNv5Lf3wAl4JiS4lsOdxKAdi8T913DeRqVIGP78eSpg1ibbq1YCW4KGSanl_nnX-rAnCMSYQeCAQSTkXzEHNUuPI0oEV4bk9ZGRl8gwCB3_rbRY-KhmdpX3T9ILDZelOvHyvHnGnsUiYOVFN_SWA_R0QI_aViYo7QlT1DWTGw1Pt_G4D9y3jjq6LRLVgE6v11gD2rksQNtZoyLDU0bu898gSHFmsfDe1grY0z4FXGRKPgsJqM4KBFYWLdmEostJS32uFKs79gsWzKU7KXQ7Ga9jx2KFsPM1AExL6ixw/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJwxayD9OdX0YRXygu79r5FVo/photos/AU_ZVEEiJwfyucAmOeKH-yT-VgFQ9AVlIjhuUButPV9OrP2HlQbCbN3ua6e80BGOfQwunRWjIej8cwsq4efi2W_vxCQsY7Tra9Wy1W3Vs1eP6mkvFsguD9ownLjuivB_QkPjdHF7PFFefavS62EP39wVjMolQMQKyVGYR3K8ieSN93FUt3ycSWl0IxMrPoSw5yfgOHHC0OmJdHLJ5QhbG4vYT6Pe_YEZa6Dd5hNbBtz2sI-EfgOEpLfXuMspZlSNWqRjfcJCPz6XSfLe5Fstlm-Wn_x7j7i_iXhxWh628q_iNa_qV3Py5NpjJZ0ZS_xRN9wn2G-6Dt-rJcJMm4eIDcaRXAw90Frxzs80A38ihlUeqd39FZ2q7al951pgyoZJ7_YzXN1D2nIlhU4uhffJ4fpDGXxt86duHCulqiCFFRjYHQXw6SS2K3zL9yfocjm_QwEQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJwxayD9OdX0YRXygu79r5FVo/photos/AU_ZVEEbaaCpayBQLb2qzd9YUsNQ7vUT0e2m3OkDZ5s1I1L9OnS61KF5gXFkRMKb3CmgGm38NgvrVtvSo6IxLfGvAvtzYLqQqbQJAypIzRVHrG82gg-m_hvNfl1TqNQ-n1qfPr6XWVl_nf7HZD02Vz3ObrQMwBa0HT2BK9RdWYPL4_Tk7CwzTWkE1DLe6m7IUzIj12tloRpzurGVLuyuaswUT7HHq-CGTiTuBzAIR4MTQraVEJBo68hUe6WS25olNSAF7fSjhQOOM4Ncu7TzkPyjZ6d3MS7zscz8Wc2rL6_TKS3Qxw/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
       ],
       "google_rating": 2.8,
       "google_reviews": 336,
@@ -140,7 +140,7 @@
         "listing_site": false,
         "google_search": false
       },
-      "last_scraped": "2026-04-04T22:40:56.352941",
+      "last_scraped": "2026-04-04T22:47:33.930921",
       "data_fresh": true
     },
     {
@@ -160,17 +160,17 @@
         "saturday": "stängt",
         "sunday": "stängt"
       },
-      "seasonal_info": "Klubben tar julledigt och öppnar igen i slutet av januari i nya lokaler",
+      "seasonal_info": "Klubben är stängd för julledigt och öppnar igen i slutet av januari i nya lokaler",
       "age_limit": null,
       "dress_code": null,
       "website": "https://www.egonattklubb.com/",
       "instagram": "https://instagram.com/egoxsthlm",
       "phone": "08-669 58 55",
       "images": [
-        "https://places.googleapis.com/v1/places/ChIJDxPRLeh3X0YR2MbFZNpE20w/photos/AU_ZVEGNwUqR3g9kH8BzjIZ_23ltQFtGyVpF-mnfAbYfUOlxly9ZUPasx9MiH67G5yVs_JW2LWzNDXa1skCIMpEAPPMDA4Bs7KMhmTHE3RwgEN68JAdaCFZWEeDsMPr6tRP8WDgcG-Rvdh-VybRBsOAYvpqH_uZUgnN7jXebPSnjOMp83s8P2NSosnLbLHfeJk4FgFe1BMgRzv-loYEmV3_Bkur7kif6Fcz_uIhQAttpHO_CwdFbU0fI1i9ASZRGpHJITwtfE21Ya4fUuyKfadYreQW6Rtv9rAFApULhPvci-Iryhg/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJDxPRLeh3X0YR2MbFZNpE20w/photos/AU_ZVEFRY1w2cfSkUX7Fd9fMPIdW9mjA4kA7_QyuuZxQRm7mxSeQD-EthZo1C6BNWhnWKUDzeuN92kqLwwQ6S19q6UTG28-YG7_vTzp7rVF8yXn7lapIXXd0uL7y3ScCro3lbmmq-cDLKIqvFNOMT5vJNa1_ny6_nyjHSgo9NOTsOUVl69CfvgSG3QgJSh084to6-R34jtfpO4UYWRy-y1eBcZmuqYwJqisJmrDsXUuEzclind4L5VFBzId16hWzf36nHYyBJ7k_hJzQTBv3rTkg92HSOp9FW2iI37qme-txFk9LEw/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJDxPRLeh3X0YR2MbFZNpE20w/photos/AU_ZVEEAQ_fpIM9XSWSInC0kaLyTMMeKLpcAVi8UVMjwf-OlS8c_Z8Lm0V27xnQY1YufBcbU037zdegpcVKzEFrFNF7Hhb8WIHGQ_jNQ889C5iZfzfeZVcUaMtXvffp1qigngEsUxSvQ2JoM0EZ7ZygB5Y3L2Q0eJaVFQGPkZcgbrwn1GmrozrN923HbekVM8Eh0e2VKMzDthSknfJvkM8QXfG4DxDkuQRA6Bhv2YL9_qCqkH4m5p9l0tfgmw4COMBAvTOlfAoafefPP5_AVZO_1VabGzexgD4zGkiTNmP3Md2hokA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJDxPRLeh3X0YR2MbFZNpE20w/photos/AU_ZVEFARzZ-nsmG8dTsOLASq2f8jt16glWlUtOf_tz7Us4qPJW1uOvyDUjgreWCFnSMxzmOO6Ut7Yl5t2O5yi_2Nyc1mCYfhNN4pSCTlOxeC48lmbT2CDcwTWIJBRdR_5-m1jN2w7M2V9RyQXFbUmIy9rMmO3cYnAwhsI8yIAvNcMJ374vWox6BzcgsHrNVNpVvE47YxPsPhNvdp-O5I8EjMcUViEgIMJquNPWCmNiKjGawJs_aToNhmSdRH0IucK2z8NV3bGfIEjKWo2uSifqu7cPg9tlTJFEZiEBpy27Juef9dg/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
+        "https://places.googleapis.com/v1/places/ChIJDxPRLeh3X0YR2MbFZNpE20w/photos/AU_ZVEFWpxA2zNLGD4UQvsX-phdnhl36K16gGTTRKLxL_tAm8cqTiS078nDvIbsQ4Gs2MSRbFYJELlY3SIVTbDSojmGFo4smDtJKCOq91rzKImEV6-D_9b_FZpRIz3c1RB7hOKNsM3L8-8Z8UzxYi9gqMYP4HnK4N2NxO47ECKrLBojYDRu_QIoyOMpz1c6QryV9MULE8NhPdrHRvVtvVpyveowTYQ_PYKBW2Fj7WNGQLbZqQutxQoh6uHr7_PITHLz1VtHcyJakg5Ty-q-FmoUSs9CTIo9DdbQCXN_Ar8u9-O7ocA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJDxPRLeh3X0YR2MbFZNpE20w/photos/AU_ZVEHVyME0aL7xHBX5RHo50JAo4PB5B86UgArkP1ynTwpr2m_-XImqVu1esDSRhDjQWVYdCKt_ctItvuAd79nhOad9v3mEf80dwu-FVy_mEXv09aWB25ew2A0FQKbFMSJgbWMDK8YPzXKTajPpyX_5KdFT69iSCzBkrX7a8MEib41DlCTTVwt5SXtKJUTSYGX8vCYki7edCZCWlj_dMwM0GRRlDj7atX8W_69GGH4Di_8crLD-NrVZP6kl_r6l7xVti3o5ainnATYPYDWuMdKBYXh89CYUagtYuxr9pbkSvPhEiw/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJDxPRLeh3X0YR2MbFZNpE20w/photos/AU_ZVEFWDy1c8RB18Wd9BX9udoHH0oAS_FXs_aUnG6ofbB4sfD_n60-eek30dwTEkUolWBr3WRkH8vr_-3lJFcbS5EPt_5yNW3hlYHy1vi44xQeKpmLzAZ1rR678kid3nX8n5JUylQM5NKGwRt_X8ROHe6SGnD4dAUvKHITJFRtN_q6b1bMp4JrJkJ43f_hlg1pT2vcl72lp7Lnxavy68OWfP5m3peWv7vpH7nfXBuR9als8f0YLmc6eA5J2P18nb_M3w2YW5cbrAJ5VQWPyE6BncGQ5Q4HFfyjrdlxTqtP23e0uCQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJDxPRLeh3X0YR2MbFZNpE20w/photos/AU_ZVEHvW5B_32-f9VcVZUJfvptTAgvqbKpM10ddNed0PKE8y5vjrh-GmnS2Woo4KbTckoem3RglwhhvHhan2Y6hqY7kukLqm8uFa3PgJFH-Zbnyb5e-_spb7F7g1iIn0N4I0h_l4Eo-FVqdSnVup3BS_Q3oKmvJsK5-yOez-ZIpS0lzO3uMBi298bkWgMQMTTl-TV2ClpnBvZeL4wVXkCS-PEe-iK5544o9ha2EgXgKzukWfaaI2jPd9WpiLhmFQ-tCwjkzFQ3TIMBgyQs-9WfVeZwc7UI84XgH-IcT155ZETuaUg/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
       ],
       "google_rating": 4,
       "google_reviews": 201,
@@ -186,7 +186,7 @@
         "listing_site": false,
         "google_search": false
       },
-      "last_scraped": "2026-04-04T22:41:00.326861",
+      "last_scraped": "2026-04-04T22:47:38.113827",
       "data_fresh": true
     },
     {
@@ -213,10 +213,10 @@
       "instagram": null,
       "phone": null,
       "images": [
-        "https://places.googleapis.com/v1/places/ChIJpxBhUrx3X0YROu3dvQCl13M/photos/AU_ZVEGiPey5xZstZwjzf_Aq_7osNV69fsuvTafDIyGv96Rw2muRDXevnpnLNHiCyPCxmXAhEOjzZPX1ab4QqT8DvMuG6JgI6309h7aQMPxLbPVf2vS2Ht0LmMP3pVK3btsHsKE2xP2VokUrqb4-izVok9tm3l4gdVeWQ3dYke8k_CBAgqDZ_lvGXfcJFAG3NFcVzgJuwIkwQYVHzBwqlTKJcP_o5fzRSY08TJBEtNNjHC2J8LUIxh8LmLR67NmV7JvL2-AHeFbTdfP_lIMBaBMWZ9TQTeczxy-gWlnLN7YoniDncQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJpxBhUrx3X0YROu3dvQCl13M/photos/AU_ZVEHjtSs-WVtRWxDdXq4S9AEiK6jwUL9_6k6_yFMJIM2WalQkGI_rRVSX_JnRr0U4meJg0uAoLJf99SJkM_nJI7R5OxW9lHfuQDuuIrhesa1iwvTmQt3CALaPwV1uo6kHPp4XUbau2ZSLyePu0AeBqbXdYsMDxXRxTE6fb7UBcUYG-RGdM7Yl7yDGHBMf7Zb9xc4e5zwtERLRlM_5nxUHqqRFWw6kMTWtPdWYJqVMrat_t-VL6hwHX4WVzGTO2T8s0HDW2sItV1TtAIykOkb51bIEniVirFmuCvYRjjqbW7e0fITycSyrgqL6pdIWLZlthXX-sNHrV97lHN7mXXy7Gr05dC6_IiPearOHaIqo2TsFhoZrZN_ZUduvmzl-znYc4U1LHdowQcTmO0ek7z18BR805wur5JTlkdHGJVtqdIgy9LeU/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJpxBhUrx3X0YROu3dvQCl13M/photos/AU_ZVEHL1a8Nm1uPyNUIwuwXmA5YV7BCGRvovoEK_Mkhe647XimzYW9CpTCXe60FIAVyIionsGCVuyhGRn0Lj2EKBrBekO8u5lvKIwqdzvp9wLwQl_SvhHDOCvKe_l0P0rFf7IF_J--D9c6H7yxF1yAWYZeyjIj8V7daC6qoCMPzeEqifH9xIvvCeI8cuuctE5VU8xMWZ9lsTz5KVXCzDnZ-kMVgaHOTe37eQbTc7v27mmmRlld11K2r6OAxEsNaNInGmWYV7paUkghfuT2NB-m-S-jmhNiShfFzeahEhHDi3hbL3ersdJevutYWLf46adJYSFhMqqHQCejUuSai4KGy--TW4RuT88gxZ6hyoqDmL1-lZ9VDo_2YpK1zrsY-XjwRHEHrF77tgLnfmPlBabF5Jmzj8CzHbTlSVeYFBXOhrQ2t8Q/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJpxBhUrx3X0YROu3dvQCl13M/photos/AU_ZVEFdaz2t-vOgjQQNKFJ5tvGa_r2N0uwDguYYQR3y8nhcv4NFvwUvTsLpeN8WPjpHZpFIUx1mhqnyMYQSd0WlVCe4INy1dpHHPpIUgvAebCvLW-Keo66AFu8g3T7r_lYu9dke87-BNaKGSyMbwxxlvx0HEOeaT74fFxF2vV-McsmRxnb9ZrTcLrjdX8B0oDdPirqzfR5YhcF0OOOEEwGa20fOajUt5uJbIiidKapxcJcTqWYK7riBiX9-nbV8ySy7JWJYmN1Ow_tTRwKWnQQ-DrxmdkY3E6aI1PJ7QldIkOv1E51RbdcAktSouEEvbE3Ie5XdHHDD1HLVZfSpM9KK_yBfEMIb71TfRWvR7yG1xFwnarn4PhIMklLj9JgHwl26ILLakOW7Y8WV_j0XpLaIkJ4uoMayVCkv_oSmDJxcFNCo9dnt/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
+        "https://places.googleapis.com/v1/places/ChIJpxBhUrx3X0YROu3dvQCl13M/photos/AU_ZVEFtyt81xpRYRQ_7z6njTkVnbGgdvLPQCRfNPVv_60-sofdsB60uNP-eZQWStIiEoMSPSL7T9yjuiB4y28TSizTkwT3RR8nfxs-o-o4JoskSeHZOABulIlHiCdhX3QF5AgO_aUZtwK2qGs69uvJBEtbJYUUbqU_O3KHWsrWJP-YHpdEUXb3O8mO7IwobPfB_1d6LeJFtKOOdkAafHb_bnvgYMIKk-VYnESvcAd2OarxV8xGW9iezoA_dQJ8FnKr4bN484zpayEQg5b25TpiWYZScQXW7Aeht8afmbYsGmO2gbw/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJpxBhUrx3X0YROu3dvQCl13M/photos/AU_ZVEFkW0ORqhHsBjpUvcSlZz3GAZ3TAZbfF6PaehvFNoiU_mPHzTZpx8i3g-EC4NJAFQTFC7vYSUgqKS-oIbN6jwALTrzhoN2iM1OwLAaCzkRNlFvd6glhyJJLpIKwUk_8j4oWbT7xd7o9xMKGae-XAPkMmwsgExw1e8sW8uEOqO1TcNCzMaNKhWdJdr0yXcUNS2COxotRA7IPwpz84UhmNfLp9tdc9AqQhUwf6toHl_-BHnnymvCvYnJmmDhS2e2FFrIM2hsobzxmiRgrUDkpv3Zxp3ATbigvRLaszEyV4sN4X-HlkGgcRI6XDCv1Q6Dj5sPahL8DrTp6RLDpguz5EwiGZKM6Hg7WsDoTs75GuEihKL3sTAraCJH8XmHQ7cpstWi0KJ84Pp3K0ZQo7BCXcnLUGiibi7o9RnEUI757YMCl1zEX/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJpxBhUrx3X0YROu3dvQCl13M/photos/AU_ZVEFbfj7a0zXTxYUoyO2Uvuaux1SxdLgROHXgFSnXqtnl0tmF87U-OOqWsV2alhuiw2KGk69V8Ov8W-dP4yVaJbcWX0dS7oW3SUY5ut_wDnCa6yuR5M5TFwTQfSMdg_RZAcx3NP_nveDrnzJtwXunC9n80RRuTw0tpCCxawwYXX4_rBDpsR2wSzU5Ty2Q_efUyUV747dzaRhclKNBvyyommdJc9BRAaUxWRbHWVtl3HT61_Y_yX2MOs1jxYD-oXhGVFGQFPlZRlSQS71FbBzwz_cb-fEmI1DjOqA7LPnck26cOXNIWLaVw3sGemTNc981I71KvolvN-O-a07_KizSWoP1o7WNdDqW3pRF3UNCubq1uKZZlVXt9ueG4iclpSjXWxY4zAOkpZKHDClYkbMFdck3ul1dw99Zy3JzB-qAG9u6yw/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJpxBhUrx3X0YROu3dvQCl13M/photos/AU_ZVEHARuSM16SSws04krNWyTJkQbYiTytLGzD0RwYjz9jpXGIliOuW2ErfQZbZ5ZGqT6eFhuoXpClamyU8qcbB_4FUHOlkRFh9RaLb6uGTvl9qDCnxE8sQZmSmaFt093pQJoLCT3mv_DRE3yyK6hFt37DHkfaVw3ANSR_vWMPgT4C-X7bfM93yOueG6JGFUDxTtZ-NByisCkMy2BBYw947r8ZG_S_gP3fh01WdVKQ-xVyi0f2y5Xa-Du7_Vjslis4lDXym3iF4U2rreOD54DigPdqkKJQBL4uPyWAwzWqxyDYPPDVZXSSCjpy9N2Z8-8SSvX8LfeskOkh8I_5isPQBONMgzuk4di-I6IypkKhT-1z7-n7GuBp4YPSgW_AE8BCjTi5wmOLXlAM0jk37MqS0jwtEpO4J88mV5Y0M8Ha_xPYNmlGr/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
       ],
       "google_rating": 4,
       "google_reviews": 81,
@@ -232,7 +232,7 @@
         "listing_site": false,
         "google_search": false
       },
-      "last_scraped": "2026-04-04T22:41:04.054647",
+      "last_scraped": "2026-04-04T22:47:41.943069",
       "data_fresh": true
     },
     {
@@ -259,10 +259,10 @@
       "instagram": null,
       "phone": "08-644 20 23",
       "images": [
-        "https://places.googleapis.com/v1/places/ChIJjRQqr_V3X0YRN6Zv-c4osaI/photos/AU_ZVEHo6BGJIYftqJOXvlu90GMatrpS6ej4dPSCk1ypFvlISUeE_m1Q05rihJQc8JO8j5LwKTYDJYwWcZ3AQy6K2_VbBlsZiJtUZwvpFJhA6t2qf4KuZalPwg4-Hn0i3Aw4cifBAGv21jP0RxMgYMKqdbKoSsXaQkIpRhi8vNxgRR1z2B-hrhQetYScfVbrgLJDvIZ0efBORzLOkjF6ECfgJ4e5x22ek6mp2jcTWYefLIDTxgd4O_4rjmJBpmtgj20X56rpYuV0Hy8OvX4LkxVDyZGfZLG_uR-ES_d8WKP0xJa2VZSiEzLcqSS5ctvt_IGErqLy2vu4AqTNUllqkeVnFIEYRP1tRz-QU1lFGlW30jYpK0zyTcIJxP3QEcZXC6y14zFvAX5-so-LEYyV2ShxEY8VkfXX3WgciFSeR7EGk8eLa1QK_NO373_ijwvWSw/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJjRQqr_V3X0YRN6Zv-c4osaI/photos/AU_ZVEF_hfoqPWcGmfAQJMcpf509hy-pYHHePxsED-Jd0mVVidKbRRH9xdQHGRZPtNagj65SL3W3WXGSouZy9SaTmKvi8KopD2pXHrwUFHVlaFxg7DHdQyIXXxBS6wcQrbDgeNS7tVRAjGl8yo9_VM6Fa16INzo54oIyRfZAshz9eqa1JdD1dD0JAYlok08SK8lqqziRlpyZ90e2Hlv2__Lqct3nPZkKiVuVU2jUBpxinoTcrt6AI5HhIF_NwIFhl9Zx9nDgoOC7UeiVKcYsiW7tZQGTi8rE0CzvXhdqneIlToTNBPrW0BsTcJ0qY532AOeaS8EITfX7TY4M0DT56076leqMks1Loeb0sRtp2IcvytTDfBhBqFI9qMcGlG41PdoPKy5IMFJC4uzmA4DIYCp-d0KW0TfU5SMAiBTYG3ymfUk2_RPL/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJjRQqr_V3X0YRN6Zv-c4osaI/photos/AU_ZVEFo6A2zYkoMKhj1s4ZqKmqW1qZEQC_g9V7WKm7pDs7mHphjoEcH9TNwE8Uku57iTQkYvLcv3nE9P6Al93xjAfOrfiHs8_aRFHToUYu-WqMU9sGkL5LqylqBdtIfmfmH8JBj8qCYHT9NJcEUB6CAcPZu3sQ6e74vOSJYujhtHW8BL78OOB0H1n-gvcXq4iiPUyn8r13gX8H38RnYvN5MEceoGhF4Le9TtF5yaxDNT08M0QSsNNoQsuaT4RUouC0DrpGR5_n1p4QwU9rcDwf7f0Bg787JoD8KZbbNj_rVO_d2ffADrlM9SEuwDwuJueIrXMI1oib4KSTXKHe66wqLaSRdIciQIb4BjH9p6t2J4UTVi1CcdH53iR6xOZidjIqKffXNqZRnvdlinN6H7z3KDHeXUw5OtoFANbTM5rWFVACfcJZ6/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJjRQqr_V3X0YRN6Zv-c4osaI/photos/AU_ZVEF7Xh2O27vX02Ia7YxgIp47a9bAJHTTe9we9XJ_DPcd3devwiWFQ8AYVJdpSEqF2rML-Oq83kAyWDAQFrqCz6nLbi6xp1mz2FFjA-aHhrDIehhNx7dd8dzUYy92IajMl8vWPkqSs5ux0TT9ctUyiyxOHmNg0kkkXEVFJpaOqVIep5jtvx9amZIolz3Ed03bU-T7oT0FOwIl-xPKLmmGsvA91yZgydLSRdZWzuUyWFt2kMHR-CLi0MXn1lOtkpoZzYBaG_HEe1Ty_speoaVk6RWQ4_0mZtFoT5wUWQWy-ECTVBLaPMyuBmQc6QMzAtXI_yXkup6H57FiRZuXvkZvTXxvWlbq5no9m0C_NZE35Of8tB22M923JuZytNVx21v7BjZY9JQotBk87PYng39I5n9SB1UMiCy2tWoNI1o59pboig/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
+        "https://places.googleapis.com/v1/places/ChIJjRQqr_V3X0YRN6Zv-c4osaI/photos/AU_ZVEESNag9efPW5KAs2CNYda6HeXNgManJZkO0XvOHIgygyjV9cHlFxjO_KkRjLqFjPHANZ23GNZLCVHSwnsYo8qBo4m1ePvzMdXE9i-24PleIvxsToDaRIhEXewJMKukVUgWoeKzZt_x6z1ypKcLgf8aQZeRiuclQAYe0l-gW118X7Avv-7OB8l1c8m6Dth1yOJiV1WZE0iJu2qn-W9qyrZ3NwW6u_1KODS3yySluo66DJieHdqPWJOTQCgUzXmnXtKAtNE9az3RCofCDH4LUb9RwNwmdxeF4-c-WthpfGfml4Pm1b8H_RNlb86YdtVcTEDefl9A30QF6hLuQFJ3Ilzs1HAIzhmclYTdrbLJwUW2a2Qz0TWlw5EBzvg0MAHy-X3Xmg2MA5ZwZUo_MHI9pNvAx-1L9jApJw0dZyQIf2Bp6T-8nnNUq5mTme8ee5g/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJjRQqr_V3X0YRN6Zv-c4osaI/photos/AU_ZVEFN6jABz5g72jtLI4q0BHF01D_GAXW2Ep6robwqmICpT4tmD_uKYgbLy7Q3pGjYWigl4PVldAtEbDdoosL_ullpzXjnDCVYqOYAxGfcQSqWK8hGMyqobj4gTDBtlPmbO8TNN1n-_B6eZXsxdL-OmRVU8837X_Av1E5m9ZY_NXOgb84lLAxea_NCNt2TVykTE6_Pk921Nu4M0SsbGQfi2dAf1Ux4IRwWHN941mlAdFf4GUmf_h8LSUhPfISnNCzkpIqVRav3kr2NuTe38dIgTi7JWuOBKo5dFvIhIMBg84jWqcykd9CrcOh9yjfmWc85YH6k91YG9ZMJmx8W7Me_oSJ7DJEKKR-MeyfZ8UGicEnECw0Bz2rkMtE0SrZRaZRAlYi3ln5J-2iTqPREHaQTOsbphhZo97FpAHdnIxE5vQjMugBV/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJjRQqr_V3X0YRN6Zv-c4osaI/photos/AU_ZVEEo1ppXuofd8XU7U2HnrqH9xrahj4k9pL3Kv3dz8pe5sUigZW2pmp2VAm5gpHceGbdgUuc7zcAOvxafzK5y9DGpMAfS2mwlklhKEwE4K3ZPIYfa7Te_3WMk_8y7MDuQi9RSgqn8j7_65ib7mPdHa9lViesizbbnkT-YpDXwmEGayIg5tdxLv8-84_wGZ9JhEMk09WikJ0uhL4gtUptCb9P5Bhelf99tOF72iRiuQqOzKKQ_4JAOfU9fC6Fjybd6uiU9O5bnnU0F0sathavsk6CVWO1aIwGw6_PwcvxZ4Nu9LzttyLk45N1YKpIjlXCZu7_vs1Ahwtq4wl-_gH7Ln0ArYlqOAEOOXb01ae_qWmIEiLmxt8B6lIROrqtpmdvVFnP79IQgBY8hDGNSMBPa0SL8w3VKiDX02G73qso9EFR6mO6H/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJjRQqr_V3X0YRN6Zv-c4osaI/photos/AU_ZVEEunNk01_fcMnUBkk167wiS5s-DGi_sJ77MRSoPrISHlMoAf8nktwAUxs--93FcznM0Tet6eTxIRxYpLdFBBzNxTpYnZl3OwePFPeNlyYyntPPP_EwqAeL-kJ4L_bMgLTXI-3Z_F_n9aEcxT1CXzNw4QoSSKX_J_cTDasuy0M1q3_EAn5SkyzxXqbdPhFo3PN62pT59JW8cPFem76SHyvBHy3JxnFmb9Dh7SoVgepfJJgFnHhdEntBBqDT0mXeeGazZBfKVdyukKHBYCxpBdu6FeeuqNb-FQ3EUz8DfN6wHtB73SQvTd0dKsp-xVd1KPlEQm3bybYUtfj7gT3TLEY1imjToNW3QFNnO9NDxjxRA94PWxRes4pFYbIT1rT_NxWWBhRd5UnHcBdgW0Gg0vmuieIOJVfD2sUi9mKi3s2x8Qg/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
       ],
       "google_rating": 3.4,
       "google_reviews": 355,
@@ -278,7 +278,7 @@
         "listing_site": false,
         "google_search": false
       },
-      "last_scraped": "2026-04-04T22:41:07.268983",
+      "last_scraped": "2026-04-04T22:47:45.421752",
       "data_fresh": true
     },
     {
@@ -305,10 +305,10 @@
       "instagram": "https://instagram.com/slakthuset",
       "phone": null,
       "images": [
-        "https://places.googleapis.com/v1/places/ChIJqbV-XiZ4X0YRWacfTeD0pBc/photos/AU_ZVEGrwIv0EEZv0FJvYF4myRQ1Drj7u6YMnM9u5sTjmvcDq69mD4do0pPEob9YeKpotsa_zpbKKBpkJS1rQPZOkXi7UCIjZKex_58B7nvgHeRbtm1pNEwNF1pU8DG_s-t__ULulxAm0haLqCor4kRv7k73Ep5HV5mpaYr04robdiLmSJexWz8rrklXwpfwWunXBlJisBWUhif2voKNVClEVYs95fvirGGVdaXBS2DEAKxSeDWuAY24nCeXFysC_KUZWkZqPKd5qGjjUWSXzo0M8sbRoPC3jCsYWUBsngbHCiR_h3kNAabE5zSSMPrSuwx7JCf0ToGALCSjK6Tuf7TgEdGk-P599dOnuYQWjTRZ36y-l327nR5pJAgGrBnREq2E3V6kR0AwbFL69SFOgmYiU4B-qPiQLciCPimjUzIMaaad8g/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJqbV-XiZ4X0YRWacfTeD0pBc/photos/AU_ZVEGFYE9ZGe0ko9JiUQxJGqsnvIqXx6TiVSJX-llLOjRSKv2JGBlYhFzuunCVR9vI0Gx-2YxtZKYqhl3IYou8F8IG6XBuElZp6aetWeYoGSd03Q6os9UqOwEDPzeii1wGyWOPUkKi4xPF8mKn2TggziQWPFBrLBOMO-hYzSF81SJeAnkt5XxbV4hVu8CQDkjd3_JrK0X6-l8taDKMGsG3FLBRDVqWgy7zQZzVH01mUn975CVWZGUKUL09WYbBlCyyg9ll9KqJTmCYoD6N30IyGRHUXfIuzD9jagxrKx_dAPE0QS7-Ww7S6gRfo4txfFBnmBLShU1b9Zi1-o3KuXNMiX2jbeu7ZLrV2gpblkkqyFl80xESeWfyBpVpiWLNfKjWAVl2uauKwvCPYdjedtNKbw7pgQOF9t1tteWxCJZs4Q4ADA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJqbV-XiZ4X0YRWacfTeD0pBc/photos/AU_ZVEGL8LQrn1uQ0e10o9pGk_GplP9-clVIdvmL92mqciMy9JvruLGpq2JwehrcASDag0j9JBrOksun27SNpxA1wIVcwo2byjVrnGipgr1nfew1gTdUeDnA3OZIRp58EeUNAQ72_LI_mjTj7WIZJ36Vyp377sa7YQwi-W6zfB1E0eNVjjVjnV9_1Z6FVK7e-wUj8q02q14JoYvn5TQU-OiF0VUYHaNGT73Uu6dkn5UgZtpWYjUOPt2Si7IT_GAw8TZ5Y6ZkkL7Eww0dgGLzKvhfaKmqUv6_9KFtPZIozWrPX5_0-BQojRurJmSsa9Qvb5A13wVsH7MUWN42lmq6vMMZ9ycDCew12IUWipqGAToTuJuRjPr2wcXz-Av47fF2aeww6BwY7NH6nwz6z81E3l7bz5ljqwtQjpuJir12uinBhaNW_b8Z/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJqbV-XiZ4X0YRWacfTeD0pBc/photos/AU_ZVEHF7cAYgSEmbH3AoCkH7rOp5OxT3oC4xC7Xcu-sCCOhcH1Gb11sSyM5LeuhhzC7xq1qGdvoXknsq9ttOZoImNlRYy-pdmvhUIAEqXj5icfhz6Arcl8_lzhKpb0HZmCLh-OdZ6JiWKFIsEqBO-Xg3xBfIjjqYpek4in1wGyWrMF9ws5kZxyo-pSiVr1gEdDpCCgiCQxWPakoI-S916i97-7Qqie5gUyC55-xDH_rkKT5fzfcVi9zcohpZn_vm78amQ2YXKu4tEuU1NOmpvoE5OK2RMtTwYAVfZRj2BBpC-qCkIpazzlo9h5mpMPcg5mV45BD8Vt-MLNNJG0h5H0i3H-Jk-kBMJ6UrBVPWpNS1E_nSXiJwAJHs68-ISs50_6vEQW61B-YsQJ14dTUo-vm2H6QErat7Zx7_wNiNHmP2Z0vIw/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
+        "https://places.googleapis.com/v1/places/ChIJqbV-XiZ4X0YRWacfTeD0pBc/photos/AU_ZVEEsmtx97voNWqrcqXnbOwM96QR8iiMl7D_lK694PmTMbuk_ZdjEADd1PuStzRme2l-vPKoXui0hl1D_-Q9ws19p2OQl4RTltADho3yxyBjcOKT-7SVQRMp2Z9jtNS67HyvHlq3HI_klqTKgQW86mJ3BOVC7L6rdt3n1pZQ6U8oG8Yry8C9L28-7ijpgRAEedCAwVafDMOM_jpbjwbqFDEKVvsIa-WSEmNfYgJLPJsLEHESDfOVAMEebi2lu5Nt7QIww5TVQrOxtHDpig1r86REaAP959D3pkNsm-D_zFkOzYTf6k82u7XVYqtBvL3eeTsqumXrBtaBFeO2VWpJ9RUEbfrNOaDf61NaxbMiK0jmsy4MJm3IfpjxIJmxxIqFFSVgmDU0tsOl7hhrN8B1nIbS7KuO2vAjgWzEpvP69-EMIjQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJqbV-XiZ4X0YRWacfTeD0pBc/photos/AU_ZVEFob_dn8R1uC4_rt4pCu_RajvXAJMKB3xQw52UtcMEuJHPro6_gZxvHrpB8gMVde6627phMehyMABLGaxGpFaCNDLnE6IoFORSR9l_xCLGHT-gM6cRzOJj96YrdHAatDN0HHWneU4DFIaJFkgtU9a85Xkd3uViMjUtLatUBzqfCJ7aUFd9DJo5aL4lRxgBfxA9wuD5_o3pjaQ83oFT64MBm3xutOiFO6NvPrP0z8ienzc6vCq080Uamtoign0vlf3_04yCjN38UURpqYGhuUasJUsgSldFW9m7bknfRsDXfFs30C7A4cLKXM7LnWLtZQD_q5GRERvSeswBfcm7Ly2Vk-66MjI02ObDj9GR3gEugjPgpcCRBTEL9jKet38xpfszYmEO408OWLWtdUblK2ggeFV9IhIOJUXHD8yLYDmSQBg/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJqbV-XiZ4X0YRWacfTeD0pBc/photos/AU_ZVEFvXSu06mA2e52h-shNKYxFXhIsJEcXowniChUPHY6_yIk9zCshzCY0Zxdc5BYEz09kcCxOgGj8dStj7LIzegQISSC_Yy7lZrs4F2wYgSLuG0kQtLziWjORvBx7AGXO_zkBSgJikdaVmvczr60DJkM1pN1hV_DubTtxzckqFmdMCusfqr9i1vkCpkJ-n4oR6C7luo0XmuP9-xp0Wg71JYqKSYeJq5wDTCy7k8t2gwMQANkb7ww4AuEZHBwvYy74kOX9J7MegXt3pdwAwDYAfoQ9Oxb22YiL9JfspafCEHtUwIf7WrMO6OwsDIqjcWN9ZrLv6899CS4YveFZor9QJmHXGGXOdh3vC2L3xoqRC9xyr1spLOMoOH0yEUkq7yt1D2_zNhmjksONSb2Q69vLqulDi6woWwOAgbtD8Ty4m4jmejPu/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJqbV-XiZ4X0YRWacfTeD0pBc/photos/AU_ZVEEgUfAY-ygt1lXCChBm5StO2-ZgGZvR0PxAXKNhvm7-S0p_VO0RH0e-Bk7kiNG5yNz67CDfGZ1D4i38IhBTtRsocyahgCSDYsWh1dgTUE1A_x21BzWjufYiqhTx71AnLs4eRxUD_ahE6Qz-W2X3zDWBqSTmXFe34hsbRMJNVWgU5XqyulBmagOUqcrhf0iV1I1cvVbvhWYj0BMD8VE4Eg2dY1XpaGtc7aJZAczqOINnO_4sR_8hyZHLJFCR3q24UPGsQOqJaSOZ_zOmqvcNX2CI8_hFNucZv2P0-gQJmzgJfRjGly254tZkJFhTDewP5915Xj9jmBhvdkEA5xDj0VBN_fhaR5KVO4pRChHdQnSQCLY5CqFyk94csICTUnFqhJKMzSo6q4HctALICO4goRx8baWzkJ0hyR-oXb76cJEWDA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
       ],
       "google_rating": 3.6,
       "google_reviews": 564,
@@ -324,13 +324,13 @@
         "listing_site": false,
         "google_search": false
       },
-      "last_scraped": "2026-04-04T22:41:11.612249",
+      "last_scraped": "2026-04-04T22:47:50.220169",
       "data_fresh": true
     },
     {
       "name": "Myst Stockholm",
       "city": "Stockholm",
-      "description": "Natklubb i samarbete med Marie Laveau på Mariatorget. Erbjuder VIP-bord, gästlista för fri entré fram till 23:30, studentskivor och privatuthyrning.",
+      "description": "Nattklubb i samarbete med Marie Laveau på Mariatorget. Erbjuder gästlista för fri entré fram till 23:30, VIP-bord med egen hylla, och möjlighet att boka festlokal för eventos såsom studentskivor och företagsevenemang.",
       "address": "Jakobsbergsgatan 15, 111 44 Stockholm, Sweden",
       "lat": 59.33462359999999,
       "lng": 18.0693177,
@@ -351,10 +351,10 @@
       "instagram": null,
       "phone": null,
       "images": [
-        "https://places.googleapis.com/v1/places/ChIJY3qY5vudX0YRmZAhSQuvcz0/photos/AU_ZVEGmdRMSp06TKyypAQXPTcD6j6Is40dHS7Lb2vMupMCtKUAn8wdP3VdOulInNurC8jtZjoHt4DNOHUgwUs2W_Stgu6tueLlPhqvjoR8_p-7Iee_L_6osX4SECR5DSrPJ1h4cCg1i0hRV-z1OY58Iom6zK_sAhNw0VH4-tZgVW0PB4NEgPjUUt8npZe_Fk0MdThxI8iEYtiMkStvV3awzWlPHu4k46vt9YrBxcwvODYM2uDwaKPDhWNwHujdjaAags_tSODs-P-1t-jaYtCl-itOST737ynEaEb9a9hmoZAV71w/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJY3qY5vudX0YRmZAhSQuvcz0/photos/AU_ZVEEbU0aEa8C6tNZnvxi0enMcQwqjbFL_Gp-7_7N_5PA-nogKN5PzpmWXLNlR1v3G1iyHa06KYfCkK4TtWMfX2zEOLfGYS0h7F-sJ9oOg8LmXJlysQGSkSbJWuuBIVQeM_u91vdDOl2rNMmew4VS0AOUXtK-8SCrqoNKtJwiJee8mwsJB6IcCXDwFPpPNvISbzQ9bDKfW2JKsMfTicz9w8M8GyNMtM5WnuvNEi89q-bSz51wanBG-Uq5YlONLXaZtSkN7FcWsGOxuKOoRwSUZ0bka_5uYvRTV0_tVg0XSFsyGyfl55sLBZF026IIKfq0q0D_7kqH4hFralR8J19OpF8WIKwexfKf3BoxS8deDgLBJ5-hw7R2_QYj2vwrT767aYbLOkTHUA6VBt4cwPoFkAJ6tpyPfPirOBeyylyeE_i4-Wq1O/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJY3qY5vudX0YRmZAhSQuvcz0/photos/AU_ZVEEGUReph9LcitxI9e38NnV7_TRl7z_kDI0WyDiw2EVKvYnoEQ1qLrN43osoHfBr9UxWNBgrbfyTeChTA0ASuBzx0uYjtk7shK0DokKUE9Dfr3KKGp9Q75O3m4JnkLbOPFI_Mbxp5keQdLokXEOu5GUNuKUqiQhs9lYcNMQrg6kwm59UP2mKc8XPxxdd-chC0S3-SQACfEprqw4iRXYhASDTJZ67fIlr2lm-rOIX615H_7QMhX1KJDcHfDIlzGcq-4bxZBnfsK049sBSg5Ua9BWGTAC-xbW4cVF8pJV7D76P8Q/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJY3qY5vudX0YRmZAhSQuvcz0/photos/AU_ZVEEvOuSnZu3GPeMu2oaRn23sg5hP5iAQTaFfgYGxs83pIrGNy1cQCTQav5141CDeRYs8iRXRhwW0xCm__EKwlpZllSfmpZv9qTS66refLE1XpVHtvMLbwYVkZ5kz4eYJl18PDa-S20p_jTH2kP613SkDr5RQkEhrqU5BOrioeVWJJS-1XHZhHM95aLLAuvwH2wewcl0BgXpXzB3rvasIVLSfNcBjksMTbkjYLRpqnWdwh78kFAEwEtAnPz__R_aFS3Hk2sJCe3cx8hUSutjmEBh6fegmj8KMv5mm5vcv_GXvaFUUsDfbOK3B7vORH0FgCIm1w-TtjG72LqlI5QW542XetpuvvQjRlURGZdQPqac-RElIyq2FFsXHBUkJsiEBGL5kuYtx5S7guBfLCBWZqeoTJK3yL6yG4RpPrlU7if6AWTcx/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
+        "https://places.googleapis.com/v1/places/ChIJY3qY5vudX0YRmZAhSQuvcz0/photos/AU_ZVEGyhzaGiWI7Ihtugv5zYcqtTSyVlU2jBoSVzskQ_s6n9rp6O2uZ4DRguhZIgWM1ZDYSY61sgPt0oW5GA3koAUGykYZU9EhkuJVE19IoqJXgzyG0wbKqDXxs_RPZLVwarn2mSJ8K_VCIijXQO-mHw5PScx88NpUvUAbZfn1ERJ_gwYeBCs-Z2hpBbbK9FA-EXV61II4ws6GMWrC4QS3ZQVIMT-vKBgFnQq2fQ8SX07o49ydtw9QOEHAMbQICM-Dv_4k4hAy_7RZwFXlP6kNAjXm9ac3XdAp6TOKFzyxTFsxURw/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJY3qY5vudX0YRmZAhSQuvcz0/photos/AU_ZVEH_SguAQME5sSfcBE3q8NMd9yIqDHVsj08TXrUFwbhTOL_jrmF9JmzFhtrtjAcbuWVTNPdsdDSI4zza9xxbrs5g5umORZODRo1NjoVm1pd1Iru13kg82umczehTb4ZtBFKjewP4RUfvmpBcUk9RxT6zxlJ0yIM9E2EU2ORVpWrIW13EohUyDhgmISj_loHa2SakEsHTmlxE5r4cqLGES04L5xkMPVYGGGeaFKNN5R4CjPCT6fYM6OU-3_saTp4FI0JPE-YOSSZPCTqom0H_hcGMXXJA6JLyGWev-96uQHTX8WvEmd47dkAl8o4qs91VnPsQZ8E2qnKjAKj08kp0H5_EMiJ_G4-vMF2goSip39hc2Bnzb0MXzpVPXBZN21bbqc8Rouuompr6bNbB7ThwHttTC-Ml5eNYoctrNgalJHccExc1/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJY3qY5vudX0YRmZAhSQuvcz0/photos/AU_ZVEFli5WfETrjdzFuXikXBg2bIcGyQzXs3OAymY8KTXe37JBK7VMfoVecdqx-1nJNEQNEMpb-VJk704sY73lJNvEd4odOBjO5dTL4G5X8yt7WEYXY33bOR2ynru9ycPRq6-hztSMstjdVmzxy7jXliQKp-vn_ckExNGfKlcHUawPVjbk4Td3wV5nEnd3aZDP-s80A7OhzZ-qfWptaaImr5SMFQds21bkwVDGCYMAyQIb5V6afe4yKHvPW-RhQ3x-fH09uNhyNi98e8oGLcUzzIgBTgDBSrJwmfXJ8pyOYukbGGA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJY3qY5vudX0YRmZAhSQuvcz0/photos/AU_ZVEHgdDZ-sG8JTKQqvJr6MBNrhErDuel3-VEcWXRaBiMARKi0KbKEBGN7ggKyYDq6KavlHsAB8dWmIBWsNcbFslukSJfTfU694v4eLg-KMqHOsQADQlyNwUHyrtxDi7Gf86sQz1y-oSksJE5o_eR2o0sVw9Azl5wLFyv_u2qHdLJTIKLCbqwDiv8ou4K0mrQuS1ohmVNextyiIX3gUreEK6SrK9Ya_hryrz6IpLbk3pi4XET9AWRgRyzaC9xuvHVj7C4l3VYUyAX-zZSs-2az3k58CaqcmWq12AfbSsEzvzbDiDAFvgr86L1FDgqK8dV3imUI1gDKrtBeg4YzwBUXgkAQ6Rh_z2zSoi40gr1zf2IG_EaiglyTG3OUeI66agI75o5npHXtAdPZtP5mWaliESV4TBbQCC7xHIuqQNRXYe2UGbEA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
       ],
       "google_rating": 2.8,
       "google_reviews": 125,
@@ -370,13 +370,13 @@
         "listing_site": false,
         "google_search": false
       },
-      "last_scraped": "2026-04-04T22:41:16.222648",
+      "last_scraped": "2026-04-04T22:47:55.682277",
       "data_fresh": true
     },
     {
       "name": "Berns Terrassen",
       "city": "Stockholm",
-      "description": "Populär nattklubsgrupp i Stockholm med flera spelstäder (LE! Cocktail, LE!, NEU, Terrassen) som erbjuder live musik, internationella DJs och cocktails. Fokus på musikfans med state-of-the-art dansytor.",
+      "description": "Populär nattklubskomplex i Stockholm med flera väl utrustade dansgolv. Erbjuder live-musik och internationella DJs. Omfattar flera områden: LE! Cocktail, LE!, NEU (house), och Terrassen (pop). Riktad mot seriösa musikfans.",
       "address": "Näckströmsgatan 8, 111 47 Stockholm, Sweden",
       "lat": 59.332148,
       "lng": 18.073724700000003,
@@ -397,10 +397,10 @@
       "instagram": "https://instagram.com/berns",
       "phone": "08-566 322 00",
       "images": [
-        "https://places.googleapis.com/v1/places/ChIJF-_xMBqdX0YRjY1-MqWIB4M/photos/AU_ZVEHmjJ47aP3MVPTG74ccepct44kEmUnO94TW3rnNQuWWLRMrxOlwi1tZOLiCQHB-7z2zpIpRVR2PlX_5BRLvCBeQVaGPVljl17-ZzB0ZQxGlCWJIVejSdCtVUdINJlBHtZwKbjcYJPOiJSNn3Us2iGvbjZmlxs6cMHDIopGKOiQuF4E5whMSq3WMVoZ5Veon2XdhP-Ac9NaRoZ4wyOm-tRw4hVKczGgQvPgP84D76dOrpvtmLhvQ-She7F5YXY_an1YPKIBYMaWzBdbRnMLw03i5RVDu2RQqTWsI8vmWjnuNs74A4y6ApE9gjHAG4wbBNWMCyohaZymRA7n0IExjUKZIu8dCKWq9bC4QPrQEbwfxj8boWbzoh0ZvI8XVdo4ypOTe_ORycTuWw4p8XBdRdqNDFzgDDwKXWNn2vm8qaOSpsp8/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJF-_xMBqdX0YRjY1-MqWIB4M/photos/AU_ZVEGNj4nMGGJBHcRkHGzaJzNMIc2Ne9AoEgjrc-N41_LFqi9_u-OIaV17tPjP4CCZ50n368VcNa0m3VPeAI1iMDElQ_pQrE7OpE9twfs5jls_g3D3TuTApgEJgZF6IDc8-VrHdTZ6AWyb1BRtVi9pXQHkvWG1Xg9XguFfY52ThpgMyhMCZNtdVgUB9o26SXpXYHbXrsH0MRTnItW3bpsoUKC5RZOMDZeZ2ZfQjXMl6EbBRxJ3E4H9UE5OF-gErlBcbVdst5iUNZiKaLZwckmej-_dIqrOcUKmFcklAQxD6wqpG3T9S8Hf0hicuVyVrBH9nL9eEARzPDpmP7m_mHeyf4XIwsiYutiuINV8MB65yMvmFf5qcrB_RcE_VKxBvTqZzAEZN_Ad6vc-7SI8G1yQPMSRYIEA-B0tmXccj4fFmN3dIg/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJF-_xMBqdX0YRjY1-MqWIB4M/photos/AU_ZVEHTVUDHS9Ao1c5bS_s1j4a5pr7Qnu3vRWFlwFURn37oplkjo5-rKSx3lu5OzTKZ-e0DxUHpii5hgLYKaWI4VlCikb1ZNcgkKxbIklfTjLlAgO-XQJEUaSVH5QSVEH9rD_E_CcMngeD2pMMT72xNZgU0jyMuBH4qMexakIzyrQXuKwx8KW9C3osqk2vjZmza-MHi6DdNA_eMqjQXBvob7H9HTN3xlPIObSOtDfChAeZgPWUWUKmJ_lA1lNhuIYoUgSWx3xx3EKVmx_6u2SU5IBfbV4ljOjPQRhx8MwGgxrFZYFZSPZYPQpTUeXN99N3wFL2jRSUN-x0Zz_Rcgm-5Rb6AcQb8RR4DQioDPodPXoHWP0zot63O2nUApk3f43kfXW4nkmLbG-3IOG1-yw3K8P-e7dyJEAZ5NWFBg9guJX7H4B-4EUeFyxKUV_GlKQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJF-_xMBqdX0YRjY1-MqWIB4M/photos/AU_ZVEHm7_n012wQX_CsRS8hfr_-FIl7_YH3fSLQXJwXDq2ZOyF0FUTeOvHzbZmsCtkc19WG4AX5v7bEnM2-bk163AHyT5uNJ3_izSUvIsnZpmaT8bKniPWlO_jCir1dEQswbhhR66ChBBq6nO9EDBbiGGzf1gGpisf7gyqRsAiT_cY5Au2_aT1MtWt7cGGib-xNwDrVeK8XPoZCGIcFquIQ6wvY7qcjD9E2_Yd1wN3Sel2fkAU3yTPGNhwr_m37OB0rD7B1evNzzg2WqSz0Ytx7lb1NHjsDVeNSao_Z1xfoeFXuLJDAQzGZ1TAc4ThXG-xd21-XfCvbZKaC6Owy5_3eiuBGtLFhFjgzGQURbvCPC4JHuz3lN_b2bf0j8JtbD9yfa2qUXdb3Xx1g5yZDOCyfOPd_bmFNICEOM0D0gVQTV8wt5N_x/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
+        "https://places.googleapis.com/v1/places/ChIJF-_xMBqdX0YRjY1-MqWIB4M/photos/AU_ZVEEp2iiy_990z3bWYkXAgvAvIIVORBbwn-EDp3MtErFLiqaNUlWr3ofMLRTV8-HBIpy2Urlt1Mfv4B3xVnCxRg9-NHx5waSmuXY5myHhZBS1r5wVaVF9FkbYUQh1P7tEFuMH19Cvav5qNuWNLh53TCY2SeiJUrrt1yG2aUZpjlhWdiqqt9UB5dGRuGWCL5KXwZ-x7YOUqw4NlwENMz89ND_qydLghNayNTEsQfI6TOqMuw8n6Bifzy0bBfUJTYx_RpDk3gQ8mjBtKBSIAL0Vuw3jnSMD3J5IArPIPSeUcFn7x4WbA5yj0M0Hjoiv8jUVGHxlWF3-TB9DSdz4synFlSIG6Df-Jnoi4mfwgv9--XMb2BLwwdSviks5UE0ltpmFrY1BLH8sgScCTFGbwmpfMp1aNZg4foQrYJ72Lknt4lgX8fU/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJF-_xMBqdX0YRjY1-MqWIB4M/photos/AU_ZVEH6_08rUS85OBQ1DBALDemv7dlbz9kXxfyXnuqgVprab8Bb8DzquON6jTEMIXa0LGcwgilqGOKGkSzA3ywoMU959ibfETeA0ytCInx5MG9I65c2OM-_VAyww-vHI5CUIZKcr-vGF7Z9nGS4V0t9iFqGq3rqpV0w-If_G8N3d5kHuYCTgzUGwzlCQkDUvTeT_Xx76MxFcKXOjsGcr7zaucujBMU4dBjt7ki38HT-fM_kx0JRFyUtA6jMDf7l2sLtGcwMxCAO7pNI30vX7rEzeXEmlYv93zFnGcWs3Rmp3izgfM0Pug5l5af-j34xjn0vnvfZKdxaySUBvs91wxZl6eZ4xjgRJQ2cbv9Y1JU4bN0_DpQ_la6Hxi4MCltnaANddU8HbFgzb3zt4qMXPqYHyOuZIR-TplGwczKMQLZ0-80CpQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJF-_xMBqdX0YRjY1-MqWIB4M/photos/AU_ZVEF11x0GMMi6JJL3Qpo8P34pv-zxiOp2NHyX8BJTwqpkRVjjkgS8xTMzfYHWbCiufAyZx5unr6Dw5320u7ZgkFY9Z6uV-eJbtXLje-6hP5wYlMY_6li5n9H7ENq_bf3dvjPTEa2QUlT-PR6OdlrhpXIN28tLLx-6XDa7AJq6BRXNLgRZiaEVvlWS63gNOJTiARUahI284EMwUVks0OzhjMuwL-x7O-lwjvlTHoWsmYscXkz6PszoXimo6HJJXe8Ln1CGxDHGmQvz6geqko5AKT_hj4EBSiH6bdjLhsgdeKvvAZNmriQUGuGVgwCrKlFEYxT_MVCrPysdzJyoskdi1s_tXXTJwRAh18hdjD6WR50osQ7It_a0fvQB_-xm04OFCTuP14GY_XgR99BDCjgaL-_1soU59zgLEQ618Pjwky8B4g4Sc3ffY0wMVasXhQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJF-_xMBqdX0YRjY1-MqWIB4M/photos/AU_ZVEEXe-Owcrb8G5P0pVBzTGkAvnEbd1xltX-XE5uyISUQc1uQTtJNqGqKoz4HGX3YV7w3x37P8rFek3fFtRVLxgrw_MuBjbDV786jIO-V2QyI0646ZvtL_8n4GgEwzNZauOnYtxxaJUhGPVmbmUMH2gBncF8DcvbYGphqUIUh6D9WCYxIi0Fk7Zp1jPV_7HuT38PJQ0PDDfKe9oRyaaBq9MFAVN1hKL0aQUxVFvO3hSs9Znl5Kk1pFFjmhTIsCPZ8v-GLkArd95GBMoK-jazvJlnribfgZ8TJWfGu00jXv4zBpxw3ZvdKHrTuZxXDwKgH09Pr6anJgKCl6dIHyv6lqg6pMTI7cVOK0oRrkQsz_vY2llYRctcJj_C8X7EmgeGPRyBwUQiZFw6ELfVxT3g9X5u-VH55vVlAKXeREJo61oSTwdVx/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
       ],
       "google_rating": 2.5,
       "google_reviews": 214,
@@ -416,7 +416,7 @@
         "listing_site": false,
         "google_search": false
       },
-      "last_scraped": "2026-04-04T22:41:21.838825",
+      "last_scraped": "2026-04-04T22:48:01.756224",
       "data_fresh": true
     },
     {
@@ -443,10 +443,10 @@
       "instagram": null,
       "phone": "08-545 076 70",
       "images": [
-        "https://places.googleapis.com/v1/places/ChIJs4cQo1ydX0YRkoCF1aFt_YA/photos/AU_ZVEE4ququfkfX1NU8biSREcwQNrlCeqrhvE-qxRPkeOWPQPX_9fWCwcSwZYYcvbFjLcdTqco9rb2F4PqTZXzyf-2cfiQ3yxvLsFWMyQGHmPZ8JwDoK3jJ8U1d-kDc7-3L5fATC0mG-6Hqapjd5vqlbpdMzzuR471WeMcWRAdee7xRnHg1E96Pc09biHM7idNn0wZ9lTdpvrirQOLc3-LKZx-NKD7h_I2dgF0DMtEaS7qTyoyMY6S3ru-PB1f3HwB7bRXmlqWbKmrFdfv2y6vwzTcZFlbDuJq-9s2GAHy2WthT1g/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJs4cQo1ydX0YRkoCF1aFt_YA/photos/AU_ZVEFO6U_fQtYcB6PDEjf_RVl7atRtjqLsyR2gQnOXsS_MYdoBDPoF7Kn0wn4Dzyj6gV-FjmBMD_2BzZN5Gabj9JL2Y_td6hdoenQXrSNswpwQoiAYeDwBToNW1fYe9pQKzE0tDY64a92olEb63b80Mh77sttGQm_GBc8lg7dhMpmxkdXEqFTkb4kGYRK4d5BOlawa5zrkM7qd5I6LdOMUw7e3jalF2KBimAEFqAVFq0LOAdiylV5AjGDb3uz294POyge-QsACen81zFpBapIp42YRLAvyMODTm616Mg3f_qTNpZWTE5-KTFAtF98ME2f0NR36OsW2yaQIp4u86egnl8dYNDMkV2CXmzyAWJ4azop4lon1xUJCr7uOsRvolNBagToGUTfHnlF_8CZT0rgSMeFUEOUO80RrsKYL-Daw39c/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJs4cQo1ydX0YRkoCF1aFt_YA/photos/AU_ZVEE_29xfIxLSUsmvvsVEnOXTV3aN_2HUKLUQHKoyhLcb50My69PvrVsZG52bT4V0gIUcKMJC9BMimL2uCUd0tz0-Jij0bTMSDfc02PMfwpTXMTxL7hzlagowGKShRZ96fy5GzWxIvxd964Rl5qKUlIMrpunVA7MjigaVDaGFsWK7tfOeqvt41kva6xhSPdMwZ55NzOOe-GoBsm7vSPw9yFu0K-WCbBqvHtu9Oeyza9TVLcFbXfGjgHW1GJifOjg50J5hFuUuBLLUosasucI6xa7vqgY5kioOZws38G4DcbEwVHLGdcnQ-GpZy16Mvlb_orG0ZR7KFEzwMkFb6crWPcuDq4qiI1ljjYwTAw52Ug80BSo03Hj09VeawApSlW8fd5L9PPZ4uH6tTvZByFHnsCqdMKj3cCW0nk4C9QW6hnLfWw/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJs4cQo1ydX0YRkoCF1aFt_YA/photos/AU_ZVEHSDMKi-SvFpjx3j-c99mKa9LvlzVdAjdGk5FwW_-XNFUQ_FUr8ifWqKHjdppoRGrWvATyjOusrcqsXi9zhbM9a-Lepzsh2PFTg74fVt04V1gSvJjbJ8t_qRMhk3VAW2sc_Gud1M_kaNjEfMzGVB6OpHClKUHASu1-mcFkJ8C3xsD8an4HzmeTjBSuh4dl1w7sOZLse8f9O-C0om6YaKrAccJK5Gsi1NDMJt5xUvAc_7O629_WQdaiKL2Nq_SSWvBk9sLWvMkk5p4EuO0MNRaBj3xB7ux1RDQ6XOQXYZYw8PSqKSo97VTeen4UqapfMn0cz_s4u6uWDsla-H21OVDOzuBJGdhqSweq7vWVTi_YNt1WTf2lqwPIV7BNM6TWXQ0T6d-3JLbO-DONidPwc1FOLy_8U9W9OlsFz8dZRewMqyBq6/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
+        "https://places.googleapis.com/v1/places/ChIJs4cQo1ydX0YRkoCF1aFt_YA/photos/AU_ZVEGbF5tF7LIWYBt0Wm_1Ajan0BYljC-Bcb89Ado5_XlvHdXOQMXevOSrufCzJF46XyBkNcFNY6vzC5hvhG6uhyLfBCjN_NUozH-_FPhPmgohqftslbUoXN9FDFLVYbfegZN9vWmu-YPb6_HAwuFw8MLBlpplhhKAdFTQ-HZFDJmhFV8Nw3RKbP92Ry5LRxkjXOVmjIXJME7l8m53Ckm6dtwT3JdZ5-yv0z942CP9nPSejjqI7qyWYXJNio2rlzAulls6ze2-g-inoYmnG6jlInVM1zWehfTxeTllcCpZd_xhfA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJs4cQo1ydX0YRkoCF1aFt_YA/photos/AU_ZVEGjhXEHqwdLTvFUGXc7YVUyWnFOJACIxU5d0QMrySCIAN539WdohOtkOwi2m5eltOhNTQ0Z5G8lMKmVnFHonuz3gIT12wRX-9ui_OAL4EOlqv79xN-UgRxMk6AZi2pL4qX9RCAQftbb_vmqh2aSlc8T7KlvgUt4qVQVSM_p0CPwVqNUgeiCbbOMPwJNd8MSRzwhD9fyQV8xvsgPaxjWWxHLSL2Qe3XDZDrW7m5G-xtug9gBpt4r9YMqWYkHhZOcjS8oDi8x4V8CAxW2ND0Dd3nLKkfjz2YBRWUxTsSOo2tTq6ff2priVNQXOyE1m09s0MHr4xQdmXqvrDc70Hbsp7yyCSNxWXv_lXp0LZlwsnY0Q7GzunmAxMxBQ0Gsh1NQoVsmrMXkjAfnTAc0rNXyl_BdLS6zLJBolCKDN5qZDUI/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJs4cQo1ydX0YRkoCF1aFt_YA/photos/AU_ZVEEJHi07DnJlIkTvvcpiKz1wgj0n5oANci3-vs-IpdNyGTKsYv_acSvDr29PaQ5HVQJdnloO-OnQ3UdtbPxCC7oMTNPgLJMTj0d09lfFs6V4C3EPoOt6_tKKzMk1DDwOGgvs5JLH1JKKIymqtgf2nutk4voxHqwKqm1Cl9PEhuAt-zvObhuqwiWYTmtTar7pZGtSWtbe2pVONjgzQU_JPapxSvu2lO7hezqifisBvqyShPCjsCFtuN7-40S2v2Sh8rr-7w2zuztWDeEfGpoVyBNHf5A8HUa9UFcjEgnPI3GRU39q-coCyKQmkEVIZ7_Gd3g3nY42R23p22XIeEfgfdA_MA1ItMdYd1n0UyPSjNcLJDiHnoQnZvmgVr2_Z1c5tsPdjXFCdiwmB0JwGVY0pj7sVfhIIT7C-BErlHl_Wj0cZA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJs4cQo1ydX0YRkoCF1aFt_YA/photos/AU_ZVEFLlzFHJQPWzfDPgROmqrbpvTW8i88lwfO4OHVUo9ap_ljQfhoZa0FoIr8L6jUSOirZcFo0mKP9nAN1xw4vIriDQ-O68zaRKmg3Ei9wbJN4QU8uUWZuDPWD2wYIFvvoPDV7xhPRx1y5WJIPC_UMJ4Imr_SdO7pn8MWu9nkMzBhEuAL5wEIpqLjJx-O8Py_THvQuM6yAqTea5_UYhp1ELt22W5jAexOMckuqZ4ekTAxIeHDQMDW68Tk3luQ398hJP9bH5DS511phMA_u42EYelwN8_o-o4YnrR_xT3cT9Ql2pcsx_vonUn2nOGo6VJ1fxNF_fjp2WqAHSa9jOnWsDlVv6W8GJhsVkMATjLaqeNhWpa_R0Ns4j0j0R3zKOBXOrn1TN2f7YpkP9OPchE7XoJ_ISy8y0DExR9pDWdKBXm5ffsiC/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
       ],
       "google_rating": 2.3,
       "google_reviews": 359,
@@ -462,7 +462,7 @@
         "listing_site": false,
         "google_search": false
       },
-      "last_scraped": "2026-04-04T22:41:25.918369",
+      "last_scraped": "2026-04-04T22:48:05.894509",
       "data_fresh": true
     },
     {
@@ -491,10 +491,10 @@
       "instagram": null,
       "phone": null,
       "images": [
-        "https://places.googleapis.com/v1/places/ChIJeXr9uFudX0YRK8gOFcXVOlE/photos/AU_ZVEE9jpjgMLmhH5MkR-h5Pd8WFDLxqsgN0t5kfWttq2Gus2q_HgF1dFM1zs2R5x-uMFXEHT0stytySTDUiWjdVbnpxHoJN5AA-vpdLyfHhXT5DGP6auGNOiWBhYmFMefhYIdhGLbP-J8msBAm9TPD8QYMh57e843SaGGFDv-WYiBbnJVgEJpbm13DPT0Z6OXwVKzBT-Ge1Wloxi7vThkSuTMpdKn0XtRqPqNjvrNwbbHFZUQg47wqzcXZ1i0xO0r433ll1No_60Q7n5qNASYNHXDNQ7G_U3wrguQXpgG0lMaHwQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJeXr9uFudX0YRK8gOFcXVOlE/photos/AU_ZVEF9CgVNGpo0IUeKy8Be-3Ky5gNAddksoeWF5zlyln8PRINGqgq8yuPOiYbpwLnzuwipq47IEBu5e2vx-ETUR_dSKAUCvpFZ913LAeBcnE78d2L5gVXjIuPXv1QRNB5U_5p_DN4kwFNLLf2R8JIzYEVPqhSi4bN_qpBMhH4tL5AHNWwsc3g0wq4WQMHG4Z3cEFtVGVZ9ruzSlrmsmk6p2lJzyJYIY23lbcNHm5UPCDqtznBP43zKpyKtHUVUEW5eJ21Mq16hivN9YKnZcxM6VZu2uMwG3HFe9pWajjgHVcv-Vg/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJeXr9uFudX0YRK8gOFcXVOlE/photos/AU_ZVEEZ3qREXMqu02M6Q2OJDTI3gIsg0ADstta9p9ZexLtcq09LPxz2CUGq-DTiU9ldO-hxH2U7l-eUqc1SuA5S9jWNd6m2mQ4SrxtK68L_4IHMhUlrd9f6oiXS9mckoJvyvZbXzB6Cf0c-8Q3LVtC-x4YpSWu5GPQNWzRBQWvTVMP92rv9045EjR7383Efr3XbOHFuYbpHomTjeuL_jPNWHzZaSMu0iHaycDzujsTMnwWn6b7BCcNP60ixXGKpxtHW4sSqXJaICDCNzECGi7hs9mK8fgeXj1Pz1jOTW0ObWiswxA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJeXr9uFudX0YRK8gOFcXVOlE/photos/AU_ZVEEZxzdQb9oIDZCED-DIcgfmGy9ltmHCbxaSgXeNj3rKQ9BIb60KTFhy-URv_6a9OZqaXr02-VLXflCCFrXnH0QxB2Th0Oqeb9Y69wAM7PSp13AjcZuRcAnFzpbAPFTQpY0AACFMkhe3Wd-4WaMNVbuRy4vhnFP3VGNq3B62lkQd4TyXTFVMSmlf5RHpvsZaS5A_qzDItkgb1s9eSsVW1e-lgRBQA3pUg57HqYJTv3vxKKcfaAbzBECEKgDah7oL3qS1-BDeBhdhtEldg3MQSKnzEl4B1NO3Ygh-PPPQmq69YQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
+        "https://places.googleapis.com/v1/places/ChIJeXr9uFudX0YRK8gOFcXVOlE/photos/AU_ZVEE38pNH4qp80HRpTM_c-45r5LUdbR3n_cPoDNvTWo7dbR3y9GfchFsZgq0meOuvvFVJXyfvNuT9MAi4SrUdw0cqZIR9qPFIlZK5DKvIEzIe180mFtuZkZon_6Z2-6ek3LYCWE1NccTEG3929RjI3ZkQ7-OepQE7GrBN3f-HVGtzA600m7QUtZZA6BHnVHndom50cHQEFhvkReq6TrL2QlEm49AolunWeGANhT8Pr3zNmfVWwDrCbxRN5m1OKG8StSLz3y-EUsmTCo4qhtja9ZYlkWlgJEs-rMQUP_j_5ImUHA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJeXr9uFudX0YRK8gOFcXVOlE/photos/AU_ZVEERmL5IqlJsoVO6xMTF29aYN00M6L2BvYPPEbeLW64bV9VIFNXQkWDMd2QjWEnkiJ5Nsx7hMpYVN1BLmClQEExPL80-DCitWWBBFoNidbi0CvyLZYH3VzT8PqThcN-bLYXMggPFa0kGSN2gWyLHn0M-Tm9lwcAs_EEN32qnpDL8GB_wsF_RFEOBQbS2INN2eJy5lJ2TXnNJC-oqZMIqH_sG_vN1iQF7HUiY3Z4BqB-41HwIMZZcg9DiZvhYj-IZkU7FvC3gsZjNgFFcrK3L1Wke8AcOVpXWp-sAl4OhjYVKcQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJeXr9uFudX0YRK8gOFcXVOlE/photos/AU_ZVEEx58rieM8tYSeXdBLIdkX1qrrU7QmENNlb3hXAKBot0xzO82uOtzTOkvA-F68SlG7ZAoFPbqxu8gvF_JXa8BOdeAPdlIiaitgxYsKZRp3V1O1t6hAvKl9JGzggiM-A7zamkXxLYGKMd0geMNGE-Vn0gHCHlneI-tHCXx8T_5OAcm014bMBmru6U7eELvEpgsIMDrL_SKu1xDJrO4_nON9fmoXcteZ-siKhX2vA7VyxVvCMFORVtRO4jgYisa7udpGMobbCbkUPSnovbGSZN07g9p40aseXBsWO0UEr5z88mA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJeXr9uFudX0YRK8gOFcXVOlE/photos/AU_ZVEECkgj56-0m0nowsO7NHahtF_qni2dddijfrwwwMvYSjbT7dR6uL768hknedDgyWAH_Lk3X6wWEKt77KQwD4VZ_0D0WLCXOFmjAj-bF_IjWl1pKFZi18r8IprWEqsUSHFX8aKIrmyOr6ivzS2-u3u8CAhjynsxRN9dONvuNLSpURfKGeCRBuekmhL3Aiiy3Za9oc6GPPN-XkNjrEPNcRnsqee3YxjsrAqc8JnTsxeH3X8qHwOv5k6QzyRhwrAX7z6jwSqIvLd44sMKmsbDvmCa_bMBpLv6LZMB3BQfwMVJc0w/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
       ],
       "google_rating": 2.7,
       "google_reviews": 428,
@@ -510,59 +510,13 @@
         "listing_site": false,
         "google_search": false
       },
-      "last_scraped": "2026-04-04T22:41:40.594807",
-      "data_fresh": true
-    },
-    {
-      "name": "Golden Hits",
-      "city": "Stockholm",
-      "description": "Stockholms nattklubb med tre dansgolv, karaoke, restaurang och dinnershow. Spelar hits från nu och då. Aktiv sedan 1992.",
-      "address": "Kungsgatan 29, 111 56 Stockholm, Sweden",
-      "lat": 59.3357435,
-      "lng": 18.066887899999998,
-      "google_maps_url": "https://maps.google.com/?cid=10287176519558303528&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "opening_hours": {
-        "monday": "stängt",
-        "tuesday": "stängt",
-        "wednesday": "stängt",
-        "thursday": "18:00-01:00",
-        "friday": "18:00-03:00",
-        "saturday": "18:00-03:00",
-        "sunday": "stängt"
-      },
-      "seasonal_info": "Dinnershow 4 september 2025 - 13 juni 2026. Karaoke-SM 12 mars - 23 maj 2026.",
-      "age_limit": null,
-      "dress_code": null,
-      "website": "https://goldenhits.se/",
-      "instagram": "https://instagram.com/goldenhits",
-      "phone": "08-505 560 83",
-      "images": [
-        "https://places.googleapis.com/v1/places/ChIJ6cY8Cl2dX0YRKA8Dbopkw44/photos/AU_ZVEFxXpiJYh7FoglfbYKQQFqONTajtdN_6yl5TSmTECZhpic6ivIoaH8-EGBrEXo08S1XiHsnXTI7KkA_YkLcCOPpthrPlZbLuBPEl7JRYhNRpM4ZaOZAWthKBfQAo30lvsWVUxaUbgIeHMVL0FeX9rPmbHDI9e44DmrotXS0SSSqWB5E2xfldAbZYOYQdVZfuItM4nYiLA9fCNrkx4sETLf8X-TAMhhpksxMxFPEx2eerDm93Lk92lFjWV7vT1M4qpEQhWAovHhDAbPZCL7XFC0fCNtsN476qnDwtb4ociVHeQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJ6cY8Cl2dX0YRKA8Dbopkw44/photos/AU_ZVEF1R_fATiGmdzYQFFIbhL9Zzm8YNY9zWVZpttnc7qhMDeyzvFGMdf3a-_5454Al8u5V4_6VHMBOaMR3gi-ny9cno3kZ90GSr7grHdpScxZKEcIMscEUkiF5TBgDNTx8rENY7EeYZMZotIHOmyv00ooJlghU6P9Zkuel_BYFqcEInNH89hXc-pWaKeNjRDq4g1bUaGU6DTu9Ng2Vr5rneNbmT0YTpFnrmDipqwnRS1qPncCSCqD7ZcqGpjrSDs4aPULXlLbiClIlVz0uLF4mauD8qRh3Jojv2lH9lvTT2mNVjzupA7D-Q7XNdQ7IDewVw5GMX25f2MfOsaMxZx7lVxXIRv67JVGE06FfT3SSnhVtWopIHDlfc0WyZ2JxCkeZPktgNKg-55YuvIXvP9ux7DTZwdRN8O-2Mq4Weo-Jsz9w3ABgm0G6SobYOiZ8AwDT/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJ6cY8Cl2dX0YRKA8Dbopkw44/photos/AU_ZVEHCqCQ_f2HPTcSFuuZGmiGEJ7Po2UK2GjfKHvtKZLJSgJDrG0jOOhMDFhcqx5RZo4n1-wToGg5IxKJXOrH4ZinFGLCI4bXlQx9ecFjoo3OUoWafCVZqtlKcAzBSt7wob4-cPQSesyGwg32wUBgaXU14R2Od_VHOMnZe1yLUtfMHx1-gSdciOhLbZu5jzYvO3jeOmcyFmqm9ZeQk3Md0gzZywlCKYAnSCevD8sP7nRXHUICmNhp3hxrKfvbM84I_W8tMZVdIaQBACc8vxZaDaWezD74dlsZDDC2E6yHAyM0gWAWt44ulqUvLy7zSHzMvKMYcJqHeGyHXAHMu1z4a2QXmQvTAYBC4XZ9XPSYOPfDiKuNO-t0rBCXvCUGgetKiVGXhZMKzlxRKYXqpF7v8T5OImcuNdhE6YnIINAh6wKq9og/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJ6cY8Cl2dX0YRKA8Dbopkw44/photos/AU_ZVEGqfq9XfbxIDJ4wvgBeML0eO8GZ1Orh-DrxZvBHia-CBmOeTb_g3tZRAWmugBvn_pY8W5reyIU_NcnOKgRqmsI2OTLbMJqNwtt2m1YsuqEeR9fmPfqTQLNAkn1Bo3mH6U2DC4CcFxMwkV85oBeEJGN0dVftoWY34JvfY9XGg5JcLDeM3-bXZOpcvUb-ptn_n7zKclfUNICzYLqVcFM0uoS_1hmpAy0gT0q1FA72eXuLS9fdmc9Xms-25ZlyGWvk5BAnGXOw-PhHjQR9vucHMDK_T7BYnmy1lsTsDb81WO-q-CtlkhxLShrRLTPeQ4BYZGQKwqKlu2j2kGZop6hvAJTYkTFa9VucVRrwjcVdv_nfekT8Oe-Yej13etVOjiiFsujxKZ-ubvc930zmu4KbmrScmDq1AR8tgnkzE4fXiUpV_TrW/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
-      ],
-      "google_rating": 3.1,
-      "google_reviews": 801,
-      "confidence": {
-        "opening_hours": "high",
-        "opening_hours_source": "website + google",
-        "age_limit": "unknown",
-        "age_limit_source": "saknas"
-      },
-      "sources_used": {
-        "google_places": true,
-        "website_scraped": true,
-        "listing_site": false,
-        "google_search": false
-      },
-      "last_scraped": "2026-04-04T22:41:45.894409",
+      "last_scraped": "2026-04-04T22:48:20.514938",
       "data_fresh": true
     },
     {
       "name": "The Secret Garden",
       "city": "Stockholm",
-      "description": "Gay bar i Stockholm, två gånger vald till \"Gay Place of The Year\" av QX Magazine. Serverar mat och dryck med bra musik i en mysig miljö med en inre trädgård i gamla stan. Fokus på respekt, mångfald och kärlek.",
+      "description": "Gay bar i Stockholm. Vinnare av QX Magazine-priset 'Gay Place of The Year' två gånger sedan 2014. Erbjuder mat, dryck och musik i en mysig, färgglad miljö. Har en unik innergård i Gamla Stan-miljö.",
       "address": "Kornhamnstorg 59, 111 27 Stockholm, Sweden",
       "lat": 59.3226066,
       "lng": 18.0720809,
@@ -583,10 +537,10 @@
       "instagram": "https://instagram.com/secretgardensthlm",
       "phone": "08-20 99 02",
       "images": [
-        "https://places.googleapis.com/v1/places/ChIJt3jcI-N3X0YRpewujfERgY4/photos/AU_ZVEHa31aJ24IdmNLcgdf10Jj8FuGlAieMUk4jXLh1CTOryBNYQnVN-CqBPsku__NFafzBj3VqoxCx1mPQPiTai15HcgOjZQYrvnlWyeZER-cm4PqNQt12DhGq20qvX8jp-xzJv6jK04aqIeaG8fz7DoY_dtOp3Ja4-JiUyIrUd4q8BVSqIvohLo55tnR4Tm_IyYTTMCSuCMaZdYOzG2cbpsutUWP-0AvxJyhynwJSqSF7TsubEtJpZJ9iaKRg8jf9CZh6AvDg9xw3hQT9TG--QROJIwE5h3SlMKVyx3jciVbBgg/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJt3jcI-N3X0YRpewujfERgY4/photos/AU_ZVEHDkalaCbO1aoCIb4gFIHBggpnkkLejUv1eM_4xvVy3A5d7p_2gjdtZkmXbvdXR-qf8YDQJ2FWd3zKW9MZnsOVEMIgDlntzwGAaCo12bFRn1EIC0HtlgB6n7U26YixiTx9H-QIuaZ994l9q6ObSV82sRn9HuKADA1EevUPvVCYI4HcuKxMmtqlRYQ8AFmNxSj6_Zzd-8OGRvqnZQF-qij2Y8TSiNShTkBzW-vjxjmSMQWvwIfFz4bpqwotMPb_BkKkcpSlz3x25HwbUq7aFWOA-Elr3D1JSqxmdzIh4o3dlgA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJt3jcI-N3X0YRpewujfERgY4/photos/AU_ZVEEdNAWqnWjPoMYnhgpIjjGnFU2AaiuYA2DjNrlHMjuWtHfsuCZs7zMqiX-_3ArOCvgUcMsdmJ2zdK6UaPqwB2JZ4VudjEY_WrLYbNiuchzHk_2xsXXv7cZeBk94o1F2G_3gqD8sOVy6bytwKJS6sXA-DFBZO4wx3trzbpxzqqYVqTBUahI3A25P25WaF8DnIBVrjU9qBFLO6X5ZNj0yXqwedbuVxsa2fn9kDd3J7hQaJqEI1QzHcHMljwq8J36TAfeQKyaxQo8ArMVCrMqwohPiRWFPygYIP4dVDtB3kVcpXOUNkDB5IgfkAL0UlizP0355TTbkjS03smsvu67kGrAE7wnA2CAKeQU-ii4gSzNv8qaUorm-sRznQ4btwufPjw-_vv5cQ9cFT3O3HCYidbXPedOMFjauMDztos8E2O2uDyuNTwFOA02D6udS_q4y/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJt3jcI-N3X0YRpewujfERgY4/photos/AU_ZVEENA721bcWwIhNM4x6TIUey2fA-KpCfoJuTus5nr_EvvS5nafvSd5_RKKKrtHm-ZAlXxcSs1xIWPDm42gxLuaA0F1JSpwjkJ_BqNfZHmfQu_XoZRlOHLIyQe1nYDEv_tWDsC9YBx_gN5T9ex2axGKhxBtnKq8iSOVAevkBY1NCpszQqzf0q4vPeULPjecDNzUDkSThxOCMKGRcjAI0VzY3zegn2vyDJk97a_GyrkvAA7rVPRrH4WFw-vKDRa7lIT5A__0RCjkJr_bDz9LrpHDakLAiCo5710Ryj8FtcJtnAK63Zg3faQjH9_zUt2PaCFPDMLC4zuN0izUX0lu-iLxkoKXDrp6OjNKw9Tm1Zf_OmZOYOA8khZO2sSO928a0KCRD6afc56XpcXsPtvvm4AiJVHcGSkKdi9sC5w90JrUpohWEw5PMH9e3aM14fpf6J/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
+        "https://places.googleapis.com/v1/places/ChIJt3jcI-N3X0YRpewujfERgY4/photos/AU_ZVEEaNEedIULevxgbIUjhyAs8B2wMPVtcHoYtyaOWDgetwRQto0CUVFVGctryYHb6YenO1i23lqDCGZNNYCKP-LXd2aSSfnAfkwCkYX3pwu1v0zbXLpLQRYcUwwXIBFFcZF--eXiADr0SBbXTFH7TEHFKZVrYpux2eqo9zCKH6CHfHqoC1c_TnQDWBBmfA8BIjXF1tJE42y4A3XxL0sYLorpzqJs3-pKMZ64mqh2Dvt38sl8hzaeyLktREb48Yn393q9R3PdNBjOhFMa_m2Z0NEUKd9eaD4yhzjO9G2lNGqLE5w/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJt3jcI-N3X0YRpewujfERgY4/photos/AU_ZVEF_nIWiTBCiWrrivOzJYuz9xB-vjnHiqWiZXHt4cE3Kzw4mMmcV-BiiWIQAz3ASpUd2CRHPibTjPvfLS_NaWuzpJaGuyomTHHhHv740ufwP5muyc-jVZIelWBcwrI5kEcn5EQuKknLY_2Y12hJGFWWb2QUrQ47YwDYwPI1DzHeygs6RY9ZsOfdI7O2blWIq2Xi4ApgCOb5bbCPEjsC1e8Oz0UGPBo7PTPcDCifY2vRxjqhDtVWevQxIVokObD4jEjWIvTn8A4hcOmvqXZ6yWZl4qaotBpOKCwW8UzukjyWB2Q/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJt3jcI-N3X0YRpewujfERgY4/photos/AU_ZVEFs0NXxc7l2mMCQtzdmtKCw6Puj1j-ZnKAB-rGA8YKp3q3BlGp9WhOCYLgLlZnpT4zwg0zNA-M4VDYBollw5O4PrT3B1cmcGSk41RlO338Xt4p9Q7i5M3K-6ppy4pFL-3YfG-7Zukwlc7my5IajV6UINl_XVzgEY8fwwfUVwapTlit_qG8edmAexzks2YVOaBLjTLcXA_hxqga2FDppbY6No76pfneVfslEuAaaWrjgOuPOmMr1UD6k98Gpt4h6onBFgtkGGkB2SVBNCr0-lWLkrHfIBLIG-1Zu7KyWgw4zpwIr5UXUcYYAlhRf7m3oneCx3jazvwg-4O9EX3ztXH5ffTJfIil2Yx-e76h4CasSRmymqlDHyVIfhkBnvkMHoS3ONvvXSlojXkz9QZ3uLUPfnmOfVcjANpQ2tnRIGQrC3OlW97A-n62-lGuaKuPq/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJt3jcI-N3X0YRpewujfERgY4/photos/AU_ZVEHeTcssdViW6ja8mPIRaW02zfJRZHvAGQzjGLrBZyXedY_SBxuZyV90uhil3nh-apOiPZp0EOwDOA2PpRhwSp4UOk7M2LbxHspNhCzXQa_SWeoXSr5jlEys888zEF6QKsaW0natRrpmj9f8WozEM0x3Nve9GvegSdDrVVWytj7Y0RDUU5tMrokdgglF9wLNoZGjNXQUKl2xl0cLB-jO_BYKRoHHmTUnv1N3xCObwZJ-qVaR6mPdP0bFCYQzS90bCpp_hiXC6wn70N3r1TkE0i82F-vnlLg1cC72CQWsiX5C061EEoUpqwhvWVAu5euLreQStJO9-mLPq4FGiyKK1reSBJurogTB4DTrrISm4DhgjHJyfekd8KTa3HjzL2rnzCyOMafU6_fHXraV2cytA0tThevV_ELZ-WdI0k9Rh0Xs6Vz5cGs7-epxJO99FTc_/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
       ],
       "google_rating": 3.2,
       "google_reviews": 1650,
@@ -602,13 +556,13 @@
         "listing_site": false,
         "google_search": false
       },
-      "last_scraped": "2026-04-04T22:41:50.673832",
+      "last_scraped": "2026-04-04T22:48:25.623266",
       "data_fresh": true
     },
     {
       "name": "Spy Bar",
       "city": "Stockholm",
-      "description": "Sveriges mest uppmärksammade nattklubbar belägen på Stureplan. Känd för världsklass-DJ:ar, varierad musikgenre och exklusiva nätter. Kulturcentrum för stockholmsnattlivet.",
+      "description": "Schwedens mest erkända nattklubb på Stureplan. Känd för exklusiva nätter, världsklass-DJ:ar och varierande musikgenrer. En kulturell epicentrum i Stockholm.",
       "address": "Birger Jarlsgatan 20, 114 34 Stockholm, Sweden",
       "lat": 59.336615599999995,
       "lng": 18.0720358,
@@ -629,10 +583,10 @@
       "instagram": "https://instagram.com/entrgroup",
       "phone": null,
       "images": [
-        "https://places.googleapis.com/v1/places/ChIJ29yfv1ydX0YRxfvb3T48q5U/photos/AU_ZVEGcMJoB47-GvBzor_M580JmUW5iVo6-XSp4UKY2bvGbB9qrLsguR7hT8FK4xVYAW6MufzXzHteJF-qMqbWlo5G3B4-n9RG0XOZNcd_r2v49W5xpMC-QH4abCB7XxEkyXpMBmabJQQmc6D6ivikL4O_I8QlRX9fsNyzCDbSEIhJvMoccBrANyiSetN8hhBf5fEN_SSUyphrx311Q1gdsAvGsTW5d5v53z-Hw5jd_lX4hcP8_2x7oaomC93jQA-wvExGpy6YZ0DA7xyeikvs3SwtgtyV5pzhbGoIyAC1lEM9MHQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJ29yfv1ydX0YRxfvb3T48q5U/photos/AU_ZVEGyep3LqsH27QAjSP81Ip415_tve1CtboU4odbzjnzgT3fRJGp6nCOUyslBaPiIXjpuCp4el-Un8G4wyvrIwaZ-fcOn0sGFXyTWTduToGpsC05cy-EUnTZqpN-29t4X96ciivZdwVOZ1wfDy43rm_4PyBuGJG1UFSZWLG188RiFwL9SseXqxBoDOfY8OIFygib5gbELrrjp246pO81VIjyI3rPOEpEhX1ZrqxkQ8-aXedjSWYHRzxMw7WS_gG534Tlk5IX5ZYxb0qV7JlI-vMEpnb0TkZX0tZDyeQQ4naQJGyjyA80DWmKsuGju-vLU4bPlfJsr7GIU4RBEkHGML2N__jXoZJTJE-1zpUPOGQMRRgLdWwYKWfBDQaSF21j5ug073ty5L6Zz9M2_WLXkdk3Y2qVrvu_X_E18NprzGwvzwTnk/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJ29yfv1ydX0YRxfvb3T48q5U/photos/AU_ZVEFntLgPoib2BY-XZKXiIzYx1797KZb2wPz3_p2b21Q0j5hQ-OYUNbrWrPNRqeGaMlq0-NbhtykbPvYEhUKONEwLhuq8iEkGhs4pBn9sAM4tLzawp4P95ERW8ONnb-HLzEwLNzOq2zfZvADiOqDT68Mm29s2_yJxKR_YW5l2gye7JrFz4YDM7UoTOjiB0tVabHV6L5GhF4Y3xWe6AOWUQlUPaJRvrJt0k0a9AC4B17781ZcwdO4NfLGi5XW8cBaTp-DOVzB1QqYQw5Zaq5xU1wrcAFU-jku4yU5yCYNgnSn-1L7jLUS0tGWaGBLhTrsGce9PmwmRmflv_yCWZmboiQpzvmKNZ2YVpGRfzf4W_s0hujACJ99MQm4mPEZrpd6b6vk8VQ-L5Z1z4b53DvgPeCvKKM5-oIzJ0wshsPO8mJivrdQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJ29yfv1ydX0YRxfvb3T48q5U/photos/AU_ZVEHKhJA2nBib30A_jCKv9We37QKtl8i-34yCfJSM-lqLO1bAIbr6rfsKBuX9JTejcjx4tQNFnyFqTRALThbAZHxTziuHkLO_r1Abte62WDECnh_ltGwW7TnJLHXpiCJlgyYBEIjnBJ04p5Syq1a2H5_C0r5nOJrP-l80KKFbia9hFRLImnBmXigvLQ8sncP3v1Q1JNUPRkOCAmfM0FaAbVHaIrjpo56_8rLBeUs7pdvk3ArJkrdLJJaZSSfVPfiVAtc8RTFHb-03Bq0QIX58zBZbbhzBsRBYuQcWws2mkW9bsQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
+        "https://places.googleapis.com/v1/places/ChIJ29yfv1ydX0YRxfvb3T48q5U/photos/AU_ZVEFmTvZtFRFi1VzyX0CgNh70U9m0lEbH70TACUEAozrTx2Cih-pcVuWNnlMcKRkzMM8M9_RpukkAQRgEchbWKfiA7WwtMij9p3Y_jK_K0pHg6wTPz180XcLcEX3MfJ1wuOWNoAJr4Zeeee8VfGEuxxQKECMEDLKQ3D4ObcFUunE2QE7Cerzw5SL40QcjWEvWgjyiPsiXFBIg8l6pCBFwhaeUR95L9IDZEH2ApOjwrLzvthMRgMSp93KPQ32Ur7dI9thnGzg1Hb2SPC9YyoR_KrCK6tNg5_5CXvYAiVjWDRZKOw/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJ29yfv1ydX0YRxfvb3T48q5U/photos/AU_ZVEERii40oR6fhj1a_3E33gnHT_xsqv5KezzcDfvcVjs5wzzeO9l_lCDgqUIwMfDQcnPs58FMe-rmdCPDhUSVPWohmFeK95WFb7HDK0faRfBCOXqDCokIJ99Scp_Gsg6l5LVTwfv8y_e9o5P2tyOq49DbVl3-qlC1AMR3f5BLZuWiWzBkhTNiH-oa6NzyfTIz2vSf--tBn7tQkfeSyaQz23UWGD41TllgnNyh6yUn9-aJ61zYu6jTdOgHOy4qAAy0otHkDbtYNylw3mDLLsIzvv3QSIeMRl1Xhx6rQHN1NlAp1GNRdgfkSScVDwRgrkygN8sYaq-Bt-wfmscPkOZgLs_Csy0bS4H47E6ngFQcmavGW5lbGNFnQLphpuidMF4SkltsaUjsoII8UW8UWK_fHSjMWQIMabZrjAuOr8vvUCPY-Dpb/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJ29yfv1ydX0YRxfvb3T48q5U/photos/AU_ZVEE-LkI2UuIsyRlTkIjqh-YyTNp1Sjy8SjSy2fn0tDcmNSjrMTLfwpRmDbPd0Ehye-GT5oBiqPfLRqa5EuybXfa5tfxjxPmdVD2MVc-H30jDC6EehZDKE9XHtHWBqokc4PpnRhmBtGndBvo_V_xhSSZn8jRNsiIZQphC_NxIwxd068vKBFGmXlvKpAMkfMyM75IqJP4KOu0A0IQZu-KyocfU1Kldhcmxxg3CxWAzUZMITwAWCelcVNLrMOSNAH5RtgcDfb4hFhXELop--7ZcZWi_FqCLQXXsK00RqO5Yu8P1ZXz3PVkmlymheW61tdT4xmZ1G4_H9fYuP4idHxbC6FnSIx36mrqxt1E7_dFKry69J-0fPltu9AccB-h_pebCLwZj-KKTxIMx-n9olePOiKHT4HX0yQ-Nvk67_EDoPzIUlrg/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJ29yfv1ydX0YRxfvb3T48q5U/photos/AU_ZVEEPyeOCJ-ZmWg7_-zd8F5DSOeW98rNHNrg7oS6hVjQB49V0WBwAevrLsYRiC8HAkInQWv0nu1iR1XyrH80pgTs8vbTso8tqrRT9bP7mRm7lboGNsCLvuwqEc58GxWSMQX6a9V-RUxd2Ahk3Wt7QTDFI6MGP0i8Tgz1YJ7AY-HS5B1C9Udmuhx8EM20iE0KzSnmujOipb5ErK1DNBKi6UYEGX8BAttS8y97rbWUHpvemaTTBItXt_bEGVz90jvW2n5zMFg7LTOAnX18IZPdOAZZgXy-jCsWQW7oggE6RRL804g/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
       ],
       "google_rating": 2.1,
       "google_reviews": 348,
@@ -648,13 +602,59 @@
         "listing_site": false,
         "google_search": false
       },
-      "last_scraped": "2026-04-04T22:41:54.898886",
+      "last_scraped": "2026-04-04T22:48:30.029673",
+      "data_fresh": true
+    },
+    {
+      "name": "Golden Hits",
+      "city": "Stockholm",
+      "description": "Stockholms nattklubb sedan 1992 med tre dansgolv, dinnershow, karaoke-bar och restaurang. Spelar hits från både nutid och dåtid.",
+      "address": "Kungsgatan 29, 111 56 Stockholm, Sweden",
+      "lat": 59.3357435,
+      "lng": 18.066887899999998,
+      "google_maps_url": "https://maps.google.com/?cid=10287176519558303528&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "18:00-01:00",
+        "friday": "18:00-03:00",
+        "saturday": "18:00-03:00",
+        "sunday": "stängt"
+      },
+      "seasonal_info": "Dinnershow 2025-2026: 4 september 2025 - 13 juni 2026. KARAOKE-SM 2026: 12 mars - 23 maj",
+      "age_limit": null,
+      "dress_code": null,
+      "website": "https://goldenhits.se/",
+      "instagram": "https://instagram.com/goldenhits",
+      "phone": "08-505 560 83",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJ6cY8Cl2dX0YRKA8Dbopkw44/photos/AU_ZVEGGZPI6mJsxDW2D5f6qsd9pQVPyxzR-b67VvZ2RDv9YzJ8pftY63JXrud-JDhhhDVW7DuOkqOoRGVT2aopeJSiOqTqa1rXWbNSMx42oxqrtct_zZ2gqDtiubynNF6QO82pVTcpDjqlJvtM56SJowX-U1yRSiXTObw0LEJ51ktld4gSPXC6Ldqgovq8VL-_kT-ASDW9WuQDpfzToLYRh3tWtWCIq0rRgm4o4UvMGxyS-IPVhVY7J0NYQzlFYb83ECK2zf3pZw_DxWuSqnDFFaT8mpBFs-bMZ3kuvkWzd_bKy6w/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJ6cY8Cl2dX0YRKA8Dbopkw44/photos/AU_ZVEH_UVIDZLNSPfozNt_pTez0iFpsI7sh1zP8KKxqPfQS1R2eGD3HCxEorY22B0ApIwPWg-1KvHN9WeU1ThFdS_SSf82D33a0DiWTgz68YmF9O6isxPHJhzNg85Z0uXVm5Z4Kq-dx_fhaTHxbuG8W7xTH3-RPv0AnZC78cfpIUUdNAvrq9aaa185ICnPGJg9NKhXrE3H62Dl3WbH8HJnTl88EMyt8ZztNMpBAeN8aw9xpbyfAeQvCgOWzg6n7mRZs2UHsKbDskQqq6sWpXoRS1cG41e1gTdGR4PNHYL2XSZVwBRsc6H8QtrfJZIhjjrmZUi80IwmNZg0rx-87YppGX1w6a4MUWsMhozQm9iAZvP8G-A1kfNTjq0Z0VLRHqI0bGzTkTODjuSvexSXFXbQ7M-E8VSZi68m_f25VOJAYFvXP_DHmzwQGfrI1pTjLBjnl/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJ6cY8Cl2dX0YRKA8Dbopkw44/photos/AU_ZVEEApZDB4ViS6Zo1sTnwGt9-oocMaH9N7dCWqf__Qar2uR0aJQwa6T6FQ0hOEPqF_VWbtV77bBFaKnLTefR2eA8m0YEWWfTWryH0r7RtfGCC2XcfqR0tdWqGvpK3Gqec1CuyO47jDWD0dh9lPCxIb_qGzRTooxWML8n8TlVPXahGmXMQsrOWYfWxeVF2i5KRObVc69TRAeCC0G-Ryn-aqeTIxOsESpWI4fIXZA6jsGQeXmsQJ5qKS6v1UcbhpU9zQ_AYXjwgzDyeysAmcEx6TbcAWcQWMwYER0AzPZsad_pnqBOWH7JAgtKRHEl-rhI0xHJi7YwiSbgHRLXM8EMUXxFdwZpyhEfv9opQfbrQwxXPTr0n1EQ75u6TG2GcaIZOljRpEZryGzImA_Y83BsfTlK3uS_CfFMjucVoRlvE8Tz71A/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJ6cY8Cl2dX0YRKA8Dbopkw44/photos/AU_ZVEFiqBSdPULtgHGMdfy-hXPCnNS_0uHhMiXklxKTUvKKkKS9LX98cwcBAnM2Pf3gM1RKYs7pQHex7jem_Yhdq5sU9hA3OvCv5nh_s4Gv6DM49lx3gslGOrxsdOTVRXmoVvoHKKMAdpfHCjVji8wFMcONYQh_L5qhQCt3ys6rkeOWa9mER_X0IALHIgaZuCk7hu0KZR9olkKr4xrtRpVi_8Tgx5w9b3OiNXrrrwYrvk0bSRj_vtQuxfsdUPXR6FlWLPpgyvFLV8begSJg49Y1AHVNflCDfNMBxqVer_LOqreGHmKSbGjwkWk4mrpsejYuy4ms19cXFq73k411KK0X45RyJaXY_I9dhn-NqgyFUZEnmWzBLFbxTTtp_rlp42gE77L-8r_sCg6tyW9dsW_fJTOG7Ks6i3HmbBHut0yi6uA1GaOJ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
+      ],
+      "google_rating": 3.1,
+      "google_reviews": 801,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "website + google",
+        "age_limit": "unknown",
+        "age_limit_source": "saknas"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "google_search": false
+      },
+      "last_scraped": "2026-04-04T22:48:35.240231",
       "data_fresh": true
     },
     {
       "name": "Hell's Kitchen",
       "city": "Stockholm",
-      "description": "Vibrant nattklubbar på Stureplan med tre barer (Rockbaren, Schlagerbaren och huvudfloor). Känd för dynamisk atmosfär med blandad musik - från singalongs till modern house. Attraktion för både stamgäster och internationella kändisar.",
+      "description": "Vibrant nightclub på Stureplan med tre barer (Rockbaren, Schlagerbaren och main floor). Fokus på dansmusik, house och sångarrangemang. Attraherar både reguljära gäster och internationella kändisar.",
       "address": "Sturegatan 4, 114 35 Stockholm, Sweden",
       "lat": 59.336483599999994,
       "lng": 18.0734677,
@@ -675,10 +675,10 @@
       "instagram": "https://instagram.com/sturecompagniet",
       "phone": null,
       "images": [
-        "https://places.googleapis.com/v1/places/ChIJNY2amFydX0YRYSimGdqOH2U/photos/AU_ZVEEuNBZuQ4qW6N5rvCOK32kWqP8Si0G3rbJmC6ZYRPiItgQW9DGE6vXAOTlPg76xtLP7KDCgtcUMvXrFWk3DnyH_23fW_zxODYgBCe3-iSi_H1e_fQvSFm8LUtadRJVgCu-a7URxfwc3eoAV0cNeQUl8Sjg4i9upIXZ1u8sXxnQODgaOeFlU4AVX4imbqMWy3_02Lr3d11zE62yFpbppzh0ngX18KgO7S3EI3E22XrGFPRHZjj3FzeDD3noGVmu3UPmnnOfXTffwiNoKb__5h8Gs4wIEghjqgI39WB2L17b5RA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJNY2amFydX0YRYSimGdqOH2U/photos/AU_ZVEEYkjrTpFGwC7q0WqSTbusWqpW_0W_43OL-go_Cun4C_0Me7C4BmIzpRAMVLYMq7Zr1joSrZEMcsgAPTWfs1A4O2U7nQA864yS2--9T-9WUQWCiQsOqpnuQh3PGF79-oJZKOC1TrbEIFO5KQz5ukntoeJOgmERWiZa6CNRQRrUNSkyFXuNqXto4VAzPtMv4pKAqcBpRHekXazuPsS2ilGfpmuv4tvqeJjzV-xOz-K3gw0_tvrgclXOjzCvMWv5bQuMh4o0N9IFiOa9tWVxhaxh5SzD5g_WY59bMwSiB2V-Zsg/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJNY2amFydX0YRYSimGdqOH2U/photos/AU_ZVEHS7L_wIz3EJNsoEDbTwC5nVR-zCevoFV58a6O0lR8HTNFrGVLUKWK4nOTYaWlCc_jJlLHfQkCcGDtde2nGnjPpE7nC7aNPNuWkXTyIY4lWwduMOcWvehrzibmBmoHcXxAHOGI5KGcHXUKP7h3_UkkxhL6uDqYSwRVTJ3lFaHkErt4JprUqXEKMDt3NBn46JB4rp2QtHxvLXIZcarOOlZh3mlekixu_Yrq8KYBHZYuHQsfszHbbeeslaXWgzHI8UfC5yu2-bnLgO8kHBRQM7fj8a9sZMpO17i0ltyMVuKa7p2XCjQcxdPeRxK5m1VfL5I4X17ILeCgvGpCYAwb3Ungep0IxRzCFQZ0BdV2TSLGIF24c99xTORoBPPPnNc6GrTPS4VSCbdb6xkPG1x4qYxX4BojubT6Lc2lfxvFhCNja2g/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJNY2amFydX0YRYSimGdqOH2U/photos/AU_ZVEHF6wHZPBeTroFIBRep1zEl7KHf1UzbJJLbQrDcYsWM1YC66x1t8LK91s5faePqcbxDIx9PS5ckKM_eQ2vGWpDqmWNj-VxX4CuE1y9IOGE1zGhIP4mSEKSW39wStHUxJpxOaw8wZ0ZAGJp6B3whOSW60Juxe-zwXzdz6hf-zLvPNF4e9VMtOIb2ad5JpRGEacI9DYTt7Kb-PxVOPohSiaaLVaA3i6HkIZAbaTAqq2pIXfzH4vBjE8UMXOyfcPnppH1szCQ2x1gseOBUb6QBeLJSaq8Qxp3JAqFx_lcZcEt9SzQ887uc5pu8H-VAyG5708vYY6MJLT5iCdDXZEW8ioBi97tmNTSH_Qzg716vGRI81svECnc-1sQ6Tcvw-SUB31E-PyTUj3qo-WOASQ4NXV_160Dno01NIw0SOfbFoNX4xw/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
+        "https://places.googleapis.com/v1/places/ChIJNY2amFydX0YRYSimGdqOH2U/photos/AU_ZVEEQ-bbepBYN7tFESdLGyFQuhBQj6cGVB7GrL5VErCLATrhMWfGWu76v_NalgfqPMbRDdsHgBeK6garfKbAfqAVLm1NzhESNhzq8iMAnawXVn-nNS-zIFpGqSiJugaqQrOKTGZXrLJQ0cuVAk7dX-asZQRD_nnhqPbNarVOJz66pW97BsPzS_PGs_xQOtUsJe6vR3NOxk0EmSE5N1tNfnwD2VoZfG4VjPoYyrvcw5PBw5t2kFJLm5cmwxCskpTxiSAsuT6ecsrQprcRzPdafkqF5PBN1Ko-lAbA_4QDR1M5ohA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJNY2amFydX0YRYSimGdqOH2U/photos/AU_ZVEHBspnK-0LGuSnFV9qZP5ksxeM3NvlEorFx0vKEgbfLReZjOpV5_aEb-Os-_Tmv3TDBm3qIRCtZZjpqJHMiBNsNPAXxdyGZ-Q5mFJOzUY10bnB0jJVuRYtT-G25aUI_AExixFdcWl-2PnSXLVf8efkEfGR8C5pE6tKVhFhE56b3OHUQhae_He8P5ODflApOjN9n8tw_n1JppTKW5x6OnL0Q29vG3gDGnO4sLywR0Kty57LsX9WPd886VUEcQSJBQxDAs5P8WTOm7-wfm-UNXBwI6r3rV9NKE4zCa6Yi5ecsjw/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJNY2amFydX0YRYSimGdqOH2U/photos/AU_ZVEEigg2efFpL02_CuMWQHtED2rovKqzkqEFy5D3aAEF1kgzH_hsoZPxLd60Ox-jBmd_8-hTWeotvbskPIezFYQgkNkWUGyXkGjBdrRvJ8Gloa9tfwQtvERm2-ar9f6Z6dUYj3FSzpCyOxVCvUZ1sxFbBTBbyUg0BgGUnos9xyBA1SJ7WI7ZOd-8fqZ9pgJ7LqDqE7VvRmubR4pQqOvwh9Mqt9n2CdlGkRKrvq1bk9rtjI2Xcrw_FHg4LOzddX3rMlZn_wAZeeQXCae3EjeJikFa8bwgvafr95RnmN_N_EH4qsa82G01vToY-pwSsPbLvaHAKHG7FeGXc5QPNXPTk127ZSTV8WgH74CUQRnSyZXO3NzhXkLI-Fww7PVAV4aDv1y0m30eq2XOQpc-VseKT2pZaQ6QcacAAdRqbBx-79vnq9Q/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJNY2amFydX0YRYSimGdqOH2U/photos/AU_ZVEG2ZHftKFoe6XyrgFzGP6ErHg5PGewWHkXHkpgAP1WOXSLWhD5cTj9rKeOFjujUd54RJ6gqkgI62IpQ_kdbeamgTi6aK_bdLgzP_FR5NmrfoCyuzJ_5BoHoq68EPn7TEyw1Pw1M8obigdhr_2cNwmSVUb22NgOzkzZ601hKb4ORl4kmdYz4ce8wTezD0F4UuPMGy7-IE4IXdF1fsJY0gZjpM-CM2nlLNixHW5NsaGl9VKAjcDvVXtE_vpfxR5YZwA3slMPTAKeU9FZIX-UwOjT_N8Jpxahw1-AOJ78649XwSHTMcL0LGyi8OadFUYcVhfllqg-PasrVf2ZGzMzWGpGyQhEIyG6-lNiT2Vs3U1JVEB02rQ1BUdzKWO7pMXq5mk85HKB2wo3tpvYBpsCVXsoRNBSP98j4Y2DO33_eMDPH4Q/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
       ],
       "google_rating": 2,
       "google_reviews": 200,
@@ -694,13 +694,13 @@
         "listing_site": false,
         "google_search": false
       },
-      "last_scraped": "2026-04-04T22:41:59.575524",
+      "last_scraped": "2026-04-04T22:48:41.475292",
       "data_fresh": true
     },
     {
       "name": "V*****",
       "city": "Stockholm",
-      "description": "Exklusiv nattklubbar på andra våningen av Sturecompagniet. Intimate club med kapacitet för 250 gäster. Uppscale atmosfär med plush interiörer och premiumservice. Kräver strikt gästlista och bordreservation i förväg.",
+      "description": "Exklusiv nattklubб på andra våningen av Sturecompagniet. Upscale privat klubbatmosfär med 250 gästers kapacitet. Krävs gästlista eller bordreservation i förväg.",
       "address": "Sturegatan 4, 114 35 Stockholm, Sweden",
       "lat": 59.336483599999994,
       "lng": 18.0734677,
@@ -721,10 +721,10 @@
       "instagram": "https://instagram.com/entrgroup",
       "phone": null,
       "images": [
-        "https://places.googleapis.com/v1/places/ChIJKTmLo1ydX0YR0v1T9TpbfWk/photos/AU_ZVEHibXMBsNkcMgYl6Dmf3PtY24emXEAlHstG8b8Dykvj5r-aDpgs-CA2avZCq6QFStAJz_Xu7HYOsBvLdLtCwd96nxp4ttyQh-u1UiJzvNr70AB4Uz7M07JWWa6T8jOhvk02PHiaY1oOgSAuYWrKIV4RtH8d8VEWFgGJYkk4uEch1UCwQtO1Pwf_S0SMXYI6kPOSN_S_D5B1TigokY_S-Eljh8zM57tLBuc-3OH4U6CBIQf_nGUZ8DqrM1sZEql4yyzr2tCI9VkKtlLMF-f5JnGJHT_4OF78MBhTmPP32djrew/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJKTmLo1ydX0YR0v1T9TpbfWk/photos/AU_ZVEGqkF29rRbnv8C6d-g6CTD2oHdlkBBDdu4eurp-JhYhbcz2A6idbpikzdX08EiKe5bMnQI5bxAHrAB5SYC3f-idEx-XLH1IV8HTl9Ph9SsQJ5cEz22rH3TASpnVJOy_SyANClv3hJFYvesiUwVf2cF711qxxXmWXGtgeXOaKIBeIxElGl869hJOGHyabwHhy1HZe2Ccb6vzOobm27YpJfDg3G2pP_oly9NtMI4F25rjYJyTVUaS1EJs9ES1sihKCR13Qgk0565n1M7ghUO_uG_uS4FIlS-hKn6NKibmtn5t2A/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJKTmLo1ydX0YR0v1T9TpbfWk/photos/AU_ZVEEAKh_Xsb1Mi_SQdceRMBauN0N3Nd4fhhUgwESkmZiU6fcsmdFaR1rEZq4L1uDLWrBPlZglKAKbnv0-oO_fSk_iapzZoREYIBOaIsaMiaWanyqWB4Exs6dnu1dVppC3yCmVu3b7YJ08zz1QEdK3lS9qNtGdViAP3bwIHgxUOYyq3QjxFiE1NWjaFYNZjxwDTKVBXhP30-mL8K-PeLK-iNYCDt8PijGE1SMRqFj-2h9jKVjZ3BirFVCD5YZvObhTp2YdV5ohMz_y-sIKl-x9P51zYqbYY4IhmYRjXOf6KnZJYZDM7NiV8cobgRGUHroM7ezZpNKl5vRB2_6EXm9pEEn6q0zK4oRN6I13BwTx3en7lOuUCIlDJLhnMgEpznD0xcLLExCQGoZs83inVIge3J9eCXHKh083XVclptw-YaEKbo8N/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJKTmLo1ydX0YR0v1T9TpbfWk/photos/AU_ZVEFlxzmhm4snCW3Fq07heI08nSunmU0m_Cd1pZaGa-addJYu77yAS8z_Rdx3DuWHuYdh0CLsmTfXJyX2Ape7B4wgXM-GAJcBwgTQzXPVQar0VsHWcmsAbR4c9qiRUGUIAfCpkv1FVE_W5qCb6R8-HFPXky3BWaOiPrjxbAlHa_vU4fkzcO0eR1F6TQV9B0kmEHZKUjLnd88RHjnu1vdAJLi0jVzy9Y1aJDI6gu-FqJYeK3TG18a8CflCpp6QKIWSBBeUjVBmWUqlmjqhZsxX7xxj15lQzZ1scvEHopBIWYPRSPv0erlxVVl64oKZhkULW6M4vBbgd-SlfivmTAs8Y8XWUAsflSMyceZrN95X_jyY-4N61nrxA2CJGNEOj6t_tu_O_hNBEp762o9nl8IHUDVeoNiyCZsA-xSu2cHrc_431Q/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
+        "https://places.googleapis.com/v1/places/ChIJKTmLo1ydX0YR0v1T9TpbfWk/photos/AU_ZVEGSyEUhQ-ZPqIRt1kjlEdRzzKpak2yl4jhonY_Evo0eaOduzC287q-68sPoj34BciSWOxuBJG9waNxFZ_s1YuCez5Yg0KSJ401X7GBnb061Vd28JWtu2k34gEYLq8aJAR71yQXFrX7805pWJR3Xe4SPnVcHKXxAkWiBVvfnr7H97XiruUgeGgyj7p0PYg95bDBv0SM4vwNZCikuQPmNIpRZfV4csUITHftllGImqAu_87r8_02a7wRX-JPupjpy3cbG5_DYTBmmkoa5Q53wT4D5suPKvWYa-Y3bOFOIynimMA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJKTmLo1ydX0YR0v1T9TpbfWk/photos/AU_ZVEFhGuHdSlM4hEyMRYAtxzhD-O0z8f5wn70jpZTw-ywGOYfiQAy_TD2wldEzhHsy8X_jX9HpTMxWOBvWw82C7y6SU1mtMmDoDG3ZomTeRNMLK09wwZydIjr2T-h_TRKsg88u6vED5RCPwAT-Q-zwmeaixUiBla2GUihg3EEF1fandh8WJAhX8NAybiWxe9tZYg5bpYfZjZpd-H97un86pjihpArEa-XRpR6Y87zo_RytGHpbqIGzxjQqEclaA-fWNyAeM3tpgiOacVxwb9MYUwa4WzIBRI7gF5PvAprfzgbuKQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJKTmLo1ydX0YR0v1T9TpbfWk/photos/AU_ZVEGO5pKdUjFouwKX5kI9x2xwbLKb0Rf2PVHVN6wyyGg0msf6rHjgyrzLysc7YMR28V9h9hAXrdrFpoODsakPgENu2U3729bK2S2SyOYP4_q_rbwvx-WZOhi7jrPqLbMo-u1Eeo622mLp0yOn9y1OTdvG-PysYEd6S9YAjEad-6XwydgWWTjvjCHC2lA-2gMw_yuO5_a1Qy9Rj9_s6eI7Uk5fASFVwlA9LjnV61jPItEoS80-ZpLfhg0iOWiWjqq5D-V-WSIM7q4u3McdrmoAH2L5c9GK_yrgKGkh3c88tYhJPhnb7UMF1hFKvhCNJokZxkPCpHiLnzI3pG0MgZPhF9twGP9ss6VAS_xK2nn5RNtdEM4sEEpBq-RqOgIfOaPAdj8TDeVpwur1xGTxqAsu8wLRuby58SVKemyGstuMyKU3eKfI/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJKTmLo1ydX0YR0v1T9TpbfWk/photos/AU_ZVEEz5zNtCz7sEQPqvbmkmIkL-9zBGASSGzBAPFciw8HRo6Mxgc7UggNb9sLMozM2KcMw9Yqck09W-Ztn-VYaMKGjzhU0aiKZLfFTyhM6SQV20boF_5HLbHdETuuXlGIFF5aFy7IpmD9R92PnPCfQsbnYULHw5CMmqtVjeqei8gZVstCOnKal78fpczs1lXLac7mgGv0QgS1WPXACz5Mg6zr-M2A0-c4f7dTxBAT9ouoQjN_hoOUNCPTXFSHn6rC65BmjDNekq5frGvGAuzWfCFosYqmnBSFMF8FJaakPOz-9TSEGvlie2v2WilyJ2FGEX4blufUrzbzB7-en6rDPNLAjUImig4ZZh_mxIyipI4aZGqgf7JRY9l9vbmXf38vSNX_xSUqWkKjjCMvnLSYqJ_vK5_g4roX4u4SMv5Z_Mtrigg/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
       ],
       "google_rating": 2.6,
       "google_reviews": 37,
@@ -740,7 +740,53 @@
         "listing_site": false,
         "google_search": false
       },
-      "last_scraped": "2026-04-04T22:42:04.493370",
+      "last_scraped": "2026-04-04T22:48:45.599088",
+      "data_fresh": true
+    },
+    {
+      "name": "Patricia Stockholm - nightclub, bar, karaoke & party venue",
+      "city": "Stockholm",
+      "description": "Nattklub med 4 barer, 3 dansgolv (Mainstream, Nostalgia, Afrobeat), karaoke och casino med Black Jack",
+      "address": "SöderMälarstrand Kajplats 19, 118 25 Stockholm, Sweden",
+      "lat": 59.3213806,
+      "lng": 18.0525306,
+      "google_maps_url": "https://maps.google.com/?cid=298178210266020886&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "stängt",
+        "friday": "20:00-05:00",
+        "saturday": "20:00-05:00",
+        "sunday": "20:00-05:00"
+      },
+      "seasonal_info": "Påskfirande",
+      "age_limit": null,
+      "dress_code": null,
+      "website": "http://www.patriciastockholm.se/",
+      "instagram": "https://instagram.com/patriciasthlm",
+      "phone": "073-652 72 82",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJKai7pPx3X0YRFvyqnoBXIwQ/photos/AU_ZVEEVKVuyy5H3uXxoPA-q6Zkonm_mHEBhDj4grzILCU7kfIvuTv1yaPmhjlONsqnGBW7SiO4N5EJO6nkEndPTrb3y9eeGvR9xGd_1yIHhPChkHNOzx8iTIvuut2PgN6kczK_kAJNlCLp47cvmniB3PU2pAYac8haC5tS3m3OEvQM8higY15R3hsgCUai_1OJjwjjm2k7kbX5vnLGBT1bR6XquZWvYiAO7wV5AHgn19OGQzqkbOW2YWGKsnJOIHp5MOSpF0aJzDWTu6VCqp5Tyg2gUDNqc790eJU876Y1R0ThJdQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJKai7pPx3X0YRFvyqnoBXIwQ/photos/AU_ZVEGaNgYA9XZO8efSJNJiqPX2QK-8Hl8qrpg68GxMRhWpLtxpxSzusB_ZflT2uFHc9tgzaWpl1cgnEl_5mWCmX_lbhVTTqo8qLn_hC4xI0g9II7-plEaK1diEGH__vdSlYhyynGzw_fYbvmE4I913yexLxx63iDlcHLfKAS2rhAGGHfubyiFXIpFNvbwNY0COHgZlTpx82qUiAyEM65ZM4vRDO2ntWVpTQ4RYbNKnlmObllG9HsbOBJCjpB-6lbeESqyIuCncI3qN2d3VvoEDT6niLuKNBgc9EC8cSxJ6n3UXqAOjENQGZiijOq7Hb5ku4h5WeWSULSh47iYWRZ8btrgFpqUfF9_qvaqCBr-E49RkK1H2bzGy_Lut9bJNDWmfAdJzKQ0_iohzUoTqkKaBoMglGGpxnwI3Rqlt3fhhT2xKcmE-/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJKai7pPx3X0YRFvyqnoBXIwQ/photos/AU_ZVEHuB2QDvj4BqyvYlzNSsVTrv851FSc5Bd5OYe73AQZOvKrbZ6cZODAc8BSecwQMCkX4U3sv3qdHlb541u6sDuvEzma1jhFVqSELfN-cBFDwEHIVlS55ngqS1cv9FTByEenbbEku1aB_0rOdxC-bWZBXUC-FvQnlAXXlllxQu7ssk6VmL_lxFx8SCFCl9G1bno0kHD9ASj_-5SoD1RKdNRQWgsV0W6fVawBgw1OfIeJhEjui5SNNh7HLqFh1-ggdaNLJV8FFsT6zkHv1n8LLWXvfC9u3W8OvFRmW-4HJ7VEqjS0khPeZUF-vXk9sagsqmsjvGUwg3Xs5l21zFSQVnDq1e5E61fVSjVTF6dKk9Ip1NM2LvlCRPmsC2jzwHi32muuyGTF1rtSXaKS5fMZm8ufTaajPvtOYTntt7UdAjrewpV-A/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJKai7pPx3X0YRFvyqnoBXIwQ/photos/AU_ZVEEuniVhcjWIibrzJJBYVSVWFGaIcZQWrW87fbGppa8L-VYrz7gCXKy8Gx1Ozy_n4rQW5FJJWJ6wBxBEhcnWMeW7AZRleoaTU6zxTu4vZ2U6R5byXrYq1LwBrrf78CujLBn05uOq27kvDbEiyqwlGRwVXBCFoJBDoiCh-zYFrohCLPmIhHb8KFAyNu5HNWXkSMLzn1i7BKyvsunXALdAbT9uk0x5qKZZKSM6lWSzDW0aMVG9cifZQ2T4irGctbQeHVMB3eg5O8I4MATacMx5lykHa5mIsuaub61b41AmwJKOlEjWQZfHXUnEA_KpWDgyj3cTGQig9OkkUlOKXtjMssEri8iO21BISDI3anfuELXqeIc6YZsp03NRbDJs8hXgw1m6I_rsfXsInli0RlYxu_oRYLC9Z0Bqm4rntZBRlRxuzw/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
+      ],
+      "google_rating": 3.2,
+      "google_reviews": 1584,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "website + google",
+        "age_limit": "unknown",
+        "age_limit_source": "saknas"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "google_search": false
+      },
+      "last_scraped": "2026-04-04T22:48:51.558111",
       "data_fresh": true
     },
     {
@@ -767,10 +813,10 @@
       "instagram": null,
       "phone": null,
       "images": [
-        "https://places.googleapis.com/v1/places/ChIJ32h0xiV4X0YReAq0QhWYC24/photos/AU_ZVEGef5EtYeK4-yTU63kTmHy8hXCz1n3byi3O2ZzGrfKoS4PrypzV2uH4jq9VxjqLyov9ymc93aEU7y-bzMQzGnf3GVe5KAh6dtls3Bxfml_MwxhMXZmgoU0s3kUR2zXp5gU0xJx2fF64aLpD2jyDoKTpBiTkakqWRFi-wKT5WvOQKbslFYrZ2a8UURAZ7v7AwMHwtA9pjoESDNRh4d_SUmgaYjA_XWdr8YPjn9PRhwoUQ4yBT7QcGaisW4LtmZzx88SG1jDTYcatMJ_EhDchoZFNQKbV0gGVKhsiMJwxi2KH3tkQvoeDoya2X5JAC37MFe7XICnypDXC96OTB_lgUHDLQB7wniwdX_uaNjxWmOFmJ2-y_ikc8lNlhMimDv-d9G85La5VhEMw6OjT8iP9YRBIL5HGwm_AfJimINRlLc9M0OjE/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJ32h0xiV4X0YReAq0QhWYC24/photos/AU_ZVEG9pVUPXGWwQs9Via62K55C1nPdnHx1JCaPYYBkQYZfWcW_TEhzKbn9v50TchmLBUiacI95F8zwn8njOE5S5yIXNiOMdfZOlNhham9UYYZDcn4dqIt4E-oM_DoUp3YcJXrqVxFk-0Z40NidlvIJx8tXbzIFyjwsREUD13VqZik4StiL5MHF7yzFKs7gxTQnombTpuaomaLRdYju38k_qSaz33VhwR3UdGhXAk1fL9MpRhPZoShFe_Z9rCor04mE8javlQk7fyV7c-mKL_nah3ypXgFi8-vxdRuDvm-qymBAMlxzYtoRAad4FxOzOCinnEG4CVrHZDRvRYxsidHz7Jpi-TtDis3c3XdRx423iQYrnNU07PEDpb_i6toKcR6G-EN4Q0zbQhSeLgF6BlHVDqXNKPHbcVAFDodcRcUBhLOZ_KY/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJ32h0xiV4X0YReAq0QhWYC24/photos/AU_ZVEGRtPsaMM7uci4QMdYCqH3uuSoZohRyk4bUPObPjJ_JTIIsCZ-cMQz5BG359y0a5CkRN698-8r3W2y2TsLUn-r9ysvrJsc8F_7XP3jUUK7EhWmi2lVfhvxAizqY7oxxVhQLXZgsuTEhB0es9hshDLgBJ_gUvzUYabY3Ed69u4RS9Mu2nC0Cve654ftGjnRylkRxdXB4tGNPx34D0sPSrk0sI8Z6OdlAqW-_cLbhjU_PcKM-lrchMH3Q63EnPPPiVIAPlpqzCUQ3ujIal-u8WNE-HGHwMUwVHMhGUId57S1yvg/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJ32h0xiV4X0YReAq0QhWYC24/photos/AU_ZVEFohETMTF8_YzAC2ft-k0657cuHxtalfNY8ZKH8gSmRoDir4xu2beaMZugtS8kJSe2L0t12rNrvoFTH5anaxt_ZGMEHx7LBHd-Zg0kAt6dvdBBVF74DDZBid_38r7XF49lufr62qquIGQHjtYEfmCjXKmMweoJDat27CZqSsRxHA-_2Jr9735zj0ZfKBLy4oViM1vRDh02L7ixyMmOqOOeHXHJdptqMtl5t16CBwMHVLz4i5QpkzHFUs6UwsyRI3TIaOHWgqGvBx2LtnTbjJOKRqDDoXISBY9VQ-zVw_lkTppFdTbR8Bo9ExDETWtGVRJat0W51on0kobeEcho0hebaoRIR-E3QAWwzaKmtv8b96X8ad0W_mmVuYJLkbCH3qMo58jZzOM6tE96xMivtGyg3bMQgojCM5MzJD97OckSGu0Y/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
+        "https://places.googleapis.com/v1/places/ChIJ32h0xiV4X0YReAq0QhWYC24/photos/AU_ZVEGQA0CZo8lFH-27FpaOhyY5WpV6j4moHxDcHaFuLQYa_lVLDgnTdbCGzd9Ynr5l-wv_YBWYBX6ONOthnczGfXWEnIY2GByb85GSS68hIwH4QQXk0fDdWbB8j3RoKTxGHegSdn-GqrAl0Y9ksS1U8AxH3dGPy60x__HxaTbyWEQGz4KYMQtBqGmtTpugGiM6RltYJmu6TTQDQbnAx3YqnQgzHoRCrvfEhnjunI0Y3WNe-7jN2GWd-uqgTAp1iZKS3MkM3F-rq06X5POfi53i6HA_YImbu4qkqzIfAEAPlftHjfy9ci0L6D9o--gNb_-Yj5edtyv4OM73y8-KlJTPmfHBuYoete5ua_TRJC2bDP0EL0aBYqo_Pw1PiKwSE4L1HHT5g21wVdKVS0C03PlgHZ8xn_Geldg3van87aq2p7YHCaKV/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJ32h0xiV4X0YReAq0QhWYC24/photos/AU_ZVEHESr_eVT3hHG7N5ydPo98NIf9ipmoOx_5koCdurbiyif64G7cugIrZsX7F31iTyvWzzqkDaga1MBoLq7PzNZ_2oC7YGqz-X54uIjOWxCUvJiDhQGCtjGKakWGAfhnAxbONBdGPQQG1ap8tfI654IEmje7QyKTsfG6YN9j2Wq-BLk5-nplgFqsWlb6NmWdSaHEocXQezTzJETefzktTKdjkO8Vn664qsbCeSmir0_H0vRZq446uzvjjYGNzCLKBWoxgkEg7SQ_3Whf75Nn28WKWWyYOmarEzYvRmhJiIwTyQ4esUnwo2Yel1CcvllcU-2rt8vsgiQOY2uS8CwgKSRGFJ9LzlS0fvvynza5KZMs5DicAC7g5Npwo7Uv3aBNujwhM2SjZ0bPDgiW_bUQanCe9lNp3qGirIUXL85KjbzK0cxQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJ32h0xiV4X0YReAq0QhWYC24/photos/AU_ZVEG4hwXXeTmIBPuJ9BR0xl1dh7Dop73qOUUBFh-sczy48JE1cDQiwUUnpwQJ85uEY0S4aIohNKY8unewrbe_l7m_w-ENk1S6LmjdN5iWBzvw_uTx4LxtkOvIrF8cJikrRc2IboS1Pk7v1d_DbkX3rqJtBdIvI1hOrrr3Kd67cMmwfyAFCRGPXWbke2WfUFrMHB0Kr4-YRSfTjcx6PV85QwjQ6otEyQ0jZwahdsoa-UO1rkg-RMDkcnRp7eso3zdtTe0c_yIrug-rCjKPXnc6yqWbaXPQ6sjvLAEbEzoi5bmNyA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJ32h0xiV4X0YReAq0QhWYC24/photos/AU_ZVEH4pzctZVoQ0anAMrgCQOxbZUOve84ogbE1ojdWBwjZCdNn-9pfhodUEwInVfw4GK40gZfV8yGOVqaM4WdSSFjJDFiA4yjt9mWTRCUhn1rnFIqZgY7exhRMPm4UPrWW6wNW9xsoWzUsa1QlGtKfkYWr8PhRafXSdmBsOqk_LcIBwA2yFe5b7HHCnzxO1f_2IGArcoDANokXaAiYB46l5Y_y9C9bAHc7zrm90IsHqDGUr8eV4OZ7GdRToU5w545w8ainTQSzN--tjlFM40ReOHoQ8N_NmektPe2-NIrBihg00naluqpXiGA2cTJflVG6Z19VfZUrWuq8kwfeCpCtpKCrnsGcLIvnEMQc_J8bTYOy9KUHi-IQcNHDqShHN8CvhxEYYnZT0Vun52PdjQKEzCucMUgBluZ8vu-WOcd7fdPGcTA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
       ],
       "google_rating": 2,
       "google_reviews": 315,
@@ -786,59 +832,13 @@
         "listing_site": false,
         "google_search": false
       },
-      "last_scraped": "2026-04-04T22:42:09.101161",
-      "data_fresh": true
-    },
-    {
-      "name": "Patricia Stockholm - nightclub, bar, karaoke & party venue",
-      "city": "Stockholm",
-      "description": "Nattklubben Patricia är ett klubb- och bar-venue med 4 barer och 3 dancefloors med musikstilarna mainstream, nostalgia och afrobeat. Klubben erbjuder även karaoke och casino med blackjack.",
-      "address": "SöderMälarstrand Kajplats 19, 118 25 Stockholm, Sweden",
-      "lat": 59.3213806,
-      "lng": 18.0525306,
-      "google_maps_url": "https://maps.google.com/?cid=298178210266020886&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "opening_hours": {
-        "monday": "stängt",
-        "tuesday": "stängt",
-        "wednesday": "stängt",
-        "thursday": "stängt",
-        "friday": "20:00-05:00",
-        "saturday": "20:00-05:00",
-        "sunday": "20:00-05:00"
-      },
-      "seasonal_info": "Påskfirande erbjuds",
-      "age_limit": null,
-      "dress_code": null,
-      "website": "http://www.patriciastockholm.se/",
-      "instagram": "https://instagram.com/patriciasthlm",
-      "phone": "073-652 72 82",
-      "images": [
-        "https://places.googleapis.com/v1/places/ChIJKai7pPx3X0YRFvyqnoBXIwQ/photos/AU_ZVEHdFsYbc1E9W1cNWxF2vlVK7b5wOM5o_xce9zm518bHO1r6bRaqmtCQXY5_1Q-w3G4_s0Xyxe_ujwg_corVswilueqOsdfwq76-So0YujHDPoSWC_HVw6zMYH2xtfDERBojT0jXW9GyfMx-a_AhMmZymTOel6ZZAL_oUYl4WoOZJ_ZT7Bcvqgj5uIP3zdw7A8EBFqcU6bEhslZPLOu2EWFofyhTkHd9II0HA4GfF0OL7HVrpc5VDpp3gtxlGKjfXtIQDXcTvwzufL-E8gkkgPeUSKdjyeudPE2yT6WUQ9ARUQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJKai7pPx3X0YRFvyqnoBXIwQ/photos/AU_ZVEE-cQPvVRl5Skw4r-TDvzL5vOjQZeIJW3d7KsXHHBq5aoTKOZk1BPrAMInscf6lr8fkfb4WKRUpkvwC7tHgAG7z3hs5QeNFr9ZTx56TuyZjjbha4si4I4Z4AbwSc4YVmD5lkxWg253zBZvrv7Z9OpkdN5y-TsTWbyRfBcZ7_sPc3HaVc7jvy-07syjQ5f8O6H7AeAHV4Y3ynbKbXudh9eFhzxPAK8sSLwvlw8oAG_Ky99rpZlHLn6ugdhStM-VdV731ahbwA_lGGlhHACuNHL_7MC2h5YPMoZMpeqNicqjp3jCxoeP3MZRD75bPP0Uajv0wE_VhbciOsFIe8hGGzr9NAw7nkPZRMQPA5zgugXzoT0wfoSMBChBm5bVddIHeiW6SkkBSEF6E5ao0t3PteZU5_zfG95Y3a0ZcdLhOTIefBVOW/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJKai7pPx3X0YRFvyqnoBXIwQ/photos/AU_ZVEEs1kr0DH7s7ATqy4T3rt8J6PmzHgiy7ob8MBMpdDUgIAsGK2rNHzGt5MMWjbMBTAqzmxvD9jGrXgDyboAHUNs-m8TUuObciJ76hTevN8gZtfEPnaEZvLB2WK4uac8p0B766QetboPYCFUNA4ImEjOoWUG5jVi15FCJkAk0n-GcKVuZ3xhKKBWief7PE2zw4i_EaTsoeoQqen5ySEPuRN0GmNB--qLw8Xh4MH6chNE53MIUl2JwT0m7tZBcmjirpN9cDA0d5RLcqHkjxYjixazBiH1Y23MdPWhE5JFL0n3THr8dZCFYcY2uwso6eZq4UMz9Qvios8QjKjgNGqTal27v5JHH16Gno4Ibzj4FGQ8O71bWvuRupjgnZHTM9HrBdxs6LoMN9lVBBl1pnDSKoIMcvd7QN-F4NM9Hmd-O9kWfy6XA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJKai7pPx3X0YRFvyqnoBXIwQ/photos/AU_ZVEHZWEqgWJ-YKzNcjCDik4r81FANs4e6dNllqP9xl0hpew64Teh8_ZAhTZfsze5Dx3-9njWUl9I-0ORB0lq6aeiVRfbeih-PD652_btt9_WoMZ3UbbESpt0jgGjdLArC3RVsNim_A5yFpqiwrXu2hufxnqSf_9a7YslRf8iOMnlie42b8a64E_Q03dCxJo7FZpaPRZBod6sJnLGtkhRb0Cw8X99-vCf-qg3yYPC2pgTZToLCAMYIbgmdV6ap4a6rKjAQorS8LgI5MufyS3FORQ_74m2GMs7mmV4xRBqufmq2hyKnTujxqn_OhBmC8HbSt1b0n5xhtXLxhQGOmJ1Sdug7jLUu5P3Jz0OZjCECRlr_XHx3QosWD9YQpYa3mR8_n860c67wQh6YLLqSY0Sl-6LyiGAVRKmovjGFuNxF0jq2QQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
-      ],
-      "google_rating": 3.2,
-      "google_reviews": 1584,
-      "confidence": {
-        "opening_hours": "high",
-        "opening_hours_source": "website + google",
-        "age_limit": "unknown",
-        "age_limit_source": "saknas"
-      },
-      "sources_used": {
-        "google_places": true,
-        "website_scraped": true,
-        "listing_site": false,
-        "google_search": false
-      },
-      "last_scraped": "2026-04-04T22:42:14.699821",
+      "last_scraped": "2026-04-04T22:48:55.519530",
       "data_fresh": true
     },
     {
       "name": "Shotluckan Södermalm",
       "city": "Stockholm",
-      "description": "Shotbar på Södermalm specialiserad på showshots med flammor, rök och bubblor. Serverar även öl, vin, cider och mat (tacos, nachos). Fokus på underhållning med spel och lekar. Populär för förfest, after work och privatfester.",
+      "description": "Shotbar på Södermalm specialiserad på show-shots med experimentella inslag som lågor, rök och bubblor. Serverar även öl, vin, cider och mat (tacos, nachos). Fokus på underhållning med spel och lekar.",
       "address": "Götgatan 68, 118 26 Stockholm, Sweden",
       "lat": 59.3131121,
       "lng": 18.0736979,
@@ -859,10 +859,10 @@
       "instagram": "https://instagram.com/shotluckan",
       "phone": "08-38 99 00",
       "images": [
-        "https://places.googleapis.com/v1/places/ChIJp_wHHV53X0YRfzv7w0QRlCk/photos/AU_ZVEGltLH5CIxKIw1ZcItqKXKmFWbFbruXGiF-Y_-Tov-kAv5opPrzpSuH-DB05jkuVAGzSN_0prsq6abDZOCODCgTwTIoqbWE8jDFnKatLFaF4zAMhl3_AmjloAZ0Icx1wit1V3nOYVq87giHiAdW5Nj5Q2TuhBkQ1aWjM5qvC54iazEkYSjKaPlozawFVSfyKrO1y1nWxapoHzxvF7PKe10GEooplVISZyZmx4vao21nnP2YfMa8kIMjVQYhDZBwscZXxdg9nE88vit124-wtWAH2pjRff6aiMGvKGPx-FaaoQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJp_wHHV53X0YRfzv7w0QRlCk/photos/AU_ZVEFi_A-zjt3MydsAyB16W8AxwzhMKusqIiLvAqhHIgjzRV6C-AzL59xVNYXVLo6mM9W_AoESwwjlIeHYCEXZKWcnTBKT5rP-QpfC_OonvW0kiMsEltGeDjP-fcXzvzgnFlPFVNG29U3Zf661NQHzqC6JzlZzX8iSnvND_V5H5IYOhNcySUtwHq5AeCR8fDS0jQM27H5Az4BhVbhznFOBs1UTFNLAiR6pJqoCbOFWpgTpyg9Ot2fpJIdLQR-YtaNGL-0JOI7Z2fndvOYNKT1A6_eQ1mq2TuO2WxAN1rE1HlpRWA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJp_wHHV53X0YRfzv7w0QRlCk/photos/AU_ZVEGF7GiALMmTI01ZcuJJbIdbHqfXqqUpfqKG0CdcdzuN6PMHG5mttbyz2hK3yWNeh16zP1TpCdURuJIqr24H9es0NvJFcAQzWLUmfE2MPT1Bhy2KtXsTimKN2ppYXahLn6MuJQi4UPX4a5p3k1y4O1kNtmAvGakC8OhokGeTuRDaUDMGmTXJlSvAxjTlZsqNkey_Lsz0_SZAbEt_mBy4d6f_0HVL-VqyfwK6TxdZtfW0C1F6tzvJPBO4u1wfD9FB_GUinLXrjao5z6sirBffFLGe6kiibP-wCvivAz6nCZnZJaWNOIHa5l_DJO01ySxJ8e1IQBpgvNgzmVc5kYcKrsd7iPLkXt5JJ554mPF1weay7oZ-Yncfg2XqtSn_Pk-i8YWf5n0Wq_cXhEnyZFb-x7ZO4sHykH60O7E1e_-IAXdwJKbqXYrVW8ts25f2kNqO/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJp_wHHV53X0YRfzv7w0QRlCk/photos/AU_ZVEGhP53Jr_NxP73oPSJZ-AaPWaau4ECNZZ7pYeN8KKf_sXKwTGhvrIfjQlzoYDeJnTVTz4Uqt2pVG0SWySmbveQ7yV6cc8CMAx86qO2gjjtVYG1W_7zpKg0XXyouNlo8Tzmm9rgUJfSLR1Jp-GgtfTlwmd60VzVOUi7g6F3abKuKYTp-L-2IhJSzVW4wZeAimRDm89A9w0Cdg8Rj1NjhmHd2JmGcBvP4gV7FtcILFdjG8ORYoo94QeyEvRu0SFmOJU2new8Q-z7D6Rcw56M9_K_SGjDQwkzfSzzDJmzk8V-cY8mHOEBdX_TbhaaWnX6aQLg9Br49MUKBP9k-bVMVrx7zKMowscmGDXaFa3jk2dlpcp_qQ7qAxpeFe01pDjSdbiKQzr5TCoekXC0Ymf2Eupt94DY6d_Lt32nYw221oBI/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
+        "https://places.googleapis.com/v1/places/ChIJp_wHHV53X0YRfzv7w0QRlCk/photos/AU_ZVEHM0-uDLu1Lh5ui9aTQzX9DYoExOa3AvE6z3JjsMZiwrty8mmu_qew3YDlRiLlxaIdArdV92glanBdWjqH1q3MXB6s8a5jRUqnkG9PFOlvbEL-5CC-3WVJ19WDWH2cc7A7vQYE3UxDgOU36NP4j6KvNIijNpEa9AoXNK23YqCuOeaTjPo2Pk96ytrR4V0Lo4CT_6CpYdk0Pb8cf-nEPQ49QWzti_NYBjVuawPPzGL-SV4XwWucaQ3MwFHtDdrNjOMnv6TzY0a7SD7WIobPj-8xaUjW3xVQlZYbm1-qB3TTiFA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJp_wHHV53X0YRfzv7w0QRlCk/photos/AU_ZVEGKSYgsVxSfXJqYDOy8Wp7rL-OXIldhH-T8pTdEg50QAh3GevV9itJDKctIalZ-5Kbe1nBDPQpYGkuxnMGlgm9sztplu1hPHjj_AMD2JD9A9aTzd97siZktOjb1tvls6JLkKvPvxI4d8mQrpKibFJ5bCMUL6eb1eCEipm4fglHUfWnjW1rO_OhSrj6pBa58parZcZfuMNWHSJqrBhRr_kg7Iilo6E-IEnRgdL_N0tY-CfeDmW7wiwkbAQ9Dreoxqymok4oPfU5B55vcGq0lFxKf-GWvCm7DhEaVi5Aou9rOdA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJp_wHHV53X0YRfzv7w0QRlCk/photos/AU_ZVEHuRD4mDMF1Y_nOHcraIla-ALMtWNpL6CQd1diyb84ASXUSnuZb2fUcjTKsUOsvrLIh_5njVTRV_Y0LzvgyhQvNC8KaX650TeuLh0wTe7PlAmlImvn_KCikVSdn0PsY_bFVl8GuutzBMebNOtudRyEbUu6XrutIsOMHXlzh02E0zYzupqb-mTkDeyfsyD5aeE9lteqf-dAwBXCHDj8SYgrcBpVWa4AU1gRLsfLlu5OKiWWoKiFgc3PtDZHtmZXTFO4rY-qbbdHPCrKTNmD3V-fR0WjxIqbbjEmADCrhZoH8hy_h4KWPC8NYP5Gzhq8Y5l7PYxmYeEa6ad7ukocvMrG8TC-FaSnYC9PyV8pNov-znMzr7n9NIMlb-qnI-zE2J5v8qRNDVK_uyrfVmf8tFFdkOQkXClkSk0lSvUESzuNUqZ89kH5nPj6291oWIz4X/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJp_wHHV53X0YRfzv7w0QRlCk/photos/AU_ZVEFEn3NrDJW8xsMKVBWeM8BQC-98Nhyk7Z0ORixgZqkpnUzxRed4SsqCJRSy5_f5dt1Xhy_wTulDXIz0qZ06-CW912vIVpkOmGS5VLRGpTIlFNoc4O4_YK1hP-KYDbmvJFTiDaqouejHU4ky-5ES1C0TwHb8Ro0wnafoxKjJx1LNNZfpQSoodZ3MXHNmWsuhAhgk1h3xPiasNAGNwsVuNPGP-8X7b2HcND0EPXuayJSjnigzV8FExIdKph7zC1yxN4sdo7EOdJHZoG987CTEEOgctS6G4ZCA2Gkz3FEMTTM3I2NnwLuS5K4uxBL1pRWNk71yJsmnm0gwZ4mYfUGcXcc9L3DvrWxRxIf-3wfGyVOCiYKLbCsDHmZoK5y4FY7RloBAuPTkhrYyGGDWSjH8R_rK7H8QK5ecRTHMyKfPip0/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
       ],
       "google_rating": 4.5,
       "google_reviews": 372,
@@ -878,13 +878,13 @@
         "listing_site": false,
         "google_search": false
       },
-      "last_scraped": "2026-04-04T22:42:19.218905",
+      "last_scraped": "2026-04-04T22:49:00.485456",
       "data_fresh": true
     },
     {
       "name": "Kura Stockholm",
       "city": "Stockholm",
-      "description": "Upscale cocktailbar & restaurang med säsongdriven, experimentell cocktailmeny. Fokus på innovativa barmixertekniker, klarifierade highballs och fermentering. Ledd av mixolog Malcolm Fredriksson.",
+      "description": "Cocktailbar & restaurang med fokus på säsongsdriven och experimentell cocktailmeny. Känd för innovativa tekniker och högkvalitativt hantverk ledd av mixolog Malcolm Fredriksson.",
       "address": "Jakobsbergsgatan 15, 111 44 Stockholm, Sweden",
       "lat": 59.33460729999999,
       "lng": 18.0695728,
@@ -905,10 +905,10 @@
       "instagram": "https://instagram.com/kurasthlm",
       "phone": null,
       "images": [
-        "https://places.googleapis.com/v1/places/ChIJnde4Y2mdX0YRc9W3K3j8L9Y/photos/AU_ZVEExzs-WugFfP3bWGcSyDcxy3gASrovh6v6YXAD7tXMu_bRpbky5UmpZFLTKOIUp55w3qO1fV3jgSYYqNyfUXDnTcgHNr4fRqt9G2KdHbW5SmLQcnDwZr1LBybWtAW3Ehv1alozMpp-dma1U3KgFShhApYxj_j3wuaYwIoY4eJILMoLDYoI_4-6qGBynwFYNOmgn20UlJCCRlnYhVpLXY4n1C_QGQe_n9XcDWM56Cq_tttnHZXxQFevj-E0agbhgJJwnuZQcOuzVODo2CrKeP-3ZiDhQLSMQIhCzT5JVL3KtQw/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJnde4Y2mdX0YRc9W3K3j8L9Y/photos/AU_ZVEFzyAjyvbKYyTjbIKTE-KjPHGV8Zq077J5p0QrSh7QM-dvdrqcxfKXXRnPf7WUEH9t8raVRMWBt0jn0UPVAD3YWwzR6LFWaNFsOAGFphIWtXJdNjxSqpwPDF2mGewxPi0iGzpuMsqVfGlItYUaS1N_dEeMHo-kPGc3Yq7I3dOrcBjTynexW9W5y_5NwQRXF_ImTnT7awA6_bYUGMRffJqZKDN0dsn-KDC6Z5eN0zX1pEp4zIu39qFw0WNQMEiSkiyGMQTO_iVlLU6hwxDuSk-cLpBG_R-FK-XIeGaUMpbB9NQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJnde4Y2mdX0YRc9W3K3j8L9Y/photos/AU_ZVEFtMXSvCeP-Uu9QXUKxGMmqZrNfBv3MPr81feA_lgRepQEHnWWC_YqAkgBfO9BNWdTqdDmp2MFcjeYr-R9sRBMZ_ywQjAHqSoeIEqD0NuSkGC1WeF7HIJtn8lNut48B9CmPo6FQSF9c-ekWaIa0cx-bjDh5a0nIizAHu539GEVCq0vFiF26t6AIqjU4Xj-v8WQZkGoC-IL6mzVIWCGLu9FhD2UBXxV60zWWbVqp026lqJP_HEW5pTeq-i0vWvB22sVCAiGTW8VGrJS9d5jZy3edf6f_8LM7bBKcKSSewM6wGg/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJnde4Y2mdX0YRc9W3K3j8L9Y/photos/AU_ZVEH886ePJtET106gQdT-je5xahcBbjqUbG6SL1JHn8r7DVdJXBAfv5dhHpbFzaSrVPPbpB_xsLWIQ6M1fgV3vIfC451IZG__1N7jMl1aHFj5lIAZ-Z7U8mP6CPv6AsJlVbT_YHKOqtPmleo08e9Y1YaLgY4zL1jjz5njEa12KfUE-A2sUqy26H_NficVacEZcZNanB4bBUqy8N707h2dAtYvwbnpBTLwEetrDF9ukL3e1pq2V41XO6okqurhCUGyMwm825uGxw90zh0a1rUb9piKXjg7GAbAU3l8P61rod93hg/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
+        "https://places.googleapis.com/v1/places/ChIJnde4Y2mdX0YRc9W3K3j8L9Y/photos/AU_ZVEHFbLGsW3iUnGPDj2NqIi6kTFjNVFqAE6pR5buMhs0yWQBfPpfVuMZMq5ShtKMzIJ5fP57itq1-GNNWlz3JrnRmqV2NoSVxs3HCUp3zAKraVYQAcThMhEcRPJxkpJSsqNiAP3tQNzLT6bhCQ9R0VYqnPRehtTl-twTlMBBnLMAobxFtrt0BJV_uQ8zAyaxKn0lVWXJTD3Z0v67SquXBBzdirwqHBKhKm3aBoZHAwZJA4Dv9xrL06vSADNSBZresxzUuMQ450mEc4INgEkv0LQQEcNW5WT6CRlg7pKi3nB1X7Q/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJnde4Y2mdX0YRc9W3K3j8L9Y/photos/AU_ZVEEZHOsLPst5mnYVg4m2u1MUjQasx3wV1dR8qiho1c_Okv16jpMPlFNEBDXoUdB5xxCx050UljtC8337dqliZqo9HJ6U1IpZa-khJ8AGn9ppXE2ZiJYrAoC_CHOJwnpqwlKCzkV1g84oKsoVbFZFVuDf0C24LaFDJ9IHjfv0dX4ZOw9sk9-0l8PVBwicC7FNtPnq2dXZfPL7mzF3wjFiMTnmbjBv9ThLHwPJge3MSSQA37MFIYMy_DniOrjGqu28dM5_VWmTiysNq7FWFJfaGCTHrBkSJH4zE11j01Gk6jh0tQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJnde4Y2mdX0YRc9W3K3j8L9Y/photos/AU_ZVEEG_HHYY-83hjCGWu8ZDPp1NbdZEQrR2k-wpMkw-OlHCM7Y5ezRzR7b0ea6Ip44UoI6mkocJi2-oHkya1-2NbwihG7QVuH2A4jliUYgdoTElslZPvnmPQCCrQbXQafMWVLQLAYsDgLPO3wXL5Y4HHntMXrN_0HmqPeNbbqZ1MrJJgUCTHGnlAw9jyRN137txU3kbf1FoJLaB__XvsIZxDq374HtmNbYJFkkyfSZICeGTqaY_ckWL_fnjiPaXyruxL_ylcziy1Qw9SYT9PBv_SrbLhTr64vF5gGLaD1vJGo0JQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJnde4Y2mdX0YRc9W3K3j8L9Y/photos/AU_ZVEEdjZWjD1ER_oLMa66WVS_wi4p-xN_NmRRN4yF5wbNicnPu8P_DFb7AcS4SsVyGdidU9p8OCOub7MqNEWOF_W7KCh2rxOtg2s5zPIfynxnWcy4OI45W4ND0Nkwg7ehbVDNsV-cl_27CVOyWTFm-Pd58rtr8SKhY4-jA6lOGN4WUXYCm7lP0YFejPm32fWlO_vVfbyJQ7HESPm3lZ_6rAcxOoiMdiqIcmIUNaibkt3jmJp48dbKeRLEMLgNp6A4A5K-Xy8ckB3H5YZTHv4s4pZvSgxJKpiNYoT1Df_kRAyeJgw/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
       ],
       "google_rating": 4.7,
       "google_reviews": 62,
@@ -924,7 +924,7 @@
         "listing_site": false,
         "google_search": false
       },
-      "last_scraped": "2026-04-04T22:42:23.568082",
+      "last_scraped": "2026-04-04T22:49:04.924094",
       "data_fresh": true
     },
     {
@@ -953,10 +953,10 @@
       "instagram": null,
       "phone": null,
       "images": [
-        "https://places.googleapis.com/v1/places/ChIJz_gJDV-dX0YRIcT16eI8P5I/photos/AU_ZVEHoeMNUOdVzGHvdgl4Z17ij31UNl43A3raxaLxscVzFE7Y7n3GmbKkvLqTp4j8KIY5ly1zgxwA5ZtKs9T13mxGrnTyD2LF420PlAphWOX05DlY2gIC4qCPXnNx78n0XL6SAZ85uJaI0vdHH8nZNk3bc-bftCPI5odqp_RDe11Rf_9asOSXUNy7StnStLKUC4rT5gs2OZS2PB_F9RbGIqCcQqQYuV9GSB0aKjiCWg1WHR_vvrZfp54ZltZ9_p14pwdoB3HzZp71zGmBjMBmgcWQ_sT5xMYAkYw12JLilNmDJTw/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJz_gJDV-dX0YRIcT16eI8P5I/photos/AU_ZVEFhhdVuFjewA3OWiqyHUD3SnUoAm7_pp6yfNLsmICjPuocyV514xSGZY-zpQw9cxWjLGeXvCi7yjoXW1ySkfQfPG1oecuVNjyhyDvAseaf77kPqdGOXvwqubWlZX3bUajkNTFgKgxC7Xr7oSEFFsYyvTtuBOP-JZA5cCqoKeNcMuNCW9XOnevZXZ-ylpMXKB-3_XmTJDPwf3F3Q5xJsCySjdWxA_k_Dq_3gfYL_3OY6cWPefo7bsAJlGB0aLZJRym1A2Qf_wDaT78KYryra6f67euPdKeswjDx5KcYrn8t5b8Ymwj2kaeKc-8yTPeTbmtT-I4gr_GmhzOC6xxozdLMwXuXnY_ITThs0zxN2SehDoSrPTFSke5T_ZgDfF0TGip6MRSldRcoRKz_YSNS4P60bcwe3H7j4SXDt2JKyv4MR1Eod/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJz_gJDV-dX0YRIcT16eI8P5I/photos/AU_ZVEEfroA-oP_Zsj5lE3OLODmdImxYfsaYcSrI449pUFLEQ2uWSa4akVZxQoWaupaqFNB_FszHyd14EVaB8D6sf0HUjmZFXfIu4AQXkIzV9hrqz2nxS8tTxjf8cOvJum6dRSsjoe0lAYekOrF0SSQQEth05exc4yjlB8iW3Yvv5P2vxCr4R4yZCvqLR9FnnZhLAEBNispcKl8SJ6djIE4Vu4VLRKa02MxL_L6cM_Dd1hOrmWE6FCNTcDZB3eHD4FtvroVEma5kViFcdiPHDym9u-cAFPP6D6Vro0E97_HY4jIr9de9IvfLzq6pcAMtlTwWBiOlkR1-v-F6wpMJhV9co-QbOL2Vdl4GaxnoEpXE7iGvYxQ-Th7hLPCLS9NK5M-29H3bTHgiDlnXzA6pRLFJdPLFQWtx6d5hcmKiRRr5A-A0OA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJz_gJDV-dX0YRIcT16eI8P5I/photos/AU_ZVEGP9NnnHt7NYEPzxiOkmKL6gjuct1XGkk9iUIebog8xXuO9UFcqwMDSIUKadKMuEyTuZ25DUhjSAVD4OF09G22nlEevn7_u-G7f6XXtzi41Trl-3uNfovr3UVv0fv508HUQRJNA2zyJQFTjjMFBwPpxVSyhjM_QTFa0PhmbvmCpq2RxjABJ_uGDgmFhkpHBIKFddBO53ztlmqF6nzLILT8u1g-auzGUtOCd9VDJN7FUjpMt-Ym0oH2V_San0ZZ0KPCTJQCGqWRWYwbWmbY6JCODfCOmgnksCSOYpbFyICvbi081LAUa_kwPsQxSrBS0niNIok48HDJC5XURJHOeKsJ6dwLwPv_wZTrfjX07b7HgIcGOfYWEgyFzb99By7NgyZStcIF-Jq5IjbdzQ8XOMaIJRIiscymv3f-PnR7ePac/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
+        "https://places.googleapis.com/v1/places/ChIJz_gJDV-dX0YRIcT16eI8P5I/photos/AU_ZVEEWt0Ad89VrkRTH7xlGLl2AOm6H7Ex85Ottlp2YKzZZ5BYd1RUDpQexpWR1DzA2HMpf3Ckr-DrHw1GJ9F6wqCC7-mCingKXMj9WsdCQZuY9KoGLqdKD7BVZsqI9eKcG_ckXSPMe46Nkc0mrs7GkrG3jmTxnTZ1qBAfWkQtfRClv7Z03aDHCuo-ddc93TImYnqbxO4ArNv-CGcHSJx-uQynlzUWT1ZmeumzuZnP7xQVRuf4abGAWd4pF-pa-6OWe62DZPqDlGaTCCHYRv4D2e40NLtSKnZM00ilyj1A1h1CvAg/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJz_gJDV-dX0YRIcT16eI8P5I/photos/AU_ZVEGz-vl7uVFlotci6tXNf1H9e5gxy2AqRx_uHnVU11StrD_1Uu58BpgDVejMCLY4ZXAPvo2Ecrs9EeqTitT2p2bOOReAV0XQnGlvSCFIwGs2MOMN3MlMpvu-OzS4GH4L2G1XQy0WwvZaL6Lvu8-wd5aQl30e_HGEtN8ifOEmi3PzaSuGqAtJp5y56hEjY4VxIF9E107VL4qAjP8tdgmar_-7cRE-C1H-PsAsXKmm6pAQdqNBm-3MbX8JMVzOsZ5iHbC707uB-yEstFv7QIWK836gQQUIELKVYoB3aRirOa9yO0npKfFjvTo1ajEE9gd_-vAG8ECfYSmk1GG5y8Gt1XQKo-NYThIfgBamn1nVJCq7pkDv_2elbFsEzqvDPz1QtBgsadIVqy9IvhXRYys3MUd6rHRHu4SEXjY1HxYO-J4r583l/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJz_gJDV-dX0YRIcT16eI8P5I/photos/AU_ZVEG0rsyxwQnT8QsbVihpJPV1-Fwodei2OyQCCXFMOmmHG1BcjNoItJW0a8R_9AEYOqTJKItPlKE3H3tcXn-6rv-as_tTUoYJs4eTIDA9OP2h7AIPNxntu8SB5muawgu0jrhFNr_fK7B7BNE6CCAVZ3labfQ7mxLUzpTHlnt_j_jyqt-EU1o0TcjZm6WlEdbtmgZej6jQzhLzhwpJ7sVFX3QSZkvq6cOlTLGtHddzBexyLVg4FWkDM8mSkb8nuI2n47bCzdUdqciAA27CuXx3yCx1SqMIWVX_di3XFPnI6z9cPhFQI6wcjHFH-et8-80MwJNZvVjXI3Xnk9vqhqCptuS-RGR1AJT4b7oqzXuOI7vhKW4yk6tqDwyvckBOWoGY_qOXWz5HQI11XrTdQU8gDT89ESaMgP0_uHUXX9G3uPpxPQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJz_gJDV-dX0YRIcT16eI8P5I/photos/AU_ZVEE57RjBfjzR4OnVOEG8F7Rfuv9caE_Id5Yw76FDXitunZkL2JA-NumNhHNllJsT7Wi7PGy2XqIkvQfkndc1TaEVdak1sz6rUcgLaIQ8PGsHe4Zzn7KxW4-fI1OTZaSTjqde8ikPlIWeF4o6hQQX6nKfmvfc2Crq8xMbh0TH7MWHIdEdAdRTvnnAmKVkk9sprFXhLiTWrgMZQqhZ6TKKbsSBiTYUZgrLuJWzUnRXbeap30roo9rbNWE9lK5LjYJeXzxeiJc3SPiGe7jSCd_xEDnd1ptDA2882bE6I3M6G2xPvunWQi1Ymu7ck6fLUazybkJ1e8Qs0FLuh8rmQwz_kozuw5KRTxvi9vsyzyf9PHrgCgDvWMXbDmhZUUr6JvWD2dQGjDgwwZCC0N6585A3iTX8u4KUW7hw1K_r4zTDiQ8/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
       ],
       "google_rating": 2.7,
       "google_reviews": 529,
@@ -972,7 +972,7 @@
         "listing_site": false,
         "google_search": false
       },
-      "last_scraped": "2026-04-04T22:42:26.309905",
+      "last_scraped": "2026-04-04T22:49:07.688573",
       "data_fresh": true
     },
     {
@@ -999,9 +999,9 @@
       "instagram": null,
       "phone": "08-676 58 07",
       "images": [
-        "https://places.googleapis.com/v1/places/ChIJGUn2MVmdX0YRr8tWM1tVitc/photos/AU_ZVEHxNoLuUFVWAGZLyIQGOcVvWvjaG1CwBFZpCcikdxFAg4ohAdc05cO2vSe6QZPKDSBJDYy-B1seJEXQXyA07ME_zHL2_5n5NB9ie-gSE3H5Rw3_HboZRRQh1lPSR8nDZQiXcGkv6VUQKJKowq49GyrxFu-MbJsMJ1NOYMyzjyz4UgjsikBva5wCH2gv5nLaSBPC1J1uNI9BZrBK9x6n3iZ0j53NRztY1cXGhxA5yZIWjRBqws1taGW8E_ZTHco4WFutoc2g2_jBaHjG3YrPdBd7E-hee8nG2nRSVt8gs4vUQcY-qLkmqWEHzLGAKX_vu-j0MzqJxGP7h2Z14n4J2SY16zuZ1wWzaWoe-XluhUbmy0I-i0fVQG_ariKIx1GFOyBVrI3aZ8TPsnySlRdaJ91achPWfiK_XSx4x6_qWZ-CY42nvd22ny83FvTeuA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJGUn2MVmdX0YRr8tWM1tVitc/photos/AU_ZVEHOI-ClBhjGLU7aVhnT-2pVZSoC1-dEh-nZBxCyMyE26iHxtzb1MuATJBOlDZDdqv4A98ZsUUc7ZuesegiPFYRdk_EgnwwZ4Y1st9xM4z4g21XPFaoDiSXZSChCuIGaqrPGizyviKu0P1IF0M6l4U8HrALuCbxWYQlPLTzgBxPuHEr34wYyS3VxxReLue_KwS0bhKAR2Nmd9mOYvIcdZCyBqxtorfOg6sS962tjuj0GoCUg4emugdTfQPCHg4C7eb3VewlDAxS0oGBnFebCZzt2pPDT9M-m_aPqexcKfI_93ImurluvVav9tSxajaMSu8HhJYOpoXojGtJh8KrIjgvDLejk2dvrFHpwHY23m5p1jrdJuZaoQ-Z-sGX2l_qa1G8s5UyQqD9Wz6qjeS7QIw40O62RXRCvT_FKnETOErb0cdtrJ6DPDJIUBHzmkpNF/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJGUn2MVmdX0YRr8tWM1tVitc/photos/AU_ZVEGxD8A1cZcycMNVaD_MjkMn-Hh6VZd1RsxSlx3-EEWeiXxHtdLmL0WM5MrTQxhKmY_zHiBObBmrcMoiP9xte9lKd-bUcCJUS__L0nH5BKsaLGQFQgyASJP5AU1m9vcr1BKJojUkbifHxz4RetpsI5foat7WmX2Of3gxHjMXsBr8tZm0hOOTxaI88tmJ6ETR4ppFBMRoeggNExex2FgocQ63HksYayuxro9jDFrAsHLNH1QiiybKNzcsdxkkhwDs_-yqqjv2sdSJ1SURfhLA9d8Q-PE2hP-mjIxXU9fDTrWZanOUdX7UF0FIvks6-rg7k68-_zdr3B6FaDrOJPs3Eo73VpuHd5wxqa1GaqGs9Ba3pREWpmY3pxlnBnMvtFEEflCb-umC51RlkbyEE3NnthwsdkJ3M3l8QuaoDTAQaXOEMTM/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
+        "https://places.googleapis.com/v1/places/ChIJGUn2MVmdX0YRr8tWM1tVitc/photos/AU_ZVEEiEggi7pNUHSH8uFiXKY0r2CLfflTAPxUw7kVQxTgK83oPTRwGKwpjWj3z9nQjKI_tlE4gv0EKcWcwOcL2Was690MoGctY1-q6y2LgKK7X8TbL3wdwAhFrVgdJ3PFPgefkdz0sSz1wDAZqZlPKEbKvU13TQm95a3xCTKQKaDEtre6Ttp6iwQKuf8n1ribtskXrtIUsqFCdI6Q_jASGKA12OoNWrtsoFxyunMHc609UzFN4engAMHAFvcswDqSQOaVFRaUsp97nwX6v281idr7EE2-5uBGkU5WveZmMY9QUaeijt6FCBYA03b_JjGeCKo7K4x4wwSDbnqezz3ttoDx4eGTx0I51TE8GMZTwNs-2GEvRmOQER-2MbnceNd3OWeK-WznrV2TFrNZUeg4G6X4rieRZdF_-9GeAXXfiu35TxiA7eMPU_AbZan3QHg/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJGUn2MVmdX0YRr8tWM1tVitc/photos/AU_ZVEHt71KIjIZjLdxDO6-B6QjvkmfRZhLxpjH30yfO4ihMkqoXitC-2AJjhc2QrJlEBKFqaW3U6CWJwNCF04bPWRi1KbURQJ4RrHEjR_7RUiryGy5TSDhUVtfeqx9oMi5aa4eZqx2kkYwxmcLJZs9BYA0sFBnQbHVlRrIUoKUzWX-pq3EnCHWbK_zwhMQhBHTIScPD0cxp9N6-B2LPp20vie9CmrE86XCNzk2UeSN_sng_8XCR-DiZQ8RfiC9BMyLHqRZLRtwvdXnQpWOV0MTe9kvAecmelHUEv8jtZnVfH6tiWbXpR8UbgZlo8lPs-oujAgxoQvEeKSMKgx-nMCHUy9qOQVFC7UYZOV1RXKgDecJ1lEsHR5r5AAcumqTKty2OEB-nubhpmnp8VlBBiN9-g-bxyJ9pr2-Tu2_qXFgmHWP2CCauFJJOC6fffUBakld5/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJGUn2MVmdX0YRr8tWM1tVitc/photos/AU_ZVEHxzb0DhZvbUrSXb2kn7pq1yKHY4NMWQDV_p0mQbIcARDMz48lm_pEQj59d5RTn-W5yQcRUTDqxQkalEPuEozPIqyxgWMf_6ZjA0zw4MFMpOuzut-IiIGHl8ClhoB_3-g13yUDbI2XDGm0ACpAHez3jlcBWGhAnFAfQi6SJyUA_0oskNBtze_WhX99UCYVoqVWXWEHneF-DCC5R8FRbks2YmsE_1_Ds4I2a9ivVrBBj9wbO4E-sVJoeE74ceixbqi3DRSReVrj3IQ2C_66xTgZtTh-zxGpD4FVdOOUHlXbSqpDhK4KQf5jUaTc7ZGhgT2WHmnOlk1dgsNsq6HrhlWhOrmxEq8y7vbbpP0tniy-QJPFvnHl2IWLwLxGDTPZezORTxL6EvR2VGl-DC8gdHn6eQmRFBnCh9Du2TWI0W6jIPoc/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
       ],
       "google_rating": 2.4,
       "google_reviews": 97,
@@ -1017,7 +1017,7 @@
         "listing_site": false,
         "google_search": false
       },
-      "last_scraped": "2026-04-04T22:42:30.287310",
+      "last_scraped": "2026-04-04T22:49:11.618531",
       "data_fresh": true
     },
     {
@@ -1044,10 +1044,10 @@
       "instagram": null,
       "phone": "077-182 68 26",
       "images": [
-        "https://places.googleapis.com/v1/places/ChIJu3jcI-N3X0YRgxGvWvXaOrk/photos/AU_ZVEEXteG4KR8S8Qa8whjrNtBe_uLztKT5F6UjpMbNn2GMULzCiwNaI_RdZzZp8lss0El_jqUt62xz_ZoloUEtGSGUAmryYIyvcWpc-oCDnFS5igBug9TzJrIzWZWoQ9PSYcs9n29N0wMFtbBwAIo4OA6eAnwZCIT9QlM_4qRM_cHrCqzx-SV1aJvAvu00SRCgpr1cAud_kg5htXBoPUsuWFUkNqvJvtcyHxrLMyPyrtrbSr5fyoc3A8YH4nFUocrFrxmhWQ7Ezk6ovuYD7Q6Xqp4aj4Ok6xV9VSKfvtjRGAoLEA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJu3jcI-N3X0YRgxGvWvXaOrk/photos/AU_ZVEEGzURn1vis3-rMQlPybXbBgrNg3a_3uyNkPzAuNpbUiDc7_OFsMrfj6uMHANc4JtaClVjo2Y4j9vmFPdKKng8yZsBmOWP0c689gpCp7nyKW7hwf5h_8PuB6U_JfQ_9lFP64bex6VG6tfxCjG-K8zX6rzTcyp9D2DTzNzCO6QfTLflckCVZ_9w-QwotZgnco2aIxsMTFNxDwA5AOJDRVP7iIbJKJ4Da1g6Wj8kBWS4x1ZcT9iYgUUszTH4JGcGJCy-KkeLn2u-rN7lxUFV0-v5kBJVpuYaNoC0TIdV4KBOXnA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJu3jcI-N3X0YRgxGvWvXaOrk/photos/AU_ZVEHkpPXSesRpY97C56JJvCGlMUUU1OMOgkkK9HSxSdGRR4uUsRU26a2DcvjYM2g7LQ6Wu_WVHiMfRiMR4djAyvFmAmlvUc-yvRHhKIJ2fIpPfBO3oKaqG7I67_hBbOgHqOs3V0EHT3ghQbfRgxbbnFGzxjfBZvZF03jusq1wsjmVMM6TzZk0s3Jw67NdLZxaf9HiMOKQERFEGa7kvQqG2IYBwxmiA4sEB5bUuF_iElV1RNEABUmIQfpotgeNpbbdHS09I9zlmP_pjECQSSjuUMQxr8RsG3I709FP5Hpv3uQRGEF9CHAKCJSS5R6Vf80ddvmL_-HErDFR2VVzXt4hDLzs4ROXFMlEv5MCKLYK1lZNRF5BAdwa3bv7snJ_HlYIrn-hOipC0wCqsP7ziWIajFKsS4ZpRUdwke5VKWipozDTXjsx/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJu3jcI-N3X0YRgxGvWvXaOrk/photos/AU_ZVEEx6592TJgsXdZRXW4E6k66ZRhJVZw2ieEgSDRkVX_1Harjn_jzgQIwqouCWuTc2OZgZsIQEVBBHE7627My1RyuL7WNEmhGYsaRTms7QhQLzhQAoyViL9zhh9Cwr2iwoS-4GqkN_1-_v4cqOEDQKngnayY7ee5iqQ2rinIqPKH0uAVLctTPGBORP4CcNOviIxiMe4ByjHRWju18y3MiG33YqVB3qNqRDjgFtLVs1WSP4iJGW1YOu2bd5jY3e9Ov9q51OUodGF8xwo42zF0wsk9xH6Nk_KSOrOQgfIhcR8W9bxnSRCFXvvlL7b4w6RejMVTzHYU7Ub7PEoZySeQ9IVvb2nAB6FWHZ1aV8jONWxmnkh6J-Z53gpqfSGzeVWrGNb6O4dbpi78xZsTvfbU93ShEsYFP0cp24Zp6cluU5zdhhQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
+        "https://places.googleapis.com/v1/places/ChIJu3jcI-N3X0YRgxGvWvXaOrk/photos/AU_ZVEGnO6zypGy5LF5v0NK533TLbE3wYaWwARDp6B5TM3dnWtDwyUIfhaF3wboogB3CBHNYBlGHWCneKutMmsMWMFY_Qm7jBuetRVWn1my_wpQHzRV0J_FsaejSHIMwOjow_V32xCEV9NOcVxjOeJU5l-11nidF0nt7WsK0--dyapFf8RizZG2JJFhtoheZfILAg9DVqKjMUSxoLUQ0w005dJpCbjxnviQC8DecCFWWM4ERVFWf0KBGOT8BT5Et6-grQLBczEA-eXwkzY-jJmBbZ9yZ4heKtns10dqvB8C58eFhrA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJu3jcI-N3X0YRgxGvWvXaOrk/photos/AU_ZVEGU9bewgwmoMngfKDK-KVMUu5-xLDK5H4k8K1V4OOKJZ5W3oBlmSmrEQLGLlacvdebeuWuyy8xSqUKEYOO9kZ7a11ZyelX9CK6b_uzexVyia6u1JSjjJhjhSAGriczISlYSwNeKje7qn2Quih_kx3uPFHV22prn9CV4rPe6VgePXQ2Sff0RFj1dQIZqKZY-z6ARczLMdkgm41YFChHwyo6CW1A6Lx4gE9iK6sXRxREDi8GCYcliqU4j4lDgfgJmgOOYcas66XUQmuu4c7aMkMOLYIpOg4lHAgEAjKpKu4gRlw/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJu3jcI-N3X0YRgxGvWvXaOrk/photos/AU_ZVEFdMdg707rD3w4Ane-spJiJykpqGppDggE0tIKScMaldFC_lS5fsHG8VKGi1ecKNCA_T2J3qLC7uh5XluMV6pnCpyqzb4FX4BTPmd2HGd_YG3CxcZ5NLQBGXQBWG3K1MWK1HDce8LI5hcRs1kGNs69nfxh0yVcvHVf2vFQQuRxfkFtxDGWHHojzappideDj9OxDSckexWtcISwsNyC-dR1TSwRYRUsgQruSXuCq1XCYwtmWbPuj2kA0_3G-uFBZuWPMsUYanAnXisnjByI4s8CT0WoTd1tRAJqptfTAmjsuyIHBQcyg6ONrrhszQpC6E5z5HohhzL7WLRdjNAGOSgjPZVlOmM1kz8J0TfQg9owLIigsOro-hCBCWkbqzujvaIozgt1qzzGslAeWEVjdDBiTVcMQ9MIZUiQRdTJe2CtVVpW6/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJu3jcI-N3X0YRgxGvWvXaOrk/photos/AU_ZVEFCpC1CtFHEFOn9NWV7I3LkpMVCY-tWWHsunXue7JI0h3fI-R5nXNKZOIpEY5DfDQJN1-02QqbU7OjPnxA8vjcLsrDD-IygRTdw7KEMnfu9rpYEpli_tG_KGSG0gXxu_S6Pfn963tH8IM_Xth8AJSy1AcoIQEqOqCNtO-gf5uXtMJFheBykdvUXM5RzC-a4sbJHJzJOekWGHOe3pMx6chH2ojk6s0tEQpruY58cMA8guKnk9KsL2EgUZysgPGo0Vgu-0fX52kX_s0AcFuzvIOmpjUNPXKbR87GSyPaeoq72hH7JI-KPuMJhWOPFOApGde-LELl7-jO8RxMi8CfBz7hGicU0Mp6JBXy1_B5P44LEuuWHXR6aLzklFAlDnUhb18-48bLt871qdCh9nWrl8Z-8wMphhRrfymneNNVXaw58yw/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
       ],
       "google_rating": 3.9,
       "google_reviews": 1897,
@@ -1063,13 +1063,13 @@
         "listing_site": false,
         "google_search": false
       },
-      "last_scraped": "2026-04-04T22:42:34.144681",
+      "last_scraped": "2026-04-04T22:49:15.314366",
       "data_fresh": true
     },
     {
       "name": "Lemon Bar",
       "city": "Stockholm",
-      "description": "Schlagerbar på Kungsholmen med dansgolv, mat och drinkar. Öppen sedan 1994 med fokus på god stämning och familljär atmosfär.",
+      "description": "Schlagerbar på Kungsholmen med dansgolv, mat och drinkar. Existerar sedan 1994 och erbjuder både restaurang och nattklubb.",
       "address": "Scheelegatan 8, 112 23 Stockholm, Sweden",
       "lat": 59.3297567,
       "lng": 18.043913099999997,
@@ -1090,10 +1090,10 @@
       "instagram": "https://instagram.com/lemonbar08",
       "phone": "08-650 98 09",
       "images": [
-        "https://places.googleapis.com/v1/places/ChIJK00hgdh3X0YRK3mYHXjI-Og/photos/AU_ZVEGiquvVKQT-1guwVhrGxo4z0P7JLauTW7etXAoQkmpwTvj8cEuXPmq_9aF07TlsJesv-PtwL4yqEcVEy062EkvGc5gHbOb50Fk9jv1WqVspgOxZuzqTVddzX_wOLvWnFU51YH6fXFWFdQrQcPrxMVUaM7XzpJklCvxFQ3UoPxhtTUM4lioYjUU2-3iqCLDNsRWC6NaZSv-4enmoD6bY3Uf7buqgdDl0edZFW-6RJpiIbrejqKy7VOGj1dv_JUugtrEKPRCPcYz_fFAGQxZmc7yQekJ1sOlPbJTlZXkykZHHAQ/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJK00hgdh3X0YRK3mYHXjI-Og/photos/AU_ZVEHTUBZWsU5_8czvv9MV5DaDeTOkgQE2Dld4KrFaYFyweg4lgItrLMGkSisCpb8DWmegCcV5xRrRd5l0D74Z-xu9rBHejx7lFM2T3twAAjUJTa3ZAyrzVw8jSaSBNuioSL7Fs-BPEfbuJqot5DCUGDS64tZRXCvKIlL90S3N7ATZbFJEWaHKkt49KcYIDnypQVPQwHG8KzbgLDDagGN-9nz0Gj_d1VMC66qFmgqN5Si1ZG1u2xzqGbx-qWI8S1QmqbcOjvzzSPXw2XuwVnx6ZAI3L6ZdQY82PtrYLhPrtemkug/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJK00hgdh3X0YRK3mYHXjI-Og/photos/AU_ZVEHlHfIGNsNJS-oaWb9VgXWvxzareOl0U6UicClPYKJ0LTuGwdPGzWUP6Vzz4WjEYkTjqnXUqhwrd_Ve-ycT211tOgRB7s502GZeI-O654vtqj_0Q0AHfE2oZ9ENr9aI-1lep_HH3rTur-EqUfQPTTGOoK92p6Ws1fR53mKnECrRlKdJeFUtB0S70m60sVNJcxvcyz8TXNXtbmD2OCnu-HbtJTR3VkP4RGhZk5b7KzcuMtXaqEg-Eczs10OV3uln0sAIvC_DNh4rHB5c0mHsGg0QJX3nkEwiX8YZzy7RwshAVA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
-        "https://places.googleapis.com/v1/places/ChIJK00hgdh3X0YRK3mYHXjI-Og/photos/AU_ZVEGno3Clj9bIIvfQgfrw_ccdeyR3L9Y9kTgr7ijMSpOa6OMW8Z8xvT25bs94ju-mMY_8BXdbSDxLCcjS6hA8VEkwJs7WCc5HeoknodsPMh3xWLXbN1vY90gLJKjcBbE_EwRfhvjc_m7EhHTGdxhsvJrrmWzil36VXWT0QqiAFXq0yJOHUMMQEgM8JJtxQ82SmtQE5GLO3Ce865SyJqRGQRli3QPSX-Seh1eTEXUi6OJ_f6dIqzIAiJZqChayGG2GWpE8SCYxExHGr632zb0N2Ll7JcHQJ9XPosCXlKbvPfdHkw/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
+        "https://places.googleapis.com/v1/places/ChIJK00hgdh3X0YRK3mYHXjI-Og/photos/AU_ZVEGungwRucal9S4VnKqxyfIOPDV3I912dzvdSHKYNhKVxT15Jh1fL-XQ7tc3J1GKEifIrZr_42bpxgQdNeMgGp6mgj1RVxO-0GGeW_RZcQQWDHpRWiifTRabH3IrDnRhWwV5p4kDoy6caaq6jY0_qg8XfqrVszbvGuTVjj_OryRdeyjyC9kPEItyRc5AaF5Im8xHoe8HcMLBiJQzUFBuL4-Cu_Sm8hTKZ8eaRiG4B_yRJjEq-6AAPAo-6yBzR-BKV3N1IL-AXxw2z5rbB1lnGHWfqEuV5rVM-_aZV5_SE-OBYg/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJK00hgdh3X0YRK3mYHXjI-Og/photos/AU_ZVEEuZKLZUA7feJi6mgoG4ugPaT9xwsAbRVT0blo96iaagogzDU3z7NcTdYt9YrS8QYobGezLJlbUctzkeNhjtM6z2Px9vkbXbGldS-GL66-eGD-KvsQ8ga0ht4KhNDGWiXQVB2J2xMBQ2Py5lKrgoVWJ9pkY4AedtyAIp1-WTieypMvSO9pWldW7HZok0xfVMgLXL-oJIu1EcbpnNx8jaeVoYJbhNTC79WtM2wOJ8opFUbouw0E2Obd3b_ZO20fu1PbIFx9znPBEYus0Lb07o0oBObRJHJfsZp4WrPpX9ciUUA/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJK00hgdh3X0YRK3mYHXjI-Og/photos/AU_ZVEHgUOb_R_a8BSDqF9rEe58qrdmMaqM61_4UwqypSE-rd8EUT0Uyhs-GPlsRxnVFyJdyNGF5crAnVrJmyxWcNTgCLpTJWIK1YqeyNhE8LfBkEWroZog5HfVyONG491d3uSE9LhUVKzp6ojRIJfgPq71qyK5HS8esGpn0UH8Cn5y0sWIWJHC7N0_Yk4bYatG11zAFaCffNQCNZl_EPsjONiw5u38Zl7ji8DkRZYBfMp242RC37NjqkfA26MVswIMxjdThvReJB3ZXLePsYy_JiLa2cNwd2wjrb22bkmPXrOt8_A/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI",
+        "https://places.googleapis.com/v1/places/ChIJK00hgdh3X0YRK3mYHXjI-Og/photos/AU_ZVEHvHWgD_Bj1smY1Jm-NQ9AnXM74hM4RW036YS0KhEbTPHKQ2RCzSq4MoPsLpPdGdpnVOQblnQ0k5eOhS8uTKzYDv4dBl3La6JXMLDi7O-XYdewGkA3349oicdZ7X7gT9h3Ke61v9rHtfJPkKep1PHWb1nhwNYqijxujGH3sRx9Z1PZNEZeJA6cLV1cS67cdAQzZ0V-Ss3bzGmjY8LF6KNIYpPJrVsZ12f9Z5rgCR-sA6J7IB9HYZt4x4o9ScG-WIONaVCD7tRmdPmfrrsW8e6dHoKvlob6VVRgLdgZOEyplhw/media?maxWidthPx=1200&key=AIzaSyBUbba47oFxQwLopiLUUj4hRJ-4PsJ9AYI"
       ],
       "google_rating": 3.4,
       "google_reviews": 661,
@@ -1109,7 +1109,7 @@
         "listing_site": false,
         "google_search": false
       },
-      "last_scraped": "2026-04-04T22:42:40.339572",
+      "last_scraped": "2026-04-04T22:49:21.907800",
       "data_fresh": true
     }
   ]
