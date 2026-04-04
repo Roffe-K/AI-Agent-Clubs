@@ -6,13 +6,12 @@ Pipeline:
   2. Google Places (New API) – hitta klubbar, adress, öppetider, bilder
   3. Scrapa varje klubbs hemsida – Instagram, åldersgräns, säsong
   4. Claude Haiku – strukturera och jämför alla källor
-  5. Google Custom Search – fallback för åldersgräns om den saknas
+  5. Claude Web Search – fallback för åldersgräns om den saknas
   6. Spara till nightclubs.json
 
 Krav (GitHub Secrets):
-  GOOGLE_API_KEY   – Google Cloud API-nyckel (Places API + Custom Search API aktiverade)
-  GOOGLE_CSE_ID    – Custom Search Engine ID (cx) från cse.google.com
-  CLAUDE_API_KEY   – Anthropic API-nyckel
+  GOOGLE_API_KEY  – Google Cloud API-nyckel (Places API aktiverat)
+  CLAUDE_API_KEY  – Anthropic API-nyckel
 """
 
 import os
@@ -28,7 +27,6 @@ import anthropic
 # ─────────────────────────────────────────────
 
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "DIN_GOOGLE_API_KEY")
-GOOGLE_CSE_ID  = os.getenv("GOOGLE_CSE_ID",  "DIN_CSE_ID")
 CLAUDE_API_KEY = os.getenv("CLAUDE_API_KEY", "DIN_CLAUDE_API_KEY")
 
 OUTPUT_FILE = "nightclubs.json"
@@ -64,9 +62,6 @@ DETAIL_FIELD_MASK = (
     "websiteUri,photos,nationalPhoneNumber,googleMapsUri,rating,userRatingCount"
 )
 
-# ─── Google Custom Search ───────────────────
-GOOGLE_CSE_URL = "https://www.googleapis.com/customsearch/v1"
-
 # ─────────────────────────────────────────────
 # KLIENTER
 # ─────────────────────────────────────────────
@@ -75,68 +70,52 @@ claude = anthropic.Anthropic(api_key=CLAUDE_API_KEY)
 
 
 # ─────────────────────────────────────────────
-# GOOGLE CUSTOM SEARCH – ÅLDERSGRÄNS
+# CLAUDE WEB SEARCH – ÅLDERSGRÄNS
 # ─────────────────────────────────────────────
 
 def search_age_limit(club_name: str, city: str) -> int | None:
     """
-    Söker specifikt efter åldersgräns via Google Custom Search.
-    Används som fallback när hemsida + listningssajter inte gav svar.
-    100 gratis sökningar/dag ingår i Google-nyckeln – räcker för alla klubbar.
+    Använder Claudes inbyggda web search tool för att hitta åldersgräns.
+    Ingen extra API-nyckel behövs – ingår i Claude API:t.
+    Fungerar globalt för alla städer och länder.
     """
-    queries = [
-        f'"{club_name}" åldersgräns {city}',
-        f'"{club_name}" ålder {city} nattklubb',
-        f'"{club_name}" age limit nightclub {city}',
-    ]
+    try:
+        response = claude.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=200,
+            tools=[{
+                "type": "web_search_20250305",
+                "name": "web_search",
+            }],
+            messages=[{
+                "role": "user",
+                "content": (
+                    f"What is the official minimum age requirement (age limit) "
+                    f"to enter the nightclub '{club_name}' in {city}? "
+                    f"Search for this and reply with ONLY a number: 18, 20, 21, 23 or null if unknown. "
+                    f"Do not guess."
+                )
+            }]
+        )
 
-    for query in queries:
-        try:
-            resp = requests.get(
-                GOOGLE_CSE_URL,
-                params={
-                    "key": GOOGLE_API_KEY,
-                    "cx":  GOOGLE_CSE_ID,
-                    "q":   query,
-                    "num": 5,
-                },
-                timeout=10,
-            )
-            resp.raise_for_status()
-            items = resp.json().get("items", [])
+        # Hämta text från svaret (kan innehålla tool_use block också)
+        answer = ""
+        for block in response.content:
+            if hasattr(block, "text"):
+                answer = block.text.strip()
+                break
 
-            if not items:
-                continue
+        # Extrahera siffran
+        for word in answer.split():
+            word = word.strip(".,")
+            if word.isdigit() and int(word) in (18, 20, 21, 23):
+                return int(word)
 
-            # Slå ihop titlar + snippets
-            snippets = "\n".join(
-                f"{r.get('title', '')} – {r.get('snippet', '')}"
-                for r in items
-            )
+        return None
 
-            # Claude läser och plockar ut siffran
-            response = claude.messages.create(
-                model="claude-haiku-4-5-20251001",
-                max_tokens=10,
-                messages=[{"role": "user", "content": f"""Vad är den officiella åldersgränsen för nattklubben '{club_name}' i {city}?
-Svara ENBART med en siffra: 18, 20 eller 23.
-Om du inte kan avgöra det säkert, svara: null
-Gissa aldrig.
-
-Text:
-{snippets}"""}]
-            )
-
-            answer = response.content[0].text.strip()
-            if answer.isdigit() and int(answer) in (18, 20, 23):
-                return int(answer)
-
-            time.sleep(0.3)
-
-        except Exception as e:
-            print(f"    ⚠️ Google CSE-fel: {e}")
-
-    return None
+    except Exception as e:
+        print(f"    ⚠️ Claude web search-fel: {e}")
+        return None
 
 
 # ─────────────────────────────────────────────
@@ -292,7 +271,7 @@ def extract_with_claude(
 
 Åldersgräns hittas ofta som: "18 år", "20-årsgräns", "åldersgräns 23",
 "minimum age", "du måste vara minst X år", "entry age".
-Vanliga svenska värden: 18, 20, 23. Gissa ALDRIG – sätt null om osäker.
+Vanliga värden: 18, 20, 21, 23. Gissa ALDRIG – sätt null om osäker.
 
 Google öppetider: {', '.join(google_hours) if google_hours else 'saknas'}
 Listningssajt-info: {listing_info or 'ingen'}
@@ -315,7 +294,7 @@ Svara ENBART med JSON (inga backticks):
   "dress_code": null,
   "hours_confidence": "high"
 }}
-Sätt null om info saknas. Åldersgräns måste vara officiell (18/20/23).
+Sätt null om info saknas. Åldersgräns måste vara officiell.
 """}]
     )
 
@@ -335,12 +314,11 @@ def merge_sources(
     ai_data: dict,
     listing_match: dict,
     city: str,
-    cse_age_limit: int | None = None,
+    web_search_age: int | None = None,
 ) -> dict:
     google_hours = parse_opening_hours(details)
     ai_hours     = ai_data.get("opening_hours")
 
-    # Öppetider – välj bästa källa
     if ai_hours and google_hours:
         opening_hours    = ai_hours
         hours_confidence = "high"
@@ -359,54 +337,41 @@ def merge_sources(
         hours_source     = "saknas"
 
     # Åldersgräns – prioritetsordning:
-    # 1. Från hemsida (via Claude)
-    # 2. Från listningssajt
-    # 3. Från Google Custom Search (fallback)
+    # 1. Hemsida (via Claude extraktion)
+    # 2. Listningssajt
+    # 3. Claude web search (fallback)
     age_limit = (
         ai_data.get("age_limit")
         or listing_match.get("age_limit")
-        or cse_age_limit
+        or web_search_age
     )
     age_source = (
-        "website"      if ai_data.get("age_limit") else
-        "listing_site" if listing_match.get("age_limit") else
-        "google_search" if cse_age_limit else
+        "website"     if ai_data.get("age_limit")    else
+        "listing"     if listing_match.get("age_limit") else
+        "web_search"  if web_search_age               else
         "saknas"
     )
 
     handle = website_data.get("instagram_handle")
 
     return {
-        # ─── Identitet ───
-        "name":        details.get("displayName", {}).get("text", "Okänd"),
-        "city":        city,
-        "description": ai_data.get("description"),
-
-        # ─── Plats ───
+        "name":            details.get("displayName", {}).get("text", "Okänd"),
+        "city":            city,
+        "description":     ai_data.get("description"),
         "address":         details.get("formattedAddress"),
         "lat":             details.get("location", {}).get("latitude"),
         "lng":             details.get("location", {}).get("longitude"),
         "google_maps_url": details.get("googleMapsUri"),
-
-        # ─── Tider ───
-        "opening_hours": opening_hours,
-        "seasonal_info": ai_data.get("seasonal_info"),
-
-        # ─── Tillträde ───
-        "age_limit":  age_limit,
-        "dress_code": ai_data.get("dress_code"),
-
-        # ─── Kontakt & media ───
-        "website":   details.get("websiteUri"),
-        "instagram": f"https://instagram.com/{handle}" if handle else None,
-        "phone":     details.get("nationalPhoneNumber"),
-        "images":    get_place_images(details.get("photos", [])),
-
-        # ─── Google-metadata ───
-        "google_rating":  details.get("rating"),
-        "google_reviews": details.get("userRatingCount"),
-
-        # ─── Datakvalitet ───
+        "opening_hours":   opening_hours,
+        "seasonal_info":   ai_data.get("seasonal_info"),
+        "age_limit":       age_limit,
+        "dress_code":      ai_data.get("dress_code"),
+        "website":         details.get("websiteUri"),
+        "instagram":       f"https://instagram.com/{handle}" if handle else None,
+        "phone":           details.get("nationalPhoneNumber"),
+        "images":          get_place_images(details.get("photos", [])),
+        "google_rating":   details.get("rating"),
+        "google_reviews":  details.get("userRatingCount"),
         "confidence": {
             "opening_hours":        hours_confidence,
             "opening_hours_source": hours_source,
@@ -414,10 +379,10 @@ def merge_sources(
             "age_limit_source":     age_source,
         },
         "sources_used": {
-            "google_places":    True,
-            "website_scraped":  bool(website_data.get("raw_text")),
-            "listing_site":     bool(listing_match),
-            "google_search":    cse_age_limit is not None,
+            "google_places":   True,
+            "website_scraped": bool(website_data.get("raw_text")),
+            "listing_site":    bool(listing_match),
+            "claude_search":   web_search_age is not None,
         },
         "last_scraped": datetime.now().isoformat(),
         "data_fresh":   True,
@@ -500,17 +465,14 @@ def run_agent(cities: list = None):
             name = place.get("displayName", {}).get("text", "Okänd")
             print(f"\n  [{i+1}/{len(places)}] 🎯 {name}")
 
-            # Google Places-detaljer
             print("    → Google Places detaljer...")
             details = get_place_details(pid)
             time.sleep(0.5)
 
-            # Kolla listningssajt-match
             listing_match = _find_listing_match(name, listing_clubs)
             if listing_match:
                 print(f"    ✅ Match: {listing_match.get('source')}")
 
-            # Scrapa hemsida
             website_url  = details.get("websiteUri")
             website_data = {}
             if website_url:
@@ -520,7 +482,6 @@ def run_agent(cities: list = None):
             else:
                 print("    ⚠️  Ingen hemsida")
 
-            # Claude extraherar strukturerad info
             print("    → Claude Haiku extraherar info...")
             ai_data = extract_with_claude(
                 website_text=website_data.get("raw_text", ""),
@@ -530,24 +491,20 @@ def run_agent(cities: list = None):
             )
             time.sleep(0.3)
 
-            # ── STEG 2b: Google CSE fallback för åldersgräns ──
-            cse_age_limit = None
-            has_age = (
-                ai_data.get("age_limit")
-                or listing_match.get("age_limit")
-            )
+            # Claude web search fallback för åldersgräns
+            web_search_age = None
+            has_age = ai_data.get("age_limit") or listing_match.get("age_limit")
             if not has_age:
-                print("    → Åldersgräns saknas – söker via Google CSE...")
-                cse_age_limit = search_age_limit(name, city)
-                if cse_age_limit:
-                    print(f"    ✅ Hittade åldersgräns via Google CSE: {cse_age_limit} år")
+                print("    → Åldersgräns saknas – Claude söker på webben...")
+                web_search_age = search_age_limit(name, city)
+                if web_search_age:
+                    print(f"    ✅ Hittade via web search: {web_search_age} år")
                 else:
                     print("    ⚠️  Åldersgräns ej hittad")
                 time.sleep(0.5)
 
-            # Slå ihop alla källor
             club = merge_sources(
-                details, website_data, ai_data, listing_match, city, cse_age_limit
+                details, website_data, ai_data, listing_match, city, web_search_age
             )
 
             print(
