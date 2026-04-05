@@ -12,6 +12,7 @@ Pipeline:
 Krav (GitHub Secrets):
   GOOGLE_API_KEY  – Google Cloud API-nyckel (Places API aktiverat)
   CLAUDE_API_KEY  – Anthropic API-nyckel
+  SERPER_API_KEY  – Serper.dev API-nyckel (google.serper.dev)
 """
 
 import os
@@ -28,6 +29,7 @@ import anthropic
 
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "DIN_GOOGLE_API_KEY")
 CLAUDE_API_KEY = os.getenv("CLAUDE_API_KEY", "DIN_CLAUDE_API_KEY")
+SERPER_API_KEY  = os.getenv("SERPER_API_KEY",  "DIN_SERPER_KEY")
 
 OUTPUT_FILE = "nightclubs.json"
 CITIES      = ["Stockholm"]  # Lägg till "Göteborg", "Malmö" vid behov
@@ -75,41 +77,59 @@ claude = anthropic.Anthropic(api_key=CLAUDE_API_KEY)
 
 def search_age_limit(club_name: str, city: str) -> int | None:
     """
-    Använder Claudes inbyggda web search tool för att hitta åldersgräns.
-    Ingen extra API-nyckel behövs – ingår i Claude API:t.
-    Fungerar globalt för alla städer och länder.
+    Söker åldersgräns via Serper.dev (Google-resultat).
+    Kostar $0.001 per sökning – 10x billigare än Claude web search.
     """
     try:
-        response = claude.messages.create(
-            model="claude-haiku-4-5-20251001",
-            max_tokens=200,
-            tools=[{
-                "type": "web_search_20250305",
-                "name": "web_search",
-            }],
-            messages=[{
-                "role": "user",
-                "content": (
-                    f"What is the official minimum age requirement (age limit) "
-                    f"to enter the nightclub '{club_name}' in {city}? "
-                    f"Search for this and reply with ONLY a number: 18, 20, 21, 23 or null if unknown. "
-                    f"Do not guess."
-                )
-            }]
+        resp = requests.post(
+            "https://google.serper.dev/search",
+            headers={
+                "X-API-KEY":    SERPER_API_KEY,
+                "Content-Type": "application/json",
+            },
+            json={"q": f"{club_name} age limit {city} nightclub", "num": 5},
+            timeout=10,
+        )
+        resp.raise_for_status()
+
+        # Slå ihop snippets från topp-5 resultat
+        snippets = " ".join(
+            r.get("snippet", "")
+            for r in resp.json().get("organic", [])
         )
 
-        # Hämta text från svaret (kan innehålla tool_use block också)
-        answer = ""
-        for block in response.content:
-            if hasattr(block, "text"):
-                answer = block.text.strip()
-                break
+        if not snippets:
+            return None
 
-        # Extrahera siffran
-        for word in answer.split():
-            word = word.strip(".,")
-            if word.isdigit() and int(word) in (18, 20, 21, 23):
-                return int(word)
+        # Claude läser snippets – enkelt anrop utan web search tool
+        response = claude.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=10,
+            messages=[{"role": "user", "content": f"""Age limit for '{club_name}' in {city}?
+Reply ONLY with: 18, 20, 21, 23 or null. No guessing.
+Text: {snippets}"""}]
+        )
+
+        answer = response.content[0].text.strip()
+        if answer.isdigit() and int(answer) in (18, 20, 21, 23):
+            return int(answer)
+        return None
+
+    except Exception as e:
+        print(f"    ⚠️ Serper-fel: {e}")
+        return None
+
+            # Claude vill söka – skicka tillbaka tool_result och fortsätt
+            tool_results = []
+            for block in response.content:
+                if block.type == "tool_use":
+                    tool_results.append({
+                        "type":        "tool_result",
+                        "tool_use_id": block.id,
+                        "content":     "",
+                    })
+            if tool_results:
+                messages.append({"role": "user", "content": tool_results})
 
         return None
 
@@ -382,7 +402,7 @@ def merge_sources(
             "google_places":   True,
             "website_scraped": bool(website_data.get("raw_text")),
             "listing_site":    bool(listing_match),
-            "claude_search":   web_search_age is not None,
+            "serper_search":   web_search_age is not None,
         },
         "last_scraped": datetime.now().isoformat(),
         "data_fresh":   True,
