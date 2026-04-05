@@ -34,12 +34,6 @@ jobs:
           CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
 
-      - name: 📤 Pusha till Supabase
-        run: python push_to_supabase.py
-        env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
-
       - name: 💾 Spara nightclubs.json som artifact
         uses: actions/upload-artifact@v4
         with:
