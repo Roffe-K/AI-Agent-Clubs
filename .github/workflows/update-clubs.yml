@@ -2,10 +2,7 @@ name: 🎉 Uppdatera nattklubbar
 
 on:
   schedule:
-    # Kör 1:a varje månad kl 10:00 (UTC)
-    - cron: '0 10 1 * *'
-
-  # Kör manuellt från GitHub Actions-fliken
+    - cron: '0 10 1 * *'   # Kör 1:a varje månad kl 10:00
   workflow_dispatch:
     inputs:
       cities:
@@ -31,12 +28,17 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: 🤖 Kör nightclub-agenten
-        run: python nightclub_agent.py
+        run: python nightclub_agent.py "${{ github.event.inputs.cities || 'Stockholm,Göteborg,Malmö' }}"
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
-          GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }} 
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+
+      - name: 📤 Pusha till Supabase
+        run: python push_to_supabase.py
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
 
       - name: 💾 Spara nightclubs.json som artifact
         uses: actions/upload-artifact@v4
@@ -45,13 +47,12 @@ jobs:
           path: nightclubs.json
           retention-days: 90
 
-      # Valfritt: Commita uppdaterad fil tillbaka till repot
-      - name: 📤 Commita uppdaterad data
+      - name: 📤 Commita uppdaterad JSON till repot
         run: |
           git config --global user.name "PartyPrep Bot"
           git config --global user.email "bot@partyprep.se"
           git add nightclubs.json
-          git diff --staged --quiet || git commit -m "🎉 Auto-uppdatering av nattklubbar $(date +'%Y-%m-%d')"
+          git diff --staged --quiet || git commit -m "🎉 Auto-uppdatering $(date +'%Y-%m-%d')"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
