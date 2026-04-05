@@ -43,7 +43,10 @@ CITIES      = ["Stockholm"]
 LISTING_SITES = [
     {"url": "https://www.thatsup.se/stockholm/noje/nattliv/",    "city": "Stockholm", "name": "Thatsup Stockholm"},
     {"url": "https://www.visitstockholm.com/see--do/nightlife/", "city": "Stockholm", "name": "Visit Stockholm"},
+    {"url": "https://www.thatsup.se/goteborg/noje/nattliv/",     "city": "Göteborg",  "name": "Thatsup Göteborg"},
     {"url": "https://www.goteborg.com/en/nightlife/",            "city": "Göteborg",  "name": "Visit Göteborg"},
+    {"url": "https://www.thatsup.se/malmo/noje/nattliv/",        "city": "Malmö",     "name": "Thatsup Malmö"},
+    {"url": "https://www.visitmalmö.se/uppleva/nojesliv/",       "city": "Malmö",     "name": "Visit Malmö"},
 ]
 
 SCRAPE_HEADERS = {
@@ -585,12 +588,14 @@ Rules:
         except Exception:
             pass
 
-    # Sortera på datum
-    def sort_key(e):
-        return e.get("date") or "9999"
-
-    final_events.sort(key=sort_key)
-    return final_events[:10]  # Max 10 events per klubb
+    # Filtrera bort gamla events – bara framtida datum
+    today = datetime.now().strftime("%Y-%m-%d")
+    final_events = [
+        e for e in final_events
+        if e.get("date") and e["date"] >= today
+    ]
+    final_events.sort(key=lambda e: e.get("date") or "9999")
+    return final_events[:10]
 
 
 
@@ -717,9 +722,12 @@ def quick_search_events(club_name: str, city: str) -> list:
 
         time.sleep(0.3)
 
-    # Sortera på datum, filtrera bort gamla events
+    # Filtrera bort gamla events – bara framtida datum
     today = datetime.now().strftime("%Y-%m-%d")
-    events = [e for e in events if not e.get("date") or e["date"] >= today]
+    events = [
+        e for e in events
+        if e.get("date") and e["date"] >= today  # Kräv datum OCH att det är i framtiden
+    ]
     events.sort(key=lambda e: e.get("date") or "9999")
     return events[:5]
 
@@ -745,8 +753,13 @@ def detect_event_based_and_scrape(club_name: str, city: str, website_text: str, 
         response = claude.messages.create(
             model="claude-haiku-4-5-20251001",
             max_tokens=20,
-            messages=[{"role": "user", "content": f"""Is '{club_name}' an event-based venue that only opens for special events/concerts (not a regular weekly nightclub)?
-Signs: "se kommande event", "next event", "inga fasta öppettider", "only open for events", "se program", upcoming shows listed instead of weekly hours.
+            messages=[{"role": "user", "content": f"""Is '{club_name}' an event-based venue that ONLY opens for special events (no regular weekly schedule)?
+
+TRUE only if: no fixed weekly hours, only opens for specific concerts/shows, website only lists upcoming events with no regular schedule.
+
+FALSE if: has regular weekly opening hours (even if they also host events), opens every Friday/Saturday, is a regular nightclub that also promotes events.
+
+A regular nightclub that hosts DJ nights or events is NOT event-based.
 Reply ONLY with: true or false.
 Text: {website_text[:2000]}"""}]
         )
@@ -1306,14 +1319,20 @@ def run_agent(cities: list = None):
                 details.get("websiteUri") or serper_website or ""
             )
 
-            # Kombinera snabba events + djupare events, ta bort dubletter
+            # Kombinera snabba events + djupare events, ta bort dubletter och gamla
+            today_str   = datetime.now().strftime("%Y-%m-%d")
             seen_events = set()
             all_events  = []
             for e in (quick_events + event_info.get("next_events", [])):
-                key = (e.get("title") or "").lower().strip()
-                if key and key not in seen_events:
-                    seen_events.add(key)
-                    all_events.append(e)
+                key  = (e.get("title") or "").lower().strip()
+                date = e.get("date") or ""
+                # Kräv datum och att det är i framtiden
+                if not key or key in seen_events:
+                    continue
+                if not date or date < today_str:
+                    continue
+                seen_events.add(key)
+                all_events.append(e)
             all_events.sort(key=lambda e: e.get("date") or "9999")
             all_events = all_events[:10]
 
@@ -1392,4 +1411,11 @@ def run_agent(cities: list = None):
 
 
 if __name__ == "__main__":
-    run_agent(cities=["Stockholm"])
+    import sys
+    if len(sys.argv) > 1:
+        # Ta städer från kommandoradsargument: "Stockholm,Malmö,Göteborg"
+        cities = [c.strip() for c in sys.argv[1].split(",")]
+        print(f"  Kör med städer från argument: {cities}")
+    else:
+        cities = CITIES
+    run_agent(cities=cities)
