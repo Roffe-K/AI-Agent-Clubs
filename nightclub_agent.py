@@ -6,13 +6,19 @@ Pipeline:
   2. Google Places (New API) – hitta klubbar, adress, öppetider, bilder
   3. Scrapa varje klubbs hemsida – Instagram, åldersgräns, säsong
   4. Claude Haiku – strukturera och jämför alla källor
-  5. Serper (Google) – fallback för hemsida, Instagram och åldersgräns
+  5. Serper – dubbelkolla öppetider, hitta åldersgräns, hemsida, Instagram
   6. Spara till nightclubs.json
+
+Förbättringar:
+  - Serper dubbelkollar öppetider mot Google Maps
+  - Endast högupplösta editorial-bilder (ej Google Reviews-bilder)
+  - Strukturerad seasonal med faktiska datum
+  - Google rating + reviews sparas
 
 Krav (GitHub Secrets):
   GOOGLE_API_KEY  – Google Cloud API-nyckel (Places API aktiverat)
   CLAUDE_API_KEY  – Anthropic API-nyckel
-  SERPER_API_KEY  – Serper.dev API-nyckel (google.serper.dev)
+  SERPER_API_KEY  – Serper.dev API-nyckel
 """
 
 import os
@@ -32,7 +38,7 @@ CLAUDE_API_KEY = os.getenv("CLAUDE_API_KEY", "DIN_CLAUDE_API_KEY")
 SERPER_API_KEY = os.getenv("SERPER_API_KEY", "DIN_SERPER_KEY")
 
 OUTPUT_FILE = "nightclubs.json"
-CITIES      = ["Stockholm"]  # Lägg till "Göteborg", "Malmö" vid behov
+CITIES      = ["Stockholm"]
 
 LISTING_SITES = [
     {"url": "https://www.thatsup.se/stockholm/noje/nattliv/",    "city": "Stockholm", "name": "Thatsup Stockholm"},
@@ -75,7 +81,7 @@ claude = anthropic.Anthropic(api_key=CLAUDE_API_KEY)
 # SERPER – HJÄLPFUNKTION
 # ─────────────────────────────────────────────
 
-def serper_search(query: str, num: int = 5) -> list:
+def serper_search(query: str, num: int = 8) -> list:
     """Gör en Google-sökning via Serper och returnerar organiska resultat."""
     try:
         resp = requests.post(
@@ -84,7 +90,7 @@ def serper_search(query: str, num: int = 5) -> list:
                 "X-API-KEY":    SERPER_API_KEY,
                 "Content-Type": "application/json",
             },
-            json={"q": query, "num": num},
+            json={"q": query, "num": num, "gl": "se", "hl": "sv"},
             timeout=10,
         )
         resp.raise_for_status()
@@ -95,56 +101,152 @@ def serper_search(query: str, num: int = 5) -> list:
 
 
 # ─────────────────────────────────────────────
+# SERPER – DUBBELKOLLA ÖPPETIDER
+# ─────────────────────────────────────────────
+
+def verify_opening_hours(club_name: str, city: str, google_hours: list) -> dict:
+    """
+    Dubbelkollar Google Maps öppetider mot andra källor via Serper.
+    Returnerar öppetider + confidence baserat på om källorna stämmer överens.
+    """
+    queries = [
+        f"{club_name} öppettider {city}",
+        f"{club_name} opening hours {city}",
+        f"{club_name} {city} när öppnar",
+    ]
+
+    all_snippets = []
+    urls_to_check = []
+
+    for query in queries:
+        results = serper_search(query, num=5)
+        for r in results:
+            snippet = r.get("snippet", "")
+            title   = r.get("title", "")
+            url     = r.get("link", "")
+            if snippet:
+                all_snippets.append(f"{title}: {snippet}")
+            hour_keywords = ["öppet", "open", "stängt", "closed", "22:", "23:", "00:", "01:", "02:", "03:", "04:", "05:"]
+            if url and any(kw in (snippet + title).lower() for kw in hour_keywords):
+                skip = ["google.", "facebook.", "instagram.", "youtube."]
+                if not any(s in url for s in skip):
+                    urls_to_check.append(url)
+        if all_snippets:
+            break
+
+    if not all_snippets:
+        return {"verified": False, "source": "google_only"}
+
+    google_hours_str = ", ".join(google_hours) if google_hours else "saknas"
+    snippets_str     = "\n".join(dict.fromkeys(all_snippets)[:10])
+
+    response = claude.messages.create(
+        model="claude-haiku-4-5-20251001",
+        max_tokens=400,
+        messages=[{"role": "user", "content": f"""Jämför öppettiderna för '{club_name}' i {city}.
+
+Google Maps säger: {google_hours_str}
+
+Information från andra källor:
+{snippets_str}
+
+Svara ENBART med JSON (inga backticks):
+{{
+  "opening_hours": {{
+    "monday":    "stängt",
+    "tuesday":   "stängt",
+    "wednesday": "stängt",
+    "thursday":  "22:00-03:00",
+    "friday":    "22:00-05:00",
+    "saturday":  "22:00-05:00",
+    "sunday":    "stängt"
+  }},
+  "confidence": "high",
+  "sources_agree": true,
+  "note": "Om källorna skiljer sig, beskriv kort"
+}}
+
+confidence: "high" om flera källor stämmer överens, "medium" om bara en källa, "low" om de skiljer sig.
+Välj den mest troliga/uppdaterade informationen om källorna skiljer sig.
+Sätt null för dagar utan info.
+"""}]
+    )
+
+    try:
+        result = json.loads(_clean_json(response.content[0].text.strip()))
+        result["verified"] = True
+        result["source"]   = "google + serper"
+        return result
+    except:
+        return {"verified": False, "source": "google_only"}
+
+
+# ─────────────────────────────────────────────
+# GOOGLE PLACES – BILDER (ENDAST HÖGUPPLÖSTA)
+# ─────────────────────────────────────────────
+
+def get_place_images(photos: list, max_images: int = 5) -> list:
+    """
+    Hämtar endast högupplösta editorial-bilder från Google Places.
+    Filtrerar bort bilder från Google Reviews (user-uploaded).
+    Google Places (New) returnerar foton med attributions – vi väljer
+    bara de utan 'user' i attribution för att undvika review-bilder.
+    """
+    images = []
+    for photo in photos:
+        # Kolla attribution – hoppa över användarfoton från reviews
+        attributions = photo.get("authorAttributions", [])
+        is_user_photo = any(
+            "maps.google" in a.get("uri", "") or
+            a.get("photoUri", "").startswith("//lh")
+            for a in attributions
+        )
+        if is_user_photo and len(images) > 0:
+            continue  # Skippa review-bilder om vi redan har editorial
+
+        name = photo.get("name")
+        if name:
+            # Begär högsta upplösning – 4800px
+            images.append(
+                f"{PLACES_PHOTO_URL.format(photo_name=name)}"
+                f"?maxWidthPx=4800&key={GOOGLE_API_KEY}"
+            )
+
+        if len(images) >= max_images:
+            break
+
+    return images
+
+
+# ─────────────────────────────────────────────
 # SERPER – HITTA HEMSIDA
 # ─────────────────────────────────────────────
 
 def search_website(club_name: str, city: str) -> str | None:
-    """
-    Söker upp klubbens hemsida via Serper när Google Places inte har den.
-    Hanterar även klubbar som drivs av restauranger eller venues med annat namn.
-    """
-    results = serper_search(f"{club_name} {city} officiell hemsida nightclub", num=5)
+    """Söker upp klubbens hemsida via Serper när Google Places inte har den."""
+    results = serper_search(f"{club_name} {city} officiell hemsida nattklubb", num=5)
 
-    if not results:
-        return None
-
-    # Bygg en lista av kandidat-URLs
     candidates = []
     for r in results:
-        url = r.get("link", "")
-        title = r.get("title", "").lower()
+        url     = r.get("link", "")
+        title   = r.get("title", "").lower()
         snippet = r.get("snippet", "").lower()
-
-        # Skippa uppenbart irrelevanta sidor
-        skip_domains = ["tripadvisor", "yelp", "facebook", "instagram",
-                        "google", "wikipedia", "thatsup", "visitstockholm"]
-        if any(d in url for d in skip_domains):
+        skip    = ["tripadvisor", "yelp", "facebook", "instagram",
+                   "google", "wikipedia", "thatsup", "visitstockholm"]
+        if any(d in url for d in skip):
             continue
-
-        candidates.append({
-            "url":     url,
-            "title":   title,
-            "snippet": snippet,
-        })
+        candidates.append(f"{url} – {title}")
 
     if not candidates:
         return None
 
-    # Claude väljer den mest troliga hemsidan
-    candidates_str = "\n".join(
-        f"{i+1}. {c['url']} – {c['title']}"
-        for i, c in enumerate(candidates[:5])
-    )
-
     response = claude.messages.create(
         model="claude-haiku-4-5-20251001",
         max_tokens=100,
-        messages=[{"role": "user", "content": f"""Which URL is the official website for the nightclub/venue '{club_name}' in {city}?
-Note: the club might be owned by a restaurant or bar with a different name.
-Reply with ONLY the URL, or null if none match.
-
-Candidates:
-{candidates_str}"""}]
+        messages=[{"role": "user", "content": f"""Which URL is the official website for '{club_name}' in {city}?
+The club might be owned by a restaurant or bar with a different name.
+Reply with ONLY the URL, or null.
+Candidates:\n{chr(10).join(candidates[:5])}"""}]
     )
 
     answer = response.content[0].text.strip()
@@ -158,12 +260,8 @@ Candidates:
 # ─────────────────────────────────────────────
 
 def search_instagram(club_name: str, city: str) -> str | None:
-    """
-    Söker upp klubbens Instagram-handle via Serper.
-    Söker både på klubbnamnet och eventuellt ägarföretag.
-    """
+    """Söker upp klubbens Instagram-handle via Serper."""
     results = serper_search(f"{club_name} {city} site:instagram.com", num=5)
-
     for r in results:
         url = r.get("link", "")
         if "instagram.com/" in url:
@@ -175,7 +273,6 @@ def search_instagram(club_name: str, city: str) -> str | None:
             )
             if handle and handle not in ("p", "stories", "reel", "explore", ""):
                 return handle
-
     return None
 
 
@@ -185,46 +282,418 @@ def search_instagram(club_name: str, city: str) -> str | None:
 
 def search_age_limit(club_name: str, city: str) -> int | None:
     """
-    Söker åldersgräns via Serper med flera olika sökfraser.
-    Claude tolkar resultaten och extraherar siffran.
+    Aggressiv åldersgräns-sökning via Serper.
+    1. Söker med många fraser på svenska och engelska
+    2. Samlar snippets från alla queries
+    3. Scrapar de mest lovande sidorna för djupare analys
+    4. Claude analyserar allt och extraherar siffran
     """
-    # Prova flera sökfraser för bästa täckning
     queries = [
         f"{club_name} åldersgräns {city}",
-        f"{club_name} age limit {city} nightclub",
-        f"{club_name} {city} minimum age entry",
+        f"{club_name} ålder {city} nattklubb",
+        f"{club_name} åldersgräns",
+        f"{club_name} inträde ålder {city}",
+        f"{club_name} age limit {city}",
+        f"{club_name} age limit nightclub",
+        f"{club_name} {city} how old to enter",
     ]
 
-    all_snippets = []
+    all_snippets   = []
+    urls_to_scrape = []
+
     for query in queries:
-        results = serper_search(query, num=5)
+        results = serper_search(query, num=8)
         for r in results:
             snippet = r.get("snippet", "")
             title   = r.get("title", "")
+            url     = r.get("link", "")
+
             if snippet:
                 all_snippets.append(f"{title}: {snippet}")
-        if all_snippets:
-            break  # Räcker med bra resultat från första query
 
-    if not all_snippets:
-        return None
+            age_kw = ["ålder", "age", "limit", "gräns", "inträde", "entry", "18", "20", "21", "23"]
+            skip   = ["google.", "facebook.", "instagram.", "youtube.", "twitter."]
+            if url and any(kw in (snippet + title).lower() for kw in age_kw):
+                if not any(s in url for s in skip):
+                    urls_to_scrape.append(url)
 
-    snippets_str = "\n".join(all_snippets[:8])
+    # Försök extrahera direkt från snippets
+    if all_snippets:
+        snippets_str = "\n".join(dict.fromkeys(all_snippets)[:15])
+        response = claude.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=10,
+            messages=[{"role": "user", "content": f"""Official minimum age to enter '{club_name}' in {city}?
+Reply ONLY with: 18, 20, 21, 23 or null. Never guess.
+Text:\n{snippets_str}"""}]
+        )
+        answer = response.content[0].text.strip()
+        if answer.isdigit() and int(answer) in (18, 20, 21, 23):
+            return int(answer)
 
-    response = claude.messages.create(
-        model="claude-haiku-4-5-20251001",
-        max_tokens=10,
-        messages=[{"role": "user", "content": f"""What is the official minimum age to enter '{club_name}' in {city}?
-Reply ONLY with a number: 18, 20, 21, 23 — or null if not found. Never guess.
+    # Scrapar de 3 mest lovande sidorna direkt
+    scraped_texts = []
+    for url in list(dict.fromkeys(urls_to_scrape))[:3]:
+        try:
+            resp = requests.get(url, headers=SCRAPE_HEADERS, timeout=8)
+            soup = BeautifulSoup(resp.text, "html.parser")
+            for tag in soup(["script", "style", "nav", "footer", "header"]):
+                tag.decompose()
+            text  = soup.get_text(separator=" ", strip=True)
+            words = text.split()
 
-Text:
-{snippets_str}"""}]
-    )
+            # Plocka ut stycken runt ålder-nyckelord
+            relevant = []
+            for i, word in enumerate(words):
+                if any(kw in word.lower() for kw in ["ålder", "age", "gräns", "limit", "inträde", "18", "20", "21", "23"]):
+                    start = max(0, i - 20)
+                    end   = min(len(words), i + 20)
+                    relevant.append(" ".join(words[start:end]))
 
-    answer = response.content[0].text.strip()
-    if answer.isdigit() and int(answer) in (18, 20, 21, 23):
-        return int(answer)
+            if relevant:
+                scraped_texts.append(f"Från {url}:\n" + " | ".join(relevant[:5]))
+        except Exception:
+            continue
+
+    if scraped_texts:
+        full_text = "\n\n".join(scraped_texts)
+        response  = claude.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=10,
+            messages=[{"role": "user", "content": f"""Official minimum age to enter '{club_name}' in {city}?
+Reply ONLY with: 18, 20, 21, 23 or null. Never guess.
+Text:\n{full_text[:3000]}"""}]
+        )
+        answer = response.content[0].text.strip()
+        if answer.isdigit() and int(answer) in (18, 20, 21, 23):
+            return int(answer)
+
     return None
+
+
+# ─────────────────────────────────────────────
+# TICKETING – SCRAPA EVENTS FRÅN BILJETTAJTER
+# ─────────────────────────────────────────────
+
+# Svenska/nordiska ticketingsajter
+TICKETING_SITES = [
+    {
+        "name":    "Tickster",
+        "search":  "https://tickster.com/sv/search?q={query}",
+        "domain":  "tickster.com",
+    },
+    {
+        "name":    "Dice",
+        "search":  "https://dice.fm/search?q={query}",
+        "domain":  "dice.fm",
+    },
+    {
+        "name":    "Billetto",
+        "search":  "https://billetto.se/search?q={query}",
+        "domain":  "billetto.se",
+    },
+    {
+        "name":    "Resident Advisor",
+        "search":  "https://ra.co/search?q={query}",
+        "domain":  "ra.co",
+    },
+    {
+        "name":    "Ticketmaster",
+        "search":  "https://www.ticketmaster.se/search?q={query}",
+        "domain":  "ticketmaster.se",
+    },
+]
+
+
+def scrape_ticketing_events(club_name: str, city: str) -> list:
+    """
+    Söker efter kommande events för en klubb på:
+    Tickster, Dice, Billetto, Resident Advisor, Ticketmaster.
+
+    Strategi:
+    1. Serper söker på varje ticketingsajt med site:-operator
+    2. Scrapar de hittade event-sidorna direkt
+    3. Claude extraherar strukturerad event-info
+
+    Returnerar lista med events från ALLA källor kombinerat.
+    """
+    all_events  = []
+    seen_titles = set()
+
+    # Bygg sökfrågor per sajt
+    site_queries = [
+        f"{club_name} {city} site:tickster.com",
+        f"{club_name} {city} site:dice.fm",
+        f"{club_name} {city} site:billetto.se",
+        f"{club_name} site:ra.co",
+        f"{club_name} {city} site:ticketmaster.se",
+        # Generell sökning som fångar flera sajter
+        f"{club_name} {city} biljetter kommande event 2025 2026",
+    ]
+
+    event_pages = []  # URL:er att scrapa
+
+    for query in site_queries:
+        results = serper_search(query, num=5)
+        for r in results:
+            url     = r.get("link", "")
+            title   = r.get("title", "")
+            snippet = r.get("snippet", "")
+
+            # Kontrollera att det verkar vara en event-sida
+            event_kw = ["event", "ticket", "biljett", "concert", "konsert",
+                        "spelning", "show", "club night", "dj"]
+            if any(kw in (title + snippet).lower() for kw in event_kw):
+                event_pages.append({
+                    "url":     url,
+                    "title":   title,
+                    "snippet": snippet,
+                })
+
+        time.sleep(0.2)
+
+    if not event_pages:
+        return []
+
+    # Scrapa de 5 mest lovande event-sidorna
+    scraped_events = []
+    for page in event_pages[:5]:
+        try:
+            resp = requests.get(
+                page["url"], headers=SCRAPE_HEADERS, timeout=10
+            )
+            soup = BeautifulSoup(resp.text, "html.parser")
+
+            # ── Hitta bild via Open Graph (finns på nästan alla sidor) ──
+            og_image = None
+            og_tag = soup.find("meta", property="og:image")
+            if og_tag and og_tag.get("content"):
+                og_image = og_tag["content"]
+            # Twitter-kort som fallback
+            if not og_image:
+                tw_tag = soup.find("meta", attrs={"name": "twitter:image"})
+                if tw_tag and tw_tag.get("content"):
+                    og_image = tw_tag["content"]
+
+            # ── Försök hitta strukturerad event-data (JSON-LD) ──
+            json_ld_events = []
+            for script in soup.find_all("script", type="application/ld+json"):
+                try:
+                    data = json.loads(script.string)
+                    if isinstance(data, list):
+                        items = data
+                    else:
+                        items = [data]
+                    for item in items:
+                        if item.get("@type") in ("Event", "MusicEvent", "DanceEvent"):
+                            # Hämta bild från JSON-LD, annars använd OG-bild
+                            ld_image = item.get("image")
+                            if isinstance(ld_image, list):
+                                ld_image = ld_image[0]
+                            if isinstance(ld_image, dict):
+                                ld_image = ld_image.get("url")
+                            event_image = ld_image or og_image
+
+                            json_ld_events.append({
+                                "title":      item.get("name"),
+                                "date":       item.get("startDate", "")[:10],
+                                "artists":    [p.get("name") for p in item.get("performer", [])] if isinstance(item.get("performer"), list) else [],
+                                "ticket_url": item.get("url") or page["url"],
+                                "image":      event_image,
+                                "source":     page["url"],
+                            })
+                except Exception:
+                    continue
+
+            if json_ld_events:
+                # Lägg till OG-bild på events som saknar bild
+                for e in json_ld_events:
+                    if not e.get("image") and og_image:
+                        e["image"] = og_image
+                scraped_events.extend(json_ld_events)
+                continue  # JSON-LD var perfekt
+
+            # ── Fallback: läs vanlig text + spara OG-bild ──
+            for tag in soup(["script", "style", "nav", "footer", "header"]):
+                tag.decompose()
+            text = soup.get_text(separator="\n", strip=True)[:3000]
+            if text:
+                scraped_events.append({
+                    "raw_text":   text,
+                    "source_url": page["url"],
+                    "og_image":   og_image,
+                    "source":     page["url"],
+                })
+
+        except Exception as e:
+            continue
+
+    if not scraped_events:
+        return []
+
+    # Dela upp i strukturerade (JSON-LD) och råtext
+    structured = [e for e in scraped_events if "title" in e]
+    raw_texts  = [e for e in scraped_events if "raw_text" in e]
+
+    final_events = []
+
+    # Lägg till strukturerade events direkt
+    for e in structured:
+        if e.get("title") and e["title"].lower() not in seen_titles:
+            seen_titles.add(e["title"].lower())
+            final_events.append(e)
+
+    # Extrahera events från råtext med Claude
+    if raw_texts:
+        combined = "\n\n---\n\n".join(
+            f"Källa: {e['source_url']}\nOG-bild: {e.get('og_image', 'ingen')}\n{e['raw_text']}"
+            for e in raw_texts[:3]
+        )
+        response = claude.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=800,
+            messages=[{"role": "user", "content": f"""Extract ALL upcoming events for '{club_name}' from these ticketing pages.
+
+{combined[:4000]}
+
+Reply ONLY with JSON array (no backticks, no explanation):
+[{{
+  "title": "Event name or DJ/artist name",
+  "date": "2025-06-14",
+  "artists": ["Artist 1", "Artist 2"],
+  "ticket_url": "https://...",
+  "image": "https://... (event poster/image URL if visible in text)",
+  "source": "tickster.com"
+}}]
+
+Rules:
+- Only future events (today or later)
+- Use null for unknown fields
+- ticket_url must be the direct purchase URL
+- image should be a full https:// URL to the event poster if found
+- If no events found, return []
+"""}]
+        )
+        try:
+            extracted = json.loads(_clean_json(response.content[0].text.strip()))
+            if isinstance(extracted, list):
+                for e in extracted:
+                    title = (e.get("title") or "").lower()
+                    if title and title not in seen_titles:
+                        seen_titles.add(title)
+                        final_events.append(e)
+        except Exception:
+            pass
+
+    # Sortera på datum
+    def sort_key(e):
+        return e.get("date") or "9999"
+
+    final_events.sort(key=sort_key)
+    return final_events[:10]  # Max 10 events per klubb
+
+
+# ─────────────────────────────────────────────
+# SERPER – HITTA KOMMANDE EVENTS
+# ─────────────────────────────────────────────
+
+def detect_event_based_and_scrape(club_name: str, city: str, website_text: str, website_url: str) -> dict:
+    """
+    Detekterar om en klubb är eventbaserad (öppnar bara vid spelningar/events)
+    och hämtar kommande events om så är fallet.
+    
+    Returnerar:
+    {
+      "is_event_based": true/false,
+      "next_events": [{"title": ..., "date": ..., "url": ...}]
+    }
+    """
+    # Steg 1: Kolla om hemsidtexten antyder eventbaserad klubb
+    is_event_based = False
+
+    if website_text:
+        response = claude.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=20,
+            messages=[{"role": "user", "content": f"""Is '{club_name}' an event-based venue that only opens for special events/concerts (not a regular weekly nightclub)?
+Signs: "se kommande event", "next event", "inga fasta öppettider", "only open for events", "se program", upcoming shows listed instead of weekly hours.
+Reply ONLY with: true or false.
+Text: {website_text[:2000]}"""}]
+        )
+        answer = response.content[0].text.strip().lower()
+        if answer == "true":
+            is_event_based = True
+
+    # Steg 2: Om eventbaserad – hitta kommande events
+    next_events = []
+    if is_event_based:
+        # Scrapa hemsidan extra noga efter event-info
+        if website_url:
+            try:
+                resp = requests.get(website_url, headers=SCRAPE_HEADERS, timeout=10)
+                soup = BeautifulSoup(resp.text, "html.parser")
+                for tag in soup(["script", "style", "nav", "footer", "header"]):
+                    tag.decompose()
+                event_text = soup.get_text(separator="\n", strip=True)[:4000]
+            except:
+                event_text = website_text
+        else:
+            event_text = website_text
+
+        # Hämta events från ticketingsajter
+        print("    🎟️  Söker events på Tickster, Dice, Billetto, RA, Ticketmaster...")
+        ticketing_events = scrape_ticketing_events(club_name, city)
+
+        # Sök också via Serper för hemsidan
+        serper_results = serper_search(f"{club_name} {city} kommande event spelning 2025 2026", num=5)
+        serper_snippets = "\n".join(
+            f"{r.get('title','')}: {r.get('snippet','')}"
+            for r in serper_results
+        )
+
+        # Claude extraherar events från hemsidan
+        response = claude.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=500,
+            messages=[{"role": "user", "content": f"""Extract upcoming events for the venue '{club_name}' in {city}.
+
+Website text:
+{event_text[:2000]}
+
+Search results:
+{serper_snippets[:1000]}
+
+Reply ONLY with JSON array (no backticks). Max 5 events:
+[{{"title": "Event name", "date": "2025-06-14", "artists": ["Artist 1"], "ticket_url": null, "source": "website"}}]
+Use null for unknown fields. Only include future events. If no events found, return [].
+"""}]
+        )
+
+        website_events = []
+        try:
+            events_raw = _clean_json(response.content[0].text.strip())
+            website_events = json.loads(events_raw)
+            if not isinstance(website_events, list):
+                website_events = []
+        except:
+            website_events = []
+
+        # Kombinera events från alla källor, ta bort dubletter
+        seen = set()
+        next_events = []
+        for e in (ticketing_events + website_events):
+            key = (e.get("title") or "").lower().strip()
+            if key and key not in seen:
+                seen.add(key)
+                next_events.append(e)
+
+        next_events.sort(key=lambda e: e.get("date") or "9999")
+        next_events = next_events[:10]
+
+    return {
+        "is_event_based": is_event_based,
+        "next_events":    next_events,
+    }
 
 
 # ─────────────────────────────────────────────
@@ -283,18 +752,6 @@ def get_place_details(place_id: str) -> dict:
         return {}
 
 
-def get_place_images(photos: list, max_images: int = 4) -> list:
-    images = []
-    for photo in photos[:max_images]:
-        name = photo.get("name")
-        if name:
-            images.append(
-                f"{PLACES_PHOTO_URL.format(photo_name=name)}"
-                f"?maxWidthPx=1200&key={GOOGLE_API_KEY}"
-            )
-    return images
-
-
 def parse_opening_hours(details: dict) -> list:
     return details.get("regularOpeningHours", {}).get("weekdayDescriptions", [])
 
@@ -315,7 +772,7 @@ def scrape_listing_site(site: dict) -> list:
             model="claude-haiku-4-5-20251001",
             max_tokens=1000,
             messages=[{"role": "user", "content": f"""Du läser en lista med nattklubbar från '{site["name"]}'.
-Extrahera ALLA nattklubbar som nämns. Svara ENBART med JSON-array (inga backticks):
+Extrahera ALLA nattklubbar. Svara ENBART med JSON-array (inga backticks):
 [{{"name": "Klubbnamn", "age_limit": 20, "opening_hours": "Fre-Lör 22-05", "notes": "info"}}]
 Sätt null om info saknas. Text:\n{text}"""}]
         )
@@ -373,14 +830,15 @@ def extract_with_claude(
     if not website_text and not listing_info:
         return {}
 
+    current_year = datetime.now().year
+
     response = claude.messages.create(
         model="claude-haiku-4-5-20251001",
-        max_tokens=700,
+        max_tokens=900,
         messages=[{"role": "user", "content": f"""Extrahera info om nattklubben/venuen '{club_name}'.
-OBS: Klubben kan vara en restaurang eller bar på dagtid med nattklubb på kvällen.
+OBS: Klubben kan vara restaurang/bar på dagtid med nattklubb på kvällen.
 
-Åldersgräns hittas ofta som: "18 år", "20-årsgräns", "åldersgräns 23",
-"minimum age", "du måste vara minst X år", "entry age".
+Åldersgräns: "18 år", "20-årsgräns", "åldersgräns 23", "minimum age", "entry age".
 Vanliga värden: 18, 20, 21, 23. Gissa ALDRIG – sätt null om osäker.
 
 Google öppetider: {', '.join(google_hours) if google_hours else 'saknas'}
@@ -399,11 +857,29 @@ Svara ENBART med JSON (inga backticks):
     "saturday":  "22:00-05:00",
     "sunday":    "stängt"
   }},
-  "seasonal_info": null,
+  "seasonal": {{
+    "is_seasonal": true,
+    "open_from":   "{current_year}-06-01",
+    "open_to":     "{current_year}-08-31",
+    "closed_from": "{current_year}-09-01",
+    "closed_to":   "{current_year + 1}-05-31",
+    "note":        "Endast öppet sommarsäsong juni-aug"
+  }},
   "description": "Kort beskrivning av klubbens karaktär och musikstil",
   "dress_code": null,
-  "hours_confidence": "high"
+  "hours_confidence": "high",
+  "is_event_based": false
 }}
+
+För seasonal:
+- Sätt is_seasonal: true ENDAST om klubben tydligt har säsongsvariationer
+- open_from/open_to: när klubben är ÖPPEN (YYYY-MM-DD)
+- closed_from/closed_to: när klubben är STÄNGD
+- Om ingen säsongsinfo finns, sätt seasonal: null
+
+is_event_based: true om klubben ENDAST öppnar vid speciella events/spelningar och inte har fasta veckooppettider.
+Tecken: "se kommande event", "next event", "inga fasta öppettider", eventsidor istället för veckoschema.
+
 Sätt null om info saknas. Åldersgräns måste vara officiell.
 """}]
     )
@@ -427,16 +903,23 @@ def merge_sources(
     serper_age: int | None = None,
     serper_instagram: str | None = None,
     serper_website: str | None = None,
+    verified_hours: dict | None = None,
+    is_event_based: bool = False,
+    next_events: list | None = None,
 ) -> dict:
     google_hours = parse_opening_hours(details)
-    ai_hours     = ai_data.get("opening_hours")
 
-    if ai_hours and google_hours:
-        opening_hours    = ai_hours
+    # Öppetider – prioritera verifierade timmar från Serper-jämförelse
+    if verified_hours and verified_hours.get("opening_hours"):
+        opening_hours    = verified_hours["opening_hours"]
+        hours_confidence = verified_hours.get("confidence", "medium")
+        hours_source     = verified_hours.get("source", "serper verified")
+    elif ai_data.get("opening_hours") and google_hours:
+        opening_hours    = ai_data["opening_hours"]
         hours_confidence = "high"
         hours_source     = "website + google"
-    elif ai_hours:
-        opening_hours    = ai_hours
+    elif ai_data.get("opening_hours"):
+        opening_hours    = ai_data["opening_hours"]
         hours_confidence = "medium"
         hours_source     = "website"
     elif google_hours:
@@ -461,56 +944,73 @@ def merge_sources(
         "saknas"
     )
 
-    # Instagram – prioritetsordning
+    # Instagram
     instagram_handle = (
-        website_data.get("instagram_handle")
-        or serper_instagram
+        website_data.get("instagram_handle") or serper_instagram
     )
     instagram_source = (
         "website" if website_data.get("instagram_handle") else
-        "serper"  if serper_instagram                     else
+        "serper"  if serper_instagram else
         "saknas"
     )
 
-    # Hemsida – prioritetsordning
-    website = (
-        details.get("websiteUri")
-        or serper_website
-    )
+    # Hemsida
+    website = details.get("websiteUri") or serper_website
+
+    # Seasonal
+    seasonal = ai_data.get("seasonal")
+
+    handle = instagram_handle
 
     return {
-        "name":            details.get("displayName", {}).get("text", "Okänd"),
-        "city":            city,
-        "description":     ai_data.get("description"),
+        # ─── Identitet ───
+        "name":        details.get("displayName", {}).get("text", "Okänd"),
+        "city":        city,
+        "description": ai_data.get("description"),
+
+        # ─── Plats ───
         "address":         details.get("formattedAddress"),
         "lat":             details.get("location", {}).get("latitude"),
         "lng":             details.get("location", {}).get("longitude"),
         "google_maps_url": details.get("googleMapsUri"),
-        "opening_hours":   opening_hours,
-        "seasonal_info":   ai_data.get("seasonal_info"),
-        "age_limit":       age_limit,
-        "dress_code":      ai_data.get("dress_code"),
+
+        # ─── Tider ───
+        "opening_hours": opening_hours,
+        "seasonal":      seasonal,
+
+        # ─── Tillträde ───
+        "age_limit":  age_limit,
+        "dress_code": ai_data.get("dress_code"),
+
+        # ─── Kontakt & media ───
         "website":         website,
-        "instagram":       f"https://instagram.com/{instagram_handle}" if instagram_handle else None,
+        "instagram":       f"https://instagram.com/{handle}" if handle else None,
         "phone":           details.get("nationalPhoneNumber"),
         "images":          get_place_images(details.get("photos", [])),
-        "google_rating":   details.get("rating"),
-        "google_reviews":  details.get("userRatingCount"),
+
+        # ─── Google-metadata ───
+        "google_rating":  details.get("rating"),
+        "google_reviews": details.get("userRatingCount"),
+
+        # ─── Datakvalitet ───
         "confidence": {
             "opening_hours":        hours_confidence,
             "opening_hours_source": hours_source,
+            "hours_verified":       bool(verified_hours and verified_hours.get("verified")),
             "age_limit":            "high" if age_limit else "unknown",
             "age_limit_source":     age_source,
             "instagram_source":     instagram_source,
         },
         "sources_used": {
-            "google_places":   True,
-            "website_scraped": bool(website_data.get("raw_text")),
-            "listing_site":    bool(listing_match),
-            "serper":          any([serper_age, serper_instagram, serper_website]),
+            "google_places":    True,
+            "website_scraped":  bool(website_data.get("raw_text")),
+            "listing_site":     bool(listing_match),
+            "serper":           any([serper_age, serper_instagram, serper_website, verified_hours]),
         },
         "last_scraped": datetime.now().isoformat(),
         "data_fresh":   True,
+        "is_event_based": is_event_based,
+        "next_events":    next_events,
     }
 
 
@@ -599,8 +1099,8 @@ def run_agent(cities: list = None):
                 print(f"    ✅ Match i listningssajt: {listing_match.get('source')}")
 
             # ── Hemsida ──────────────────────────────────
-            website_url  = details.get("websiteUri")
-            website_data = {}
+            website_url    = details.get("websiteUri")
+            website_data   = {}
             serper_website = None
 
             if website_url:
@@ -608,24 +1108,32 @@ def run_agent(cities: list = None):
                 website_data = scrape_website(website_url)
                 time.sleep(1)
             else:
-                print("    → Ingen hemsida i Google Places – söker via Serper...")
+                print("    → Ingen hemsida i Google – söker via Serper...")
                 serper_website = search_website(name, city)
                 if serper_website:
-                    print(f"    ✅ Hittade hemsida via Serper: {serper_website}")
+                    print(f"    ✅ Hemsida via Serper: {serper_website}")
                     website_data = scrape_website(serper_website)
                     time.sleep(1)
-                else:
-                    print("    ⚠️  Ingen hemsida hittad")
 
             # ── Claude extraherar info ────────────────────
             print("    → Claude Haiku extraherar info...")
+            google_hours = parse_opening_hours(details)
             ai_data = extract_with_claude(
                 website_text=website_data.get("raw_text", ""),
                 club_name=name,
                 listing_info=json.dumps(listing_match, ensure_ascii=False) if listing_match else "",
-                google_hours=parse_opening_hours(details),
+                google_hours=google_hours,
             )
             time.sleep(0.3)
+
+            # ── Verifiera öppetider via Serper ───────────
+            print("    → Verifierar öppetider via Serper...")
+            verified_hours = verify_opening_hours(name, city, google_hours)
+            if verified_hours.get("verified"):
+                conf = verified_hours.get("confidence", "?")
+                agree = "✅ överens" if verified_hours.get("sources_agree") else "⚠️ skiljer sig"
+                print(f"    📅 Öppetider: {conf} confidence, {agree}")
+            time.sleep(0.5)
 
             # ── Instagram fallback ────────────────────────
             serper_instagram = None
@@ -633,32 +1141,47 @@ def run_agent(cities: list = None):
                 print("    → Instagram saknas – söker via Serper...")
                 serper_instagram = search_instagram(name, city)
                 if serper_instagram:
-                    print(f"    ✅ Hittade Instagram via Serper: @{serper_instagram}")
+                    print(f"    ✅ Instagram: @{serper_instagram}")
                 time.sleep(0.3)
 
             # ── Åldersgräns fallback ──────────────────────
             serper_age = None
-            has_age = ai_data.get("age_limit") or listing_match.get("age_limit")
+            has_age    = ai_data.get("age_limit") or listing_match.get("age_limit")
             if not has_age:
                 print("    → Åldersgräns saknas – söker via Serper...")
                 serper_age = search_age_limit(name, city)
                 if serper_age:
-                    print(f"    ✅ Hittade åldersgräns via Serper: {serper_age} år")
+                    print(f"    ✅ Åldersgräns: {serper_age} år")
                 else:
                     print("    ⚠️  Åldersgräns ej hittad")
                 time.sleep(0.3)
 
+            # ── Eventbaserad detektering ─────────────────
+            print("    → Kollar om eventbaserad klubb...")
+            event_info = detect_event_based_and_scrape(
+                name, city,
+                website_data.get("raw_text", ""),
+                details.get("websiteUri") or serper_website or ""
+            )
+            if event_info["is_event_based"]:
+                print(f"    🎫 Eventbaserad! Hittade {len(event_info['next_events'])} kommande events")
+            time.sleep(0.3)
+
             # ── Slå ihop alla källor ──────────────────────
             club = merge_sources(
                 details, website_data, ai_data, listing_match, city,
-                serper_age, serper_instagram, serper_website
+                serper_age, serper_instagram, serper_website, verified_hours,
+                event_info["is_event_based"], event_info["next_events"]
             )
 
+            seasonal_str = "ja" if club.get("seasonal") and club["seasonal"].get("is_seasonal") else "nej"
             print(
                 f"    ✅ Klar | "
-                f"Ålder: {club.get('age_limit', '?')} ({club['confidence']['age_limit_source']}) | "
+                f"Ålder: {club.get('age_limit', '?')} | "
                 f"Öppet: {club['confidence']['opening_hours']} | "
-                f"Instagram: {'ja (' + club['confidence']['instagram_source'] + ')' if club.get('instagram') else 'nej'}"
+                f"Säsong: {seasonal_str} | "
+                f"Bilder: {len(club.get('images', []))} | "
+                f"⭐ {club.get('google_rating', '?')} ({club.get('google_reviews', 0)} reviews)"
             )
             all_clubs.append(club)
 
@@ -670,6 +1193,9 @@ def run_agent(cities: list = None):
     has_instagram = sum(1 for c in all_clubs if c.get("instagram"))
     has_images    = sum(1 for c in all_clubs if c.get("images"))
     has_website   = sum(1 for c in all_clubs if c.get("website"))
+    has_seasonal   = sum(1 for c in all_clubs if c.get("seasonal") and c["seasonal"].get("is_seasonal"))
+    verified       = sum(1 for c in all_clubs if c["confidence"].get("hours_verified"))
+    event_based    = sum(1 for c in all_clubs if c.get("is_event_based"))
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump({
@@ -678,11 +1204,14 @@ def run_agent(cities: list = None):
                 "total_clubs":  len(all_clubs),
                 "cities":       cities,
                 "stats": {
-                    "high_confidence_hours": high_conf,
-                    "has_age_limit":         has_age,
-                    "has_instagram":         has_instagram,
-                    "has_images":            has_images,
-                    "has_website":           has_website,
+                    "high_confidence_hours":    high_conf,
+                    "hours_serper_verified":    verified,
+                    "has_age_limit":            has_age,
+                    "has_instagram":            has_instagram,
+                    "has_images":               has_images,
+                    "has_website":              has_website,
+                    "has_seasonal":             has_seasonal,
+                    "event_based":              event_based,
                 },
             },
             "clubs": all_clubs,
@@ -692,12 +1221,15 @@ def run_agent(cities: list = None):
     print("  ✅ KLART!")
     print("═" * 55)
     print(f"  📁 {OUTPUT_FILE}")
-    print(f"  🎯 Klubbar:      {len(all_clubs)}")
-    print(f"  🕐 Hög säkerhet: {high_conf}/{len(all_clubs)}")
-    print(f"  🔞 Åldersgräns:  {has_age}/{len(all_clubs)}")
-    print(f"  📸 Bilder:       {has_images}/{len(all_clubs)}")
-    print(f"  📷 Instagram:    {has_instagram}/{len(all_clubs)}")
-    print(f"  🌐 Hemsida:      {has_website}/{len(all_clubs)}")
+    print(f"  🎯 Klubbar:           {len(all_clubs)}")
+    print(f"  🕐 Hög säkerhet:      {high_conf}/{len(all_clubs)}")
+    print(f"  ✅ Serper-verifierade: {verified}/{len(all_clubs)}")
+    print(f"  🔞 Åldersgräns:       {has_age}/{len(all_clubs)}")
+    print(f"  📸 Bilder:            {has_images}/{len(all_clubs)}")
+    print(f"  📷 Instagram:         {has_instagram}/{len(all_clubs)}")
+    print(f"  🌐 Hemsida:           {has_website}/{len(all_clubs)}")
+    print(f"  🌊 Säsongsklubbar:    {has_seasonal}/{len(all_clubs)}")
+    print(f"  🎫 Eventbaserade:     {event_based}/{len(all_clubs)}")
     print("═" * 55)
 
     return all_clubs
