@@ -36,6 +36,7 @@ jobs:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
           GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }} 
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
 
       - name: 💾 Spara nightclubs.json som artifact
         uses: actions/upload-artifact@v4
