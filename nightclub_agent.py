@@ -6,7 +6,7 @@ Pipeline:
   2. Google Places (New API) – hitta klubbar, adress, öppetider, bilder
   3. Scrapa varje klubbs hemsida – Instagram, åldersgräns, säsong
   4. Claude Haiku – strukturera och jämför alla källor
-  5. Claude Web Search – fallback för åldersgräns om den saknas
+  5. Serper (Google) – fallback för hemsida, Instagram och åldersgräns
   6. Spara till nightclubs.json
 
 Krav (GitHub Secrets):
@@ -29,7 +29,7 @@ import anthropic
 
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "DIN_GOOGLE_API_KEY")
 CLAUDE_API_KEY = os.getenv("CLAUDE_API_KEY", "DIN_CLAUDE_API_KEY")
-SERPER_API_KEY  = os.getenv("SERPER_API_KEY",  "DIN_SERPER_KEY")
+SERPER_API_KEY = os.getenv("SERPER_API_KEY", "DIN_SERPER_KEY")
 
 OUTPUT_FILE = "nightclubs.json"
 CITIES      = ["Stockholm"]  # Lägg till "Göteborg", "Malmö" vid behov
@@ -72,14 +72,11 @@ claude = anthropic.Anthropic(api_key=CLAUDE_API_KEY)
 
 
 # ─────────────────────────────────────────────
-# CLAUDE WEB SEARCH – ÅLDERSGRÄNS
+# SERPER – HJÄLPFUNKTION
 # ─────────────────────────────────────────────
 
-def search_age_limit(club_name: str, city: str) -> int | None:
-    """
-    Söker åldersgräns via Serper.dev (Google-resultat).
-    Kostar $0.001 per sökning – 10x billigare än Claude web search.
-    """
+def serper_search(query: str, num: int = 5) -> list:
+    """Gör en Google-sökning via Serper och returnerar organiska resultat."""
     try:
         resp = requests.post(
             "https://google.serper.dev/search",
@@ -87,41 +84,147 @@ def search_age_limit(club_name: str, city: str) -> int | None:
                 "X-API-KEY":    SERPER_API_KEY,
                 "Content-Type": "application/json",
             },
-            json={"q": f"{club_name} age limit {city} nightclub", "num": 5},
+            json={"q": query, "num": num},
             timeout=10,
         )
         resp.raise_for_status()
-
-        # Slå ihop snippets från topp-5 resultat
-        snippets = " ".join(
-            r.get("snippet", "")
-            for r in resp.json().get("organic", [])
-        )
-
-        if not snippets:
-            return None
-
-        # Claude läser snippets – enkelt anrop utan web search tool
-        response = claude.messages.create(
-            model="claude-haiku-4-5-20251001",
-            max_tokens=10,
-            messages=[{"role": "user", "content": f"""Age limit for '{club_name}' in {city}?
-Reply ONLY with: 18, 20, 21, 23 or null. No guessing.
-Text: {snippets}"""}]
-        )
-
-        answer = response.content[0].text.strip()
-        if answer.isdigit() and int(answer) in (18, 20, 21, 23):
-            return int(answer)
-        return None
-
+        return resp.json().get("organic", [])
     except Exception as e:
-        print(f"    ⚠️ Serper-fel: {e}")
+        print(f"    ⚠️ Serper-fel för '{query}': {e}")
+        return []
+
+
+# ─────────────────────────────────────────────
+# SERPER – HITTA HEMSIDA
+# ─────────────────────────────────────────────
+
+def search_website(club_name: str, city: str) -> str | None:
+    """
+    Söker upp klubbens hemsida via Serper när Google Places inte har den.
+    Hanterar även klubbar som drivs av restauranger eller venues med annat namn.
+    """
+    results = serper_search(f"{club_name} {city} officiell hemsida nightclub", num=5)
+
+    if not results:
         return None
 
-    except Exception as e:
-        print(f"    ⚠️ Claude web search-fel: {e}")
+    # Bygg en lista av kandidat-URLs
+    candidates = []
+    for r in results:
+        url = r.get("link", "")
+        title = r.get("title", "").lower()
+        snippet = r.get("snippet", "").lower()
+
+        # Skippa uppenbart irrelevanta sidor
+        skip_domains = ["tripadvisor", "yelp", "facebook", "instagram",
+                        "google", "wikipedia", "thatsup", "visitstockholm"]
+        if any(d in url for d in skip_domains):
+            continue
+
+        candidates.append({
+            "url":     url,
+            "title":   title,
+            "snippet": snippet,
+        })
+
+    if not candidates:
         return None
+
+    # Claude väljer den mest troliga hemsidan
+    candidates_str = "\n".join(
+        f"{i+1}. {c['url']} – {c['title']}"
+        for i, c in enumerate(candidates[:5])
+    )
+
+    response = claude.messages.create(
+        model="claude-haiku-4-5-20251001",
+        max_tokens=100,
+        messages=[{"role": "user", "content": f"""Which URL is the official website for the nightclub/venue '{club_name}' in {city}?
+Note: the club might be owned by a restaurant or bar with a different name.
+Reply with ONLY the URL, or null if none match.
+
+Candidates:
+{candidates_str}"""}]
+    )
+
+    answer = response.content[0].text.strip()
+    if answer.startswith("http") and "." in answer:
+        return answer
+    return None
+
+
+# ─────────────────────────────────────────────
+# SERPER – HITTA INSTAGRAM
+# ─────────────────────────────────────────────
+
+def search_instagram(club_name: str, city: str) -> str | None:
+    """
+    Söker upp klubbens Instagram-handle via Serper.
+    Söker både på klubbnamnet och eventuellt ägarföretag.
+    """
+    results = serper_search(f"{club_name} {city} site:instagram.com", num=5)
+
+    for r in results:
+        url = r.get("link", "")
+        if "instagram.com/" in url:
+            handle = (
+                url.rstrip("/")
+                .split("instagram.com/")[-1]
+                .split("/")[0]
+                .split("?")[0]
+            )
+            if handle and handle not in ("p", "stories", "reel", "explore", ""):
+                return handle
+
+    return None
+
+
+# ─────────────────────────────────────────────
+# SERPER – HITTA ÅLDERSGRÄNS
+# ─────────────────────────────────────────────
+
+def search_age_limit(club_name: str, city: str) -> int | None:
+    """
+    Söker åldersgräns via Serper med flera olika sökfraser.
+    Claude tolkar resultaten och extraherar siffran.
+    """
+    # Prova flera sökfraser för bästa täckning
+    queries = [
+        f"{club_name} åldersgräns {city}",
+        f"{club_name} age limit {city} nightclub",
+        f"{club_name} {city} minimum age entry",
+    ]
+
+    all_snippets = []
+    for query in queries:
+        results = serper_search(query, num=5)
+        for r in results:
+            snippet = r.get("snippet", "")
+            title   = r.get("title", "")
+            if snippet:
+                all_snippets.append(f"{title}: {snippet}")
+        if all_snippets:
+            break  # Räcker med bra resultat från första query
+
+    if not all_snippets:
+        return None
+
+    snippets_str = "\n".join(all_snippets[:8])
+
+    response = claude.messages.create(
+        model="claude-haiku-4-5-20251001",
+        max_tokens=10,
+        messages=[{"role": "user", "content": f"""What is the official minimum age to enter '{club_name}' in {city}?
+Reply ONLY with a number: 18, 20, 21, 23 — or null if not found. Never guess.
+
+Text:
+{snippets_str}"""}]
+    )
+
+    answer = response.content[0].text.strip()
+    if answer.isdigit() and int(answer) in (18, 20, 21, 23):
+        return int(answer)
+    return None
 
 
 # ─────────────────────────────────────────────
@@ -273,7 +376,8 @@ def extract_with_claude(
     response = claude.messages.create(
         model="claude-haiku-4-5-20251001",
         max_tokens=700,
-        messages=[{"role": "user", "content": f"""Extrahera info om nattklubben '{club_name}'.
+        messages=[{"role": "user", "content": f"""Extrahera info om nattklubben/venuen '{club_name}'.
+OBS: Klubben kan vara en restaurang eller bar på dagtid med nattklubb på kvällen.
 
 Åldersgräns hittas ofta som: "18 år", "20-årsgräns", "åldersgräns 23",
 "minimum age", "du måste vara minst X år", "entry age".
@@ -320,7 +424,9 @@ def merge_sources(
     ai_data: dict,
     listing_match: dict,
     city: str,
-    web_search_age: int | None = None,
+    serper_age: int | None = None,
+    serper_instagram: str | None = None,
+    serper_website: str | None = None,
 ) -> dict:
     google_hours = parse_opening_hours(details)
     ai_hours     = ai_data.get("opening_hours")
@@ -342,23 +448,35 @@ def merge_sources(
         hours_confidence = "low"
         hours_source     = "saknas"
 
-    # Åldersgräns – prioritetsordning:
-    # 1. Hemsida (via Claude extraktion)
-    # 2. Listningssajt
-    # 3. Claude web search (fallback)
+    # Åldersgräns – prioritetsordning
     age_limit = (
         ai_data.get("age_limit")
         or listing_match.get("age_limit")
-        or web_search_age
+        or serper_age
     )
     age_source = (
-        "website"     if ai_data.get("age_limit")    else
-        "listing"     if listing_match.get("age_limit") else
-        "web_search"  if web_search_age               else
+        "website"  if ai_data.get("age_limit")       else
+        "listing"  if listing_match.get("age_limit") else
+        "serper"   if serper_age                     else
         "saknas"
     )
 
-    handle = website_data.get("instagram_handle")
+    # Instagram – prioritetsordning
+    instagram_handle = (
+        website_data.get("instagram_handle")
+        or serper_instagram
+    )
+    instagram_source = (
+        "website" if website_data.get("instagram_handle") else
+        "serper"  if serper_instagram                     else
+        "saknas"
+    )
+
+    # Hemsida – prioritetsordning
+    website = (
+        details.get("websiteUri")
+        or serper_website
+    )
 
     return {
         "name":            details.get("displayName", {}).get("text", "Okänd"),
@@ -372,8 +490,8 @@ def merge_sources(
         "seasonal_info":   ai_data.get("seasonal_info"),
         "age_limit":       age_limit,
         "dress_code":      ai_data.get("dress_code"),
-        "website":         details.get("websiteUri"),
-        "instagram":       f"https://instagram.com/{handle}" if handle else None,
+        "website":         website,
+        "instagram":       f"https://instagram.com/{instagram_handle}" if instagram_handle else None,
         "phone":           details.get("nationalPhoneNumber"),
         "images":          get_place_images(details.get("photos", [])),
         "google_rating":   details.get("rating"),
@@ -383,12 +501,13 @@ def merge_sources(
             "opening_hours_source": hours_source,
             "age_limit":            "high" if age_limit else "unknown",
             "age_limit_source":     age_source,
+            "instagram_source":     instagram_source,
         },
         "sources_used": {
             "google_places":   True,
             "website_scraped": bool(website_data.get("raw_text")),
             "listing_site":    bool(listing_match),
-            "serper_search":   web_search_age is not None,
+            "serper":          any([serper_age, serper_instagram, serper_website]),
         },
         "last_scraped": datetime.now().isoformat(),
         "data_fresh":   True,
@@ -477,17 +596,28 @@ def run_agent(cities: list = None):
 
             listing_match = _find_listing_match(name, listing_clubs)
             if listing_match:
-                print(f"    ✅ Match: {listing_match.get('source')}")
+                print(f"    ✅ Match i listningssajt: {listing_match.get('source')}")
 
+            # ── Hemsida ──────────────────────────────────
             website_url  = details.get("websiteUri")
             website_data = {}
+            serper_website = None
+
             if website_url:
                 print("    → Scrapar hemsida...")
                 website_data = scrape_website(website_url)
                 time.sleep(1)
             else:
-                print("    ⚠️  Ingen hemsida")
+                print("    → Ingen hemsida i Google Places – söker via Serper...")
+                serper_website = search_website(name, city)
+                if serper_website:
+                    print(f"    ✅ Hittade hemsida via Serper: {serper_website}")
+                    website_data = scrape_website(serper_website)
+                    time.sleep(1)
+                else:
+                    print("    ⚠️  Ingen hemsida hittad")
 
+            # ── Claude extraherar info ────────────────────
             print("    → Claude Haiku extraherar info...")
             ai_data = extract_with_claude(
                 website_text=website_data.get("raw_text", ""),
@@ -497,27 +627,38 @@ def run_agent(cities: list = None):
             )
             time.sleep(0.3)
 
-            # Claude web search fallback för åldersgräns
-            web_search_age = None
+            # ── Instagram fallback ────────────────────────
+            serper_instagram = None
+            if not website_data.get("instagram_handle"):
+                print("    → Instagram saknas – söker via Serper...")
+                serper_instagram = search_instagram(name, city)
+                if serper_instagram:
+                    print(f"    ✅ Hittade Instagram via Serper: @{serper_instagram}")
+                time.sleep(0.3)
+
+            # ── Åldersgräns fallback ──────────────────────
+            serper_age = None
             has_age = ai_data.get("age_limit") or listing_match.get("age_limit")
             if not has_age:
-                print("    → Åldersgräns saknas – Claude söker på webben...")
-                web_search_age = search_age_limit(name, city)
-                if web_search_age:
-                    print(f"    ✅ Hittade via web search: {web_search_age} år")
+                print("    → Åldersgräns saknas – söker via Serper...")
+                serper_age = search_age_limit(name, city)
+                if serper_age:
+                    print(f"    ✅ Hittade åldersgräns via Serper: {serper_age} år")
                 else:
                     print("    ⚠️  Åldersgräns ej hittad")
-                time.sleep(0.5)
+                time.sleep(0.3)
 
+            # ── Slå ihop alla källor ──────────────────────
             club = merge_sources(
-                details, website_data, ai_data, listing_match, city, web_search_age
+                details, website_data, ai_data, listing_match, city,
+                serper_age, serper_instagram, serper_website
             )
 
             print(
                 f"    ✅ Klar | "
                 f"Ålder: {club.get('age_limit', '?')} ({club['confidence']['age_limit_source']}) | "
                 f"Öppet: {club['confidence']['opening_hours']} | "
-                f"Instagram: {'ja' if club.get('instagram') else 'nej'}"
+                f"Instagram: {'ja (' + club['confidence']['instagram_source'] + ')' if club.get('instagram') else 'nej'}"
             )
             all_clubs.append(club)
 
@@ -528,6 +669,7 @@ def run_agent(cities: list = None):
     has_age       = sum(1 for c in all_clubs if c.get("age_limit"))
     has_instagram = sum(1 for c in all_clubs if c.get("instagram"))
     has_images    = sum(1 for c in all_clubs if c.get("images"))
+    has_website   = sum(1 for c in all_clubs if c.get("website"))
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump({
@@ -540,6 +682,7 @@ def run_agent(cities: list = None):
                     "has_age_limit":         has_age,
                     "has_instagram":         has_instagram,
                     "has_images":            has_images,
+                    "has_website":           has_website,
                 },
             },
             "clubs": all_clubs,
@@ -554,6 +697,7 @@ def run_agent(cities: list = None):
     print(f"  🔞 Åldersgräns:  {has_age}/{len(all_clubs)}")
     print(f"  📸 Bilder:       {has_images}/{len(all_clubs)}")
     print(f"  📷 Instagram:    {has_instagram}/{len(all_clubs)}")
+    print(f"  🌐 Hemsida:      {has_website}/{len(all_clubs)}")
     print("═" * 55)
 
     return all_clubs
