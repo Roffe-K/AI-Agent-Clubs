@@ -1,0 +1,46 @@
+name: 🎫 Uppdatera events
+
+on:
+  schedule:
+    - cron: '0 9 * * 1'   # Varje måndag kl 09:00
+  workflow_dispatch:       # Kör manuellt när du vill
+
+jobs:
+  update-events:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checka ut repo
+        uses: actions/checkout@v4
+
+      - name: 🐍 Sätt upp Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 Installera beroenden
+        run: pip install -r requirements.txt
+
+      - name: 🎫 Kör event-agenten
+        run: python event_agent.py
+        env:
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+          CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+
+      - name: 💾 Spara som artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: nightclubs-events-data
+          path: nightclubs.json
+          retention-days: 30
+
+      - name: 📤 Commita uppdaterade events
+        run: |
+          git config --global user.name "PartyPrep Bot"
+          git config --global user.email "bot@partyprep.se"
+          git add nightclubs.json
+          git diff --staged --quiet || git commit -m "🎫 Events uppdaterade $(date +'%Y-%m-%d')"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
