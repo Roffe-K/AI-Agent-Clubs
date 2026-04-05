@@ -1,0 +1,1272 @@
+{
+  "meta": {
+    "generated_at": "2026-04-05T16:32:48.236223",
+    "total_clubs": 27,
+    "cities": [
+      "Stockholm"
+    ],
+    "stats": {
+      "high_confidence_hours": 19,
+      "has_age_limit": 19,
+      "has_instagram": 27,
+      "has_images": 27,
+      "has_website": 27
+    }
+  },
+  "clubs": [
+    {
+      "name": "Hyde Stockholm",
+      "city": "Stockholm",
+      "description": "Nattklubb på Jakobsbergsgatan 15, Stockholm",
+      "address": "Jakobsbergsgatan 13, 111 44 Stockholm, Sweden",
+      "lat": 59.3346124,
+      "lng": 18.0699377,
+      "google_maps_url": "https://maps.google.com/?cid=6491369156635404383&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": null,
+      "seasonal_info": "Hyde Stockholm öppnar på ny venue under 2026. För närvarande rekommenderas Club Sense.",
+      "age_limit": 21,
+      "dress_code": null,
+      "website": "http://www.hydestockholm.se/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=3412205991565579115",
+      "instagram": "https://instagram.com/hydestockholm",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJwxayD9OdX0YRXygu79r5FVo/photos/AU_ZVEENVho6v5R5H85YiQmqkzKLjuFibTxDQv2o7KkZHakJlBsfHiwoGiWpf7GtOUPGNoylK51DXCEf0DYDX0GFSKA_5w8C6n4FtUcYrgjuOJttxVhbtaOEXP-byWVkDMyuGVnuLFsvVtu8joba1iH2cNLXiaRRDXKaLsVJuVJN7PG3pfbrZVLjUBoOaH-EkYcbp9YXnQqJj88ZU5RTIx2U0X8I13COFotnjst02D8_-aaEDYoeN23j2xK192giGSpyZCHDU0JxZSo4TMxIPS-FdDIpMxrevCvJmVuIGmeyzZ3_5Q/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJwxayD9OdX0YRXygu79r5FVo/photos/AU_ZVEEsG0qnMkG9h9ztvjK_yA5xScmKcFCVUOjMcHN_Jl3SyNm4NXHNyJFv48AdnzkdERDXJUeVXkvi4DRQGaOpfhfGrgUyhz686VDT7nrJf71yaB-3FtUoCnY5Ldxd50AD0wmTP_1gL7G2se8JqNiSTZz99JPd6J59ZyzaB63W07SkXkv25DgKjzgGksuo8nfzYtPdul_77tdv8x26HY1ugpzDvwVVgMS76CRLu_D1BlWRSj7GOKVrbw_NMaz2jqhDuS6qYVO1ht_yuc4LOtdXRf0Bnrr2JF47wh0vz7nyZUME5g/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJwxayD9OdX0YRXygu79r5FVo/photos/AU_ZVEH9ULz41hIBufAumYonK3KvzbJCdL1-vGtvtO_E_i_ab4HPvGW5nPZCpVN8e2HsXI3mgM_lH_9cHWXVZmnZlPKofOTpi6fGfnzOYAX3XfcL0hQVg7eea3VWBg1kt0PxiDp_G3ePfdkQvW9pLvas4V_H_teMvZn5sO2UqMDpW3xDlytX8_g0NKankTS-bPhabWHVD3V8w02Go6SvHPlROoWeRtIjIk2EL8gXfRolcPfNgilDcd1indSncm5rIzwM__fVXiMrjVDp7-vJvVhdO1vj5sXpSP0EoMbyMo-QZQhfX5LVSWIuvO1zCL1YsuGbu8OMA2D-c-z7tgVncnf7CZLJb2l6qPql0UkajOqtvTSqnDkbuaCIfVR-34GQtaCbl1qHKh8M2DDWgN6o541bY8cSXFftWWPwkIUfzrtbIwu0GAe0Ffic4KKYowD_EDYJ/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJwxayD9OdX0YRXygu79r5FVo/photos/AU_ZVEFSeILZ1LapliBkZvFzkfYE1poZ41r5EkJ4y0mBveV26FwyGjqg_vcLcWxdn2pNTp83hxSRv5v23HJkyYivA9fRJVd16qV2FqFe5ApyVNYJ3VRIfzaw1GqH6q2xThqWd4sjF1z-cFg7VyzQEyDDdynsyPrJT_bb8z9H6l7ZZf3xiVMtFdyXYgvvZMa1lpQeqMvaTZnBMbLoyoU_PuPu6euXgIgPJ3jDISDPvFruN9QkrKl6kei8ACiKFZAud2IGLidwrkaZFN1P6KUXxRx4-c_yjdeSFKuo1pKFl8FvhAfI0A/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 2.8,
+      "google_reviews": 336,
+      "confidence": {
+        "opening_hours": "low",
+        "opening_hours_source": "saknas",
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T16:29:29.680838",
+      "data_fresh": true
+    },
+    {
+      "name": "Trädgården",
+      "city": "Stockholm",
+      "description": "En framstående nattklubb och kulturcenter i Stockholm lokaliserad under Skanstullbron på Söder. Känd för att vara ett viktigt nav för klubbkultur, elektronisk musik och kreativa möten. Fokus på inclusive miljö och säkerhet.",
+      "address": "Hammarby Slussväg 2, 118 60 Stockholm, Sweden",
+      "lat": 59.3047676,
+      "lng": 18.077811099999998,
+      "google_maps_url": "https://maps.google.com/?cid=14193010140103819179&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "17:00-23:00",
+        "friday": "17:00-03:00",
+        "saturday": "17:00-03:00",
+        "sunday": "stängt"
+      },
+      "seasonal_info": "Öppen maj-september",
+      "age_limit": 23,
+      "dress_code": null,
+      "website": "http://www.tradgarden.com/",
+      "instagram": "https://instagram.com/tradgarden",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJTex4ofV3X0YRq79nToaz98Q/photos/AU_ZVEEzBoRwt8FtqXUo95J6lwPtte5ECxS6ILwqmpQqtFURX8wDakn-ru16iESKxgQ-UMGgDBxiKsxlajhJMsffCdPyQeXGwWAMma0bhQ5qFeYWTTtyhEvBGHyFO144HH8T_K46grW3g2BS9NO_ynhDOKvo_CGvC1i30pEWbWGuMoxywOVBk6SJSvK0nid-_QQ7sNiECJ4Gd1MbVHYpkRUx2edVXJZqErTFAUxCanSyMsVqUOkz8DtqqSzoiybFG9_6YFDwEU7YVeGPSZYj5gGkGMtO5RS8GZudImX4soVFp-Ug1ke6b77qcvtHYAGE6qDvE3gBSBkZ34srp4eWRedXfhsWLVQhZWTQwz5np70ZjGYzRIY0lY7MvnTLDI2UEeG4HRGGKGkKPKCfsbZ-qClus-okY6y0_7b4Z2cqlyq41lICfw/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJTex4ofV3X0YRq79nToaz98Q/photos/AU_ZVEHDocpVsdk5cwvJvY8ZgB8Z1-AT0cl9i10NjoGkbH-Y2zHglKrG3LhV3JLYIS-bFlPqlIVGoyDpR2ROIt4_3egmMoFWDD26PxbdzM-Kio64aZuZ6V5AWMqu3JKbcH6tzGBIGc3NfOIRZSPCc2rgJ4SqYVuhugPcB385QnUDVYDKdWWcAaYuJy3E9St7rgpY22evkSKwauPhRFwRh2Mz-fTFpeb9EDYAoYGunuTR2Eid-yoJp_jZ1pBDdt-_rGQU2H1egqe8YhzYirvNpBN0PybUFeKgdXwOr6KJhxnnDRxSEu_nfyf4P4b-JZKTANm54DCJAaJVjzawqGcohN-P6jKOtmXfIzJIsyqvWIaAjshNaYh3TWokmp46O0tFO5Z2dGRYJMb7bMX2DPkOaBcRzmTQv_2e4hi2lZFxWqteRgdZuaZq-ZIl6F5WYp6PWg/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJTex4ofV3X0YRq79nToaz98Q/photos/AU_ZVEHo00vZBztJOO_Zh4ok17XHyjxVdHow64PU9DN1pvSxPsUmnHe5EVzu8XDDrkAPrWs5WJrn1nTNtkd1VFzT6IOU5lIDQmHs81BAdV00TadJ6Ya9Y4UIQowmNprJrv79ZLzlO_hus4Nq9QEqEUjNpE4qAza1NMHKBDjnJo4_s2H-HbE6vFULNDGpB9mYD79LdFkXYseSX6ooe60533A70aPlQOIrGRMZd1JRWR2z_pDFsuJb4oDp3_jIbu3PpeFwXAi-P-APqX-SNXJ-qG2Q4JIOwLbD3di76FOqa7U3roRTp_h1BhsO4HCIxjcdXDDonvpaBzWDsHskzUZmtnY5supx_anmWqtv-Ky1pTymSY2pv_EMXpNM20_8kV-WBTbRP_AS65uU524rftfxMp_AJDv2UVcK4vSe4M0FYq0hGnE/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJTex4ofV3X0YRq79nToaz98Q/photos/AU_ZVEE7iko3cR7dmVCXXGuzEe-Ehhqr3m84N96gvXInUoWrgnMlve2mV8segqP6YSAX01yQDknGQe5c2DQaiAVzbqQXcsWmsXEj2lAlnvarBAsEP1DcmBcg5vlszaCcagF0Oy3gJX3WkEtIumY5o1QQlCsMWZZ-L77ykw9ABshKUiFrRBZIy3r2KryZuw8zfhiwDE-7RdD2NXax898BKujUPrH_OEWaULm-rLgejUEIecMt685N5cTBbcw7BXfmb-eemJmoLqxoEHCw0EQU4m__Uxj8YID73qwD6Eji_evAslPZhQmAPHsAVjFVQxgA3gX0YuG7iqehNlijunAlFTRtF5EVytxXJT2tfBV9CZNFcuEaj7I7X3X35C4kDZDcBMgYWaZPS46AR2Am3oZKZxWEokG0FaSuVvvShGtWOl9rUGNJjQ/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 4,
+      "google_reviews": 1237,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "website + google",
+        "age_limit": "high",
+        "age_limit_source": "website",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": false
+      },
+      "last_scraped": "2026-04-05T16:29:34.347507",
+      "data_fresh": true
+    },
+    {
+      "name": "Ego Nattklubb Stockholm",
+      "city": "Stockholm",
+      "description": null,
+      "address": "Jakobsbergsgatan 15, 111 44 Stockholm, Sweden",
+      "lat": 59.33460729999999,
+      "lng": 18.0695728,
+      "google_maps_url": "https://maps.google.com/?cid=5538095871566399192&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "stängt",
+        "friday": "22:00-03:00",
+        "saturday": "stängt",
+        "sunday": "stängt"
+      },
+      "seasonal_info": "Klubben är stängd för julledigt och öppnar igen i slutet av januari i nya lokaler",
+      "age_limit": 18,
+      "dress_code": null,
+      "website": "https://www.egonattklubb.com/",
+      "instagram": "https://instagram.com/egoxsthlm",
+      "phone": "08-669 58 55",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJDxPRLeh3X0YR2MbFZNpE20w/photos/AU_ZVEEzlG-_ObsfPPiMAX8E0rMhOGf8oub9SyuRTeQ0OuoEq-2O_TgVmgu8_JZ6dXRE9_8tDZVtNKep1OHpT3nHrv1ambocY5QY8zYSXSFuuVdwNYO52teG-ZtVelDNzJy7-X80pFKxSvjS6xE_QNJKlCerF2yCuT1ytey2u7c5oGEGScmiBG4bUnPLJdUS9kk8RdmCQc4O72UlkcIN_pl64iFtP6K2bTzqQGx5xjxLEQRCoKQMD7TAcRU8ZnlIkJuFNmFPHkZPI21gpwnd_BGr5yN6-Dhad_1rLo4fsOCruRUc9w/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJDxPRLeh3X0YR2MbFZNpE20w/photos/AU_ZVEFmk5Y21S3DMlGXwhjHPV_FAuhvR-O66ACoWgOlaugHskJEhpwdD2nxkgdYk7YCeMr_fdlLtEn9uhLeG57iby-gPyLuOOJf81EpnFQT5wmyLnRFj334KcDVQyxLb6kl-Ar4oAEXrcDgTmimVMofZLOWJ7vvVBfcBlH4lyqGI_vFV6sSqs5McVq5z_-hYW1cgWFrJi-mTxbB1vTLWM4p7Qllu9zT0mCqK1R5dppJ1sG5HkJ-qTD6yEE4pnP7db3J_5simloyKowCnguP85APex74maqPisYHYeGqRNR60VcFGw/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJDxPRLeh3X0YR2MbFZNpE20w/photos/AU_ZVEH7wjbBEei1-JAnzlbopdvaDwXR8zuyOR0zRRRUIBQdF6jGoyTjpJfL8-JC1OMlVy97yNRKFQutgSMjF74hz_MbMqbZmSep8hTfle4Zhvrdnz4DQB_jmrqQvWaaysi3VLw5rTxb_r-LNcgw282NqphNObpxvVFxTXEl3ViGP6MeBU2xwiYBF7-wS_rukOLgck0s9NK-aZW6eIpDMWzqykMwKcEzxMEGx3ArA3X72ONsfPNZPsgrVQ9cHeMcfGfR7ROSEbpOACLf-ESmyRlveCUI5Zfqo5RG-bF8qVEgRcHMeg/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJDxPRLeh3X0YR2MbFZNpE20w/photos/AU_ZVEHGgxta_dnkeJoSa0WuS8pgF3Z-AeCthzrex-OCLnlSElevjwQ9Gyw4qWxt9sFqRTTZS9cNP6P5THYAwAwqe0w3XdEpLKFGlIsdHjI40xrw5qeZJw-xiOi2fxk8EOayX1vZrF5kFlTeoF8SGxGnRDBi_MjJXKVojykPZzWSuPBhXJGE_W2ezBLAQKgIFuZsCbooXvUN9knQknZKXbOuT9SsuH4mzl7BPS-WY9yYs52DKu6DmJRxATJQGvHmp1ZZr1qoseDiEwvZpYNumVATMI1GT_YXF28mZi38QVH0mL-yYQ/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 4,
+      "google_reviews": 201,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "website + google",
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T16:29:41.208178",
+      "data_fresh": true
+    },
+    {
+      "name": "Sense Stockholm",
+      "city": "Stockholm",
+      "description": "Exklusiv nattklubb i Mood Gallerian med nyrenoverade lokaler och uteterass",
+      "address": "Jakobsbergsgatan 15, 111 44 Stockholm, Sweden",
+      "lat": 59.33462359999999,
+      "lng": 18.0693177,
+      "google_maps_url": "https://maps.google.com/?cid=17059336940485277592&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "stängt",
+        "friday": "23:00-03:00",
+        "saturday": "23:00-03:00",
+        "sunday": "stängt"
+      },
+      "seasonal_info": null,
+      "age_limit": 18,
+      "dress_code": null,
+      "website": "http://www.sensestockholm.com/",
+      "instagram": "https://instagram.com/sensesthlm",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJcV3G6F2dX0YRmPdSKZDwvuw/photos/AU_ZVEEgfFAHzbikvpMe1VbM7rW3WercwMbayUclPPL9KmtUqPTyt6COJnV_9nEUR1CN7217BBkHW5kjJNCRsM_TByUPXrGijQZopvge1OJAM6YUF-2pR-9RMnhMlFWlf8qqZO5FoDJXZwoJv4EtoK7n8qeHPrH8DsDf7d4fMlDWpc-_6WumgsSUqVbz1EoT1nXKUrEuy6hEb4mq9kv9IgCTOlmzKnb7fmIkeo56n9xpu6WL7dW3p3cu6z-BAoZ37_Xp8ZzKER6OSZnFc9HJ1CCrRhKTZ2-VR2Awbd1brfTCUc_Csw/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJcV3G6F2dX0YRmPdSKZDwvuw/photos/AU_ZVEFlgK4VYaGKfZXx_vRSiK7MvJVejbxrUVjQS6NzIdKmchAXBUoaCZg85EIIR_MBWWxMBFtuL3px5s__OfYVr47OPWdUtsGrfGRMzy563tIjm6RscRk43JLbBBDbbagJG5K9SluBasVDMXhKTC76YXtKy5VA8EOrGk5jj5gL9T8EsfbJ3rDxgsVuG4oKo0jHq3kGlA22MD4rdwUMik3GaykGuAkvmZLz0zfXOh_UesX_N8rxIgKfeRC1EXPyAVH1pMBxX2y25LWuVOPyz74QDIMtCBfEmoaBVlWIveiJzyzwUg/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJcV3G6F2dX0YRmPdSKZDwvuw/photos/AU_ZVEFMslncwlbugM0TVabqzeHcvCEVAQrHtqbTHH0gqsHY48RRu9pAJetsnIN4U7IiJpuSZ_z-DF0pdRzyyaSXJSQU8ic5n7MlqZIljakhbyBvRP5jXatPxXK_9U4DlUA5CcVQ0F0eCmiCJv_KEagQN7JHQD5vUgnSgjs8wMZdqUW3bi-q7acsOQOMB2PrLEpXnA68gmlPQ3PO0b8Wko0ow9kTSD0IJyLbhgHY8dydF0ieZ_HesbgS78_ps-jwbsPNWBf6GPvspgHgRVekJh1SapW2Bq38R_1MV0vLOBKE2Rvh6xfomIooJYvzvz6v2Az2itJmY3ESDGDeZOiIYVjK2jMkgoBM1GUWjuexOk7MZ0une8742Ylwdxh6IbeK2ipc3EioSDIMKKgEtk_5_6FmThUjR4ySqe0AST_DnYZjHASzyGts/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJcV3G6F2dX0YRmPdSKZDwvuw/photos/AU_ZVEGPL0c5FaGloiIRHyQMIbg8RcAQuF7NLV9B3EbTrm_HWcox4wcTRoCC7ix2vzqw6MfypqRfqPegVhgv83m0dJi42raudUR-F_burBgLKb442ooO1CdtbpK5sbtw4Fbht0c_o_APxt2xoknLuhuzgTyV4ccbO-RTYjEi2fUhWujoKRo8sIp6qPLpY1bSqw4KQ8F7wdZjtaRX0IqiHIFqh8sue0NPmSLZQxRzfJEf8Zn8Tm7kLtwlBQ1WeHY_JipT2R5hIJ9tJZuMODhEbQ5ghjB_UHkKmUvbUNmbuYmjQC-KjA/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 3.3,
+      "google_reviews": 235,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "website + google",
+        "age_limit": "high",
+        "age_limit_source": "website",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": false
+      },
+      "last_scraped": "2026-04-05T16:29:45.653835",
+      "data_fresh": true
+    },
+    {
+      "name": "The Secret Garden",
+      "city": "Stockholm",
+      "description": "En prisbelönt gay bar i Stockholm sedan 2014. Serverar mat och dryck i en mysig, färgglad miljö med trädgård i gamla stan. Fokus på respekt, mångfald och kärlek.",
+      "address": "Kornhamnstorg 59, 111 27 Stockholm, Sweden",
+      "lat": 59.3226066,
+      "lng": 18.0720809,
+      "google_maps_url": "https://maps.google.com/?cid=10268508354534894757&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "11:00-03:00",
+        "tuesday": "11:00-03:00",
+        "wednesday": "11:00-03:00",
+        "thursday": "11:00-03:00",
+        "friday": "11:00-03:00",
+        "saturday": "11:00-03:00",
+        "sunday": "11:00-03:00"
+      },
+      "seasonal_info": null,
+      "age_limit": 18,
+      "dress_code": null,
+      "website": "http://www.secretgardensthlm.se/",
+      "instagram": "https://instagram.com/secretgardensthlm",
+      "phone": "08-20 99 02",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJt3jcI-N3X0YRpewujfERgY4/photos/AU_ZVEE2zQkwFoAjeq_gjYNKqieSR7yJYRg3v6VSFYXiu6FzLqyahUOE87TRI3Sda9CuK5_xS2rNh7tQ0SJfvz28Q8rfxfz8iXA6SbxM2YT2zteFtZOHtugHqVsr92OwRZuGv9YlF3JrxPuOJUMwELEFgVb9jQWUP5mzsAdIGro0tqT9Yy6zwUajxlrGm7lTfJAtcUdQl2PHRlgdmXrl4nHHJHNs0r740RMGEjqooDZv7I4gOqZnEzd_e8YtbpNjP1hok3x4Jis_8_omBFFpLap6iKi7Rvt27SGaLYEm4NiUukTugg/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJt3jcI-N3X0YRpewujfERgY4/photos/AU_ZVEHTXKkmlLfQ_xZyK_XCf9fF96SHURDr8Pmbi1VeYrpDVHKQL5zYBwhDKgUg7WLl5tLwpjQuAOY5wG59DorCHWse_N5_3IhwVqFzpy_UebfpBkdZM_Kxw2bw3o06S2gla6svmmIF9-Bo8NFh-gXBRZXWD8Z2T7DosVeSQzcmWgZMrChV4FVZsJyqwnCqTibqygdDDYHCvQp3wTHETF1hNpFULouUc_ne1RQp6tTdiKs7ocxKFBR4_2oDYEH_3K4uPKSTr6z_yhT_lxbXW4iV8mBxBTzTgUwQgqm5aLt6vYDwKg/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJt3jcI-N3X0YRpewujfERgY4/photos/AU_ZVEHtvP94q_gAGDT4VGUEHevrLcjALFQaaxZ2Q9bc0lPAbV4rJ4C-Cn-iu2uHSWBXvzdaHLIRCqIj4ijbTW67_hfo-5FNdWjocF02xU7dEhe0eb_5sejXSWVeDxmglqh1uawO7tl61jK13Nyr-oJYWfq3xMACksjxm6mKaW3TqPU6L1ey4MULqoeXoSnJW9yQzZl6XNFVeaoVKnTiJYRV_XSoEFoLEflcW3ndGsO0IlzHJKt3do2bnhU5CfW7eF8wCH9-hLGBj1J8iev4WWCLoiHX-GO6-acZ7SFvRpVbvscP1l3FgLxly27hEj09-olet4S48YkZRfZUIeHHwWfMmw33jhCbKaKSl7EV6VjNbiPqJHjAnm7fW4bfVLlL2cSrngNLDqr_EtycieqiFufN4z4P5OfxAkUaz-Apqh5Cw1aQHwJwZMo8DvcQE6BEVupM/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJt3jcI-N3X0YRpewujfERgY4/photos/AU_ZVEG3JVxuxCqY-vWpGb9NEGNZQkJ5CnKO1HddArQBDo2dYs_V3r8aOApk0iMCjv2XW4Z34E1YoCKMRQRHlAj5Zr28uoc9J5e9Ett5WD6Ai6Nj16ZzBwbchPoE2o3C-s2gymVJMTs8ITVqrooJ6doj2_08bpMsvfp9BH3UskwfA1o-v2VjzayAkz9hMT2CtR7PMYJhR1aDhqtnQFqLoPDfLxsnrPlOeWfrgQyU2NEP60syvcvQuzXl4L5mvFxitDGl5jz3zxw_1IwI7Yg9oa_9g9YOoU5byGeWLOai-QzHOSzQ3KVce6z91cRkWjc4DpdbIv6Us7sogVT3hWLcZGPJVsGkZfAIzSkIcBKibIScbND7e0RkJRTqRr_s2L5bNHKcdcm7vv6NpvhjnkXJy4vwH_7rmZxuc6Z_NBk2UUBNSreVmYLMhgs5chpCKEyiaEc3/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 3.2,
+      "google_reviews": 1650,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "website + google",
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T16:29:51.676313",
+      "data_fresh": true
+    },
+    {
+      "name": "Noxx Stockholm",
+      "city": "Stockholm",
+      "description": null,
+      "address": "Hornsgatan 66B, 118 21 Stockholm, Sweden",
+      "lat": 59.318571299999995,
+      "lng": 18.0591223,
+      "google_maps_url": "https://maps.google.com/?cid=8347321856958524730&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "stängt",
+        "friday": "22:00-03:00",
+        "saturday": "22:00-03:00",
+        "sunday": "stängt"
+      },
+      "seasonal_info": null,
+      "age_limit": null,
+      "dress_code": null,
+      "website": "https://www.noxxstockholm.com/",
+      "instagram": "https://instagram.com/nightli.se",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJpxBhUrx3X0YROu3dvQCl13M/photos/AU_ZVEGV02S0QuoV4E7GSveuxYrSZzvHlU0NWjeW4Qf1NwItI6nrRw5k_WcQuCW2_AhO5iBFif-j7ba6nYFdv-X8FQuM1AlPXYGfIGB9AJE1YfQPhZdaVqiP6P7BLOBi8SRt6GPmc2I76riwQWvpD9OcwZUawRC1rCOeLgPpEJmKaPnBN2yez-8pqftQqIRA0tEcai3BxZfS-lTkO78cBiwLV-p7cwaHFPcspaJ2ePQDBh1JuY8oorzIzh1jPTinb4PG2rbmO2sJ4x--FquQtF19DCHHBeGGQJNswDwicheEk29ZLw/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJpxBhUrx3X0YROu3dvQCl13M/photos/AU_ZVEHvaPj2gS07vB0qWPAlG2IcPVseKO7ZJy3RlSHnaDiL5744XUS5LYKVnPVKLAdbc4q6huiiAzVh0e_npY82YU3tHER8C4gI8sTdqqE91QvMLUWnmty46cNbAGgBletUzYnCYlp-ei5KGk8XLNq-Y1AaCQ1VxJHQGW4XH0oIPiIV2KBIx5nyrsxAGJg9I1BLKumzWZ4-pI_qjd-pu3Fir8t12RyAm0_lDfwGVNHChhjUVh6cQcT3Bnle5-X_ydyUFDfwxYekh2KFrTg1dHHaeppZDFq4GSKCjggF3owHto8KQZCI73N9oIygzp6LBAb4WlrbtGcqzDZKjZEqz4GIBZDNcTQWUb_1xmHDwFOoBdvZqzCRJs2WNMvBKyIaZtU4nqBUyYwpfxqPR7C6MVH9XEbDROqSLZSDHH_TM59qgHxqYij7/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJpxBhUrx3X0YROu3dvQCl13M/photos/AU_ZVEFx_XXTuuwCDtnxtGC0UeZVDVALLFqMn40m8-Y66jvPOnGS2sgzdFrk8i1_6E0ABnM-jgVQl3piFxRN10p1CBt96oDI43BUwH44_23lYD0h0EXAJdgLh4A1dHz94K_h2JJAPjkqsj6L-zO3VRFTyisrXwZ4JLSDNL7o_rLueYTfCRjpCET3-_MxiBVFX9MrLEKwzUeuJCioTEhf9_3GhQZOSvbHNEVGiw3dYAUWxnOS43j49QAZt6OC605HfEDMcWrmpxWLKDrnov4N5b8-3z77Q2-aBsw3B5qQo2Q3PzaQZW-FXG_Z1AFpT0KVGarkGNMFJ5ap01KNtFXxody0G1epjmJ_ktz_y0mZNddAOeu_oi6DajgQJjrIU7x2Wac09nKiejBp915bB2Ueavj5_-49dh4q8K8A-UJEzROb_umZEQ/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJpxBhUrx3X0YROu3dvQCl13M/photos/AU_ZVEGeoVcsdXck6tT6SAgdBnZuWuM39VOz529Rgcj_SVjTZkLITPkXU74eNtjiY1LixTh1lOgv3TIPVRmEYh7LfuYVnb0ox5zRwSokEWele2BJ5Q1EEtS5_kOBo8rWF2nyK4Ex5M7hRgDtkjnLJ8ghfW1-fYUXdWByLVDuyAnkDUksaYedSGAt691cbpx8rtk_7doY35HklWSzMi4jEw9M2spmmhu6790AzIGXeNhVEQy0dtiAPpA_apJAQrMxgAORP37Wp7zSk7FGBQKyUKbfbYhWxP1IAaFi3xTB58yaN1ojJhWXT4w2ziylXfqY4KTT089WR3RtSy6y2YrTox9fP5CWUcN5Rzg5vhJWlWFyGRj7TLizP_6BWmBg4bb11QIuPH2i4314T3jVRAu08B0EV02XtWSILOXukDpfVtqyFtt0UVdS/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 4,
+      "google_reviews": 81,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "website + google",
+        "age_limit": "unknown",
+        "age_limit_source": "saknas",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T16:29:58.735372",
+      "data_fresh": true
+    },
+    {
+      "name": "Slakthuset",
+      "city": "Stockholm",
+      "description": "Stockholms coolaste klubb med 1000 kvadratmeter och 3 dansgolv",
+      "address": "Slakthusgatan 6, 121 62 Johanneshov, Sweden",
+      "lat": 59.2916808,
+      "lng": 18.079479499999998,
+      "google_maps_url": "https://maps.google.com/?cid=1703755803256661849&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "stängt",
+        "friday": "22:00-03:00",
+        "saturday": "22:00-03:00",
+        "sunday": "stängt"
+      },
+      "seasonal_info": null,
+      "age_limit": 21,
+      "dress_code": null,
+      "website": "https://slakthusetclub.se/",
+      "instagram": "https://instagram.com/slakthuset",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJqbV-XiZ4X0YRWacfTeD0pBc/photos/AU_ZVEFSzoJfuZVGjFzOQ6K6Z0zlUdXNwpnbSI0YjgkB12Nxds0mMP3gvb0f6h3G27a0y46AlxJ0uD8GvoagW_gEunfN4aoBNTtbTM4p1n061XGMKNcKK9KIbgCisyQcitro8NCCeO963ydG3PEbgYjkaSqxTQPpSbMbavBhl-BjU_5MPFuDtPTDons-FyvxigH5vUsYdJ4W4qhicP5K8Ryiqd3JV6wgxiEewcwPE31UZH6H43_bpbJI9ANk_fwvDR6QGjJm75v3pp3CY1Upz00WozSTFkKEs6O32iEaDKuErLWTUY9LvJG41TQmcCARsW7wTAa27btkc4ulXwy7wrhcR2PY7A39DfNAzne0wrISCnLgnSDV5uUAI0pFWgyH_3gN-dU1XyYoIKg6xfo9EBfUO6YZXUEpbyqcDwpdevL7vhsZWA/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJqbV-XiZ4X0YRWacfTeD0pBc/photos/AU_ZVEGDg-eE5r2TZDrXwXP2gdpopY048GTBveWfRVFVv2n2t3IEtO_npjDHkAOB-0X61j5Tn0aZ6i8lKwhHgzhdhg8l-uwBDDuqfgAoP2OrH2Up_LwoCdC_YRQpTll6s3EopITMh2cKRjeeunuEPbSnI4Ou323lcvpCoHw2PzNXnoum8Cx1t-78Bcz4t3_UUwQU-1dFK1tb-81IH_2mLtkmw5UNIM4zU6TdWOpio7exRTycDgmTx4MAQjqjvC3lBYCIz9lKKkuHN65gv9mYmmoKIarn5KAXdVJjeJo4teo9X3BcteRCLIOLpuR9BoHbCwX8Szw7x7UVuitKDPDa3NzMIGA70SCaDAVgP_2f6H8BhwuDz06YhpU8D5EjIH6_Tt68oRhIYKDbKmxCtFENd_HIldn_qw4xHwtX0T3-ViORHxONCg/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJqbV-XiZ4X0YRWacfTeD0pBc/photos/AU_ZVEEq1KeHy69rKACQoZzIBwimJFevR84ZQoUe4M9ijh5ntBD6dLbRWNk6D06YTS3HmPn1uTAdhb9g7pTqfq7T7iG6p4oLKJy1lFHrwDtNzUkl4Gx-7oRFFLaoje_Ov1oI9Lub8SlsrTumsovj-ayHigkiu3a91Rdng2tLvwZH19Ago7EJTgpvjaOkx0OTmqh9ccYbsxaId86iMij4TrNmrbtq470tsuUbuY-1eEirUlWwerb1p3Fn7uDItLWXwnSWqyRy3yYAnFoQwL17z3xVuztMQAapusApKLdkZeCPdsdcVFcOoqa0yuNjbUI3ytJYene85BQ1qcEP2rmlpx7SDEPlDl0qTS3k9WSGHCN-yJN1LGBSaOvaEoBlJ9R1Rtvg4nv1ErLiSU0gLC_bqZG_yMpccA7_e4DaLC5zwNoAiiOEPIGj/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJqbV-XiZ4X0YRWacfTeD0pBc/photos/AU_ZVEFYnsbmgUqkC0V74PFiJh4itLCqHWAqXNiV1za9U8x7mf2qR3bep2pehK6Id9jsOPqXWnpYPzieqPN8tkwpyvSL0zcmCMPqzmC9ENL39RkV7zcIW83laP5mgn4Y0UzEv9REg7PoLIrjUhwezH9h05xPtdA7kNmuXiu3Vgccc2RSJybvS1aqWXe5UT-0RcSohC6QvZ_HnImzGeiUcQYvlQlkN05hNsJfSsvbSMVA_TO9_evG9vJmppbvm_-G6uchwiIhF2mYbr4d1XgY3OMwyxjlBHGAx0COvqcewkvJ4CThyNKdjKa-9idh0aQ64gOOi9sGoUwW4NYRh12rSmE8m9x9R4DHvFLAbBN9ira_iI8rR3Ln8HU48y7Uil_XE6MTsO3JYTNM6sm6_DK0inqtgc0xyvyZGeCRbFqt3MC8iYS-9Q/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 3.6,
+      "google_reviews": 564,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "website + google",
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T16:30:04.948104",
+      "data_fresh": true
+    },
+    {
+      "name": "Huset Under Bron",
+      "city": "Stockholm",
+      "description": null,
+      "address": "Hammarby Slussväg 2, 118 60 Stockholm, Sweden",
+      "lat": 59.304317,
+      "lng": 18.0788127,
+      "google_maps_url": "https://maps.google.com/?cid=11723196174435329591&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "google_format": [
+          "Monday: Closed",
+          "Tuesday: Closed",
+          "Wednesday: Closed",
+          "Thursday: Closed",
+          "Friday: 10:00 PM – 5:00 AM",
+          "Saturday: 10:00 PM – 5:00 AM",
+          "Sunday: Closed"
+        ]
+      },
+      "seasonal_info": null,
+      "age_limit": 23,
+      "dress_code": null,
+      "website": "https://underbron.com/",
+      "instagram": "https://instagram.com/underbron",
+      "phone": "08-644 20 23",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJjRQqr_V3X0YRN6Zv-c4osaI/photos/AU_ZVEFfwiHf2y8BWAZS3RnmmR035RCe4H1A67jRJZblHRaQqykBBiHGo0gO6vD7pmRnM0_iBIGxJRzU-j2JJLfqOWxyT365ffObV4wnylWvDcGnlcAiXlc6_d30QeD5IJHPmugF4yJh1TbCl1r9-QWOqEdUq68uRNU5AFHodUbTsPo5vd4akgXh9xQFVygUWmw3qX1vxUHp0uu4WR2UzJCOySt2Nfc1Uss8BR7BCuELkQCrATlIS37ayjKbxNB4W9lXEZEf1M3_y_uFJqIACaaXzYT12IMkMlKo3zHKeS0lqcfTQhYKLrgUHoIdneEAOxLQXiM4s4w29NsiRK_zx0Pd4GFC4cyOMuF3RhGKlmeXdJ0RFQc46UBqZegnyJm-h3ctxVMaTtATFu1kZKrO_D-t0yGx9rh1AZCzzL2LCbjh4VvrFtZ4NX_5-bwQHhGEBw/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJjRQqr_V3X0YRN6Zv-c4osaI/photos/AU_ZVEF0j-JX7iftXIx1Q1loBsPzV6PhHwUGi6_vcwJgieP0PM8dY3mYz0KeAd8WSUwPw2_KTvWT20wa-7lBDo5BQ4_zrtiqNPAFgT5A37G2YVA_52ww8a6vvkOMaWHp5Y6NLOt4eHBZsxXdozk2h_etv_Rblh4NlqS3xsLRMsuZXK_DOJ7SOLSDzlr2t2ElfoYalSX7iXbEyhxS3LiwvF4EvpTk4fLt3lwhOQsD2cPCVueNgPGAEZwjFi5aZs7UUpk0ZrvQeGsm8RQdchq5hboIbN6CCW1dAfy4yZv7Iai3vwrWmuSHjtQC7uZzkx322rErNKWgnzpSJzS2ZGhNzXlLU0_Uy-rfsv7_IO_8nDIBYE6lzrrjfTC7lbF2MVMoSJUpE1yj5yFHLs7KsEk7sX8sOjAheLR2wkna51ZgK4aW7BA8pGB0/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJjRQqr_V3X0YRN6Zv-c4osaI/photos/AU_ZVEHua1p7M7czv0pJKJ_px9UZmigtmpc2bYPlfWqfGq93R29Qm1UHECRFiSyiknLrrS_Lz3FXqudQbI7sInxlyIALywQxwSJkhxcJvxRk3Z1uQjjWFT8-PwO8lFSo_QrvTF4vhG4VveYNXkO94BCQFGiP_bK4n96UNwabKsAX849JiGrfBcYBmXKKWSul6o1_-gjJCZDg7KUUYVxqhQeSRNQU5P7hSuEENNVVYSdg2ccKQD3fXRpPdU0InIBTuL36SDD-GAXg9Ntku8jo5RNFQohoxMXeoQTfXQtEv-G3ITPHpG1oxn4Bi43nZ0gxFkQpj87aMgmKQYg0X_-PZeLB8AipAVbNHyBWFvUe_dNpSITmzZp6vo0bciypv55DLlQggVy8M4uwmFcYSRE6lRCSXWVb3VgK2pD8BT8mQ8Qq5geSBGtT/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJjRQqr_V3X0YRN6Zv-c4osaI/photos/AU_ZVEG4YVRM9W7TjaQMfC8LpSgBsS_v2sptLsSaD4YBnP7cYg8N6xSJfJ14rcc8ZBmA-oCghA8oXWlkEX7E0uPK77HctDTTR4qKYnqCqpLxAJvb8v1mhDxP4Zx__f793P_Tt3FxoYhNfeYVREfixDOFRYQwQUGffCkwMg2FcO4v1Ch_qVBOfYRPp-Qj0XnimO3SEl5275vj7OCIZdrvzAmWmDpLK9zP7usf4Nykf_enzclckZbb0ewkqTxjktn4ZEwVcRNLnUqky-V6gBey4NY7sSiV5Aa_2vff0sSefuGor8LnvygUC7Ta9xlwRGCohk99QxEBW-WA58YEaraHGGac9i-Rm-Epy2jdoGXnpnR5afiJ2CjBchZISZTht1xDr0XZd5ZEY7Vepkys_GWIB9n8jbFw3fnb0tn6AVFYwUcYjw17Mw/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 3.4,
+      "google_reviews": 355,
+      "confidence": {
+        "opening_hours": "medium",
+        "opening_hours_source": "google places",
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": false,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T16:30:21.848155",
+      "data_fresh": true
+    },
+    {
+      "name": "Sturecompagniet",
+      "city": "Stockholm",
+      "description": null,
+      "address": "Sturegatan 4, 114 35 Stockholm, Sweden",
+      "lat": 59.3364025,
+      "lng": 18.0734748,
+      "google_maps_url": "https://maps.google.com/?cid=9294705747802030226&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "22:00-03:00",
+        "friday": "22:00-03:00",
+        "saturday": "22:00-03:00",
+        "sunday": "stängt"
+      },
+      "seasonal_info": null,
+      "age_limit": 23,
+      "dress_code": null,
+      "website": "https://entrgroup.se/",
+      "instagram": "https://instagram.com/sturecompagniet",
+      "phone": "08-545 076 70",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJs4cQo1ydX0YRkoCF1aFt_YA/photos/AU_ZVEHMVGLA6mceyReJNrO9IlUbv0YjJ_R4l4_Uf1AbcUC2n9QFyYFRGQ9EhHuXDbrIEZTv-lO0nVr3pXICgtM6Unn4BSW5j-tF6zZEXuaGbfn6wbKYKZKyIjoLAIvlT8M1GIkdKfw5tdli2OSF1dE9QeRHKHkzswa36cGeBy9w1W_Wb9KwwZvGbNcbTZ6LBs6ra0S1ZugiKrD_WweiR2tVSmRPJo0ra2zxl9ZFm0a84ac5BJTes11NGqkv8edyLvc-1V_9N11NZrKWkkWUlt8lxbqHqZq1msRFxRhahPagIRSLLA/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJs4cQo1ydX0YRkoCF1aFt_YA/photos/AU_ZVEGVPoCwSyetpiO7wq8-xZPjA5UQfahWM0JIS8b8-wUEh6R8uep4KD2xetP4MQFMxgxvnvwC8WI5b_ItSp_D4OcHpC4-VPc0badU4Oo_D-tNypfZ2l-VGmd09JWQX6Bw0VxZuKvF9YLzpOa8E0sKBq426YvyBd-_6OLm39eVucvA-CX6sim-wQWTbHF24NVq82QpT2x4nRjc1hGSJuMtbE3hslRifMu-8joVNFBvHbRDWeTKQuUVDNy_IXKvrne03-H1fecjY4vdhqSZb0Aeq6mOjrEcUTDKzmEdfTSqzxPi64lb-MwhdhijLUKBqp2V-C4j1_hSx4Upr7y9eVBaHPQ0vbWnUpKGAKAd294FQ-n4pPCX4QvIUs01OguPozONhsyRma8UUy6VmVErVl0vwmsN9bCZ5Dag6lY_kXnJFoI/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJs4cQo1ydX0YRkoCF1aFt_YA/photos/AU_ZVEEBleqKRuFXJLjE6KUB0bvJr2CWxG7QphcVxWKPrpvAZ3WqEh-MPlw0a3OfFiNNtsuQskVhh8Og-Cw6zt72y0DRNb2nBKSYw56aCA4QMjmBWVBkcyfr1UfRsMAAsFtskct8wnZqKIfB4WK_Wf07M1t5rWTCCuvwjcGijNiSL5qpfLSFMiiJXT41JKaMbyAaxrMHO3D0SLNvq0XUtx5LbNcxnflhOZLUQvM7l2GgxxX6O9LKIJ0hKJSRJxENNLWPZihXDnaEMIos51WBBKZN8ZSc-V-RQdi5egxtpgZobM46fy6vKZxGnqTMWkUP33NVrmzAwicLQHfM5x8X77hN42kitTgy8TcioBTLD_EcIAaQr17gIzQP1hQT3d2ZlIWKhBuqJI8iQK0WV6JJh1H5DRkm9203F01dh_U0eyMs5kK8nA/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJs4cQo1ydX0YRkoCF1aFt_YA/photos/AU_ZVEGfh7eINndV_mv6iywtcRRcnAC_Y0Wv8BDhlIRlzEgswmwDvwPxtTLCv8lMK5Wq5IsCsfYX6nIwl5zDJaLt6q7_33wz_hdpP5mPQ1MBxrC3h6vchOYjo3myMUbyci-Hi9FEW8MUkk4ZHn5Xb7Q5OD8bDDl8oTCPcnVp1UJW7Zd33zNmDmWnSPG0raMOass0Euy6Jyk18FgOqiu6sWNboFdByjYKdUdcg-tZZjbzRzC__9V9LyJ4X6j_8NeiX1K71t7TAAP1ScdKwoZrxfvxTsTw9S_hFIU0vnBhgvHQgsL1A7DjXf60gq7wQyM6V-EJc6LCc8yYHqfzPTjnvyfTGPocjYFcdft6af7IvXYbOTDbU0XH0KpEbbc7P8QqZLU3VUMb_pJXXJZ1XoZRJGBoe4Z886cZDecT887o-hGkkz87q2K_/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 2.3,
+      "google_reviews": 359,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "website + google",
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T16:30:28.490060",
+      "data_fresh": true
+    },
+    {
+      "name": "Berns Terrassen",
+      "city": "Stockholm",
+      "description": "Populär natklubb-venue i Stockholm med flera olika klubbrum (LE!, LE! Cocktail, NEU, Terrassen) som erbjuder live musik, internationella DJs, cocktails och dansgolv. Känd bland musikälskare för sitt utbud av live-framträdanden och DJ-sets i akustiskt rikt utformade miljöer.",
+      "address": "Näckströmsgatan 8, 111 47 Stockholm, Sweden",
+      "lat": 59.332148,
+      "lng": 18.073724700000003,
+      "google_maps_url": "https://maps.google.com/?cid=9441665386903670157&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "stängt",
+        "friday": "22:00-05:00",
+        "saturday": "22:00-05:00",
+        "sunday": "stängt"
+      },
+      "seasonal_info": null,
+      "age_limit": 23,
+      "dress_code": null,
+      "website": "https://berns.se/nightlife/",
+      "instagram": "https://instagram.com/berns",
+      "phone": "08-566 322 00",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJF-_xMBqdX0YRjY1-MqWIB4M/photos/AU_ZVEEWrSvkjUSOEG8baLJicN6zLAnkIVRfsYNHPIVKPdHX9QASS-gYA2GxwTku5Qp_BM5z4NuQ_-KW-SHWPf7zois5NmALj5-A22OYPdZGal7IHoXgAkFmtFVT2Hz5vsNETELReLKl_SZBpkFB-74V2Ay58sx7Cut_Hao6nbCnUS6D8xZjwut5x2vCZnabVr71e2ucGsrY13j9LxwAoYbVKKXKFCVj_Cl9AkFhYAFYp2p_8ZffdGdMxgJtZWmqntQSJaoXbOhe0NzGCCStGqxMb33QY0wxvOCzeYJdYeK0XamBwPtDf8mrALe10iwUHs4GoRAKFWOkUR6dHNR9NSW1D-GK1xwv2I3sYsqlrjQgk7ZwhS5noShe5loO50L-bgUFmJu099vYqoZ3m5O2y0KgsM45bsDsj36r7j8VNnlNvPrHG_rI/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJF-_xMBqdX0YRjY1-MqWIB4M/photos/AU_ZVEHOeQIl_YcZNf8ZlMuV7DwFqLPZCbSYvq8JKn8SxWjEVMhC7E4D3InNNSflQ7AdbNrKxnaVEvggCCXQL4tIuTNeb0cu-ubult72EFWocbOTB53uKxCc2h9lPFywHb2L1Tw_uwr4SkGmBMPvhRI7x1dTxY2Wmqe6AT8mEx4PRMhlwT6ERnltBGlpLkm5cmJSfyUbAdPPiRCfnVi1qZighrW7jhzSCgmY9z0YCLju-X5TYvbtSgDx7M0I-pZBxKYxsPiV9tNL_AX1mxCE9Lq47n3-Fy-6-jB_8pg0UkWy4sHIgMwkZhJoJowL69L8F0UWA3aBWV3zNx68QRRkLg2aBfa58xAQ0niKxLYAz9tyENT7FNC9afi15ZWOEm51nRi241AGaUhIJKTg8eV5boqnKH3HURImklC8s4-Wi08HpFIfbg/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJF-_xMBqdX0YRjY1-MqWIB4M/photos/AU_ZVEFxQzJJR6_B5Nuz298TGB_O9DI2UdNrU9d6ve0f17e3JyFKkwTaPl82wQK9ps6d6NG75FtlqulAoLof9yuVBQcdUR0rmfWsKG-i9NP150Gd5GgbjAn0OXSJCl7h6I4oMRnrkBGOMrGx0H-XBwFbC7RG4UpQ9sTfyBd_Pe4UeHd-3YQCgwik3mzDJYD6Szxk-9cLlzFTP4AQ8t_bbGWtoXtLNEfOcjlJPB_ftENjemi6YFZpxtv5WIPfdZo0VPs-RfU-gKGDommEXRwBbpVWs8u84a4KzduWYdO5cd2r0suMwcwYm3FUmsptEPsObJ9p0irABYMOf-4C4JrlTVjrdOBviKq0DwtJWcd4log0CwEpK4NpFGMP1QXA5qeL2ejxwtMGvepTobJY_d_ymnPJZTsEaP-wImHYF_wPYn6uyT0trN41N_lRsPa0dfwqkg/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJF-_xMBqdX0YRjY1-MqWIB4M/photos/AU_ZVEFZruevZxLqxMPtuSnKuFZ9u98B5vG2JGvbhTv37Kxrg9G6Q7WaXvtAppvaI8quTA9MFik4KD9PA-aq_P2g6zhhMLxPgVf12qWJO0v-wGpyZTrxG9kxwRPH39DJWSuNLBGTMUw0qykoI9lhUBFxUDHAunV80jVEPDQy4EeWvuU76hy8-RahfmDkpNw4Q9B2nrj7W-wQCNm5QQDIesJdasC39mN63LZs5JUQDVKaIBAAQqiG2TqKfqlJi5-px5tIlnXLzVi5XvVk0FL9TMX1gxRHBWY1gT8uZuHX_EJFvcVna8209vrS7IgzVrEsUKsDH_fVGQm3zkdj9fN-6OWAG0cmOLQwP8BUyLZXxT1omucaDfWUV300NamToe1H569smy6z1b1He9CyZMO9CO80gM15nrhg3iBvBq9iB398tTVh50Ct/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 2.5,
+      "google_reviews": 215,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "website + google",
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T16:30:36.056180",
+      "data_fresh": true
+    },
+    {
+      "name": "Spy Bar",
+      "city": "Stockholm",
+      "description": "En av Sveriges mest välrenommerade natklubb belägen på Stureplan. Känd för sitt exklusiva utbud, världsklass-DJs och varierande musikgenrer. Viktig destination för både lokala eliter och besökare.",
+      "address": "Birger Jarlsgatan 20, 114 34 Stockholm, Sweden",
+      "lat": 59.336615599999995,
+      "lng": 18.0720358,
+      "google_maps_url": "https://maps.google.com/?cid=10784779973376605125&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "23:00-05:00",
+        "friday": "23:00-05:00",
+        "saturday": "23:00-05:00",
+        "sunday": "stängt"
+      },
+      "seasonal_info": null,
+      "age_limit": 25,
+      "dress_code": null,
+      "website": "https://entrgroup.se/nightlife/the-spy-bar/",
+      "instagram": "https://instagram.com/entrgroup",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJ29yfv1ydX0YRxfvb3T48q5U/photos/AU_ZVEE1MEnIkRJ4jad1QiYIuC3qm-KDaYaYnFLoOR5b7jrkqH-sgMTM0Q9cDXi3uOwG3sihaiNwcGHCszBqvRSX9OCz28018VaNbpA34PoN9_qkR0Y5Bgg8hHD53Y0zndV5fkeGsHi6I6e3zXmdYl1TfDecKxcwIuL8eX5NJUrjw54UPqjXVxBBr9aIDX3YVuPzVFWo4-4HGyzCmiMMXjAczbZ0WVwvm57N7b90vOLNMckuPJ9RfAFocQJjs4UoNucHNH33bIntKXX4Zl5uXxR0YoM5VEjjtPEkccNfdl57DrJP1Q/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJ29yfv1ydX0YRxfvb3T48q5U/photos/AU_ZVEE9CevaC_LozCn2EjiSIdh2ZEvRpTDNMu-AyQtAOVNEoeAl64CHDHfFmBy-hiWXxV_ukefq_in8Be6xkyA8NDHIcvRsXC-48pYFTgyetkpdAY5xX4MVXYEsnRrKGa-QVRzTP0jX_7A3YpwGHqo8kXMELRl-ZdlgqxPmlOpDZdtGUymceHKgDD5v-lapQ-hFTI0y8SjJVTALX0zFj0K_j25EXPO-kbk6mqmWkoiPcaBaNo-MwelBzuBlpu61ss4r5AKu8FRGXkmektXaTMD_YzmlTcvg9LJWqQ8xt6mTayxgzFNX6MhWYZPpfhQgSAAQWxTCq-BlL_lT48I1CGMe4Te6nhIFwdo21F-y4PXBu7LASNv061Mcdktj0HTv189wE1MYhUVvpf_wZl6P6KH6OD22q5PtWWklDoKYOSJMz_IT8Jce/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJ29yfv1ydX0YRxfvb3T48q5U/photos/AU_ZVEEMaPDp-qwVaKPu1kffEQO4Cw37dItl696N6uvsMS1FhnLfiHCuLlK9JZWCFm6CgOxz6pCLGmSlcZtlC8gkOsLgXYpExM_PV-91tJpmz7PZAgeWcWlcdlXvAl3R_H6Jy4D4czN1QNlHolWwkU69IjInfaw-BJ5xJFiwdLDb-3Qmf3PNG9X7R-TnLqsuAvvmUv4GKJH_UprX64Cmcw9Jj30isiwA8oUN4IXyazLPU__oFCoi5bVOdJ3mQhWr4WgCcCy2acLs2L99aEQewVKBTn_nhQTWrNHf--Wgnafm7h8ZRU_aYWAWuBi1Hkw7K3EWGIWBySMpVM-vRiiscg162HRtuF_po7VKFz8nHsIaO-J_F-AhMFYyYV00MTT9bG7OMKt7sg2yrfQylkZ6KP609gzblDgAm1LNWLxn7UJf4KYKGVw/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJ29yfv1ydX0YRxfvb3T48q5U/photos/AU_ZVEGuut7uB7q7_oJOGL9pHaQyU5xc-wWvysrGZWRuuwNlFfxGZwnypJjA9xSLArkNiE3UQj3gAUCF6DEEB_M1-k2XGkOaZIbDB9ZWpLmT73OvS4Ehn5njU0Hbw5gSx8Z5elxFtU_X9LpyvnuMVKXNbHy13ere6cJnPf_lgH05MbQ23tyi2FZBL1-tNfAPqANbsD2kCoMljysJ_1I1U_RMeDHYrEnhGmGYi5W4R7ltDa6uevPn-elc7p9xweVAdQ_sFgaC2WsfL-AcKby-jRr4KcObCXGmGLUINhVDxpIUUylkZQ/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 2.1,
+      "google_reviews": 349,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "website + google",
+        "age_limit": "high",
+        "age_limit_source": "website",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": false
+      },
+      "last_scraped": "2026-04-05T16:30:40.418868",
+      "data_fresh": true
+    },
+    {
+      "name": "Shotluckan Södermalm",
+      "city": "Stockholm",
+      "description": "Shotbar på Södermalm specialiserad på showshots med experimentella ingredienser och effekter. Även öl, vin, cider och mat (tacos, nachos). Spel och lekar tillgängliga. Perfekt för förfest, afterwork och event.",
+      "address": "Götgatan 68, 118 26 Stockholm, Sweden",
+      "lat": 59.3131121,
+      "lng": 18.0736979,
+      "google_maps_url": "https://maps.google.com/?cid=2996038639151692671&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "18:00-01:00",
+        "wednesday": "18:00-02:00",
+        "thursday": "18:00-02:00",
+        "friday": "16:00-03:00",
+        "saturday": "16:00-03:00",
+        "sunday": "18:00-01:00"
+      },
+      "seasonal_info": null,
+      "age_limit": 20,
+      "dress_code": null,
+      "website": "https://shotluckan.se/stockholm/?utm_source=google",
+      "instagram": "https://instagram.com/shotluckan",
+      "phone": "08-38 99 00",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJp_wHHV53X0YRfzv7w0QRlCk/photos/AU_ZVEFb0vY1wzAIPwu9nbkkRGFhzmNIBueyUzNgGCnn3q29B0AITsj7QyEfmIU_eko8HVNv8u22q8_DfbpkVHJ-msP-rq5dYaYbGcRhGmgXWbMcx9sUFMJ_62QVn5qnmkOt5RZJt8DFKUYmLc66uZV9GrFZpHR-FRcDgQCYlhBndHdPk5H1_l0C-Tpljt2ieiAHnR3jvsoMucJekZk6l4C8QfnI7enEGKmvY5Gsc42qnxa-NdeiqxQo7zyo15D4Tn7l344cPvtlEVkvQE2WVl0MoaFe070qaklFRPAADECvGt6n4A/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJp_wHHV53X0YRfzv7w0QRlCk/photos/AU_ZVEELNhqDCJqbaAlx4TQmUm9EBCqDO7fZsDpg6h4aXsHTHqzZ9GuTj1HwF2DyHRUOJMU160as4SbKogG_95hs4zzXLUEF-6eboriX9bup-gUxZj0hhUExgyzYcS9ir7K-Pk68grOiI9DEJpbENoscOg583-8d68-0qYqLktK9Slh_ciVg2SzPB-NjmoTkzoFsW0lou5BlpURmw7d2aYJIryXpWQmaCJ7SDcVzOQav_zyUJlxLQ6tU2xs35yyLcTq9B-byVs7sVVf_3seGuMCuLAYw5JPymC2Q0VqPFXKVLOujIQ/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJp_wHHV53X0YRfzv7w0QRlCk/photos/AU_ZVEH7B9gtj79JRLpukj9ZuwAJKYcN-fj609xFNQUUgPRf1RhavalsS0Iyz7dCi-vyG68nDK4ilmk8GvoPSG-D1-x-OaGa4rFu00n_M3d8md8CJuABoQUGAoKZBKI5cnqdYqIjjW5ZL_6x3Q0J54GGlHar8TiI2RPo6EIQI5NjIuUGQxbHo5bepiu-oPb7QppsbEm5aADR9vCaPCkncRAECt2NidQfiA_X48HY81V0eqKKpKB82i0PvNZYiOins06mrhFzczwSZIA3KA47xckJpXUspZWxdOGNYSpl-kQywgorrT2m2Wv7bZaygIkcx23wnMerFb1aLbV2IYJjnOBze90rAOv4088hbL_UO5svXarxOhbMIz7DJ0Bz2oThmNBbb-c7qNGx9zAShr9L6S5t0ZYdSNIraXdvpHGodQQ-X1s/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJp_wHHV53X0YRfzv7w0QRlCk/photos/AU_ZVEFk12_6_6HfG7Ke5sruLuyUxYfvtsav4fP1jTP8wfvP0P-hnXdUMTSbhp2eDnOUDMrUb_VR4HuApquaVgb4iKR4aLAwsbTrRUUVOfkma-3hOR0T6cK2DrXLNKThqgWxdvOyljkJLxn3SNQf2BBehPjhsPyaKQGvmh3_zM2B4Hqnuj_0QW839zMd10_Mv00fJ-1ktPuz0XfYL-_YkW0cOdaAomdyxVG873_BFY0yTnZHVSFiF7m9pjaJCcoFC-ReTvmiDXaz3gW46kKtADISUfek7U2PgZ3tm6dBYa2SvXwBkA/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 4.5,
+      "google_reviews": 372,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "website + google",
+        "age_limit": "high",
+        "age_limit_source": "website",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": false
+      },
+      "last_scraped": "2026-04-05T16:30:45.303479",
+      "data_fresh": true
+    },
+    {
+      "name": "Club Rose",
+      "city": "Stockholm",
+      "description": null,
+      "address": "Hamngatan 2, 111 47 Stockholm, Sweden",
+      "lat": 59.333085499999996,
+      "lng": 18.074924499999998,
+      "google_maps_url": "https://maps.google.com/?cid=5853225708159944747&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "google_format": [
+          "Monday: Closed",
+          "Tuesday: Closed",
+          "Wednesday: 10:00 PM – 3:00 AM",
+          "Thursday: Closed",
+          "Friday: 11:00 PM – 5:00 AM",
+          "Saturday: 11:00 PM – 5:00 AM",
+          "Sunday: Closed"
+        ]
+      },
+      "seasonal_info": null,
+      "age_limit": 23,
+      "dress_code": null,
+      "website": "http://roseclub.se/",
+      "instagram": "https://instagram.com/roseclubsthlm",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJeXr9uFudX0YRK8gOFcXVOlE/photos/AU_ZVEHwHY2EcIpwEFypzUGlQKlvFjl7ouv6DAi1kOgo_z13lusqjt3P_R-vrwE2Q-0ijamTJnenQOQUToUI-LGNSE5LRWqBuigGM0O8rp3bCuz9jSK2rsGrhaYN9T1vSZ5ZPRDiEXmwQ4T7_Fg-D05dSYqwTOV5oANC7Lr7KxnjH7hURlEIyNK5pY008AdDXUHJiiGfQCu50EgiH5vRXUtIG45y1_5JQdY664eM0SrrOwQSzwPwRBy8VKTi-wezt6kBBuDQO2gDp4yFuixQTNOyVQp_QRMIk8Hof0aROoo1SjAtyQ/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJeXr9uFudX0YRK8gOFcXVOlE/photos/AU_ZVEGDzRkgd36-QWYy5n9LqeP7kTdXdGNVS193bOANLOgRU90MS-lq0F7d-1V1dSw54BIVzVw57jllAp4EqfQDJn3x2_CarZgwS3-gSjjnwv6lMi7AnXu9r27Lq-lE3BMNEAkTgHlucsdUzGPBIzkrTr2gfxlbYSVnDVUb-P4zIgPQidrhPNypB1ggiSP-bTX2z16lFfHrpv6f9i7_njwVwY1SZE5AyUpfKPF32bVUxPjgJMtDp1CZeYz6Nbq73S7yXbe3sHMpSRulEeYebOSRaeOWPXVV5c6YNE2tYyg9e2bb1Q/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJeXr9uFudX0YRK8gOFcXVOlE/photos/AU_ZVEEf42wz43Nwhv6O7Jx9mq52Vdk-0t9L9HeA5v_YyRWG9DvY63BOpNGDuJQ25CICjqPJpVlwjCUXd9e5ojsaehSzdDyXEluhYAWfGwgS_dxMx4FoyVyCPA-QiH_Syn3qdc8bwcS_K4gLb9BYBgA6u62arjAFl2Ld0DxrV1ggnTbwENg74BeaXtPSZFSr-G667QFYxSIeeW-zKfPL0iZsJugs8wbym_Eqyc3Oti3dni0PTFfIEM_eRplPAsHDN9gw2I8_75Kp3AjxXoPWaVz7CjzGZw3TvyTaNvvakSWc3d0-6A/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJeXr9uFudX0YRK8gOFcXVOlE/photos/AU_ZVEHlMWT7-_bKjB7eRyOtpWa6jrjv0bRNCfIxSqzmBQCa97C94yQW9RYfWwQYX9rLc4znoqAXCOtlBeHPZHlb4TuwXJkSBI9yPtXgf992LBLzUWidOGvR1hjwA9mhmFMeHEcIW0Tws6G8fKuebl5xeiXDE2n20001HX1jb4j4kGEEXxY4RlIpCO72fGCHRVCyh_qcBcr0jlk65QEX6NW6APqyoFJsuXeCR0DViOCUH_mYJOdBg5BR5drLYaq8mGRxbrcSapTRb1rqZufkDZYrjezNPdwztrCpNLJ3qFVBCkQ_0g/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 2.7,
+      "google_reviews": 428,
+      "confidence": {
+        "opening_hours": "medium",
+        "opening_hours_source": "google places",
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": false,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T16:31:05.465784",
+      "data_fresh": true
+    },
+    {
+      "name": "Myst Stockholm",
+      "city": "Stockholm",
+      "description": "Nattklubb i samarbete med Marie Laveau på Mariatorget. Erbjuder VIP-bord, studentskivor och events. Serverar champagne, spritdrycker och cocktails.",
+      "address": "Jakobsbergsgatan 15, 111 44 Stockholm, Sweden",
+      "lat": 59.33462359999999,
+      "lng": 18.0693177,
+      "google_maps_url": "https://maps.google.com/?cid=4428075321641767065&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "stängt",
+        "friday": "22:00-03:00",
+        "saturday": "22:00-03:00",
+        "sunday": "stängt"
+      },
+      "seasonal_info": null,
+      "age_limit": null,
+      "dress_code": null,
+      "website": "http://www.myststockholm.nu/",
+      "instagram": "https://instagram.com/popular",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJY3qY5vudX0YRmZAhSQuvcz0/photos/AU_ZVEElGrGQvN6NSGJxfBUmSQM2P5gcfW-UMNsPHjgMMcLB2lI3gH0_0YshtjRSo44Y8OdDsiI7SaT3FNs0i5ahFp5XpEzNRdbxcOxDB6g87wp9pGgTnuJGtKKj0SwdOeHO8Q1WeNBS2K88QTZ6YsXsaAFFcrcmdiM4U43MOnRhUfdhpgEckjq9J-362STTokkVlB4cVkd8oCqu1rVOacLkbq1YqkNweyRyD_fsLJ47YLGZd9YvSL6KjnEVDls_4fsrkD2HyhY-0c6DVO1hSWriOCefJBrj4sWDYAkTz0NM9kaTqA/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJY3qY5vudX0YRmZAhSQuvcz0/photos/AU_ZVEH5uyE1Sw1DIsnqELksPghkuZJOz1gi26KOeaOx7m13UnGT6UAYovlHI1hq_HhEjTGIuZ9mGNbIwXHbWDkbf7O7zlSHoq9vn8eskCkVMIKziszQpywPb8mPzAJUrmTtO912cBlLbAPhtWxgvmlaEWvipFvRlf5qLDN4sd6Qu7qAD5s3-exddwGnaVmurbOCDIMcoULWkwbnW92mPW93HP9-u4yrr8q3k6nQR5huq7RJ6luw3P-f0KZz1Sd3bmtCvXAqwOXa3t223k9DWuhmYVhaX6OSY27-ngQbim66b4V1z_ABqJnHbShTj7PJW8TV-9YYl7MZ-5x1gho9XCqC9otI0RaLMPj3BGuMQ9gB2lD1DLUetwRbJse_MFwoN_SiHwtypQMGPblLFbQIVE10N0zYwgNNNbyESmCqhQl3q5T9PiAy/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJY3qY5vudX0YRmZAhSQuvcz0/photos/AU_ZVEFiH70y0FEqoCYjTQSpJwyTWn6OG5VZ69wQ1ncU75KT0z1Glsf4N5YcgWucLGzUs6orJf2uRJRdve7Qb0j42X8bsdSeAu5-nvRiyWvv3F1m9GTin85MzukYLD_TOREivos-ahuMdauUFOJvcjYyx7i3jswkxo8u4YoRgsGGzpmJwTcrfM-9Z6J6J8ZXAZnmjpFZsAeCZDr9h_ljcAi2mzgvCgTntLOd_p0YSYwkilF28W8WMK_kt-tbRRZMJL6B-a7ggIBCv0xNi3kqrIA1zB4yoEy5EAS0GxTcvsO9wya1tw/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJY3qY5vudX0YRmZAhSQuvcz0/photos/AU_ZVEE50xfEz-DqDMWM_PjpAzwshvscUHk69DSO-8CuvrGxfPk-RrzVIRxC8LHueiWYUIoCi2q1y9WdPfQe3zWZxD4RnpdHcIik2b1htMWUXt38TOw-USeMlbT-1E6AxePSCpqUtijkAQITOb_muPgqVboGynP66JZ1AWoq_Av3LB2X5LmDIsHY9tqpE8F_DjTYO0_wTKB7c26wM8j9jfNDC1q6zn3mi2poDAIny2nWOYMgsj2qsDJUNtbAUyIx5GqtcgAo5EnI7nvStgam3fYSdNRBIgai9KpPlR3FV7GSbpn8dyyVU9h6z69cU6iiR4LcWyKEMz6e5kFjTAf3bFhDRDq639q6cYzTr5aOWj0FoN1vO7OSttPNJ1xUFlaHZ3G7dqLdOTs47HPEMG3lrXYGFDI6l-0WJ7QqlrZqJsoqH1LrEmWz/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 2.8,
+      "google_reviews": 125,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "website + google",
+        "age_limit": "unknown",
+        "age_limit_source": "saknas",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T16:31:12.748532",
+      "data_fresh": true
+    },
+    {
+      "name": "Golden Hits",
+      "city": "Stockholm",
+      "description": "Stockholms nattklubb med tre dansgolv, karaoke, restaurang och dinnershow. Spelar nutidens och dåtidens hits. Etablerad sedan 1992.",
+      "address": "Kungsgatan 29, 111 56 Stockholm, Sweden",
+      "lat": 59.3357435,
+      "lng": 18.066887899999998,
+      "google_maps_url": "https://maps.google.com/?cid=10287176519558303528&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "18:00-01:00",
+        "friday": "18:00-03:00",
+        "saturday": "18:00-03:00",
+        "sunday": "stängt"
+      },
+      "seasonal_info": "Dinnershow 4 september 2025 - 13 juni 2026. Karaoke-SM 12 mars - 23 maj 2026",
+      "age_limit": 23,
+      "dress_code": null,
+      "website": "https://goldenhits.se/",
+      "instagram": "https://instagram.com/goldenhits",
+      "phone": "08-505 560 83",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJ6cY8Cl2dX0YRKA8Dbopkw44/photos/AU_ZVEF0E8OBOKxzXeY2v-A48zDP6twRI83AURFBISwwWa6LvoMYMeehO1Cs9nAvj7hxbIOcnaNWtdbf-tdkljsHNxAFB0WvjABUWlEpq0G3y2sJFVCsb-si4L0scPlvURa0EqSFS_gkuGwfuMDZ46JKfMWrc_viLRQyKBI06ZHSNZ49jrut3hJFdK4xui65mG4t3X53twK0GlDDCZGkMTBrgMvfNPi9axBecyK8VZVBdGv3wufTVqJDNRwo6ysJW5GXih9LFYjYrHL76npXt5ogke283XhUaRmDfSYPtkRqUMgsqg/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJ6cY8Cl2dX0YRKA8Dbopkw44/photos/AU_ZVEHmG6s6D8VPJeq3sza_sgAt6-xz86gc93QnFTLMX8pabi1AbPcrfPwgkc-gaKHZrjBpthzG4BCpOOmM-lX2_9arfGmJUVKa1jZCrS9ayQD-NKfW6fWdnG0xuz8BIHzS-M1ZEktv016hXF6q5TM30lwF1seLINWC8eHsqXq8sru3WSOkPqxTaP2gNNvNFTxbT0cWMulwVk5lZZRI42rikZ_VboRVcA9X_CnMEaf8cmMhWOv3mWVNzWnbnOIX2ntXRDqaVEKq1OG8-Pge0wFTVWx3fEb7OOUtgxQejlCtGr4ojLut6rMa32O-a1ARPrWBvMX8GSQgZ47tNxrjIG3DN3Ye5uDohGBBth_waoJb1AjAk_RaPCwtyT4N488u1zmwJDpWmatniTHGtUCaZIfg6CN7slfIgLi3TQ343iX1c5BJ4WbI23FOGXdolXFsIJjI/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJ6cY8Cl2dX0YRKA8Dbopkw44/photos/AU_ZVEGoIoF86jNWkXEplIZ0NNTutK6SdMRxbjVGfjyXj1eiwLqv8-hhfHgRG3Kqb1l_RuuZAxMhqGAXcHvsvff2eB1HEpY5AQy6WLGBwpMdXx7A4dzDVdl6hZEjS2JlAlq6pa3jMniS1z0nhB1rfn2VZGJ7dcBBmvc7Fr_Mm_HJfcgr0vyX4vsrbt7f0fHFBFcY8E0PNwwLjTyUCEHHXk1Lw9M9pM0ZHTx3aiF0y8b1ltKtN9Xyv8zR7_QdMShL64QClcjOsJIH96oySfm5MJa5k8-GtX9TaFudFxTKuWE_kAfJsIY2AJGX-awXE0SsA_iefLKq15v__pekp5CfOLE2v1GhXFT55VxMqUX16sn7gyg3Cggw5j4KF-IeQ1R3iDQTY5NHC7Kna6qzN1plyfKjYB-wuJER-FopL_-9Nct62C7-KA/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJ6cY8Cl2dX0YRKA8Dbopkw44/photos/AU_ZVEGB0n9ZU3cYkfXf3IyO5MXYC2OvZwsbFI6F7_FRUNkP7831E5mNbXZk-7ItKns3c95RI6pK4_V29ydlR6vScBfSLv3IUXTN0VxwxkQs8H9oO2zLYYJDGzEIAvnAi248DZ2YxQTe97bNBSiiRG4LqZAKH4RQ-XImMX9v_M1UEPTZgXW4wSSuPTPA6CVNXs_z3gJOTj-j2inz8Oxnm0BhsudcszHzAhT0LyVF_SeJ_y6cy9xn-2v4JuCf5fA2CyqqnAmmlLH0SKKUBxuIiSQ8Jqs6zwClBv6QhwQrW4ldP8yx6U7RGizcihMOK50B5beQn7mB_UpQ_a37vhrIWITC029ze2B_r79AldK5s6oivD9XIkC6V3aF_oe-NEr8lOb_qHX71JkGDmCLZ8bNDDVeIg2fx7r2X7ZJjnlihmsugK9NUUr6/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 3.1,
+      "google_reviews": 801,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "website + google",
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T16:31:20.281744",
+      "data_fresh": true
+    },
+    {
+      "name": "Kollektivet Livet Bar & Scen",
+      "city": "Stockholm",
+      "description": null,
+      "address": "Stadsgårdsterminalen, 116 45 Stockholm, Sweden",
+      "lat": 59.3191564,
+      "lng": 18.0782322,
+      "google_maps_url": "https://maps.google.com/?cid=7813894816361269905&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": null,
+      "seasonal_info": null,
+      "age_limit": 18,
+      "dress_code": null,
+      "website": "https://stadsgardsterminalen.com/kollektivet-livet-bar-och-scen/",
+      "instagram": "https://instagram.com/stadsgardsterminalen",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJLxquy2N3X0YRkcp6ie-HcGw/photos/AU_ZVEGySWVqela3zNzJ-m1ATFWYaEcNXpgePFrYTNZe0uyGdwgqVUr5rMYaidWBD4t4l1OZzIo-9VZZwE9ZsricXN35S4gz_NobOInNqLRctx4ErLLQ_IBqiXeQYzzLEN6DvG7yBXZkS6tX-CAxxSM-OMS4Ahzq0gO0BSQHLBnv9QyX9GR6au5V2mvrNrPihODVGT32po_FfOhgKAXEQU9QPnqcBoYxhsrQx4ytrcKAik7Jv2MGiI4N_Xp-S2hw0cmRW8VdnQUIn5iseNk5FKfvq-PSyk0Qbgr_gA0wMJrSbSZt4K0zfJ3vZ3Hq9XowVgsvm2m67ZSDqjjQAtutwJN0Kp5UFVY5BnuvpiseWHJoHusShDuPAO3_VD51MH7ogPiZC_Q05YSecasXprN7MORETbZ8-96QPWiMk_S3FqqgEOHD8D7OngEgIMpRWYhEK16U/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJLxquy2N3X0YRkcp6ie-HcGw/photos/AU_ZVEFsXR2n5aDjg_y5D3Jq5-EG0qOW5-c-2lgMmJQTwoxoE8s1rortVTJZaSCLUsf6gwSJ3ItHu_17H7FOXgdWvi7QCoM-D2zGb7RsuWbK_1wBkDVBBW_FDjbjjrneHDfY5lsQ3NzUBcoiZXtAoGWVKsUCXcQ-C4F9GvFLhf8XEIXN6lS8Es4F2Ss32iDgSw4nSaT7Qc-KtemomFJpSAdQ7I7eK61fernMiyKN2a1J3iyFv7YK4qcDvL0soAkDU4sAszcQFu7a3JyBAYVGw75Xp58Vj4l5PX3jExUNVnl5zij0O1okitzuSfbxCbAlMS46duzfThEQrI0VqsxxUGgaU5-GhawJyx_5xCaA2g--AF80cwpupiMH1jyCyGZ8aziNT1EBiB1HyI_DMo6Dh2RlZC6QeRMnbGYCYrl3GZQZr0_CwQ/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJLxquy2N3X0YRkcp6ie-HcGw/photos/AU_ZVEG61WiryrX1Da56dNhHwjoPoAs_N3UDoNMo1htT90jAz2WqT2NKTbc0QvKwk6RoJPnaXmvZ_fmZ9cPBUZSLM5JSX_0OYNn8JpY5HRv44-7SFEQ0Q_PH-ds0b5ECAU8IAg4GIIpCmmttd8ll_KEcwALac5eoP3VkOmdSQbQH08afN4iw2FgI7J7PjIGM9UrISHPDQ1NN2xAM-pYR910Rlnbf3nzmjN4asTqqHPKuPB368Klw81j4oo4S9DRIAtZ7gQce0dJ_cFjHdj3fJ6-64IiEVZMoe2ID_4fle9-gCpomZbIkpDgRadHXQMWvQ6dIx4bOYZpYpFKkryJbMVBW-CMbNjOiRwq8arFwrnO8_ezOTkWO1Lv0L5-2L3RLOFjDaDqJVNgseeA_9YUoj7eBGQclJCpfytD0mqA_rDLrXUrD_UWG4dPOyn81RCI5lw/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJLxquy2N3X0YRkcp6ie-HcGw/photos/AU_ZVEHdArn71ZiBWT3QSq38AtOkxBfTBsceptlHKPh6Ywrk4ZocT6BYTheHGnqgMSTj4cnTbeitHysnUJhNCsEmOqDSxZubDOS9SpdBp-Sdagmgzer94anMSjIYkmabA5J9icxnJ2cWoxz_JIQjvRFmhrKhhACArfHc86su9vedJUCNlfFtBVPGMRb_gTPqa-08ekCB3-CKZwBUmNr_3YeuA2c5gty5x9WoiHJ_hmwnYqp7x9oAVooMM7Zz1vDI3xQX6KM2TwNXTcuj0Nln0-EdwY0coCXtLMtxQQzJ5a7JMbtTMHHjf9kpX0B2R8nuT0WdamIVvJprJHA6dyqgRPayQ88WjDJcoEe5h4MyZTyiiOv1axPLIUqxBpcKfVzYYROpW4TS4t3vd606bL9tBN5LSBkDHHxnMwHGqadnZ80OD4H-_sm_/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 4.2,
+      "google_reviews": 248,
+      "confidence": {
+        "opening_hours": "low",
+        "opening_hours_source": "saknas",
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T16:31:25.707258",
+      "data_fresh": true
+    },
+    {
+      "name": "Patricia Stockholm - nightclub, bar, karaoke & party venue",
+      "city": "Stockholm",
+      "description": "Nattklubb med 4 barer, 3 dansgolv (Mainstream, Nostalgia, Afrobeat), karaoke och casino med Black Jack. Party venue för speciella event.",
+      "address": "SöderMälarstrand Kajplats 19, 118 25 Stockholm, Sweden",
+      "lat": 59.3213806,
+      "lng": 18.0525306,
+      "google_maps_url": "https://maps.google.com/?cid=298178210266020886&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "stängt",
+        "friday": "20:00-05:00",
+        "saturday": "20:00-05:00",
+        "sunday": "20:00-05:00"
+      },
+      "seasonal_info": "Påsk-event under påsktiden",
+      "age_limit": null,
+      "dress_code": null,
+      "website": "http://www.patriciastockholm.se/",
+      "instagram": "https://instagram.com/patriciasthlm",
+      "phone": "073-652 72 82",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJKai7pPx3X0YRFvyqnoBXIwQ/photos/AU_ZVEH6EkMx7WZEUIYU4fkwsOwydoa2qw_E-6_XhUeG9pPZWBVPE9pvYdui_EXniQTdmXpY6bOJxI6Vbvia7UaJ4rPQmQ2W_wKs3qbLLgo83Buc9mObnPv-lPv6vjD1ER_KqhqfJZ477pH1NCL-orrkxUqsczVdM6g-3FURzlirFUYjJHIBtK0khbSUhaDlo2rdR_dyNqYicdp_U3YPfe4HAD83RNqnC0Ad2cIJYQII7mJafqxwiUcSn34G5qm7ed1AwAd-FqI4TAihCIENIu6ftyJif27A9VWb1L5syUJcvNoRbw/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJKai7pPx3X0YRFvyqnoBXIwQ/photos/AU_ZVEGfwobSnjqM8fF5bGZiQe1FB_RpRDtcobAI7n3cZmU2NO2covA0nIy5BiLO7OQatsmZxOqP6FHaU9FM5IX-8M9V6m8tQxk4q_iWAYkqqJZa5v3DYuWDQkFjRQAkBEhT0e-EeOquxhbKmNM647usnRENGQzwIfQmUWETaiDQn_XVcyC6OwAxqZKurJ4am8TJMPJ-I77R0nb-admI1-QROg4wtzU171EkHQwpxe2VmxlQPDPxDCtQcgcmUEH66ktjLjE9ZZgjKpXhAimdH9LrWDXvU_nugGW1tssrpzs8T3s3BQlt5Vj7JZaWP5U7SO05nyaaiG2wK2QufJ2FyRDpAgvuF2ZEBSWD7Fpivbb2TyFG3xga_WZW8lCg71s4QIzpK61pddBpeZCwomUuGVZsOedx1wf_WXGuRdAoOQyVOxaQxaaL/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJKai7pPx3X0YRFvyqnoBXIwQ/photos/AU_ZVEGNlHafolqb2rblDJegdk7zsoFI_SaL21gMaFiylBYsYjLpbtYimr85eU51ESMN1s_QBgIM9WUVx7v5msYqMsfgsCm25RBtpAbPNQkmufnpepOziiq4GEDRXVOYV_N2Cf2xp0Mc9fGsDXKYC6P-wPLrtiZHDqyV7Fhvh6McecuK6vAXl_X8tOsKX0mDx8ACBRXGRBoN7d7qKLCX3XLhZaPumaMqc6BOi4AE6QPv7DnUzh_vAeZUg3e9hlYF6bWOeNjhDJHQbfFymbPEDuSAn2IhKoVlS58x-ifitVfSF3MYUyEG_LDEiN9wPw_K-Mufkg38MVCxVaega9nM9wCdaQNFIDRwi4t54WWZjGtwgvgScrKBmqR6Snblu5naAqsMPD1MFg7WE8FEaC5CUPdg17INBVSfoB0SlwpqxmQiplmCcQ12/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJKai7pPx3X0YRFvyqnoBXIwQ/photos/AU_ZVEHdfVrgKaLjUCvvoAIdWW5D7MH_PVfkMgMKcY_2QDLtnu8CE36YQS4UO_cb0dFjIBsCV-rhCcz1TgeIiPbq8Mn909Z4NTofJ4NcItx6sLqjraEPBWZMlBuHpPXs8flPECsLmppj9986NYpRLCu_QNelN0e-2bNJ40qPuS1_9wSytDJq-F7bIczOO9bir1uG99eQoT4PMb-Ecb8C7Vw3Q1Zcc8p_f8DBiHbl6TS5IRcF3b5EMLpeieJCoUD3eUZl8n_pvXmU-aUfnofwbhRdMKKnAmMuBvvwNpueBGkC4TwO6ABm4MYSx-woI80hrkKnHWn-7mGfU35T4eVWpxdS5K8j--X0druxsILhhKPRVM7cNcvqG3SBbh7bpZYrR3erTJYVPlaVV5X9WZlzeOHG7q_qW6yzO8zwCN9QP-qhfiW50Q/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 3.2,
+      "google_reviews": 1584,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "website + google",
+        "age_limit": "unknown",
+        "age_limit_source": "saknas",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": false
+      },
+      "last_scraped": "2026-04-05T16:31:32.921346",
+      "data_fresh": true
+    },
+    {
+      "name": "Kura Stockholm",
+      "city": "Stockholm",
+      "description": "Cocktailbar och restaurang i Stockholm. Säsongsdriven experimentell cocktailmeny med klarifierade highballs, fermentering och innovativa mixologitekniker. Ledd av Malcolm Fredriksson med erfarenhet från Stureplansgruppen, Nobisgruppen och Michelin-restaurangen Celeste.",
+      "address": "Jakobsbergsgatan 15, 111 44 Stockholm, Sweden",
+      "lat": 59.33460729999999,
+      "lng": 18.0695728,
+      "google_maps_url": "https://maps.google.com/?cid=15433832041081722227&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "16:00-23:00",
+        "thursday": "16:00-23:00",
+        "friday": "16:00-23:00",
+        "saturday": "16:00-23:00",
+        "sunday": "stängt"
+      },
+      "seasonal_info": null,
+      "age_limit": 18,
+      "dress_code": null,
+      "website": "https://www.kurastockholm.com/",
+      "instagram": "https://instagram.com/kurasthlm",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJnde4Y2mdX0YRc9W3K3j8L9Y/photos/AU_ZVEHC39El3vehvAAVLF6WndzSxxXmnuQjVk_YTlS3YtNhRdsnRvlskFk4FVuFp1De6hfQWnWpRSHWoMkZ1c0HV05jn-NzvdMlpUaff29MgQneNd-k8T0c-LN6crqD3Jt0PvxBgJdvbh22oNSxQSzl804s3gFkW38dh0QI1Pqf5J5dgHOsjC-4DT5LEWjJCSRhRpXCJi10IQ-1yPDAGpLu-7GSYk7ODaHCAJ0ur6JzFIAmbNGg1vdqo9ZaZ07XXGkCCy0hgj5xVK_U7Sq4CxcSzkzhki6FnBGyXX5NCzr7QDv_Iw/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJnde4Y2mdX0YRc9W3K3j8L9Y/photos/AU_ZVEE2axeGjXbEcp-T3sl_Pbb3HjboEDc9ndd4Lhnw94AzEN1MG6Ek97UzJRDQvbcJ8MxylwW9_WAP8ZjHqdbsxAMOagGie76OIhaMYrAWsvaPFP6nWyU0am10wUiMfezE1H0FPjjUS8xYAQru96XtyTrosaHbTKJs2m1ZhzkX8cQsxVXvBqlXvqGatFB2OvVX-YVHJnfvKoVZLL_HxEjiVqYwtTrauxpUvUVeZZHm5IiKhpgTHGVlsYEG1O9veYoJymyI5ZI20kHdUmbypqFRLoxpBEhec4uV69w9rKQcF3H1Ig/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJnde4Y2mdX0YRc9W3K3j8L9Y/photos/AU_ZVEF2kIqkSb6Q0cb_6xhqeMytZFZeT8u4sa35aBf22jvgEuhZeP1kM2yMCN9bKOKMPOCwmbqEq4uEVLQUq6H76AHNIpzjy_s6oX5tMAWvKsTHIdHJ99v3Y4xLa1caV_RsvBJpbBn05P7zQ_RYpin29r_70oUYhKGDsySy-7slAyF08siGCHg_Bc33HaLWUyQnSjyG4cscwSoVHRiOxzgsBqFcRP03LR56xo1QiejLZIfMPAUEGL6PB6geDJDz2xElYwpMfOW01H_G5UTxnw8_RN_2NEAZXMxZAYU2P8ocv-U2xA/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJnde4Y2mdX0YRc9W3K3j8L9Y/photos/AU_ZVEGJmBv06eqkY_bgVlxE2xi2U3J75ScmzCEPpbgkJiDSps0vRh2Pxu3xY_DJ0ODoKp-SYH9jUHKDq_H0nVbMOzl2cF7A_pGtUzL7RaJvy7ijcOjjsEXc4dfsIuBC8CMkuQwLo6X-1m1vVGq0slcYVwRwQaOSyeCFAHSl-OoocFqNtBMmjPyxAIuZjJCphLOgFNqWMce06PE7qwlVl3_nX_PfOQUT2bQ6uoyZwpN47Pz3tX4IL3LCJq6JropY5soZTUIPQKWsaxjdejsA7t8xq1fGCMmuRZw4T3lezY4EJRu-3w/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 4.7,
+      "google_reviews": 62,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "website + google",
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T16:31:41.512515",
+      "data_fresh": true
+    },
+    {
+      "name": "Colosseum Nightclub",
+      "city": "Stockholm",
+      "description": "A75 Event Lokal - En plats för oförglömliga upplevelser",
+      "address": "Arenavägen 75, 121 77 Johanneshov, Sweden",
+      "lat": 59.2905556,
+      "lng": 18.0841667,
+      "google_maps_url": "https://maps.google.com/?cid=7509990858723309678&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": null,
+      "seasonal_info": null,
+      "age_limit": null,
+      "dress_code": null,
+      "website": "http://a75.se/",
+      "instagram": "https://instagram.com/popular",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJvdsAuiV4X0YRbjiieOXYOGg/photos/AU_ZVEFMSqhzdZJ7oo5h3LGOFHHzS3qcLLZpaz08EDsrbmnwkYR8xIgeFi4a8kaD3RsgY4pDFeojjWUfpF8bHX9tcYqmMkrhVP5cQcsgDDUha_-stk2C5rfuTWkgwJ8xj4tyt_1dBJ2Djljfqu6g9X1ZxkJeTSEjI7eOWY3PTqmnVVYWtPI04KMrMSQ7soLZGHpXZQ9veSyYPua9ZSDsOSj2qlaPwclFKKdPCwwn6c02G-5oDhYkgO6J6m8UfPV83KXe-OItrpyQu_EPae3zHomAEl-JLv16Xio0vgghEAR3q_-2cQ/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJvdsAuiV4X0YRbjiieOXYOGg/photos/AU_ZVEEd_t0WcJQkVHxQMcoscG4ZL4J85E9QrV-kEWiGIyNosMUPqB2ESPuWDSDxICzilIQ0QGldH9BkcFB8wJtL8ex1_k7wBVHvjRdZ70zYQXYU-uVnmf-94IzjTFg-mKmu3GjU6glASCKsUXpuGZsZgGxv-XYVwAzKINufBg2cNTlrVXjl8ypJH02P0Ee73zavxAIIuVbaLKAyD8gyBgJNqoAP86lwky73_XiImyjtH_JoZ6Tptng7nC1eeeAloci7tYvMny3fAFjtU_PLRU76m-spySdM6SobCOo5O0zZrA50vw/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJvdsAuiV4X0YRbjiieOXYOGg/photos/AU_ZVEGLFvrl3kmt-x3IMTp_ecFw4sFQqZxN3sas0YssyHvZ8WqZeioiNjyfyLTII2nz4KVGh-9gJjBdbn4D6DYosPtyS6yYcmmhLdzk3wQ9JaWKQdivyDiU6Oyh6ZCnMY-wha_WzBWi69cQ0wFUW38AQPtxuzSAgjaD5qq-TN26NDkb-ATBycfHF8-YAt5S6n2uOZpYxzhdnl7et7UuKE-hefqnXmL_7JLSWYOkmEhXhaC3tMP2TFdzfz7Z-c5N-jHMPKKe9LMC_QY77ZCAK_iNcGYNcRqQnruTIMGbYSIv45EfMX060XdtsYB89sA10ShZDbQkZtVAJ9w-f7rZTL_wDa7MYgi5VxwrdD_Yf3iINuFH--X0T_7d8qoddnUv6aZgc7rFBgQNFOPdmz4oC8nK4HkY7swAI99ULsG89X1M563onrqG/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJvdsAuiV4X0YRbjiieOXYOGg/photos/AU_ZVEGFv9UtWtKRn7TLdhGUpIP8j3JCyHcxck3b_w1BK6x-pVXHKTGxz0SBVvf1xWtiBiwqXdJFUvbM9qtqb5LmGB4SaYfDQIHKVG1j6I1nv4VRztJSGBrYWhRARvhfptO_8tL1bbObpijZvrqIlN-MrOjX6tkDXD5t2KKst-XzXCvccmZ5MT6Sp_k2IsFsnDUdsBDPNzq5g55MLsZhhIA6iCMtNtNbZVSd3Zpken98XfWtfcpfomJkvu1GadAo5JraocuU7Qe-J3BPq1D960sFlKx7_LYn53A2tTcchzRFSGaXew/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 2.5,
+      "google_reviews": 516,
+      "confidence": {
+        "opening_hours": "low",
+        "opening_hours_source": "saknas",
+        "age_limit": "unknown",
+        "age_limit_source": "saknas",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T16:31:48.699519",
+      "data_fresh": true
+    },
+    {
+      "name": "Hell's Kitchen",
+      "city": "Stockholm",
+      "description": "Vibrant nattklubb på Stureplan med tre barer (Rockbaren, Schlagerbaren och huvudfloor). Känd för dynamisk atmosfär, blandning av sångtillrop och modern house-musik. Attraherar både stamgäster och internationella kändisar.",
+      "address": "Sturegatan 4, 114 35 Stockholm, Sweden",
+      "lat": 59.336483599999994,
+      "lng": 18.0734677,
+      "google_maps_url": "https://maps.google.com/?cid=7286699789493086305&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "23:00-05:00",
+        "thursday": "stängt",
+        "friday": "23:00-05:00",
+        "saturday": "23:00-05:00",
+        "sunday": "stängt"
+      },
+      "seasonal_info": null,
+      "age_limit": 21,
+      "dress_code": null,
+      "website": "https://entrgroup.se/nightlife/hells-kitchen/",
+      "instagram": "https://instagram.com/sturecompagniet",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJNY2amFydX0YRYSimGdqOH2U/photos/AU_ZVEGdsH2YsA3a1b8OwC1O-xuUvB3Pa6QZ67L4kUsIkMhebIDAEWAG3wsBzaWNqHWlI1DVF6jmgCPyQQij5E8xyXM5lHWLNxHzzXPu4JjJzGuv_MPUwJpfv-NmN3HrrBKJ7Yra8UtSQCd7ZszOLGMbsHllUP8j2d2X2euoSWXDzZuQ-NLF5bxHEYE4wj5mSLgDJ2Rdg27-nBBsYnkgn_o0592azlnKibArDRNHFQ8hG_0CPPKyfM4W1V1ocwpy32UAVAezzdTVKxUXpFm2hmjn5CQvjxKYbShUxyHdyGLvAzahJQ/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJNY2amFydX0YRYSimGdqOH2U/photos/AU_ZVEFSJx5a-H8jpU5jio2XMUGjQ4AQG1dECCeH1BfBwE2Lx3TQZd-6dWb5Fd26AzPYXs1RW8aEpLIaI73iQRSeDWgtZtn2Ln_2SAkTRD-r35ULEJhuJLRj5jM_-9ASXPXMUoVvQYlPzu07r-JWMBKVdxo-6pEnUoMMApYeejNMhONiOgumB_owiGLU6OJt1V_cMMTKA3J37AkTzym1yfTbKaK4Rs-QGQ8W4K-Z0lIaaUbK8r76-8DxhBc9yUZIUDJ6JqWuTH7FpETGil3fqUzwMD9BUVLdmg81VEY3O3RbuxxpYw/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJNY2amFydX0YRYSimGdqOH2U/photos/AU_ZVEFbCgSo8rmYhlLCxptGVYsJs3JFvcuzUPXgSTFTQjL2zrgGlFnDu-8a0_KvdB06T_V6RkVkPglaSZooZ_Q8noTapppazDvKToSLNPIvFv0ZnTku1w4jNgylv35puoiGJ7qxskuUCTNR8gqQXg6JUU2USACJnftBKibAHP05LSS9QYfFojxjHOqkftL5raT6go0sxJtgu-Rs0IyDQ09xEuAWNTCOcFRtEGvTCJWwU8vb6K8Ik30PRRKZ2tpkw4eEDneDgIg-dCukevv10LIm1_V3APJmuiH5jgC2BVyqzg_UX1XmYc8swsAn0b6DxqICFTt6rgA4ISIdh_gKb90ccKe7TfE2kB5RPOuwcaeD2prfBdpXSJHl_79fCH9FJ5ck6Q0lpvkplFj165khk37uFYgPxKdY6sZ89xV8ZFF7ZE-FuA/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJNY2amFydX0YRYSimGdqOH2U/photos/AU_ZVEH_2bdsbUox016t0sgOzsYYLBhBWA6g8DlQb05eJiqdZq2Gf72BTakHG84wAHjGXFYFEGeGzTCqxZVDX1bBwMfYMwdE7D1JM9a7Sg5xJ18BpPZSMSTKfxQrWdlrVAII5Mcr1ZeRcEXBgG5_GjMwr3zfXPMaRFn52SAGdnY6ijULNfCnBpK4LFdyJkVApwOvWVbCMwulr69B2-I_fJKC_g4tIDMUWNoLdO9aTNrCOgSmzKdVoMNuLby7bnS4LiwSbjWbmP5gLUKvKjCvI2bneqI7lMrmHTHCXkigTFkMJBqCqBEcCyfSmrX7zJohwTBjo0s5lJ5IRYhxq48_4kuYOti_pdjVuNZa-eKRMImvF8WQJZjrghzaOYQCnkrHzqFBJK6HC4gI2Ir7o6MpLu_1l_8MEnL4hZLKYecyYkxRkF-Zhg/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 2,
+      "google_reviews": 200,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "website + google",
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T16:31:55.386218",
+      "data_fresh": true
+    },
+    {
+      "name": "V*****",
+      "city": "Stockholm",
+      "description": "Exklusiv nattklubb på andra våningen av Sturecompagniet i hjärtat av stadens nattliv. Intim venue med plats för 250 gäster, känd för upscale atmosfär och privat klubbkänsla. Strikt gästlista och förbokning av bord krävs.",
+      "address": "Sturegatan 4, 114 35 Stockholm, Sweden",
+      "lat": 59.336483599999994,
+      "lng": 18.0734677,
+      "google_maps_url": "https://maps.google.com/?cid=7601332054853418450&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "stängt",
+        "friday": "23:00-03:00",
+        "saturday": "23:00-03:00",
+        "sunday": "stängt"
+      },
+      "seasonal_info": null,
+      "age_limit": 23,
+      "dress_code": null,
+      "website": "https://entrgroup.se/nightlife/v/",
+      "instagram": "https://instagram.com/entrgroup",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJKTmLo1ydX0YR0v1T9TpbfWk/photos/AU_ZVEG5BTbNkAAfkiC-90uoa4qkYr1xbbxuEr14Kox1lQ4H_bqHwyH76AYXWU2C-nZVcSd2krCPPOm5x6mGUA4Ry3IrAbNvS7Xrv4S5cCzKWNiG61CekwEQZkZafVQ2zV_FiOXoUZO9HQbQst_HwScE2Kn5u5bEKazI6ts5QSdA7t8XvL5TsAt3xBjm-p1VgO0TwJZCn--yq0ExLT-h04KAQMnZrbHXh3cMixfeYjxYLeBs2RclvdxPJ7L6hV6bhTVy91mGRnYxVd1KGe40ZqnHUBeTIowCzfN3t8UUoTyHUcFPLQ/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJKTmLo1ydX0YR0v1T9TpbfWk/photos/AU_ZVEFEKo6hWCqnq6nFc12J5d8fH9qk6c99GpiEjUL6lnUeLlyohUJpAn1MVFNtt2uGwXi4tOdcFeuk939sfHJPT5QiU9Tx8ic2owUp1fjSu2NOo3ebhn1sLDJHFELEd6O5Hgr2pUbJ8ILrkQpYvY49OqNlrRE130vcGE8mfLiv2FBczVEfa3kYkbG_SBcTaISs9wfy4SvDIf4ZKsvSbdAGIs9mCsLKV8om9Z1GjvGVEi2f3l4maglEFHbWmBP2ut-1YruW38VGifsxsqRcAXw4IjGrisMEbtmkw3VgsEKzwS6ddA/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJKTmLo1ydX0YR0v1T9TpbfWk/photos/AU_ZVEGlzp0uV9X9kb1Jmz23K1erK2lEG7_aco1tOY3RRKBnfUeWqIRNw1QhM-MofGh1mDbdq5pEDbpmPO4wZ4upmvfIPJDvlobkeO8gBDfeLQH4MW2acSLyc-GRGcL9hsWT5N6t02uHgZeYvlLYl1FCoWSebt0IAHyVQmzoQNTbktqfpgC5eYnuFuYPcNekGPzNJXUUn5SB7JBenKCaUuQi3MbwVuSlPRGs6EtEiYqJDjnfhIiMZ0N5XVZOQfY-9e1o43q28K2lHeajh3V__v1TigWiAeyuYa7pnl0Y_Jf98CtOvzC0W72tEBdhd1YLiQpEjWAwQNWH54X52JM-UjpJleHBlW_E0wPmt-J04REfk0LEwu1IRcfCHt-5-N0VQfbU1z-0uPh14MHyC35bNvFRZLfWZEMMjYeidZEkMBpbNLa9aaKy/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJKTmLo1ydX0YR0v1T9TpbfWk/photos/AU_ZVEHX8ARVeA04YE3poCfD9DHUbFamTFJROPJstrHNSZzuEjHaZD6LpwPQLcsEyC8nXrOu1rHs9kpP1ZpR8IyG8WYC4t82IHoYqHEbyvbWyLumv6fA7VEjv2HgCjBcLba5clFpHn7RyuOl4_ijy3sCKduur89wmRdjs72vJj_vIobJNxD2eV7ohCzbga_MGZiwJ5IkKckCN1J14z1IQQvHkj0WWjEmtZDrgotfp9_FPU8fpMq-V2Yvi4zvwrPhH5hUYEiahhVDgiWwaKcnHDVBfXDhdnxH0ckgBvuqvBFEHsuEEcc2cBeaGj2ymJLphtxohUg7GApk8fK8awNYwc9itPkS2-z9ML997YYsGxMwoate34IQSefbBS-9mNif7VZ5_t3N2pLxvTEx4A3vyRLPcmS8zRzwv7nsCuG2lAcXl2_0EA/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 2.6,
+      "google_reviews": 37,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "website + google",
+        "age_limit": "high",
+        "age_limit_source": "website",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": false
+      },
+      "last_scraped": "2026-04-05T16:32:00.079618",
+      "data_fresh": true
+    },
+    {
+      "name": "Club Backdoor",
+      "city": "Stockholm",
+      "description": null,
+      "address": "Johanneshov, Arenavägen 75, 121 77 Stockholm, Sweden",
+      "lat": 59.29064,
+      "lng": 18.0840072,
+      "google_maps_url": "https://maps.google.com/?cid=7929598785996720760&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "google_format": [
+          "Monday: Closed",
+          "Tuesday: Closed",
+          "Wednesday: Closed",
+          "Thursday: Closed",
+          "Friday: 11:00 PM – 5:00 AM",
+          "Saturday: 11:00 PM – 5:00 AM",
+          "Sunday: Closed"
+        ]
+      },
+      "seasonal_info": null,
+      "age_limit": 20,
+      "dress_code": null,
+      "website": "https://www.instagram.com/clubbackdoorstockholm/",
+      "instagram": "https://instagram.com/clubbackdoorstockholm",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJ32h0xiV4X0YReAq0QhWYC24/photos/AU_ZVEH-Cs8E1vgIXh7tfSLcaMX6Ml5Qvf_ElgmleRu4-JhN4rRq-PduQA2CStKlekPXpBq9zkggMKj3o7r1aade7-U8rri3rt1dYN-D1QJjDYkbtegmzUW6b4jQqJKrJbaTUN3fDncL55YLs9yHVVrC-P70k9OW7TJM0UuIkoTBSyK6LWgpc-VzYQKIpN5olR845l-VWjyHt2bofcQhBdXJ-8sgST5mwJ4wNJJLDtv6mOgPtQd0esYgeOCt1Td27sU3evLIAx42DUs56ETb-QB0InZOGLuagKwTvPCJ227MSMk2DVKZ1grpox6FgTr89-Nfr4wxKggRsMQEE7BpBSkwHiYgKnsEMMVyJL4Q9lkgq2IXQUtFaXOJSwKS-ValQ6YAntfc1etu7ILxPIvFLw-qf_luX9ytDABGE_LX5Bmbhqpif4m3/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJ32h0xiV4X0YReAq0QhWYC24/photos/AU_ZVEFKoqJkbpIDiVQQZAtY9qFmmF-8-gWOZdQfbrjA7dVEMVa5cJ_o1TENYxNfEyQSSWONwGxt3vOFjmsQ83QoFQr_a83_79SrgnAxPovE10XHBTVqZ6sE5o46b3bpXjw-BshDKfXOTustV6GdH-LaoC84XDcANgU8ucQEp45pUuNEt-G31_nfJb8Repn7Hwhv0e9fC2tJjkF4hoK_QRvzZqIPuPcg7fT4GZkHkotBgcQ6ojH9BVWmx9NgBY6DRw9LYRreuzGvkpM1aPUedW9rAElqadGUlZ2TFtGqUYuCfa0DKE-1wVsv24MBhuG3R6fNXnRO4yrkS5oaqaDdkn48nIH1ggMSkHUTH0iW90RFlSgec3lxgkG8MPtpgS7OC0Z1PcCTUBGZJJjJ3tXUpctWnCYNkqKy8a2stlZyxF6n0z8QVqE/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJ32h0xiV4X0YReAq0QhWYC24/photos/AU_ZVEH21c7ukA49stQay8VvKYG6bPABIM8QxhGvu4yJYQ1lUa9Cbh4lkKLvsZ0y4IsPou9ODDQC3HNjVJTQE5hWk-Vyg56WQ5maEQLET2WHDe9_kVNLUioanXzqpXofc7KWqxxaxEnyHN-Z-S5-SoI6wzQ1k6SsVXGbKhQkdoz-Wj_74zKXcFQ5hNwqO2r1dit_n0Q8hrdfYo1MAPh6y-6qQudlw_0Uwm3nRClDIw4Soer8eQ3EwIO6xSXcQZtAewDqjgqjQUDAUKLDh_DNvhFSylt9ZKYnxL9rBBSzbZUfFe50gA/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJ32h0xiV4X0YReAq0QhWYC24/photos/AU_ZVEG1XYqacKCllJVYDWpdjbpyVtgDDYXacbvwp1mPFkVGDaNlgNNbaufPqogDuwXx5p_o2VmhoH6tdZp4rg4Yw4RAaLC0Kji-QlDL1ciw_YWsMEXO6NpwsWX-3vnzJN6WNsutw208Z789GlPUYGfIeJ7ELG1HQRj94I7Rb_V8qfOg20hIbjudLgVzNf7UVZa9knBvlNyY7SvxP9PjMXKZt1FOEfjx3c28pfBP9yJRzU9z01LP1XevtLRRT9hP0AadUR2I0sCh9bBf58XepbzlTabI-ND3VkPJoUwt1FgdYXW2uA7vITB1JqlVLV13GKoM0ChFhANNJ40ZD5HCof5ebj0GS_z4TixUMu9Exrjk0FGMf2kojZGhaVoNTGyUwau6aH0nRL8s46Quzbfevip9kOJyOiaaaiQ1pomo840mxCdP8ME/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 2,
+      "google_reviews": 315,
+      "confidence": {
+        "opening_hours": "medium",
+        "opening_hours_source": "google places",
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": false,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T16:32:05.260565",
+      "data_fresh": true
+    },
+    {
+      "name": "F12 Terrassen",
+      "city": "Stockholm",
+      "description": null,
+      "address": "Fredsgatan 12, 103 18 Stockholm, Sweden",
+      "lat": 59.328564300000004,
+      "lng": 18.0641943,
+      "google_maps_url": "https://maps.google.com/?cid=10538208598355723297&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "google_format": [
+          "Monday: 10:00 PM – 5:00 AM",
+          "Tuesday: 11:00 PM – 5:00 AM",
+          "Wednesday: 11:00 PM – 5:00 AM",
+          "Thursday: 11:00 PM – 5:00 AM",
+          "Friday: 11:00 PM – 5:00 AM",
+          "Saturday: 11:00 PM – 5:00 AM",
+          "Sunday: 11:00 PM – 5:00 AM"
+        ]
+      },
+      "seasonal_info": null,
+      "age_limit": null,
+      "dress_code": null,
+      "website": "https://fredsgatantolv.se/",
+      "instagram": "https://instagram.com/fredsgatantolv",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJz_gJDV-dX0YRIcT16eI8P5I/photos/AU_ZVEFzHc8JHBRTqSAUb3J06xvz7GDnNV34byRAq26Haqvm2TtNRnnaNBWDJ036DWaZlbUj_ClvLxNoLXWLnfZvV_92xJ2xvcyLVMEsmcVK6v2z1UmHXNNc6vHdh4Rvrklh-g3hK6Z_7OrRjig0uPFFZB67tQ00SYJzXKMTBmYuTE5JZ44WeWjJ5CHZB4nerQMSm8stjJq04lcqnewkMKCH__Wh4r3OZ2gfMqfVPcvjUWz-bSp3IEGirj5eZMlaYMyFLov4j7EOjcESTxuy0nOmHj1UdbEkO7EuthnHx74SBraLTQ/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJz_gJDV-dX0YRIcT16eI8P5I/photos/AU_ZVEHPZW1eJzggmgCH-cFtoMCSGRlvCUD2vTeK3XyDBKWjWJHTrN39qr02D_eadXaiM9bAOguex5rbDFchjercwLzhvKabAmHawRxuQwF7aJTXd0Cw4kihO3Z0sXdOl4vzpelMVpqAz8-y6Q7c1HMDvXmWZ42APXz2JxoBSniuzZ0f-ipGbex5HYBxvkBYg_Hj91nh1rT2hJX3ffQEhiBhG_Ho1K5eZPD97CquilLW1Upev4qI5zskBBaHM0cMmQet0vnnLEtEnawfmYX2pgDBICwNhN9fHY6S3dVQHSBDGVMZZwo3T3KSiBdO6xMiRYVFZv1MAD7jfBpws0mCnKX11qBzWg10PzAU1S9TcyJvOrgsyVXyKugozg6aXKWsrPgh3BufdJbIKOv21YecZIbWSySN_V5dHrrKfgGblH4n7r5sFoV4/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJz_gJDV-dX0YRIcT16eI8P5I/photos/AU_ZVEElhKBZ3PDZx16-Qoab0bWk3aXrem5emp6hkPDvfcFT1lYM4KYkPU5yu1Ws0TAijgjj7NVeEXoeQxmNlXbej6GiZzNUrtCC5AxpJykTokTGBj-j2u3IcIoUgLGVL_5z6VHwlBclbtQuVmckptLN9rEUFm4IoqKJ6sgutJDyJhNbfEkKLMwZ-19QGHrL8FamzpgoCRaCpc1V9Di72gE1RwKOG9j_hTFZxXZUA5312N5xVy7DBdl7_jF_u67ikHQCmX2mNuWeRse4evEkmDKeogPMFClfI7dl5r16eS327gvVLdKAy9mD_qW3FH1CLJvDhtSSF507IzynkAvO9kyVGAcNnzxOgIExkcwGYN6CHsKRVOJIHmwzSCcr49NR8VUjtE3Viflp_V6YAABS-g-85H1RwYkkDLp4mjfkMEH_48Ltnw/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJz_gJDV-dX0YRIcT16eI8P5I/photos/AU_ZVEECpzQmvgct9rIIHiFwBAxF9rlskYkc71VJ65q0-t8fDxKg0jMU7rE3WjGGd5BDFDw0ud6A6exY0RgZoJBpA-HXIk_4Izprmthmzo7niu7FPjoH_E424Imma1wrgavxmI8Wl9osLEG76dJ6FQ_vs8nWhwNZpysdsX5Qpcc2UFLKdUbBB9Q-iAs8iQu7C2v_34l1h_C8VEwbK3W4cukx1cz8lUEQs20MvydE2ehXnNHtkH6t5fCH8BfT4p_XvAUWgok9MODvx-91X1gk7sW78cE2ZTJPmz4QFOB-5sOmCnc7L9-uf9mL7Wuyw5Q8S8aGN4GilDIbZwBlXgeZjeYtEAQqMa8gc80ODPVtD3EUNYIGVESYVmGglbQIwbW_mwT6Aeo6cqLkLExYWTWURbrAhUMnmjqNGxa8h6aVllmAaJ8/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 2.7,
+      "google_reviews": 529,
+      "confidence": {
+        "opening_hours": "medium",
+        "opening_hours_source": "google places",
+        "age_limit": "unknown",
+        "age_limit_source": "saknas",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": false,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T16:32:11.258905",
+      "data_fresh": true
+    },
+    {
+      "name": "Café Opera",
+      "city": "Stockholm",
+      "description": "Sveriges mest ikoniska nattklubb. Modern klassiker med fokus på stilig och smart dress code.",
+      "address": "Karl XII:s torg 5, 111 47 Stockholm, Sweden",
+      "lat": 59.3300722,
+      "lng": 18.071111,
+      "google_maps_url": "https://maps.google.com/?cid=11165050304104685016&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "22:00-03:00",
+        "thursday": "stängt",
+        "friday": "23:00-03:00",
+        "saturday": "23:00-03:00",
+        "sunday": "stängt"
+      },
+      "seasonal_info": null,
+      "age_limit": null,
+      "dress_code": "Stylish and Smart. Ingen sportswear, sandaler, shorts, flip-flops, slippers, revna eller sönderriven klädning, eller kränkande tryck/grafik. Ledningens gottfinnande.",
+      "website": "https://cafeopera.se/",
+      "instagram": "https://instagram.com/cafeoperanightclub",
+      "phone": "08-676 58 07",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJ5x0DJVmdX0YR2N2Guxg68po/photos/AU_ZVEEozZvFfT_V3Tf1CY8RsF-Y48OuqCbOeZtyVukg2kzcow_SMjsPfbIgLArVLdEyKAepgj2E0_TKsIdXmaWQ10lagNcjyGYaeuF6hCi4lqyl1-JpUliGBSzuMoJlrBLj1Y-wu3s1VhEDHLa-JvDfsChRsgdZYp3ICdqDYrDCK75fu_rrXQ282THgc4RsSERagBjOKG03NJT56xTNJnNCacdaVjODGFVPD44r9EkQrU9d1L0EorS_fqzL5H9-VB3kDArgZStVt-ds-MzrjVb2cHaf2VnF8--kNAjc4dBh5bek2g/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJ5x0DJVmdX0YR2N2Guxg68po/photos/AU_ZVEGfCE_N0vZXW-OBunr6Nag0bvPIj3lhDWKzijVkNt3ux0OtNl1g1ssgWLXF8HxMTLlfYti3hY0ONCyyp_dCo6mev6hORK9E1GbDEUTFfy9s9xrGPe7q8_kdqi6XQ5dhNRLHTVWcrcx4ySoVTFJ8y8Ca6MLGBx1xJiJLPZIduu1t6BeezyY1TaC8ZwNtWF80vyL8IT1jFb6w0BUTkXExTNjK-wei7m47pogNVaS2-8cDC7HWvyA5VDIx1uCTDl0hkwAuCOOvBxhwsQXK5hTsIAZa2Rbi2fDLUAmoJkj9aR_n9jz1Smx6D3wjzhCt450RUDdir9E2PWhonq_9uk8dQaWIc7GJeiX_STI-M2fYsdD2h05xkqc_dE9Af62tYltHxZLSX6-ROY-IsO50KH-Q6Pl8bzYuvNjE-qBb2BIBCwanrA/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJ5x0DJVmdX0YR2N2Guxg68po/photos/AU_ZVEGWLlwry3RB3pAKW_XodE4LEbpu4Ay_OV-ZVFUJs6OnwPEw1xAL5hdzIyhdmcZK4k1-8XkuvzzD3dkJTOWsvDpZWRKcDaTlX7dJxi6xlaiSNuo_mOcen8MlGIt-rVLzJiIOMERsppyUskh788x7M8K-U7KkX0tj0BWZM57DjvjEkXtLlq3xYJe5Gt_NVM7Fk5_Af4hrxl_XCofg4YBC2b_JteGBuvzTmfxgDWXinqsFE29J-t1rtq1Kg5HuOl6J3_4HztH4--06FTJihYI87cjLUvSpWvkE_BuRF3DjTd7kQLFCSxm9mHSN52EK3yUvjvSvDL80G-6Sk_6ZLD2Uhm-BItb1pEtmm28Q1IUsPo6mZJE8t04ipy8X1aVutvKVlv3rs4Wlq0yJCCRh9oJoZnrSdRSAwh28ahzR7e6KRZmpJ-XrRa-bH2i4tWUdLmj8/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJ5x0DJVmdX0YR2N2Guxg68po/photos/AU_ZVEH1op3RGmSyGWhMapK_eP-sW5MUKrpYMmEI47Z5IuduL8k0VvXH8ROEKHZJOhIP28giad-qnwM16sdmJV76T2BKJr8xCOXlKhbCIZSGH2ZsaDkv9F7j8dXKAzRshRuFq0HkCKMnQLvF6dVq4IZk7oDg-lrfqn6emac8Nfrs2RkBZkEn01oaEYoaFz_L_FrlQ5ircEscpJ5p5YwcgK3zCcLdXmoJtrI2WBLJvHrj2kndY6h1nBOmF_JS6Yzp4B5m946jnDrzpEHyxQufSjTQg-cqXhi0Fr4J99Y_OQdCTq1G5CbmgyL_syQggAz3kIi-Jb0mFtNoWw5TtDNZ3yYAaQGsaK6Atn5b07at9UFku0o71aqC9A2Pz9tmCUos0t-ra48OWHRBgNMifAEvZZ-BQU60MXWWJA8CqiWU0OWug_k/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 2.5,
+      "google_reviews": 395,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "website + google",
+        "age_limit": "unknown",
+        "age_limit_source": "saknas",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": false
+      },
+      "last_scraped": "2026-04-05T16:32:17.843379",
+      "data_fresh": true
+    },
+    {
+      "name": "Engelen",
+      "city": "Stockholm",
+      "description": null,
+      "address": "Kornhamnstorg 59b, 111 27 Stockholm, Sweden",
+      "lat": 59.322514600000005,
+      "lng": 18.0722619,
+      "google_maps_url": "https://maps.google.com/?cid=13347221192989151619&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "11:30-01:00",
+        "tuesday": "11:30-01:00",
+        "wednesday": "11:30-01:00",
+        "thursday": "11:30-01:00",
+        "friday": "11:30-03:00",
+        "saturday": "12:00-03:00",
+        "sunday": "15:00-01:00"
+      },
+      "seasonal_info": null,
+      "age_limit": null,
+      "dress_code": null,
+      "website": "https://www.engelen.se/?utm_source=google",
+      "instagram": "https://instagram.com/engelenkolingen",
+      "phone": "077-182 68 26",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJu3jcI-N3X0YRgxGvWvXaOrk/photos/AU_ZVEFRXIDrwRhQIsCuDXAbEX6mZTj5cMfsJ-bryhY0dgHOyUlOew3QghR0I4WH36PYjTlpsRHZ-ThxPeqUOBYMUOr0QsQ2Z0epLbByfegok5OQh8YiaP0F4IvVOLyyN4DlUR--K5geYW6SdKM9UpdjwlIa3mGd257jsfs5IxujlYzZ9HcmKg03EEfwCPoo1AoQRy1tFKi-50itoKUZ9ReOBuohvB7r-P6f3Lz7-BxS5bB1IWh1NG_az0MMjjNDBcGldYbt3nUejnG9t43fCDVpfC7GxyawFjARqiN9V9BAzJtdXQ/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJu3jcI-N3X0YRgxGvWvXaOrk/photos/AU_ZVEEM9p2xRIF_rgIIPI_umhQYbD5DnvOy0pwb3aUDhtZoc3CeoNE83CzHjnZMeA9V1lZQsltM5P70RZZlgy1YWIzrRBVXH7opFarE1TYeSjasq1pIdOtA6LzRveBOArguGASfAIitIWZJAl6pj-SnUEztb522EFf6raeF6gLdmA6abOIUHX-dqtUjgi13MEScDO5vYwMXLE3fsQXXEFyQ-_sLh3DcHH6q0Yy9umGgUq00LWuAHU6t1UtH2lgCz6wXWigtroa6RxYA4kwb2JimAIuz6gxrhrKUmaDOh7DWAoC8vA/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJu3jcI-N3X0YRgxGvWvXaOrk/photos/AU_ZVEFX4a149LOofegjFsvMXA9jUDTCVkIya5BwvFlRhq63tuvFEE_ZXFmXyeQrgn5MLIF20relo5AWccIA7PJb6SSBBPHIcoT5rfYmxgzRXe_U17bdZkVivnybaa9g8AogZ-nW92pTQJzWgd8T32eisKazOXe41DPuNiHR58b9tqUrzgZahhp4m9cn__YMevvQ7DG3MZWP-D2wQyozRm3sqEOqt9VfMWPDSimcyqsedhDjGvyfdzQtvDMphYy28ityOZpn1VqnVZZffJtCPkB0R_MtWfGdKrn2Xr0M9No-m8NzWRNVE9MhQFfcYnM3PDXXWpJe7GPCqkAbjiYJn1nVhFXrmFPJqYut-HFqhajwRJvQL53_NzVNcDyQeDYnuanMolW4kfJwb4XxU4JtTlpVVO3RFTYalu5sZ0SyRYeHQ9_F21za/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJu3jcI-N3X0YRgxGvWvXaOrk/photos/AU_ZVEGIRM1-qtMUWxvAKilpG5ku05ovUCme4M8YqFKK2dJxz5H9LP-3bazuua7vbIHkjd-pZ6f1CvLWuExfqvYRrdmZPLjdm3CLBoLYo6Q0a0jZ0i4T77aC3xgSgk9nRjZQCqCE-LtVexGuUaUoMDyJqSZvd-T3WKRO4gGsxvjSmDmRMJP4KY2iQyNUWGk1_rziORraT-aTujtN8rSj6soc4tADbhOc4DPsL-yTDaFloyJcgL7mvIuTbDBkkiIN2z5C2m2bDzrygkCMxp658qQ_Sw7Jy2bsGcjfKUG7HGxcC1M_ritez7gnN_JHkYE7PPBOkwmFWq6YqMVvwUCds_0ogpRzj12lLikTQPpma1E7G6IKDdQGPKgsprzzKqgvcEW-VPehzesH5exzIVqsGwvXJgit84St6a8E0FRg4motrjl0CQ/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 3.9,
+      "google_reviews": 1898,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "website + google",
+        "age_limit": "unknown",
+        "age_limit_source": "saknas",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T16:32:24.337526",
+      "data_fresh": true
+    },
+    {
+      "name": "Lemon Bar",
+      "city": "Stockholm",
+      "description": null,
+      "address": "Scheelegatan 8, 112 23 Stockholm, Sweden",
+      "lat": 59.3297567,
+      "lng": 18.043913099999997,
+      "google_maps_url": "https://maps.google.com/?cid=16787388029241686315&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "google_format": [
+          "Monday: Closed",
+          "Tuesday: 5:00 PM – 3:00 AM",
+          "Wednesday: 5:00 PM – 3:00 AM",
+          "Thursday: 5:00 PM – 3:00 AM",
+          "Friday: 5:00 PM – 3:00 AM",
+          "Saturday: 7:00 PM – 3:00 AM",
+          "Sunday: Closed"
+        ]
+      },
+      "seasonal_info": null,
+      "age_limit": 18,
+      "dress_code": null,
+      "website": "https://www.lemonbar.se/?utm_source=google",
+      "instagram": "https://instagram.com/lemonbar08",
+      "phone": "08-650 98 09",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJK00hgdh3X0YRK3mYHXjI-Og/photos/AU_ZVEFnV5IpeINNbqZmqxEDLFFc2jD2RlfORYFwBr7VmH8DKjz9kx6kAzIrdYkjOFvdLGCDPzCKO9FDiZHv1VqaTuSwJ3YjXbgf6oUgiVVQk_ga08W1_tEVrPk8dZDmy_VhBuj9lFoTltSYDjerjU_eVry7_aQG-bd-QxKkZNv8oMV4QVTQ97Bwd-YDZN_o1ngKl-5VP470WngZPO3EbwR5Tkx3N1xfQAub3ArGzpM67Fvsca3zu4oST2RgCClj49nlcyuVVQankZMYZ43lc6tvI3JrqYFxMMHKCw4-dXuH_-7cfg/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJK00hgdh3X0YRK3mYHXjI-Og/photos/AU_ZVEEw5VkFLq3URqmVSvehlmZE6oi9mm-j8T2aXcO-l6-CpwR956Lcb5hgXYxfKOt-cimZJUYx7s07AWDPYji4HS-GbSuxEyQ78mxMtJ0qhyPbxnJ93g6EqdortkvBtZ3zvSahJJqv0BcPe6jrMyutqve2woAaCd9UpxDzc8vkJhktxytBQo-O80DCQxNSuYTlJnIeON6T019Xvsjr-5z2pRfchI_Co3R0d5Oj3GWvQqPmG2E2T0fm2JhcUs6xRyDst6kFIWEAwvaj9tOIPcGwkBkZ0oH6EwZAQvrCCg09Sp-HkQ/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJK00hgdh3X0YRK3mYHXjI-Og/photos/AU_ZVEHCuR_8yFf6wOTBw1ar_g-Ks0pbdx_c6cLVsqNHOKg33sHJDPrmghTEj3GWJwjrgLu0htIPIkB-uO5W1MSI99M4hCowbCbnXcVilKBk40uX8_GtAJ4E-uhiTbvevUurcDxEnGJ0f9SRCF_1OGvzWy5W3AMrBQycTWG7yKcc6qc1qwvi6ujSWO003BbO1wSqAaLtp20zjmcDRoEoOfHAyYzWZ2Ep_pdrzi6WRcJO9GhGnu8t4KgM4aQy8U1TU_m5aL2PciC8xdIg8LM5jsS31KFyz6P5eSHPzFtFyFlancZWIw/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJK00hgdh3X0YRK3mYHXjI-Og/photos/AU_ZVEE9tO6Pm6nXAwJ8ejcfQe4QZ-vk_ZlkWt5fBARD4-mZYP29AuOmm3yfYsPH-prDHrCChXbzeY8QYSc3XRN4D9fyL3SIHd_fZJmtE0iPek6h5th2YKuLe7IG7Dggw9CopF-3f4MYVlrrSfR8hYAnsOoieH7HGJw8hEivSPbe5NJUtrdYcjql1MNQUFAKc_bnd4x6Ryp8KGNZigLCEvBOMvzzy4e3jfL2dEVVrK19ntvsbl1Gf8bzc7rw-X0GsehpknhTUCaVVAqmcPj32rkdorzUFNdlAuIB-dQlKuq8UdbhJA/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 3.4,
+      "google_reviews": 661,
+      "confidence": {
+        "opening_hours": "medium",
+        "opening_hours_source": "google places",
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": false,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T16:32:41.199892",
+      "data_fresh": true
+    },
+    {
+      "name": "End Night Club",
+      "city": "Stockholm",
+      "description": null,
+      "address": "Jakobsgatan 10, 111 52 Stockholm, Sweden",
+      "lat": 59.3299631,
+      "lng": 18.0701049,
+      "google_maps_url": "https://maps.google.com/?cid=15531320115132287919&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "stängt",
+        "friday": "23:00-05:00",
+        "saturday": "23:00-05:00",
+        "sunday": "stängt"
+      },
+      "seasonal_info": null,
+      "age_limit": null,
+      "dress_code": null,
+      "website": "https://linktr.ee/coucou.nightclub",
+      "instagram": "https://instagram.com/end.nightclub",
+      "phone": "08-676 58 07",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJGUn2MVmdX0YRr8tWM1tVitc/photos/AU_ZVEHXcY6JSZ5yyP6G_XlO7G169WwguUmT3bwIpATwfU1czhzaMpj5KUt22GOYPE8pk9OtXqMN2aSQcEtP2XLd12pNMfMkBYCfkaV2_J3OI3oRKE9Qzp0n6-4UOtIIcEOwvs_ynwtHzXQOIoa44f2kSlGzZOmhp8FeIveo7iUU0mc4F073Ngv7aj0EBKyOVmlwNRJ2Kt5M5fOtg-SSz8M7kQ4fKNqVz0SOdGYSaeI781rafHWUqQSOHmJFr1v4Pr8a9kIRksCr6C-QO7XOTbmSbcUrCl_AekHuF28u8NVd7LxuqmUovQ_kCyY74BzaiiFLrc6iTmadX2TvWsSwM02utC9p470BWpJloz3h1-pmzE0eMBLROxEoPIVXS4fFqkj47Jp8x6trrxQXhlm1bg9VDwnECvAkvSZP0Uy3OpSL_SWWZ7FJOhiucS1TWJrwqg/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJGUn2MVmdX0YRr8tWM1tVitc/photos/AU_ZVEGD8GIBdjicqHp1pP6aIhljNkuzdy-83dvR61sKYS1Gvt5RMgpYk1KbQn35OI5GnT5JEI7May6pr61t0pu2xrcBBoNGEGYbkPhBbxY1WtT9Cy4dIeDBCks6ty4zaxG6tQvnw0GmTOJGhbNXdstYLne0O_IpGC-L7w12O0alicHcgeAYPPdhF78J5Mc11B1kpGd7ds4QuAIFQ0no90aapDA8zKymK-v-izG57gDDwp9vUn4WT-EQLAYG1XYEVJo1Az6KYN-nGBPFhoUYQYeUsi3Jvt-6Pl-VKsiVNBj3WnqdSnkx39KvxF8EP8CkOwKKtQSz4RutB8WBUWHxXaAzzOuNDac8D2ick75hrSs-OPf-JiGmzx4nfM_SmMSbpYEuWKtn-o-ZJbanu1dHnTCWmPimm3GXbPG533jwM24Is9-CmAI/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ",
+        "https://places.googleapis.com/v1/places/ChIJGUn2MVmdX0YRr8tWM1tVitc/photos/AU_ZVEHrZ5Vm6ux1Snxhs2jr1iFE5tyAblopDUdwd4LnANvGvirJqw1-EZMfJztzrjv-4zHn9BvO_ViW4EOpjc2DOZA2MZpF4sAk3EXVbavz5laGnIMwTUUMP-CsvZMNjmE9-dYx9j-LBqsmMZ15D7awa5AB1Tl6I205eVRKQ_DQQY55MPlREiiWSN5DTaJ_XAp6_-qJ0QCp67wZ5r6AeKHQxRRBBTmjY-V1TRd2gUiz0IfIOu6xj7S8ju3ocXnxXI5uUGuf8je7UqHB_vRT0tPVKtjbTSOmgifTV0vDWrujCyVukpch-QHf8cqpTnS91uj0OTNsc61UWu-d39co_rtwNsDZiBlHeBf9sDA7FuClb1hikZDQfx012wr3ew5wYk039Zft-9Yolk_W9sJAUx5__4UmCTzjI8m1J0n5toK8jSyUbZVHdMr2FVgbE8KE0PLX/media?maxWidthPx=1200&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 2.4,
+      "google_reviews": 97,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "website + google",
+        "age_limit": "unknown",
+        "age_limit_source": "saknas",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T16:32:48.236044",
+      "data_fresh": true
+    }
+  ]
+}
