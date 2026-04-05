@@ -593,6 +593,136 @@ Rules:
     return final_events[:10]  # Max 10 events per klubb
 
 
+
+# ─────────────────────────────────────────────
+# SNABB EVENT-SÖKNING – ALLA KLUBBAR
+# ─────────────────────────────────────────────
+
+def quick_search_events(club_name: str, city: str) -> list:
+    """
+    Snabb event-sökning för ALLA klubbar (inte bara eventbaserade).
+    Tar ~2-3 sekunder per klubb istället för 10-20s.
+
+    Strategi:
+    1. En Serper-sökning med site: mot alla ticketingsajter samtidigt
+    2. Scrapar bara sidor som har JSON-LD eller OG-bild (snabbt)
+    3. Max 3 sidor per klubb
+
+    Returnerar max 5 kommande events.
+    """
+    # En sökning som täcker alla ticketingsajter
+    query = (
+        f"{club_name} {city} "
+        f"(site:tickster.com OR site:dice.fm OR site:billetto.se "
+        f"OR site:ra.co OR site:ticketmaster.se)"
+    )
+    results = serper_search(query, num=8)
+
+    # Komplettera med generell sökning om inga ticketingsajter hittades
+    ticket_domains = ["tickster.com", "dice.fm", "billetto.se", "ra.co", "ticketmaster.se"]
+    has_ticket_results = any(
+        any(d in r.get("link", "") for d in ticket_domains)
+        for r in results
+    )
+    if not has_ticket_results:
+        results += serper_search(
+            f"{club_name} {city} biljetter event 2025 2026", num=5
+        )
+
+    events     = []
+    seen       = set()
+    urls_tried = 0
+
+    for r in results:
+        if urls_tried >= 3:
+            break
+
+        url     = r.get("link", "")
+        title   = r.get("title", "")
+        snippet = r.get("snippet", "")
+
+        # Skippa irrelevanta sidor
+        skip = ["google.", "facebook.", "instagram.", "youtube.", "twitter.", "wikipedia."]
+        if any(s in url for s in skip):
+            continue
+
+        # Snabb koll – verkar det vara en event-sida?
+        event_kw = ["event", "ticket", "biljett", "concert", "konsert",
+                    "spelning", "show", "club night", "dj", "köp"]
+        if not any(kw in (title + snippet).lower() for kw in event_kw):
+            continue
+
+        urls_tried += 1
+
+        try:
+            resp = requests.get(url, headers=SCRAPE_HEADERS, timeout=6)
+            soup = BeautifulSoup(resp.text, "html.parser")
+
+            # OG-bild
+            og_image = None
+            og = soup.find("meta", property="og:image")
+            if og and og.get("content"):
+                og_image = og["content"]
+            if not og_image:
+                tw = soup.find("meta", attrs={"name": "twitter:image"})
+                if tw and tw.get("content"):
+                    og_image = tw["content"]
+
+            # JSON-LD – snabbaste och mest pålitliga källan
+            for script in soup.find_all("script", type="application/ld+json"):
+                try:
+                    data = json.loads(script.string)
+                    items = data if isinstance(data, list) else [data]
+                    for item in items:
+                        if item.get("@type") in ("Event", "MusicEvent", "DanceEvent"):
+                            ld_img = item.get("image")
+                            if isinstance(ld_img, list): ld_img = ld_img[0]
+                            if isinstance(ld_img, dict): ld_img = ld_img.get("url")
+
+                            event_title = item.get("name", "").strip()
+                            if not event_title or event_title.lower() in seen:
+                                continue
+                            seen.add(event_title.lower())
+
+                            events.append({
+                                "title":      event_title,
+                                "date":       (item.get("startDate") or "")[:10],
+                                "artists":    [
+                                    p.get("name") for p in item.get("performer", [])
+                                    if isinstance(p, dict)
+                                ],
+                                "ticket_url": item.get("url") or url,
+                                "image":      ld_img or og_image,
+                                "source":     url,
+                            })
+                except Exception:
+                    continue
+
+            # Om JSON-LD inte fanns – använd snippet + OG-bild som snabb fallback
+            if not events and og_image and snippet:
+                event_title = title.split("|")[0].split("-")[0].strip()
+                if event_title.lower() not in seen:
+                    seen.add(event_title.lower())
+                    events.append({
+                        "title":      event_title,
+                        "date":       None,
+                        "artists":    [],
+                        "ticket_url": url,
+                        "image":      og_image,
+                        "source":     url,
+                    })
+
+        except Exception:
+            continue
+
+        time.sleep(0.3)
+
+    # Sortera på datum, filtrera bort gamla events
+    today = datetime.now().strftime("%Y-%m-%d")
+    events = [e for e in events if not e.get("date") or e["date"] >= today]
+    events.sort(key=lambda e: e.get("date") or "9999")
+    return events[:5]
+
 # ─────────────────────────────────────────────
 # SERPER – HITTA KOMMANDE EVENTS
 # ─────────────────────────────────────────────
@@ -824,6 +954,7 @@ def scrape_website(url: str) -> dict:
 def extract_with_claude(
     website_text: str,
     club_name: str,
+    city: str = "",
     listing_info: str = "",
     google_hours: list = None,
 ) -> dict:
@@ -834,8 +965,8 @@ def extract_with_claude(
 
     response = claude.messages.create(
         model="claude-haiku-4-5-20251001",
-        max_tokens=900,
-        messages=[{"role": "user", "content": f"""Extrahera info om nattklubben/venuen '{club_name}'.
+        max_tokens=1200,
+        messages=[{"role": "user", "content": f"""Extrahera och generera info om nattklubben/venuen '{club_name}' i {city}.
 OBS: Klubben kan vara restaurang/bar på dagtid med nattklubb på kvällen.
 
 Åldersgräns: "18 år", "20-årsgräns", "åldersgräns 23", "minimum age", "entry age".
@@ -865,22 +996,23 @@ Svara ENBART med JSON (inga backticks):
     "closed_to":   "{current_year + 1}-05-31",
     "note":        "Endast öppet sommarsäsong juni-aug"
   }},
-  "description": "Kort beskrivning av klubbens karaktär och musikstil",
-  "dress_code": null,
+  "short_description": "1-2 meningar max. Snappy och lockande. Visas i listvy bland alla klubbar. Ex: Sveriges mest ikoniska nattklubb med fokus på house och techno i lyxig miljö.",
+  "full_description": "3-5 meningar. Detaljerad och engagerande text för klubbens egna sida. Beskriv atmosfär, musikstil, historia om känd, målgrupp och vad som gör klubben unik.",
+  "music_genre": "House, Techno",
+  "dress_code": "Ingen speciell",
   "hours_confidence": "high",
   "is_event_based": false
 }}
 
-För seasonal:
-- Sätt is_seasonal: true ENDAST om klubben tydligt har säsongsvariationer
-- open_from/open_to: när klubben är ÖPPEN (YYYY-MM-DD)
-- closed_from/closed_to: när klubben är STÄNGD
-- Om ingen säsongsinfo finns, sätt seasonal: null
+VIKTIGT för varje fält:
+- short_description: MAX 2 meningar, alltid på svenska, aldrig null
+- full_description: 3-5 meningar, alltid på svenska, aldrig null. Basera på all tillgänglig info – om lite info finns, skriv en trovärdig text baserad på klubbens namn och stad.
+- music_genre: Kommaseparerade genrer som "House, Techno" eller "Hip-Hop, R&B". Om okänt, gissa utifrån klubbens namn/stad/typ. Sätt ALDRIG null – använd "Varierande" om helt okänt.
+- dress_code: Exakt klädkod om nämnd, annars ALLTID "Ingen speciell"
+- seasonal: Sätt is_seasonal: true ENDAST om klubben tydligt har säsongsvariationer
+- is_event_based: true om klubben ENDAST öppnar vid speciella events
 
-is_event_based: true om klubben ENDAST öppnar vid speciella events/spelningar och inte har fasta veckooppettider.
-Tecken: "se kommande event", "next event", "inga fasta öppettider", eventsidor istället för veckoschema.
-
-Sätt null om info saknas. Åldersgräns måste vara officiell.
+Åldersgräns måste vara officiell. Sätt null bara för age_limit och opening_hours om info saknas.
 """}]
     )
 
@@ -964,9 +1096,12 @@ def merge_sources(
 
     return {
         # ─── Identitet ───
-        "name":        details.get("displayName", {}).get("text", "Okänd"),
-        "city":        city,
-        "description": ai_data.get("description"),
+        "name":              details.get("displayName", {}).get("text", "Okänd"),
+        "city":              city,
+        "short_description": ai_data.get("short_description"),
+        "full_description":  ai_data.get("full_description"),
+        "music_genre":       ai_data.get("music_genre") or "Varierande",
+        "description":       ai_data.get("short_description"),  # bakåtkompatibilitet
 
         # ─── Plats ───
         "address":         details.get("formattedAddress"),
@@ -980,7 +1115,7 @@ def merge_sources(
 
         # ─── Tillträde ───
         "age_limit":  age_limit,
-        "dress_code": ai_data.get("dress_code"),
+        "dress_code": ai_data.get("dress_code") or "Ingen speciell",
 
         # ─── Kontakt & media ───
         "website":         website,
@@ -1156,22 +1291,43 @@ def run_agent(cities: list = None):
                     print("    ⚠️  Åldersgräns ej hittad")
                 time.sleep(0.3)
 
-            # ── Eventbaserad detektering ─────────────────
+            # ── Snabb event-sökning för ALLA klubbar ─────
+            print("    → Snabb event-sökning (Tickster, Dice, RA...)...")
+            quick_events = quick_search_events(name, city)
+            if quick_events:
+                print(f"    🎫 Hittade {len(quick_events)} events snabbt")
+            time.sleep(0.3)
+
+            # ── Eventbaserad detektering + djup scraping ──
             print("    → Kollar om eventbaserad klubb...")
             event_info = detect_event_based_and_scrape(
                 name, city,
                 website_data.get("raw_text", ""),
                 details.get("websiteUri") or serper_website or ""
             )
+
+            # Kombinera snabba events + djupare events, ta bort dubletter
+            seen_events = set()
+            all_events  = []
+            for e in (quick_events + event_info.get("next_events", [])):
+                key = (e.get("title") or "").lower().strip()
+                if key and key not in seen_events:
+                    seen_events.add(key)
+                    all_events.append(e)
+            all_events.sort(key=lambda e: e.get("date") or "9999")
+            all_events = all_events[:10]
+
             if event_info["is_event_based"]:
-                print(f"    🎫 Eventbaserad! Hittade {len(event_info['next_events'])} kommande events")
+                print(f"    🎯 Eventbaserad! Totalt {len(all_events)} events")
+            elif all_events:
+                print(f"    📅 {len(all_events)} events hittade")
             time.sleep(0.3)
 
             # ── Slå ihop alla källor ──────────────────────
             club = merge_sources(
                 details, website_data, ai_data, listing_match, city,
                 serper_age, serper_instagram, serper_website, verified_hours,
-                event_info["is_event_based"], event_info["next_events"]
+                event_info["is_event_based"], all_events
             )
 
             seasonal_str = "ja" if club.get("seasonal") and club["seasonal"].get("is_seasonal") else "nej"
