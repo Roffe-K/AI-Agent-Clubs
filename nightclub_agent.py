@@ -138,7 +138,7 @@ def verify_opening_hours(club_name: str, city: str, google_hours: list) -> dict:
         return {"verified": False, "source": "google_only"}
 
     google_hours_str = ", ".join(google_hours) if google_hours else "saknas"
-    snippets_str     = "\n".join(dict.fromkeys(all_snippets)[:10])
+    snippets_str     = "\n".join(list(dict.fromkeys(all_snippets))[:10])
 
     response = claude.messages.create(
         model="claude-haiku-4-5-20251001",
@@ -319,7 +319,7 @@ def search_age_limit(club_name: str, city: str) -> int | None:
 
     # Försök extrahera direkt från snippets
     if all_snippets:
-        snippets_str = "\n".join(dict.fromkeys(all_snippets)[:15])
+        snippets_str = "\n".join(list(dict.fromkeys(all_snippets))[:15])
         response = claude.messages.create(
             model="claude-haiku-4-5-20251001",
             max_tokens=10,
