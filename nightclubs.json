@@ -1,0 +1,1354 @@
+{
+  "meta": {
+    "generated_at": "2026-04-05T22:35:04.883544",
+    "total_clubs": 24,
+    "cities": [
+      "Stockholm"
+    ],
+    "stats": {
+      "high_confidence_hours": 10,
+      "hours_serper_verified": 24,
+      "has_age_limit": 22,
+      "has_instagram": 24,
+      "has_images": 24,
+      "has_website": 24,
+      "has_seasonal": 3,
+      "event_based": 0
+    }
+  },
+  "clubs": [
+    {
+      "name": "Hyde Stockholm",
+      "city": "Stockholm",
+      "short_description": "Ikonisk nattklubb i Stockholm som återöppnar på ny venue 2026. Känd för att vara en populär destination för nätter med DJ och dans.",
+      "full_description": "Hyde Stockholm är en etablerad nattklubb belägen på Jakobsbergsgatan 15 i centrala Stockholm. Klubben är tillfälligt stängd och återöppnar på en ny venue under 2026. Under tiden erbjuder Hyde-teamet Club Sense som alternativ för klubbgångare. Hyde är känd som en glamorös och populär destination för nätter med fokus på dans och entertainment. Klubben är också en populär plats för att boka studentskivor och privata events.",
+      "music_genre": "House, Elektronisk dans",
+      "description": "Ikonisk nattklubb i Stockholm som återöppnar på ny venue 2026. Känd för att vara en populär destination för nätter med DJ och dans.",
+      "address": "Jakobsbergsgatan 13, 111 44 Stockholm, Sweden",
+      "lat": 59.3346124,
+      "lng": 18.0699377,
+      "google_maps_url": "https://maps.google.com/?cid=6491369156635404383&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": null,
+        "tuesday": null,
+        "wednesday": null,
+        "thursday": null,
+        "friday": "21:00-01:00",
+        "saturday": "21:00-01:00",
+        "sunday": null
+      },
+      "seasonal": {
+        "is_seasonal": true,
+        "open_from": "2026-01-01",
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": "Klubben återöppnar på ny venue under 2026. För närvarande stängd – besökare hänvisas till Club Sense."
+      },
+      "age_limit": 23,
+      "dress_code": "Ingen speciell",
+      "website": "http://www.hydestockholm.se/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=3412205991565579115",
+      "instagram": "https://instagram.com/hydestockholm",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJwxayD9OdX0YRXygu79r5FVo/photos/AU_ZVEEWt6Xhc14ZPyODXfH4tWLPVkFoqQCf0AV3v97j5KVHnW6zbhB1bexDyZ2hgu663pLz1bE9LAFR2lSenC7v1TqQdNc4zdoTQKa0cAw-iHQNQWdZdYqrPC-Jh_G9Va7Zhhhi2ohLKVAjd3qxhNofRvpaXxM5R-oTKb84l26Q8yGouneXQF4xhsbFBZ17PqP2ZV8_hWOBBDfAGZLmCnNmCeUxtUpHb2Mj5HBoUKSarwwGGtJVRpx-UbifN9hduM0cMq5i_Wg8HNiqbbcKwNFap6Huxz7F6uy7s_9ujpP15eKcqg/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 2.8,
+      "google_reviews": 336,
+      "confidence": {
+        "opening_hours": "medium",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T22:27:11.222311",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Trädgården",
+      "city": "Stockholm",
+      "short_description": "Stockholms legendarvisa nattklubb under Skanstullbron på Södermalm med fokus på house och techno. En inkluderande kulturell mötesplats för djärv uttrycksform och oförglömliga nätter.",
+      "full_description": "Trädgården är en ikonisk nattklubb belägen under Skanstullbron på Södermalm som sedan 2009 varit en avgörande kraft i Stockholms nattliv och kulturscen. Klubben står för house- och technomusik av högsta klass med ett starkt fokus på säkerhet, inkludering och gemenskap. Med sitt manifest om ansvar för varandra, nolltolerans för sexism och diskriminering, samt öppenhet för alla emotionella uttryck, skapar Trädgården en plats där människor kan vara helt fria i sitt välda uttryck. Klubben är välkänd för att möta nationell uppmärksamhet samtidigt som den är ett etablerat mötesställe för elektronisk musikkultur.",
+      "music_genre": "House, Techno",
+      "description": "Stockholms legendarvisa nattklubb under Skanstullbron på Södermalm med fokus på house och techno. En inkluderande kulturell mötesplats för djärv uttrycksform och oförglömliga nätter.",
+      "address": "Hammarby Slussväg 2, 118 60 Stockholm, Sweden",
+      "lat": 59.3047676,
+      "lng": 18.077811099999998,
+      "google_maps_url": "https://maps.google.com/?cid=14193010140103819179&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "17:00-23:00",
+        "friday": "17:00-03:00",
+        "saturday": "17:00-03:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": true,
+        "open_from": "2026-05-01",
+        "open_to": "2026-09-19",
+        "closed_from": "2026-09-20",
+        "closed_to": "2027-04-30",
+        "note": "Sommarsäsong maj-september"
+      },
+      "age_limit": 23,
+      "dress_code": "Ingen speciell",
+      "website": "http://www.tradgarden.com/",
+      "instagram": "https://instagram.com/tradgarden",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJTex4ofV3X0YRq79nToaz98Q/photos/AU_ZVEEJZcs6AQKuhmqAtcxGk6Y3IFNcTeJBBgQkTaZD3bJPj7ekK0wukbUTMGEwgMXaT7IjuH-pPbcepaYNeawzwjoDWwW0ipYy7gYkveIqLR8gaxcdl1FZxHQrCsACfCN6KwtHO6gR__tF1DPl7ZsBJLWwImWMA9MDHMY4zoKB81zw_lJrTlPgCMTnxF0tmO-hy59KtXk1Uv0RgcUDlp147flxyRo07dqu5TpgABK_5QWOCVQ-aEP76eXHZf-q3cknNCPUNAupBU46CyGy3WdLH-s9DbYCTvJqfXIwZHdECj_cdu6Ss9jVs2fv8zxQMhbU21LcCDKpvWRigIFpluscBDw3ULX92qDarIW8wsluUsEzna-XbDTbSIxgVznqjv6Mq5t3stbGx2NpXiL3571WmWhH1eD6PGuIvm1osxK_T61w0g/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 4,
+      "google_reviews": 1237,
+      "confidence": {
+        "opening_hours": "medium",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "website",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T22:27:25.807622",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Ego Nattklubb Stockholm",
+      "city": "Stockholm",
+      "short_description": "Ego är en premiumnatklubb i Stockholm som erbjuder en exklusiv klubbupplevelse på fredagsnätterna. Perfekt för studentskivor och festande i modern miljö.",
+      "full_description": "Ego Nattklubb Stockholm är en framtidsinriktad klubbvenue belägen i hjärtat av Stockholm som specialiserar sig på fredagsnätter. Klubben erbjuder en elitär och modern atmosfär lämplig för både spontan klubbande och arrangerade evenemang som studentskivor. Under dagtid fungerar lokalen som restaurang och bar innan den förvandlas till vibrerande nattklubb på kvällen. Efter en omlokal i januari 2025 öppnar klubben i nya fräscha lokaler med förbättrad miljö och ökad kapacitet för ett mer exklusivt klubbupplevelse.",
+      "music_genre": "Varierande",
+      "description": "Ego är en premiumnatklubb i Stockholm som erbjuder en exklusiv klubbupplevelse på fredagsnätterna. Perfekt för studentskivor och festande i modern miljö.",
+      "address": "Jakobsbergsgatan 15, 111 44 Stockholm, Sweden",
+      "lat": 59.33460729999999,
+      "lng": 18.0695728,
+      "google_maps_url": "https://maps.google.com/?cid=5538095871566399192&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "stängt",
+        "friday": "22:00-03:00",
+        "saturday": "stängt",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": true,
+        "open_from": "2025-01-31",
+        "open_to": null,
+        "closed_from": "2024-12-01",
+        "closed_to": "2025-01-30",
+        "note": "Klubben är stängd för julledigt och öppnar igen i nya lokaler i slutet av januari 2025"
+      },
+      "age_limit": 18,
+      "dress_code": "Ingen speciell",
+      "website": "https://www.egonattklubb.com/",
+      "instagram": "https://instagram.com/egoxsthlm",
+      "phone": "08-669 58 55",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJDxPRLeh3X0YR2MbFZNpE20w/photos/AU_ZVEFexml_9Fz4BOZ39URhF49vED7fu6y2cmXtZgGjmXmZmGOsu-YP0pnUPi9UP_9qDn8JQBlZEx20dg11mGEIRB5wHPA3_zkKxdyeAJvAVCj9onhC3MccGtgrhEjTGxeyhes4l2vAkvCWrWcqfeUDbRAH4eOGcMi8WzXzijpYZ3R2uU3_YviOIG4UHQuJyEo--3cGbzzWa_jw7hZCCFAxRCt00Yta5ZMAX8XiXUwMRIBQaGLJRbV_eC95PsyMxPPIO80uvrUeBGLwM4i8pT7rz_let6_m0H1R2qTtC5m9JrDMyw/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 4,
+      "google_reviews": 201,
+      "confidence": {
+        "opening_hours": "low",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T22:27:47.111397",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Sense Stockholm",
+      "city": "Stockholm",
+      "short_description": "Sense Stockholm är en exklusiv nattklubb i Mood Gallerian med nyrenoverade lokaler och moderna DJ-upplevelser. Perfekt för en framåt fredag och lördag kväll i Stockholm.",
+      "full_description": "Sense Stockholm erbjuder en helt ny upplevelse i den exklusiva Mood Gallerian med moderna, nyrenoverade lokaler och en skön uteterass. Klubben öppnar sina dörrar på fredagar och lördagar sent på kvällen och lockar till sig stockholmarna för dansande och social gemenskap. Med garderob och service för 50 SEK samt möjlighet att anmäla sig till gästlistan fram till midnatt, erbjuds en välorganiserad och inkluderande klubbupplevelse. Legitim ID krävs och klassisk svensk alkoholpolitik gäller.",
+      "music_genre": "House, Techno, Elektronisk",
+      "description": "Sense Stockholm är en exklusiv nattklubb i Mood Gallerian med nyrenoverade lokaler och moderna DJ-upplevelser. Perfekt för en framåt fredag och lördag kväll i Stockholm.",
+      "address": "Jakobsbergsgatan 15, 111 44 Stockholm, Sweden",
+      "lat": 59.33462359999999,
+      "lng": 18.0693177,
+      "google_maps_url": "https://maps.google.com/?cid=17059336940485277592&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "stängt",
+        "friday": "23:00-03:00",
+        "saturday": "23:00-03:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": 18,
+      "dress_code": "Ingen speciell",
+      "website": "http://www.sensestockholm.com/",
+      "instagram": "https://instagram.com/sensesthlm",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJcV3G6F2dX0YRmPdSKZDwvuw/photos/AU_ZVEHKtUcXG7mMxD_Uk1_xgCUE07iebz5B_6LVu0hn6cYjCQX212E1IZmm-nf7x2B0cPjoHsNJEXPZFdwypMizz8qDeJBnS5I93sA0u29oV5Dws3R5jKK6smRGJTXNV10GFnfYXWUiKM_Ws-wsijXGgFZKhG6ZTPgn84GzzXBibyKACCICBNaRUCX89mc8h04WgWG8_n01spq96VuxLBHfXaf39IzxcokyMg1OH8Hjwn6i0VrSX6eGec1ADIVN_3G8NXZiFcyzGJud_JU7fMtsi_JReaeLRDZnHOBdUs3u0e5NhA/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 3.3,
+      "google_reviews": 235,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "website",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T22:27:59.052843",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "The Secret Garden",
+      "city": "Stockholm",
+      "short_description": "Prisbelönt gay bar i Gamla Stan sedan 2014, känd för att vara en av Stockholms bästa gay barer. Mysig miljö med god mat, dryck och musik i färgglad Old Town-atmosfär.",
+      "full_description": "The Secret Garden är en prisbelönt gay bar belägen i hjärtat av Gamla Stan på Kornhamnstorg. Sedan starten 2014 har klubben blivit en favorit bland både lokala och besökande gäster, och har tilldelats titeln 'Gay Place of The Year' två gånger av QX Magazine. Miljön är mysig, färgglad och vibrerande med en unik innergård som erbjuder en lugn tillflykt från stadsrusningen. Klubben serverar utmärkt mat och drycker, och är känd för sitt vänliga bemötande, respektfull miljö och fokus på mångfald och kärlek i alla dess former.",
+      "music_genre": "Varierande",
+      "description": "Prisbelönt gay bar i Gamla Stan sedan 2014, känd för att vara en av Stockholms bästa gay barer. Mysig miljö med god mat, dryck och musik i färgglad Old Town-atmosfär.",
+      "address": "Kornhamnstorg 59, 111 27 Stockholm, Sweden",
+      "lat": 59.3226066,
+      "lng": 18.0720809,
+      "google_maps_url": "https://maps.google.com/?cid=10268508354534894757&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "11:00-03:00",
+        "tuesday": "11:00-03:00",
+        "wednesday": "11:00-03:00",
+        "thursday": "11:00-03:00",
+        "friday": "11:00-03:00",
+        "saturday": "11:00-03:00",
+        "sunday": "11:00-03:00"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": null,
+      "dress_code": "Ingen speciell",
+      "website": "http://www.secretgardensthlm.se/",
+      "instagram": "https://instagram.com/secretgardensthlm",
+      "phone": "08-20 99 02",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJt3jcI-N3X0YRpewujfERgY4/photos/AU_ZVEG0JfmLfK8CmPdFHzN9sz8XFO1AJozxsVHxAlWpBG-rsNWIM7IOzO8otRsRnWDtd0N70PEim-MrCdlZpJ6XwZ8quYGxuJCjwCERykrY8nyZKHxO_u3aA2H3mX5X4KjvIg2jhdzHrqlBYjJQg6nPXhhnGJCXGPcIRT7B8CrgbSgD03t-UTbOTXcG1mwgIvL6Jalmi8WlcYSrtu87STrlNNToZ3Mml4a36iotChlfpT2BFI5FyegvZMa_dtkQoYMq5_tHFUTX5ehPyYpMQJ-_RDJypOXQ3rGVDZ_r6R5-KUEN9w/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 3.2,
+      "google_reviews": 1650,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "unknown",
+        "age_limit_source": "saknas",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T22:28:23.950058",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Hell's Kitchen",
+      "city": "Stockholm",
+      "short_description": "Hell's Kitchen är en ikonisk nattklubb på Stureplan med dynamisk atmosfär, tre barer och blandad musik från singalåtar till modern house. En destination för party till tidig morgon med en blandad och international publik.",
+      "full_description": "Hell's Kitchen är en vibrant nattklubb belägen i hjärtat av Stureplan som erbjuder en unik blandning av atmosfär och musik. Klubben har tre bars—Rockbaren, Schlagerbaren och huvuddansflöret—och lockar både trogna stamgäster och internationella kändisar. Med ett fokus på dynamisk underhållning och exceptionell musik som sträcker sig från populära singalåtar till modern house, skapar Hell's Kitchen en minnesvärd nattupplevelse. Klubben är det ultimata destinationen för dem som söker att dyka in i stadens nattklubbsliv och dansa till tidig morgon.",
+      "music_genre": "House, Sing-along, Pop",
+      "description": "Hell's Kitchen är en ikonisk nattklubb på Stureplan med dynamisk atmosfär, tre barer och blandad musik från singalåtar till modern house. En destination för party till tidig morgon med en blandad och international publik.",
+      "address": "Sturegatan 4, 114 35 Stockholm, Sweden",
+      "lat": 59.336483599999994,
+      "lng": 18.0734677,
+      "google_maps_url": "https://maps.google.com/?cid=7286699789493086305&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "23:00-05:00",
+        "thursday": "stängt",
+        "friday": "23:00-05:00",
+        "saturday": "23:00-05:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": 23,
+      "dress_code": "Ingen speciell",
+      "website": "https://entrgroup.se/nightlife/hells-kitchen/",
+      "instagram": "https://instagram.com/sturecompagniet",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJNY2amFydX0YRYSimGdqOH2U/photos/AU_ZVEGW3ptVVzY25DBDKx5WDABQ8CoxS0FPcMn4fnD1Ep4NmtNyRlw5PGvoVs8UN-J3VayhWqS_iJkOzVtk0YeIaQAqoNiBTypd9PtBQ9c48g2FnUgzIRGEZTuZQ6DloDcs6kpIj7XJvh-I8OeroJPXMJIDuFpO0ODilDWNWxDH9bbTfYIbuhfn4lY4Nn1haaGyUOzhuzeUH5wHKpZjSqQMumGb4njt5QIAjQ_KEIndVxLiSKinqsIl_QdZQgnCmObQDAbpcfx43wSXbsMHUoukVrrYfqFy5kWYXjzH6lLaTmgHhA/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 2,
+      "google_reviews": 200,
+      "confidence": {
+        "opening_hours": "medium",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "website",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T22:28:38.090884",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Slakthuset",
+      "city": "Stockholm",
+      "short_description": "Stockholms coolaste nattklubb med 1000 kvadratmeter och 3 dansgolv. Epicentrum för elektronisk musik i huvudstaden.",
+      "full_description": "Slakthuset är en ikonisk nattklubb belägen i Stockholm med imponerande 1000 kvadratmeter yta fördelad på 3 separata dansgolv. Klubben är känd för sitt modernt utformade utrymme och en energisk atmosfär som lockar musikälskare från hela regionen. Med fokus på elektronisk musik och uppdaterade events erbjuder Slakthuset en autentisk nattklubberlebelse för vuxen publik. Klubben fungerar som en destination för både lokala och besökande gäster som söker Stockholms hetaste klubbnätter.",
+      "music_genre": "Elektronisk musik, House, Techno",
+      "description": "Stockholms coolaste nattklubb med 1000 kvadratmeter och 3 dansgolv. Epicentrum för elektronisk musik i huvudstaden.",
+      "address": "Slakthusgatan 6, 121 62 Johanneshov, Sweden",
+      "lat": 59.2916808,
+      "lng": 18.079479499999998,
+      "google_maps_url": "https://maps.google.com/?cid=1703755803256661849&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "stängt",
+        "friday": "22:00-03:00",
+        "saturday": "22:00-03:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": 20,
+      "dress_code": "Ingen speciell",
+      "website": "https://slakthusetclub.se/",
+      "instagram": "https://instagram.com/slakthuset",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJqbV-XiZ4X0YRWacfTeD0pBc/photos/AU_ZVEH7tB6LtJyzCk_BPk_R2ANl9Vec8e2BKQlZEXYhn7QrBzldFyCs0IzLIEbMwhXqVWrSSocNoHKEEy8-l4u4Twspc1TFFi6y_Rivu_-gyqRV8HLZOGMKx-38jdHeDhS761wUVJVl4In3YX3_Y6_1HQiLafqwdrMb88WFZM0MBBDnRAN5hfLe515mW5sJpUFcFaYJgjZXQZQw18WjC_ji3WqC28KEOPYB6qNVLuTrTYLAzW6ry6B78GNsSREh6CgG7N4lsQlI1MpXbJKD1rG05k-NA9V2U8A8tNx1HNG-vqpuea7hFcDOgeUGub7RC2KsYPZJw26qvniavmFeERIIgNxedRAZSnLuGOOGkJAHuk7tEN6e2BOzLSglYkr32t0mHGr9OjYMAkcmjWd-_L3kbRBw0PgXvCZbWE_Rb_w8CiopYg/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 3.6,
+      "google_reviews": 564,
+      "confidence": {
+        "opening_hours": "medium",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T22:28:59.586717",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Patricia Stockholm - nightclub, bar, karaoke & party venue",
+      "city": "Stockholm",
+      "short_description": "Patricia är en stor nattklubb i Stockholm med fyra barer, tre dansgolv och underhållning som karaoke och casino. Öppen fredag till söndag med mainstream, nostalgi och afrobeat.",
+      "full_description": "Patricia Stockholm är en fullskalig nattklubb och festlokal med fyra barer och tre separata dansgolv som spelar allt från mainstream till nostalgia och afrobeat. Klubben erbjuder inte bara dans utan också karaoke och casino med black jack för en kompletta nattunderhållning. Patricia är öppen varje fredags till söndags från 20:00 till 05:00 och är en populär destination för större grupperingar och festande i Stockholm. Klubben samarbetar även med VIP Limo för premium-ankomster och erbjuder gästlistor för sina besökare.",
+      "music_genre": "Mainstream, Nostalgia, Afrobeat",
+      "description": "Patricia är en stor nattklubb i Stockholm med fyra barer, tre dansgolv och underhållning som karaoke och casino. Öppen fredag till söndag med mainstream, nostalgi och afrobeat.",
+      "address": "SöderMälarstrand Kajplats 19, 118 25 Stockholm, Sweden",
+      "lat": 59.3213806,
+      "lng": 18.0525306,
+      "google_maps_url": "https://maps.google.com/?cid=298178210266020886&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "stängt",
+        "friday": "20:00-05:00",
+        "saturday": "20:00-05:00",
+        "sunday": "22:00-05:00"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": 20,
+      "dress_code": "Ingen speciell",
+      "website": "http://www.patriciastockholm.se/",
+      "instagram": "https://instagram.com/patriciasthlm",
+      "phone": "073-652 72 82",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJKai7pPx3X0YRFvyqnoBXIwQ/photos/AU_ZVEHbEXb9Rx5pZegUd1xeJ-KDtmpnRAaXbCZbULgWN7Z6SqUbNucfQhtoytR4Kljme0-zSZ_R7ZDo5d0qZNwFfWgsoZQ8j2KQNkj56mWuWiURM4k_UpZCdvVN7_wuxhBUDfwYeGsMIPwu4IawzNfAQFqWYLYfjdNn1YJYSVn_ioml2sgbGJz1LGshY3TN3sapOkKjLJV1s2nXqf2lesxJhpgdbFzExTFxF6q6jXJIGaw6IulNKLSRY7M1nR2cUwaK1OUjSVdn-jM5SDjkqV5ImuPyXEsb19dSYE7wg1KW5q-Brg/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 3.2,
+      "google_reviews": 1584,
+      "confidence": {
+        "opening_hours": "medium",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T22:29:21.378361",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Huset Under Bron",
+      "city": "Stockholm",
+      "short_description": "Under Bron är en weekendnattklubb med öppen bar och varierande musikprogram. Perfekt destination för fester med flexibla entrépriser och olika scener.",
+      "full_description": "Under Bron är en nattklubb som öppnar fredagar och lördagar från klockan 22 fram till 05 på morgonen. Klubben erbjuder ett varierat musikprogram med fokus på art, club och event-baserade framträdanden. Med en 21-årsgräns skapar Under Bron en vuxen atmosfär för festgoende. Entrépriserna varierar beroende på tid på kvällen, med gratis entré mellan 22-23, följt av gestaltade tariffer senare på natten.",
+      "music_genre": "House, Techno, Electronic",
+      "description": "Under Bron är en weekendnattklubb med öppen bar och varierande musikprogram. Perfekt destination för fester med flexibla entrépriser och olika scener.",
+      "address": "Hammarby Slussväg 2, 118 60 Stockholm, Sweden",
+      "lat": 59.304317,
+      "lng": 18.0788127,
+      "google_maps_url": "https://maps.google.com/?cid=11723196174435329591&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "stängt",
+        "friday": "22:00-05:00",
+        "saturday": "22:00-05:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": 21,
+      "dress_code": "Ingen speciell",
+      "website": "https://underbron.com/",
+      "instagram": "https://instagram.com/underbron",
+      "phone": "08-644 20 23",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJjRQqr_V3X0YRN6Zv-c4osaI/photos/AU_ZVEH90KtzWsNMkAlQ1pTlOQr7_o8tlEG-KUphKfnapLd7rrOYbvFS7WcogymVNSeQxrw8va_bTn4lD5L2d4nE6-LFvBfl_x2ipDUtX2MLTC4ceSlS4sEpLu-n0rCHIsZ9bEeeGkW4Vbz1AN2rve-Nc7kGyLr1UElg6h6x_zYgRAw-2AwRJdKJiEob38uFcPaLGn4BOY-wVOVU9cBYoMD4gugAe887B8I-Ck2PAvlnKjc9v3G0yPUiqIW1Z_NP6APkftnjkQW4yTiRO44lM5YT4ChUOH1VHdLYe6Ga_nco4ZCnkwRtIIZAJ3SeekT4obCBwtLayyFIG4kRfPjQ9VayMPbMxC3Aywpn7pLIfcd8PXukcdXaN5o7XP5iJKt6_CgLtudtKkT9PK5cR039HIOB9YlbYKC1EczA1Omsf9tesJa9x5SMBR7hPds3SxuvCg/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 3.4,
+      "google_reviews": 355,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "website",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T22:29:35.079521",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Sturecompagniet",
+      "city": "Stockholm",
+      "short_description": "ATRIUM at Sturecompagniet är en exklusiv nattklubb i Stockholms hjärta som erbjuder premium klubbupplevelse med fokus på House och elektronisk musik.",
+      "full_description": "ATRIUM at Sturecompagniet är en framstående nattklubb belägen på Sturecompagniet i Stockholm, känd för sin eleganta miljö och högklassig musikupplevelse. Klubben erbjuder House och Techno-musik från både kända och kommande artister, och drar en sofistikerad och musikintresserad publik. Med sitt centrala läge på Stureplan är ATRIUM en favorit bland stockholmare som söker en exklusiv nattupplevelse. Klubben öppnar torsdagar till lördagar från sent på kvällen och är perfekt för en kväll av musik och dans.",
+      "music_genre": "House, Techno",
+      "description": "ATRIUM at Sturecompagniet är en exklusiv nattklubb i Stockholms hjärta som erbjuder premium klubbupplevelse med fokus på House och elektronisk musik.",
+      "address": "Sturegatan 4, 114 35 Stockholm, Sweden",
+      "lat": 59.3364025,
+      "lng": 18.0734748,
+      "google_maps_url": "https://maps.google.com/?cid=9294705747802030226&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "22:00-03:00",
+        "friday": "22:00-03:00",
+        "saturday": "22:00-03:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": 23,
+      "dress_code": "Ingen speciell",
+      "website": "https://entrgroup.se/",
+      "instagram": "https://instagram.com/sturecompagniet",
+      "phone": "08-545 076 70",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJs4cQo1ydX0YRkoCF1aFt_YA/photos/AU_ZVEFXtX6-2QFz5w7_5N4GXsGOjoIorLqZudOT51Fnbcj4eqJYdHsiAzD6QHbWg5zCuJZ1-zVyBu9HUJ6LDINRFFKiThcqS-4iQra6g4MBHoS6UaXlWruhr_b8R_o4-O1hvEOObkKyQd8Bs_K895g6xZgEVSwauiFFB-WS1vubiRjlko2L5cMmHjPnb7ZBqfNzZP1nTNRDDtBZYBN5zhGl-BAV-gnIk4WbzNOatdV1etYzEb5UJt833Sda1UAaVA9WVjFDzNdEqzF6LxYoSEGNnxMIYQOH20V-eGj0gUTNjtis0w/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 2.3,
+      "google_reviews": 360,
+      "confidence": {
+        "opening_hours": "medium",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T22:29:55.682095",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Berns Terrassen",
+      "city": "Stockholm",
+      "short_description": "Stockholms ikoniska nattklubbskomplex med flera venues som erbjuder live musik och internationella DJs i stämningsfulla miljöer. Här blandas cocktailbarer med state-of-the-art dansytor.",
+      "full_description": "Berns Nightlife är ett etablerat nattklubbskomplex beläget i hjärtat av Stockholm vid Berzelii Park. Komplexet omfattar flera distinct venues – LE! Cocktail, LE!, NEU och Terrassen – varje med sin egen karaktär och musikprofil. Klubben är känd bland Stockholms musikfanatiker för sin fokusering på live musik och internationella DJ-sets i akustiskt rika och glada miljöer. Från after-work drinks i barerna kan du enkelt fortsätta festen på de moderna dansytorna, ofta med live-performance eller DJ:s som mixar allt från pop och house till varierande klubbmusik.",
+      "music_genre": "House, Pop, House, Open Format",
+      "description": "Stockholms ikoniska nattklubbskomplex med flera venues som erbjuder live musik och internationella DJs i stämningsfulla miljöer. Här blandas cocktailbarer med state-of-the-art dansytor.",
+      "address": "Näckströmsgatan 8, 111 47 Stockholm, Sweden",
+      "lat": 59.332148,
+      "lng": 18.073724700000003,
+      "google_maps_url": "https://maps.google.com/?cid=9441665386903670157&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "stängt",
+        "friday": "22:00-02:00",
+        "saturday": "22:00-04:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": 23,
+      "dress_code": "Ingen speciell",
+      "website": "https://berns.se/nightlife/",
+      "instagram": "https://instagram.com/berns",
+      "phone": "08-566 322 00",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJF-_xMBqdX0YRjY1-MqWIB4M/photos/AU_ZVEEThrutXOEcuvOcRldTeth4dximITp2i_nyweftjogLOoHV8euuxT_aLyGbXREAqe5wpx-IRSleUxypdHGj___hBnDqvM4lDW8hc3qz43TgcnA-3iNGv4i3ut5mcwEBE9AFiWSSqqT1fvt5wragTB3OMj-pC1hPZwK5mYWF4xoGOc7GQs3-inUR_ePdTf8r9pSnrVaiM88avDEjHBv8GPw7SYdRobh3tU0V-hSkw1Z9cOkS30Iebob1ATllhIjuJYeiZhS4PsyCUfSg0Re9ifsfmV4IcWBlopxDaFOv_vFutmZQ4DzQjWpALp5MLClnilNqOo4IvMBrTmMKCinn8NnpdgWuDt3LWSp1U-d2geZse9wq3zwUDzodFQ1qV6I1GUZUg1JS6wysG3e3yvmiBBv-e2p-BW54Q6MtBYBua9EBE6E3/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 2.5,
+      "google_reviews": 215,
+      "confidence": {
+        "opening_hours": "medium",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T22:30:21.020501",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Kura Stockholm",
+      "city": "Stockholm",
+      "short_description": "Prisbemärkelserad cocktailbar på Jakobsbergsgatan med säsongsdriven meny och innovativa mixologitekniker. Ledd av erfaren mixolog Malcolm Fredriksson.",
+      "full_description": "Kura Stockholm är en dold cocktailbar och restaurang som räknas bland Stockholms bästa. Här är cocktailmenyn hjärtat – experimentell, säsongsdriven och baserad på innovativa tekniker från världens alla hörn. Bakom baren står Malcolm Fredriksson, erfaren mixolog från Stureplansgruppen, Nobisgruppen och Michelin-krogen Celeste. Varje drink berättar en historia och blandningen av klarifierade highballs, fermentering och moderna mixningsmetoder skapar en unik upplevelse. Ett perfekt val för den som söker kvalitet och kreativitet.",
+      "music_genre": "Varierande",
+      "description": "Prisbemärkelserad cocktailbar på Jakobsbergsgatan med säsongsdriven meny och innovativa mixologitekniker. Ledd av erfaren mixolog Malcolm Fredriksson.",
+      "address": "Jakobsbergsgatan 15, 111 44 Stockholm, Sweden",
+      "lat": 59.33460729999999,
+      "lng": 18.0695728,
+      "google_maps_url": "https://maps.google.com/?cid=15433832041081722227&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "16:00-late",
+        "thursday": "16:00-late",
+        "friday": "16:00-23:00",
+        "saturday": "16:00-23:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": false
+      },
+      "age_limit": 20,
+      "dress_code": "Ingen speciell",
+      "website": "https://www.kurastockholm.com/",
+      "instagram": "https://instagram.com/kurasthlm",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJnde4Y2mdX0YRc9W3K3j8L9Y/photos/AU_ZVEE6esWLCetj8-LawTNzfFE7qzpH_Qwf_6dMdVdlawpmaUX5kgj8GQ8abvdYFh7YzUyLNpxvLIrbW2wbz_uETKIYy5KK1mSDFeY2e1hjU8bIGu8PzkxhYq7T5YDKzwc6LAOZ2DjBY0eAa3L41dKJDES_7WE6Evc69qZTeFKyikiNusNj2uHxE-cPmqx-JNS2x8iNpowVjiGfs9ddYmQrXiyaRvNNet-vyFVO0mTa_PmugG8sCYT2tvMySURNxsIU9c507GnpccxuPXl0eoqrVx_bCpcZ3alneBzK3HseuwFZbg/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 4.7,
+      "google_reviews": 62,
+      "confidence": {
+        "opening_hours": "medium",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T22:30:45.603168",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Noxx Stockholm",
+      "city": "Stockholm",
+      "short_description": "Noxx Stockholm är en modern nattklubb som öppnar på fredagar och lördagar för dansglädje och elektronisk musik i hjärtat av Stockholm.",
+      "full_description": "Noxx Stockholm är en levande nattklubb belägen i Stockholm som specialiserar sig på elektronisk musik och house. Klubben öppnar sina dörrar på fredagar och lördagar från sent på kvällen till tidig morgon, vilket gör den till ett populärt val för festglada stockholmare. Med fokus på god atmosfär och energiska dj-performances erbjuder Noxx en inkluderande miljö för musikälskare av alla åldrar. Klubben är känd för sin dedikerade inställning till dansmusik och skapar en unik upplevelse för sina gäster varje helg.",
+      "music_genre": "House, Elektronisk musik",
+      "description": "Noxx Stockholm är en modern nattklubb som öppnar på fredagar och lördagar för dansglädje och elektronisk musik i hjärtat av Stockholm.",
+      "address": "Hornsgatan 66B, 118 21 Stockholm, Sweden",
+      "lat": 59.318571299999995,
+      "lng": 18.0591223,
+      "google_maps_url": "https://maps.google.com/?cid=8347321856958524730&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "stängt",
+        "friday": "22:00-03:00",
+        "saturday": "22:00-03:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": false
+      },
+      "age_limit": 18,
+      "dress_code": "Ingen speciell",
+      "website": "https://www.noxxstockholm.com/",
+      "instagram": "https://instagram.com/nightli.se",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJpxBhUrx3X0YROu3dvQCl13M/photos/AU_ZVEEk50i-Ez7ha4tVopKMQluyGdmhzwPSuDkf_E6pyOJl3wOLXKV9-hY8fik9Bhm2mmxEuNEdpH7ZEovWPIWrRQMWHDKDmDNT5tjYK6AlhPyeRbK6Ps8cirYzi5tYqvq2bxp_YqPGZGnWQcnRmcHmpyo_YbRNpBsH1AUEXr5q-sTqpPhd7L_-8DRCudLKGZGakPm4-kRUDH5VV70NFyJeHluCSXLJAd7eQ4agIvSfrd2vZ9aKXV-8rQh5uhN6BYc8o0FmZWrGNmXg11KVmjuYF5xi9YsPyMP78KtRvjX4W3FHgw/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 4,
+      "google_reviews": 81,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T22:31:10.157768",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Lemon Bar",
+      "city": "Stockholm",
+      "short_description": "Stockholms klassiska schlagerbar på Kungsholmen sedan 1994 med god mat, drinkar och dansgolv. Perfekt för både mysigt barhäng och efterfest med schlagerdängor hela natten.",
+      "full_description": "Lemon Bar är en legendartad institution på Scheelegatan i Stockholm som har underhållit gäster sedan 1994. Klubben kombinerar en familjevänlig bar och restaurang på dagen med en livlig nattklubb på kvällen, där schlagern spelar från dansgovet långt in på natten. Med utvalda cocktails gjorda med kärlek och asiansk fusionmat från samarbetande Lokal Izakaya, erbjuder Lemon Bar en komplett underhållningsupplevelse. Stället är perfekt för privatfester, födelsedagsfiranden och grupper som söker en skön och familjär stämning combined med dansgnissling. Enligt många är Lemon Bar synonymt med Stockholms bästa nattklubbsupplevelse för schlagerfans.",
+      "music_genre": "Schlager, Pop, Disco",
+      "description": "Stockholms klassiska schlagerbar på Kungsholmen sedan 1994 med god mat, drinkar och dansgolv. Perfekt för både mysigt barhäng och efterfest med schlagerdängor hela natten.",
+      "address": "Scheelegatan 8, 112 23 Stockholm, Sweden",
+      "lat": 59.3297567,
+      "lng": 18.043913099999997,
+      "google_maps_url": "https://maps.google.com/?cid=16787388029241686315&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "17:00-03:00",
+        "wednesday": "17:00-03:00",
+        "thursday": "17:00-03:00",
+        "friday": "17:00-03:00",
+        "saturday": "19:00-03:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": null,
+      "dress_code": "Ingen speciell",
+      "website": "https://www.lemonbar.se/?utm_source=google",
+      "instagram": "https://instagram.com/lemonbar08",
+      "phone": "08-650 98 09",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJK00hgdh3X0YRK3mYHXjI-Og/photos/AU_ZVEFrlxdRTMB9Rn31eXa0fk8nV13WZEqNp-5is_D--B9XKXsOwm-rfiIWhnU14dpTXBg0cZGFhsvheqvgbHRfyN3fwwtOS1ZFz2MPsr4f6vahS88hDY6QF39u-aAFqqlaP2-wFxlicHW5LNVCCZSNjo0ZsA69i2sTXpoQU56m4h1FPH3Qev5mjIL0gsiYmJaiAmqFeMFdjQbaQHmlMUFRCFE65hKvKqKhMoeLGADrXpbEYZydd3navkgBdLbJBa2ML4UM-IXQm8TOvU6vxtEqGv0t-nMlQiQgXI_fnmWXmLJ5pQ/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 3.4,
+      "google_reviews": 661,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "unknown",
+        "age_limit_source": "saknas",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T22:31:38.061167",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": [
+        {
+          "title": "Country Night with Addison Johnson (US) + Jamie Meyer",
+          "date": "2026-09-12",
+          "artists": [],
+          "ticket_url": "https://billetto.se/e/country-night-with-addison-johnson-us-jamie-meyer-biljetter-1859307",
+          "image": "https://billetto.imgix.net/xmdb6bcsl2mr395abqpzvhpi58px?w=640&h=360&fit=crop&auto=compress%2Cformat&rect=0%2C0%2C1920%2C1080&ar=1%3A1&crop=faces&s=2d116cf1365b887969b45ca360011147",
+          "source": "https://billetto.se/en/e/country-night-with-addison-johnson-us-biljetter-1859307"
+        }
+      ]
+    },
+    {
+      "name": "Spy Bar",
+      "city": "Stockholm",
+      "short_description": "Sveriges mest ikoniska nattklubb ligger på hjärtat av Stureplan och lockar både lokala och internationella gäster. Världsklass DJs, exklusiv atmosfär och varierande musikgenrer garanterar oförglettliga nätter.",
+      "full_description": "Spy Bar är en legendär nattklubb på Stureplan i Stockholm, belägen i en ikonisk byggnad i hjärtat av huvudstadens mest prestigefulla område. Klubben är känd för sin exklusiva atmosfär, världsklass DJs och diversifierade musikutbud som tilltalar en bred publik. Som en kulturell epicentrum för Stockholm erbjuder Spy Bar dynamisk nattklubbsupplevelse med fokus på exklusiva nätter och högkvalitativ underhållning. Det är en destination för både lokala eliter och besökare som söker oförglettliga kvällar med topprankad musik och atmosfär.",
+      "music_genre": "House, Techno, Varierande",
+      "description": "Sveriges mest ikoniska nattklubb ligger på hjärtat av Stureplan och lockar både lokala och internationella gäster. Världsklass DJs, exklusiv atmosfär och varierande musikgenrer garanterar oförglettliga nätter.",
+      "address": "Birger Jarlsgatan 20, 114 34 Stockholm, Sweden",
+      "lat": 59.336615599999995,
+      "lng": 18.0720358,
+      "google_maps_url": "https://maps.google.com/?cid=10784779973376605125&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "23:00-05:00",
+        "friday": "23:00-05:00",
+        "saturday": "23:00-05:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": 25,
+      "dress_code": "Ingen speciell",
+      "website": "https://entrgroup.se/nightlife/the-spy-bar/",
+      "instagram": "https://instagram.com/entrgroup",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJ29yfv1ydX0YRxfvb3T48q5U/photos/AU_ZVEG2NpcuCAHPn87aJpx18CAbECpf4TjVjwM8b84avS53m0uD6FG_kvjDwOQjb1RbKL9cxzfBl7dF_ipmQlukerteC29eJrSeYCjRERWxwJKWPdyavepjhcJS5lMnlF4hrYTFs-h8XYjcxjV0-EB_My1nBsAgL2JPJvA7NLOVjPDWi4wTEvVVjeIIMn3SRUYQqHDIjI1Q1IqoKRCeRP2jkw8OxqeQuPRplHKUoGs2kpIEKlIgH1j7PQW23eH8ZNOLNLweYnG7ysez4lk3bn66Q82E4fWSW9FfyPYYfvfPJhAeuA/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 2.1,
+      "google_reviews": 349,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "website",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T22:31:50.850042",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Kollektivet Livet Bar & Scen",
+      "city": "Stockholm",
+      "short_description": "Kollektivet Livet Bar & Scen är en multifunktionell venue i Stockholm som erbjuder mat, dryck och live-underhållning.",
+      "full_description": "Kollektivet Livet Bar & Scen är en bar och scene-venue belägen i Stockholm som fungerar som både restaurang och nattklubb. Venues erbjuder ett varierat utbud av underhållning med fokus på live-framträdanden och events. Miljön är utformad för att skapa en levande och social atmosfär där gäster kan njuta av mat, dryck och musik. Kollektivet Livet är en populär destination för både mata och festande i stadens nöjesutbud.",
+      "music_genre": "Varierande",
+      "description": "Kollektivet Livet Bar & Scen är en multifunktionell venue i Stockholm som erbjuder mat, dryck och live-underhållning.",
+      "address": "Stadsgårdsterminalen, 116 45 Stockholm, Sweden",
+      "lat": 59.3191564,
+      "lng": 18.0782322,
+      "google_maps_url": "https://maps.google.com/?cid=7813894816361269905&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": null,
+        "tuesday": null,
+        "wednesday": null,
+        "thursday": null,
+        "friday": null,
+        "saturday": null,
+        "sunday": null
+      },
+      "seasonal": {
+        "is_seasonal": false
+      },
+      "age_limit": 18,
+      "dress_code": "Ingen speciell",
+      "website": "https://stadsgardsterminalen.com/kollektivet-livet-bar-och-scen/",
+      "instagram": "https://instagram.com/stadsgardsterminalen",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJLxquy2N3X0YRkcp6ie-HcGw/photos/AU_ZVEG2e5raGtfjEZmycF03CdcsA39lQtX1wp-3Pw9OctlQV4kpF9HBh9ymP2HQaRrOaVIQjPkAkeaGwCcPvPWh7KEqwKpSJ-aYmWlqwvNigLaQvVuMmA5t83pX0ktgYl7zO5voWYG75i65N64Ah-wP9z5mEGHksjj1R9fBJ6hsBOhccUoRGupkwqhTK8LAz_pTHU46Q6YXu-6juUI0cEWzytc-L21yaUW6UzcuMviOY8P_4dui3pfLhHzsslK_RVkPqv9rRM050YyJHobRalgHq69Njaf7kEg5ksKB2slk4dq3eXMhjZw1mi2epv1h9aXMVuMwxYEvGnAS_Qby4aKxq_GFdIE0CYJl34kOgkov8ccb7zma3KXYoGVc85LGBIZphPTuIjAjIkrORQ_zKfsYAdife9r82DpHDjpiS1GpJUz37ou2RTC0VVqIbO5EQ510/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 4.2,
+      "google_reviews": 248,
+      "confidence": {
+        "opening_hours": "low",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T22:32:10.995654",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Myst Stockholm",
+      "city": "Stockholm",
+      "short_description": "Myst Stockholm är en prestigefylld nattklubb på Hornsgatan i samarbete med den legendariska Marie Laveau, med VIP-bord och gästlista.",
+      "full_description": "Myst Nattklubb Stockholm erbjuder ett unikt nattlivserlebende i nyöppnad skepnad genom ett samarbete med den legendariska Marie Laveau på Mariatorget. Klubben är öppen fredagar och lördagar från 22:00 till 03:00 och erbjuder allt från fria entrén via gästlista fram till 23:30 till exklusiva VIP-bord med egen hylla. Med professionell DJ, möjlighet att boka studentskivor utan mellanhänder och ett komplett utbud av champagne, cocktails och premiumsprit är Myst en premium destination för stockholmares nattliv. Lokalen kan även bokas för konserter, företagsevenemang och privata fester.",
+      "music_genre": "Varierande",
+      "description": "Myst Stockholm är en prestigefylld nattklubb på Hornsgatan i samarbete med den legendariska Marie Laveau, med VIP-bord och gästlista.",
+      "address": "Jakobsbergsgatan 15, 111 44 Stockholm, Sweden",
+      "lat": 59.33462359999999,
+      "lng": 18.0693177,
+      "google_maps_url": "https://maps.google.com/?cid=4428075321641767065&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "22:00-03:00",
+        "thursday": "stängt",
+        "friday": "22:00-03:00",
+        "saturday": "22:00-03:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": false
+      },
+      "age_limit": 23,
+      "dress_code": "Ingen speciell",
+      "website": "http://www.myststockholm.nu/",
+      "instagram": "https://instagram.com/popular",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJY3qY5vudX0YRmZAhSQuvcz0/photos/AU_ZVEGhnOP8sHzRY-wLtdyOy2T4tmXcLProZQA_0YPNIbVXf9Kps_b5AXGo_wj38Xebpdwc0gNVKQRdC0St1d6zsMDrXodx-oHy9GPgTHUk-MyRE1ktjYlXTOEZhNFUmmGFyTLLdEnc7KM1YTO--IbiWDtcNoHLH8czB8bozeuo0w8cw_4cBQDtM4aPGq2ll5RkuZqTU4MvFUrwjpjmSfusNdSX7jbTcHkeKvXcOLRegonsYIaeUHtsm-dkwlImQl_J-qYnn58s9CvykVIL4TllSovOwTHuUx7br1k7gi8KCPBHxA/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 2.8,
+      "google_reviews": 125,
+      "confidence": {
+        "opening_hours": "medium",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T22:32:33.578125",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "F12 Terrassen",
+      "city": "Stockholm",
+      "short_description": null,
+      "full_description": null,
+      "music_genre": "Varierande",
+      "description": null,
+      "address": "Fredsgatan 12, 103 18 Stockholm, Sweden",
+      "lat": 59.328564300000004,
+      "lng": 18.0641943,
+      "google_maps_url": "https://maps.google.com/?cid=10538208598355723297&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "22:00-05:00",
+        "tuesday": "23:00-05:00",
+        "wednesday": "23:00-05:00",
+        "thursday": "23:00-05:00",
+        "friday": "23:00-05:00",
+        "saturday": "23:00-05:00",
+        "sunday": "23:00-05:00"
+      },
+      "seasonal": null,
+      "age_limit": 20,
+      "dress_code": "Ingen speciell",
+      "website": "https://fredsgatantolv.se/",
+      "instagram": "https://instagram.com/f12terrassen",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJz_gJDV-dX0YRIcT16eI8P5I/photos/AU_ZVEF33zbe-bRvDr9Cd2fXDzJ4OgS3Fyz0bAnuy9PPpt8YFxHumRJ-xK8stYAYzDWdUaIsJ3CUpCk0ueD9xHXlGd5wA4AgLjx6KV3fq5LaJ1vgPrrI2eWGK9Op044P2C_y66hOVGpnLDKD_LeA6QPmreaGmIpCPdPbE9Iw_U_vNTb-CWAdUIshiNV3ZRHnbVsrQEwVjSRlA1aMNHHU28Vk2nwUSc0GYkQdBPJNNnG130VafZ6LdBuszrLSc8cI8LxifYour7Mhu5gzdRD0sKRmJLb5X9ZP734rEL1AO_5lhHTNKA/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 2.7,
+      "google_reviews": 529,
+      "confidence": {
+        "opening_hours": "low",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": false,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T22:32:51.376234",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Club Rose",
+      "city": "Stockholm",
+      "short_description": null,
+      "full_description": null,
+      "music_genre": "Varierande",
+      "description": null,
+      "address": "Hamngatan 2, 111 47 Stockholm, Sweden",
+      "lat": 59.333085499999996,
+      "lng": 18.074924499999998,
+      "google_maps_url": "https://maps.google.com/?cid=5853225708159944747&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "22:00-03:00",
+        "thursday": "stängt",
+        "friday": "23:00-05:00",
+        "saturday": "23:00-05:00",
+        "sunday": "stängt"
+      },
+      "seasonal": null,
+      "age_limit": 23,
+      "dress_code": "Ingen speciell",
+      "website": "http://roseclub.se/",
+      "instagram": "https://instagram.com/roseclubsthlm",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJeXr9uFudX0YRK8gOFcXVOlE/photos/AU_ZVEFFe2uy8JtXWFPg5ZJ2Gs7o3s3gxn9WKFTo6EdUMJdPRXQBSzjQeTWCkzX7xDbr1AVjr-t2gKvNpIv02Li5kRLVlvdUlJdxSv7bHBnAtV3ChHEtjgO7hhUjC7sXiI9G7V2GNeoJpeDxhxRNRGuGjsyFFEM3g1GYPqPJz6usPQ3vOqhwU9GgnthHatqRiuIfnntlZU7PdpqwLQvClg5O9bJe4hxHJ8MhVevIbYDvjot1e2MDboZgyAUj47bIbzP5iM0xlQb2qNazHoS-aFDQgdS_BgZyLhXSBmJ7GNKsAGcFpg/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 2.7,
+      "google_reviews": 428,
+      "confidence": {
+        "opening_hours": "medium",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": false,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T22:33:24.901242",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Golden Hits",
+      "city": "Stockholm",
+      "short_description": "Stockholms roligaste nattklubb med tre dansgolv, dinnershow och karaoke sedan 1992. En färgsprakande fest där publiken är en del av showen.",
+      "full_description": "Golden Hits är Stockholms mest legendariska nattklubbar där festen har hållit igång sedan 1992. Med tre dansgolv, dinnershow och en populär karaokebar erbjuder klubben en spektakulär upplevelse varje kväll. Hit är alla välkomna för att dansa till nutidens och dåtidens hits, sjunga karaoke tillsammans med vänner och främlingar, eller njuta av en trerättersmiddag i klubbens à la carte restaurang. Golden Hits är känt för sitt pulserande musikutbud, sina färgglada dinnershow och möjligheten att boka specialpaket för firanden som bröllop och födelsedagar.",
+      "music_genre": "Pop, Hits, Varierad",
+      "description": "Stockholms roligaste nattklubb med tre dansgolv, dinnershow och karaoke sedan 1992. En färgsprakande fest där publiken är en del av showen.",
+      "address": "Kungsgatan 29, 111 56 Stockholm, Sweden",
+      "lat": 59.3357435,
+      "lng": 18.066887899999998,
+      "google_maps_url": "https://maps.google.com/?cid=10287176519558303528&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "22:00-01:00",
+        "friday": "22:00-03:00",
+        "saturday": "22:00-03:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": 23,
+      "dress_code": "Ingen speciell",
+      "website": "https://goldenhits.se/",
+      "instagram": "https://instagram.com/goldenhits",
+      "phone": "08-505 560 83",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJ6cY8Cl2dX0YRKA8Dbopkw44/photos/AU_ZVEGc3rF0rtZqecX5yvqP1sohB3XvdGSnyllt2wxhb4c39G9K0fRPWwgkyyX9ZFX1c9uNvkwa0aCpUMUhAfSxSGWb9MQ2NwcaeJImOZcCXJmYoK4hvSB2OdJY2zPDAb0GR3eBOXfr3LoPrx2Gh0icpnTU0HLn_MD01aB7IyZO2FQAxIN2QioKM5b9xBcWGyx7AFwXzXRlVBL1oHfGFlodq_xUpuj22FyTyGjUYWvPYoTet6bJXpwj2Nz9jYFT8aZ3X-xA8kOwyxQDulDpXeOTpicEcM3S3qT8xF9MqqYCjb-jAg/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 3.1,
+      "google_reviews": 801,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T22:33:47.442944",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Club Backdoor",
+      "city": "Stockholm",
+      "short_description": "Club Backdoor är en exklusiv nattklubb med åldersgräns 23 år som öppnar fredagar och lördagar sent på kvällen. En premium-destination för vuxna nattgäster som söker högklassig underhållning.",
+      "full_description": "Club Backdoor är en nattklubb med fokus på en mer mogen och exklusiv klientel, vilket reflekteras i åldersgränsen på 23 år. Klubben öppnar under fredagar och lördagar från sent på kvällen till tidiga morgontimmar, vilket gör den till en populär destination för dem som söker nattlivet. Med sin backstage-inspirerade atmosfär erbjuder Club Backdoor en unik miljö för dansgolv och socialisering. Klubben är känd för sin diskreta och högklassiga profil, perfekt för den som vill undvika vardagströget och söker något mer exklusivt.",
+      "music_genre": "House, Techno, Electronic",
+      "description": "Club Backdoor är en exklusiv nattklubb med åldersgräns 23 år som öppnar fredagar och lördagar sent på kvällen. En premium-destination för vuxna nattgäster som söker högklassig underhållning.",
+      "address": "Johanneshov, Arenavägen 75, 121 77 Stockholm, Sweden",
+      "lat": 59.29064,
+      "lng": 18.0840072,
+      "google_maps_url": "https://maps.google.com/?cid=7929598785996720760&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "stängt",
+        "friday": "23:00-05:00",
+        "saturday": "23:00-05:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": 23,
+      "dress_code": "Ingen speciell",
+      "website": "https://www.instagram.com/clubbackdoorstockholm/",
+      "instagram": "https://instagram.com/clubbackdoorstockholm",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJ32h0xiV4X0YReAq0QhWYC24/photos/AU_ZVEF4nIrWgdZONUpjWP1QXugSiDwUW2zJ1-mOiyEivOJ9KJvMYFdNfTbMTuXuAIGZfoq3mNKQEpm7YIXOlIFpY-W_5f2he4DbWoe4bVKHzez8o3XVZUdctHkyt9obMyo5yDWJimAMSloCsbY253erncLtZYae-ouVBU6usYqPWgF0iQs2-wHfJ8D7Hf15wDJOoAUU3EXNpavgfcKPQYeBHDq8vXq0VfWHck3LfQJsj8OO1xJc62qLpaAvIZXYHiAJ46yQyrvMpER44AX79PDsMr5m67jxXHUYp3iSYNgrllrXMG_foifznf7k6xvL0il1eiDuueBiaSv-P75MS84454Kk5O6kKvrG8oHr1EOsb6P0fzbqVztuRJOLjpNZ6KXfV1Lk7nZ4zMKfF0D0H2-Yh80mmNsWbnYULeYV8a_SQZ8oM5FG/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 2,
+      "google_reviews": 315,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "website",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T22:34:00.661174",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "V*****",
+      "city": "Stockholm",
+      "short_description": "En legendär och exklusiv nattklubb belägen på andra våningen av ikoniska Sturecompagniet. V***** erbjuder en uppskattad destination för eliter och de som söker en lyxig klubbatmosfär.",
+      "full_description": "V***** Club är en prisvärd och intim nattklubb som ligger på andra våningen av det ikoniska Sturecompagniet, mitt i hjärtat av stadens pulserade nattliv. Med plats för 250 gäster erbjuder denna exklusiva venue en raffinerad och privat klubbatmosfär med påkostade interiörer och förstklassig service. Klubben är känd för sina stränga gästlista- och bordreservationskrav i förväg, vilket säkerställer en exklusiv och utsökt miljö. Perfekt för den som söker att minglа med eliter eller njuta av en mer avskärmad kväll bland Stockholm's finaste.",
+      "music_genre": "Varierande",
+      "description": "En legendär och exklusiv nattklubb belägen på andra våningen av ikoniska Sturecompagniet. V***** erbjuder en uppskattad destination för eliter och de som söker en lyxig klubbatmosfär.",
+      "address": "Sturegatan 4, 114 35 Stockholm, Sweden",
+      "lat": 59.336483599999994,
+      "lng": 18.0734677,
+      "google_maps_url": "https://maps.google.com/?cid=7601332054853418450&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "stängt",
+        "friday": "23:00-03:00",
+        "saturday": "23:00-03:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": false
+      },
+      "age_limit": 23,
+      "dress_code": "Ingen speciell",
+      "website": "https://entrgroup.se/nightlife/v/",
+      "instagram": "https://instagram.com/entrgroup",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJKTmLo1ydX0YR0v1T9TpbfWk/photos/AU_ZVEGomOmf8oIhichC7u3JB7EUXyzaoAU2QPytZmpvV6-zRO3XGKAy5XEXwRtJc6F-CPIjffXA_eHFbTLhIKRzBfFq5nKW47UecNWkyhNHFkqm7ZH_u4c6tRyIyjCtB2xnqisiE2-jRRy6NikjehMwJaKxFiDJy1hFUi4IVk0O7zyp_w4Ix9J60PlPPgHoMYyx6oKS-fXecw2966zgRTpVDoFgLSW1Xpy7mSUYfTWSe_NUWfYM1OB7L9eAbyZxRh0B5_8rVZLTOGyEOUI25EchNM4Rsx9zyRVM9AmgDg7sNc0CPQ/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 2.6,
+      "google_reviews": 37,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "website",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T22:34:16.630466",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Engelen",
+      "city": "Stockholm",
+      "short_description": "Engelen är en klassisk restaurang och nattklubb i hjärtat av Stockholm med traditionell svensk mat på dagen och pulsande nattliv på kvällen.",
+      "full_description": "Engelen är en ikonisk etablissement som fungerar som både restaurang och nattklubb. På dagtiden serveras klassisk svensk mat i en gemytlig miljö, medan klubben transformeras till en livlig nattklubb när solen går ned. Läget i centrala Stockholm gör det till en populär destination för både mat- och nattlivsälskare. Klubben är känd för sitt autentiska stockholmska karaktär och erbjuder en varierad musikprofil för olika publiker.",
+      "music_genre": "Varierande",
+      "description": "Engelen är en klassisk restaurang och nattklubb i hjärtat av Stockholm med traditionell svensk mat på dagen och pulsande nattliv på kvällen.",
+      "address": "Kornhamnstorg 59b, 111 27 Stockholm, Sweden",
+      "lat": 59.322514600000005,
+      "lng": 18.0722619,
+      "google_maps_url": "https://maps.google.com/?cid=13347221192989151619&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "16:00-01:00",
+        "tuesday": "16:00-01:00",
+        "wednesday": "16:00-01:00",
+        "thursday": "16:00-01:00",
+        "friday": "16:00-03:00",
+        "saturday": "12:00-03:00",
+        "sunday": "15:00-01:00"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": 23,
+      "dress_code": "Ingen speciell",
+      "website": "https://www.engelen.se/?utm_source=google",
+      "instagram": "https://instagram.com/engelenkolingen",
+      "phone": "077-182 68 26",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJu3jcI-N3X0YRgxGvWvXaOrk/photos/AU_ZVEGZ3E6aoIwZSh7ZNT5tSnFyuDYBDawDEFkypT0xxXEvvlOtcIVKcMoR4oTefeLzljXpJTL8pAnovN0WwcCstqi28HVHoYR72MmRNcSwKZt_zq60QMk2Wj93w8GPELDNjv3xUIKqUzVyzJ_VH6_MfNeTJbTsocfzKeEYjAwTTRXF9IwDFkUVzOnbijUHF1_pEnBRpzbcTHANINCp0oiomc_28-2ytKMwXavjCnTl02xRaCRHnOZf0zKTq8v0nznxYgGCpvQRZShvI8sxXQSdoTX9LuxCsTY3yrGpqvWm0NSBRQ/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 3.9,
+      "google_reviews": 1898,
+      "confidence": {
+        "opening_hours": "medium",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T22:34:42.504149",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "End Night Club",
+      "city": "Stockholm",
+      "short_description": "END Nightclub är en energisk nattklubb öppen fredagar och lördagar sent på natten. Klubben erbjuder elektronisk musik och en livelig atmosfär för nattgnistor.",
+      "full_description": "END Nightclub är en nattklubb specialiserad på sent nattliv fredagar och lördagar. Med öppet från elva på kvällen till fem på morgonen erbjuder klubben en perfekt destination för de som söker elektronisk musik och energisk dansning långt in på natten. END Nightclub lockar en publik som uppskattar moderna klubbbupplevelser och högkvalitativ sound. Klubben är känd för sin fokusering på elektroniska genrer och skapar en vibrerande atmosfär för nattgnistor.",
+      "music_genre": "House, Techno, Elektronisk",
+      "description": "END Nightclub är en energisk nattklubb öppen fredagar och lördagar sent på natten. Klubben erbjuder elektronisk musik och en livelig atmosfär för nattgnistor.",
+      "address": "Jakobsgatan 10, 111 52 Stockholm, Sweden",
+      "lat": 59.3299631,
+      "lng": 18.0701049,
+      "google_maps_url": "https://maps.google.com/?cid=15531320115132287919&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "stängt",
+        "friday": "23:00-05:00",
+        "saturday": "23:00-05:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": false
+      },
+      "age_limit": 18,
+      "dress_code": "Ingen speciell",
+      "website": "https://linktr.ee/coucou.nightclub",
+      "instagram": "https://instagram.com/end.nightclub",
+      "phone": "08-676 58 07",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJGUn2MVmdX0YRr8tWM1tVitc/photos/AU_ZVEH0vyVzfD5msZuPBQr2Ha858d3-ecviebqw_FJK8XInB4m4BaG6t9xn92fE0FOoT4IbCr_NqlO3xL36LozTmQCWJb_GL47iSHr6naNXMkurBJ-ZHgmFXNeIkaxnfOKx83FVbkrIWPM4_MoCM7w5j2ntVoWZgTCNIFYfkPUapKsILP0zrQMtGYGTvv0Mqz-S5gx_Qba6r3-xclIp3xbvsUPt9c2Lqy2pJZfuuLvqqm7I6GAoB9HRxLdBgGucfRQxkswjzqMfuO38OeUav4WwMF8rLqDMcHM22lZsKXqvRrOV7ERCVk5OmNx_R7vsuS_tsCCR84LlcMCm7YwiezFDyaTNgCAYAH_nfR829R-flE-pb97ko9dsDsfo-yJW0PmPa3dcpASmL0QU3FjIu0YCTVRM8usm1KUIokdBq9UFuhZYAG77knexPfQ2pn0CWg/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "google_rating": 2.4,
+      "google_reviews": 97,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-05T22:35:04.883374",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    }
+  ]
+}
