@@ -119,20 +119,6 @@ Text: {snippets}"""}]
         print(f"    ⚠️ Serper-fel: {e}")
         return None
 
-            # Claude vill söka – skicka tillbaka tool_result och fortsätt
-            tool_results = []
-            for block in response.content:
-                if block.type == "tool_use":
-                    tool_results.append({
-                        "type":        "tool_result",
-                        "tool_use_id": block.id,
-                        "content":     "",
-                    })
-            if tool_results:
-                messages.append({"role": "user", "content": tool_results})
-
-        return None
-
     except Exception as e:
         print(f"    ⚠️ Claude web search-fel: {e}")
         return None
