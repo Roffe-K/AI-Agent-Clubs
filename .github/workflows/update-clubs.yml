@@ -2,7 +2,7 @@ name: 🎉 Uppdatera nattklubbar
 
 on:
   schedule:
-    - cron: '0 10 1 * *'   # Kör 1:a varje månad kl 10:00
+    - cron: '0 10 1 * *'
   workflow_dispatch:
     inputs:
       cities:
@@ -34,18 +34,20 @@ jobs:
           CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
 
-      - name: 💾 Spara nightclubs.json som artifact
+      - name: 💾 Spara artifacts
         uses: actions/upload-artifact@v4
         with:
           name: nightclubs-data
-          path: nightclubs.json
+          path: |
+            nightclubs.json
+            nightclubs_master.json
           retention-days: 90
 
-      - name: 📤 Commita uppdaterad JSON till repot
+      - name: 📤 Commita båda JSON-filerna till repot
         run: |
           git config --global user.name "PartyPrep Bot"
           git config --global user.email "bot@partyprep.se"
-          git add nightclubs.json
+          git add nightclubs.json nightclubs_master.json
           git diff --staged --quiet || git commit -m "🎉 Auto-uppdatering $(date +'%Y-%m-%d')"
           git push
         env:
