@@ -428,7 +428,9 @@ Text:\n{snippets_str[:3000]}"""}]
         response  = claude.messages.create(
             model="claude-haiku-4-5-20251001",
             max_tokens=10,
-            messages=[{"role": "user", "content": f"""Official minimum age to enter '{club_name}' in {city}?
+            messages=[{"role": "user", "content": f"""What is the GENERAL/DEFAULT age limit for '{club_name}' in {city}?
+Return the standard age limit for normal nights. Ignore special lower-age events.
+If varies by day, return the strictest/most common limit.
 Reply ONLY with: 18, 20, 21, 23 or null. Never guess.
 Text:\n{full_text[:3000]}"""}]
         )
@@ -1101,10 +1103,10 @@ VIKTIGT för varje fält:
 - full_description: 3-5 meningar, alltid på svenska, aldrig null
 - music_genre: Kommaseparerade genrer. Sätt ALDRIG null – använd "Varierande" om okänt
 - dress_code: Exakt klädkod om nämnd, annars ALLTID "Ingen speciell"
-- age_limit: sätt den LÄGSTA åldersgränsen som gäller (används som default)
+- age_limit: sätt den GENERELLA/VANLIGASTE åldersgränsen (ej specialevent-undantag)
 - age_limit_varies: true om åldersgränsen skiljer sig mellan olika dagar
 - age_limit_by_day: fyll i per dag om det varierar, annars sätt alla till null
-  Ex: "Lördagar 23+, övriga dagar 20+" → saturday: 23, resten: 20, age_limit: 20
+  Ex: "Lördagar 23+, övriga dagar 20+" → saturday: 23, resten: 20, age_limit: 23 (striktaste)
   Ex: "Alltid 20+" → age_limit_varies: false, age_limit_by_day: alla null
 - entry_price: Inträdesavgift om nämnd (ex "100 kr", "Gratis", "100-200 kr"). Sätt null om okänt
 - resident_djs: Lista med fasta DJs om nämnda. Sätt [] om inga hittas
