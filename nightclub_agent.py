@@ -103,6 +103,65 @@ def serper_search(query: str, num: int = 8) -> list:
         return []
 
 
+def serper_search_full(query: str, num: int = 8) -> dict:
+    """
+    Returnerar hela Serper-svaret inklusive:
+    - organic: vanliga sökresultat
+    - answerBox: Google AI-översikt / featured snippet
+    - knowledgeGraph: faktaruta (Wikipedia-liknande)
+    Används för åldersgräns-sökning där AI-översikten ofta har svaret direkt.
+    """
+    try:
+        resp = requests.post(
+            "https://google.serper.dev/search",
+            headers={
+                "X-API-KEY":    SERPER_API_KEY,
+                "Content-Type": "application/json",
+            },
+            json={"q": query, "num": num, "gl": "se", "hl": "sv"},
+            timeout=10,
+        )
+        resp.raise_for_status()
+        return resp.json()
+    except Exception as e:
+        print(f"    ⚠️ Serper-fel för '{query}': {e}")
+        return {}
+
+
+def extract_serper_text(serper_data: dict) -> str:
+    """
+    Extraherar all text från ett Serper-svar:
+    answerBox + knowledgeGraph + organic snippets.
+    Prioriterar AI-översikten som ofta har det direkta svaret.
+    """
+    texts = []
+
+    # AI-översikt / featured snippet (bästa källan!)
+    answer = serper_data.get("answerBox", {})
+    if answer:
+        if answer.get("answer"):
+            texts.append(f"AI-svar: {answer['answer']}")
+        if answer.get("snippet"):
+            texts.append(f"Snippet: {answer['snippet']}")
+        if answer.get("snippetHighlighted"):
+            texts.append(f"Highlight: {' '.join(answer['snippetHighlighted'])}")
+
+    # Knowledge graph (faktaruta)
+    kg = serper_data.get("knowledgeGraph", {})
+    if kg:
+        if kg.get("description"):
+            texts.append(f"Faktaruta: {kg['description']}")
+        for k, v in kg.get("attributes", {}).items():
+            texts.append(f"{k}: {v}")
+
+    # Vanliga sökresultat
+    for r in serper_data.get("organic", []):
+        if r.get("snippet"):
+            texts.append(f"{r.get('title','')}: {r['snippet']}")
+
+    return "\n".join(texts[:15])
+
+
 # ─────────────────────────────────────────────
 # SERPER – DUBBELKOLLA ÖPPETIDER
 # ─────────────────────────────────────────────
@@ -305,30 +364,36 @@ def search_age_limit(club_name: str, city: str) -> int | None:
     urls_to_scrape = []
 
     for query in queries:
-        results = serper_search(query, num=8)
-        for r in results:
+        # Använd full sökning för att fånga AI-översikten
+        serper_data = serper_search_full(query, num=8)
+        full_text   = extract_serper_text(serper_data)
+
+        if full_text:
+            all_snippets.append(full_text)
+
+        # Samla URL:er för djupare scraping
+        for r in serper_data.get("organic", []):
             snippet = r.get("snippet", "")
             title   = r.get("title", "")
             url     = r.get("link", "")
-
-            if snippet:
-                all_snippets.append(f"{title}: {snippet}")
-
-            age_kw = ["ålder", "age", "limit", "gräns", "inträde", "entry", "18", "20", "21", "23"]
-            skip   = ["google.", "facebook.", "instagram.", "youtube.", "twitter."]
+            age_kw  = ["ålder", "age", "limit", "gräns", "inträde", "entry", "18", "20", "21", "23"]
+            skip    = ["google.", "facebook.", "instagram.", "youtube.", "twitter."]
             if url and any(kw in (snippet + title).lower() for kw in age_kw):
                 if not any(s in url for s in skip):
                     urls_to_scrape.append(url)
 
-    # Försök extrahera direkt från snippets
+    # Försök extrahera direkt från all text inkl AI-översikt
     if all_snippets:
-        snippets_str = "\n".join(list(dict.fromkeys(all_snippets))[:15])
+        snippets_str = "\n---\n".join(all_snippets[:5])
         response = claude.messages.create(
             model="claude-haiku-4-5-20251001",
             max_tokens=10,
             messages=[{"role": "user", "content": f"""Official minimum age to enter '{club_name}' in {city}?
 Reply ONLY with: 18, 20, 21, 23 or null. Never guess.
-Text:\n{snippets_str}"""}]
+Note: "Född 2005 som lägst" means born 2005 at earliest = age 20 in 2025.
+Note: Look for day-specific age limits like "lördagar 23+", "fredag 20 år", "helger 23".
+Reply ONLY with the LOWEST age limit as a number: 18, 20, 21, 23 or null.
+Text:\n{snippets_str[:3000]}"""}]
         )
         answer = response.content[0].text.strip()
         if answer.isdigit() and int(answer) in (18, 20, 21, 23):
@@ -992,6 +1057,16 @@ Hemsidetext: {website_text[:3000] or 'saknas'}
 Svara ENBART med JSON (inga backticks):
 {{
   "age_limit": 23,
+  "age_limit_varies": false,
+  "age_limit_by_day": {{
+    "monday":    null,
+    "tuesday":   null,
+    "wednesday": 20,
+    "thursday":  20,
+    "friday":    20,
+    "saturday":  23,
+    "sunday":    null
+  }},
   "opening_hours": {{
     "monday":    "stängt",
     "tuesday":   "stängt",
@@ -1026,6 +1101,11 @@ VIKTIGT för varje fält:
 - full_description: 3-5 meningar, alltid på svenska, aldrig null
 - music_genre: Kommaseparerade genrer. Sätt ALDRIG null – använd "Varierande" om okänt
 - dress_code: Exakt klädkod om nämnd, annars ALLTID "Ingen speciell"
+- age_limit: sätt den LÄGSTA åldersgränsen som gäller (används som default)
+- age_limit_varies: true om åldersgränsen skiljer sig mellan olika dagar
+- age_limit_by_day: fyll i per dag om det varierar, annars sätt alla till null
+  Ex: "Lördagar 23+, övriga dagar 20+" → saturday: 23, resten: 20, age_limit: 20
+  Ex: "Alltid 20+" → age_limit_varies: false, age_limit_by_day: alla null
 - entry_price: Inträdesavgift om nämnd (ex "100 kr", "Gratis", "100-200 kr"). Sätt null om okänt
 - resident_djs: Lista med fasta DJs om nämnda. Sätt [] om inga hittas
 - facebook: Full URL till Facebook-sida om nämnd. Sätt null om ej hittad
@@ -1143,6 +1223,8 @@ def merge_sources(
         "serper"   if serper_age                     else
         "saknas"
     )
+    age_limit_varies  = ai_data.get("age_limit_varies", False)
+    age_limit_by_day  = ai_data.get("age_limit_by_day") if age_limit_varies else None
 
     # Instagram
     instagram_handle = (
@@ -1182,8 +1264,10 @@ def merge_sources(
         "seasonal":      seasonal,
 
         # ─── Tillträde ───
-        "age_limit":  age_limit,
-        "dress_code": ai_data.get("dress_code") or "Ingen speciell",
+        "age_limit":         age_limit,
+        "age_limit_varies":  age_limit_varies,
+        "age_limit_by_day":  age_limit_by_day,
+        "dress_code":        ai_data.get("dress_code") or "Ingen speciell",
 
         # ─── Kontakt & media ───
         "website":         website,
