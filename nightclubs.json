@@ -1,0 +1,1604 @@
+{
+  "meta": {
+    "generated_at": "2026-04-06T15:49:52.216790",
+    "total_clubs": 24,
+    "cities": [
+      "Göteborg"
+    ],
+    "stats": {
+      "high_confidence_hours": 10,
+      "hours_serper_verified": 24,
+      "has_age_limit": 18,
+      "has_instagram": 24,
+      "has_images": 24,
+      "has_website": 23,
+      "has_seasonal": 3,
+      "event_based": 1
+    }
+  },
+  "clubs": [
+    {
+      "name": "Yaki-Da Restaurang & Nattklubb",
+      "city": "Göteborg",
+      "short_description": "Yaki-Da är en pubbar och restaurang i Göteborg som förvandlas till nattklubb på kvällen. Här serveras mat och dryck i en gemytlig atmosfär.",
+      "full_description": "Yaki-Da är Göteborgs pub house som fungerar som restaurang och bar under dagen och nattklubb på kvällen. Stället erbjuder en kombinerad upplevelse av god mat, dryck och underhållning. Med öppettider framför allt på fredagar, lördagar och onsdagar är det ett populärt nattlivsalternativ för Göteborgsbor. Miljön är casual och välkomnande för alla som vill njuta av en rolig kväll.",
+      "music_genre": "Varierande",
+      "description": "Yaki-Da är en pubbar och restaurang i Göteborg som förvandlas till nattklubb på kvällen. Här serveras mat och dryck i en gemytlig atmosfär.",
+      "address": "Storgatan 47, 411 38 Göteborg, Sweden",
+      "lat": 57.7013409,
+      "lng": 11.9726547,
+      "google_maps_url": "https://maps.google.com/?cid=18036516021530568525&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "22:00-03:00",
+        "thursday": "stängt",
+        "friday": "20:00-04:00",
+        "saturday": "20:00-04:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": 20,
+      "age_limit_varies": false,
+      "age_limit_by_day": null,
+      "dress_code": "Ingen speciell",
+      "website": "http://www.yaki-da.se/",
+      "instagram": "https://instagram.com/yaki.da",
+      "facebook": "https://www.facebook.com/yakidagoteborg/?locale=sv_SE",
+      "tiktok": "https://www.tiktok.com/@nektar_gbg/video/7453521108621446422",
+      "phone": "031-96 02 00",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJ66YmH3DzT0YRTaf4kMKTTvo/photos/AU_ZVEHev5B-FFnc8jB2yrJfyqYVksYbR1pXo6vkOYfTjn45wMcyXMIjCxarvEcOUZl_OWhroLZgGjpycHQ7wqdUil0UJAJCaJAO0WqfdTv_RDlhLrrpLKGABvobNtEo5hvaEZlgUiTReHcvFN-NVbsCqid53ToDi1ACPn1F8YJz4117OCSRmJ7bsFMcOr9jcmyhMP5qHak3iS22GNUiSdzK7hJ5Toc8WwUcbKe6_gJ2OSCoDJr7cTXzMndyIkoj7uO18SIhSbOCs_l22xI0beAiv6GlDwBNTBgg18eYgnP-nymAh5LZOqH1ZeY0nZwsDAv0j_tYuGTndrqTSrNq5lZP4VS0QWNLpmFvUq7jjOD6n9-_N79R_cau4tcRvBFdsTdzB_9dkZumHinvF6IUCuPCy9augvoBnrQxIlKa0apr19tfjlgvEiGGcFCR8ZxgVA81/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "entry_price": null,
+      "resident_djs": [],
+      "nearest_transit": "I cannot determine the nearest metro/tram/bus stop from the provided text. The text only mentions that Yaki-Da is located at Storgatan 47 in Göteborg and references Google Maps for directions and public transport",
+      "google_rating": 3.7,
+      "google_reviews": 1298,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-06T15:38:48.532796",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Park Lane",
+      "city": "Göteborg",
+      "short_description": "Park Lane är en exklusiv showklubb på Kungsportsavenyn där världsklass-underhållning möter högklassig nattlivserfarenhet.",
+      "full_description": "Park Lane är en etablerad nightclub och showklubb belägen på Kungsportsavenyn 38. Klubben erbjuder en världsklass-miljö med högt i tak när det gäller underhållning och atmosfär. Med öppettider framför allt på fredagar och lördagar sent på kvällen, är Park Lane ett populärt val för de som söker en premium nattklubbs-upplevelse.",
+      "music_genre": "Varierande",
+      "description": "Park Lane är en exklusiv showklubb på Kungsportsavenyn där världsklass-underhållning möter högklassig nattlivserfarenhet.",
+      "address": "Kungsportsavenyen 38, 411 36 Göteborg, Sweden",
+      "lat": 57.698324799999995,
+      "lng": 11.978738199999999,
+      "google_maps_url": "https://maps.google.com/?cid=9821033161452853600&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "stängt",
+        "friday": "23:00-05:00",
+        "saturday": "23:00-05:00",
+        "sunday": "23:00-03:00"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": 18,
+      "age_limit_varies": false,
+      "age_limit_by_day": null,
+      "dress_code": "Ingen speciell",
+      "website": "http://www.parklane.se/",
+      "instagram": "https://instagram.com/parklaneclub",
+      "facebook": "https://www.facebook.com/PLEVENTGBG/",
+      "tiktok": "https://www.tiktok.com/@parklaneclub",
+      "phone": "031-20 60 58",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJh2gtPXHzT0YRYJm6U6BRS4g/photos/AU_ZVEHYnFYCWy46G6wRxON0MSro83b6HI6oN89bIY37MkY7HcrhxXkWrzuL1RfgkL0V1FedbSsX51sFfiHwx46rcrvUtKnTCCoB_-HCiZ40SBHMRaQ5aZpfzGiJDMdtfSXxHb4xkjUPoDkmczX-xYiUkWQLpVBSkzf1CC0jxiW6XamheKBqLL0qIkAjYnthsNcRymc8by3ojIHGUJ0uCzSygZfM3kwoP7pViM1H_JX-dlg3MSHPsjOgx4b98-IUezEplq1VH5peUjJeZs7gCfKdQTN7fOF_BuNSLe4CeMgoUqZwIA/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "entry_price": null,
+      "resident_djs": [],
+      "nearest_transit": "null\n\nThe text provided contains contradictory and unreliable information (mentioning both Stockholm and Göteborg, and referencing routes that don't match Göteborg's actual tram system). I cannot provide a confident answer based on this",
+      "google_rating": 3.8,
+      "google_reviews": 873,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-06T15:39:17.719494",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Valand",
+      "city": "Göteborg",
+      "short_description": "Valand är ett ikoniskt evenemangshus sedan 1886 med sju etager och plats för över 2500 gäster. Ett destination för konserter, live-musik och fester.",
+      "full_description": "Valand – Upplevelsernas hus sedan 1886 – är en legendarisk venuepunkt som erbjuder en bred och spännande blandning av evenemang och konserter. Med sju etager och kapacitet för över 2500 gäster är det en av områdets största och mest varierande scenplatser. Klubben presenterar allt från live-musik och funk till olika genrer, garanterat något för alla smaker. Är det värt att firas, är det värt att firas på Valand.",
+      "music_genre": "Varierande",
+      "description": "Valand är ett ikoniskt evenemangshus sedan 1886 med sju etager och plats för över 2500 gäster. Ett destination för konserter, live-musik och fester.",
+      "address": "Vasagatan 41, 411 36 Göteborg, Sweden",
+      "lat": 57.70033660000001,
+      "lng": 11.974171499999999,
+      "google_maps_url": "https://maps.google.com/?cid=11183302093890385443&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "22:00-03:00",
+        "thursday": "stängt",
+        "friday": "23:00-03:00",
+        "saturday": "23:00-04:00",
+        "sunday": null
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": 20,
+      "age_limit_varies": false,
+      "age_limit_by_day": null,
+      "dress_code": "Ingen speciell",
+      "website": "http://valand.se/",
+      "instagram": "https://instagram.com/klubbvaland",
+      "facebook": "https://www.facebook.com/Valandnattklubb/",
+      "tiktok": null,
+      "phone": "031-18 30 93",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJSV6PPnHzT0YRI_Y3sgASM5s/photos/AU_ZVEGAO5Pq8MSYKfoptvwP0Krwk9mOBcxiBZNJbqMrjkEMe1tLTZ5Eta2FnZJPVTouvEePPFhSafWX3UI8HBacGJnPMs9_JL5T0BvfWNB19kt0UIyYlDgg74CfI2RgtzWNIq7baRFsm6p3U43HMEkZaQUlbBv9oM19wdLqL6Yx8vbMBcVgSasPPdhuMs13g_N9IrnXZily3lPXvw_anmlzt21w6baWH5LCLRNvjaL1Jt-d8QMI8XWJHriS5DdPsRWTKEuP7Eimonw3seIARfqyTeBzrtoFkdneNhZ_eNaQU6nB8TsB7Sa8js1JwOIumH2gkUstHFcrv0_cISvWVyaHkNalpl2kj2VdEIZ3BKeqfStypY834i6LuUBPRRzsOUUXY1UFJCYbH7gJyxHlzaO8I3ggnDL3zWVLsKlxgCZC_FhSpQ/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "entry_price": null,
+      "resident_djs": [],
+      "nearest_transit": "Vasaplatsen (spårvagn 3, 4, 5, 7, 10)",
+      "google_rating": 3.4,
+      "google_reviews": 390,
+      "confidence": {
+        "opening_hours": "medium",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-06T15:40:05.177885",
+      "data_fresh": true,
+      "is_event_based": true,
+      "next_events": [
+        {
+          "title": "Ida Nielsen & the Funkbots",
+          "date": "2026-04-17",
+          "artists": [
+            "Ida Nielsen & the Funkbots"
+          ],
+          "ticket_url": null,
+          "source": "website"
+        },
+        {
+          "title": "Forq",
+          "date": "2026-04-24",
+          "artists": [
+            "Forq"
+          ],
+          "ticket_url": null,
+          "source": "website"
+        },
+        {
+          "title": "Andra Generationen",
+          "date": "2026-05-01",
+          "artists": [
+            "Andra Generationen"
+          ],
+          "ticket_url": null,
+          "source": "website"
+        },
+        {
+          "title": "Helidens folkhögskola",
+          "date": "2026-05-22",
+          "artists": [
+            "Helidens folkhögskola"
+          ],
+          "ticket_url": null,
+          "source": "website"
+        },
+        {
+          "title": "Albert Lee",
+          "date": "2026-05-29",
+          "artists": [
+            "Albert Lee"
+          ],
+          "ticket_url": null,
+          "source": "website"
+        }
+      ]
+    },
+    {
+      "name": "Balambaras",
+      "city": "Göteborg",
+      "short_description": "Gothenburgs hippaste cocktailbar och nattklubb på Teatergatan med afrikanskinspierad drinkmeny och skiftande musik. Öppet fredagar och lördagar från klockan 22.",
+      "full_description": "Balambaras är en modern cocktailbar, lounge och nattklubb belägen på Teatergatan i Göteborg. Klubben erbjuder sex unika cocktails med vibrant och urban tema med inspiration från Etiopien. Fredagar och lördagar förvandlas lokalen från en mysig lounge med mat och dryck till en fullskalig nattklubb med DJs och varierad musik. Gäster kan även njuta av bottle service och VIP-erbjudanden för en premium upplevelse.",
+      "music_genre": "Varierande",
+      "description": "Gothenburgs hippaste cocktailbar och nattklubb på Teatergatan med afrikanskinspierad drinkmeny och skiftande musik. Öppet fredagar och lördagar från klockan 22.",
+      "address": "Teatergatan 4, 411 35 Göteborg, Sweden",
+      "lat": 57.701216900000006,
+      "lng": 11.972728199999999,
+      "google_maps_url": "https://maps.google.com/?cid=12892303643169392577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "16:00-22:00",
+        "wednesday": "16:00-22:00",
+        "thursday": "16:00-22:00",
+        "friday": "16:00-03:00",
+        "saturday": "16:00-03:00",
+        "sunday": "16:00-22:00"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": 21,
+      "age_limit_varies": false,
+      "age_limit_by_day": null,
+      "dress_code": "Ingen speciell",
+      "website": "https://balambaras.se/",
+      "instagram": "https://instagram.com/balambarasgbg",
+      "facebook": "https://facebook.com/balambaras",
+      "tiktok": null,
+      "phone": "031-320 42 70",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJLcZvob3zT0YRwQeWa9up6rI/photos/AU_ZVEFtiSx67t4sBxG0SoEX3ABHqwx8QkYots0Vz3Jvk-dDNR_MDnVbHAvHu9UHfpvfRaPptj_eE8IEX2FqNYpv71DqrkeOVcyxyEZnIi5Ag9CI8oBk7Rgy-IUE4yhNSwSonKel89TbrsirWBP2YG2KqaELoge9SJPScpK48lLFHdROqk-fYSxWAdt3jxit8kAVm4qqMA8cyBnYe4jEQwcQwh8qlBAdNxo5RsKRnNCfzaafIHHOuTuf19hXP_V5jTtbSBL88PUdpHhzJqdGiTa2PPvJ4ZtpjYu5N_0J9DCgX7ssQw/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "entry_price": null,
+      "resident_djs": [],
+      "nearest_transit": null,
+      "google_rating": 3.5,
+      "google_reviews": 31,
+      "confidence": {
+        "opening_hours": "medium",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-06T15:40:40.294636",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Excet",
+      "city": "Göteborg",
+      "short_description": "En av Göteborgs största nattklubbar mitt på Avenyn med fem dansgolv, nio barer och takterrass. Öppet fredagar och lördagar med olika musikgenrer på varje golv.",
+      "full_description": "Excet är en av Göteborgs mest populära nattklubbar belägen centralt på Avenyn. Klubben erbjuder en mångsidig upplevelse med fem dansgolv fördelade över tre våningar, nio barer och en stor takterrass. Här hittar du Nostalgibaren med 80/90-talsminer, Terrassen med open format och progressiv house, samt Guldrummet dedikerat till hip hop och R&B. Med något för alla smaker och en energisk atmosfär är Excet perfekt för en minnesvärd kväll med vänner.",
+      "music_genre": "House, Techno, Hip Hop, R&B, Nostalgi",
+      "description": "En av Göteborgs största nattklubbar mitt på Avenyn med fem dansgolv, nio barer och takterrass. Öppet fredagar och lördagar med olika musikgenrer på varje golv.",
+      "address": "Vasagatan 52, 411 37 Göteborg, Sweden",
+      "lat": 57.700502099999994,
+      "lng": 11.9735394,
+      "google_maps_url": "https://maps.google.com/?cid=18081814021931766361&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "stängt",
+        "friday": "23:00-05:00",
+        "saturday": "23:00-05:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": 20,
+      "age_limit_varies": false,
+      "age_limit_by_day": null,
+      "dress_code": "Ingen speciell",
+      "website": "https://www.excethuset.se/?utm_source=google",
+      "instagram": "https://instagram.com/excethuset",
+      "facebook": "https://facebook.com/excetgoteborg",
+      "tiktok": null,
+      "phone": "073-073 78 00",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJ-R9TOnDzT0YRWZLrJw2C7_o/photos/AU_ZVEE50foFE61zmKpErirLo9DI1eV5wOnRyyF9k4DK4UCH9Zea3_ePg17pewLDUmQX4NQS-p2eTn0mcX19Lv8EpuontCj_FaWoZA1-nicMSx0Ud_ziaYTC5EtfOrq7ebTLXGBrF2HLKl0WZm8_tZCOAfWP-pTxZel6UrbhTdIxX_4gUSzfaMeiO7W-2S5VbkKIBUMQTxlIV107QODjkiMuF9FQmvJzH9LMDjhP8UfaRsE2Tr3xd6GWgqZTXaT7opTL77li8KNfvXdFlQky37VxSAi8VY2hwJN2fQ-7AmnChP9PSO1OJIvURNgo143hN1CKsg4DmiIhaZ2_MVnSrMLDrKnG1L9T8fWZb_AL6P5-Ug4YRaxsHFqxu5PocQS-W-smG0Ws1PA81jCrSGt6toMSwOpKiEoiMNyg2V45DKJqjwaaIWKDaUZUhUVTkIfC4a-g/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "entry_price": null,
+      "resident_djs": [],
+      "nearest_transit": null,
+      "google_rating": 2.2,
+      "google_reviews": 510,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-06T15:41:11.716304",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "PUSH",
+      "city": "Göteborg",
+      "short_description": "PUSH är en nattklub öppen fredagar och lördagar från 22:00. Boka bord via tables@push.se.",
+      "full_description": "PUSH är en nattklub som öppnar på fredagar och lördagar klockan 22:00 och stänger 03:00. Klubben erbjuder bordsbokningar för större sällskap - kontakta tables@push.se för reservationer. Om du tappar något kan du nå lost & found via lost@push.se.",
+      "music_genre": "Varierande",
+      "description": "PUSH är en nattklub öppen fredagar och lördagar från 22:00. Boka bord via tables@push.se.",
+      "address": "Kungsportsavenyen 11, 411 36 Göteborg, Sweden",
+      "lat": 57.70105239999999,
+      "lng": 11.9735167,
+      "google_maps_url": "https://maps.google.com/?cid=2029877684150835243&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "stängt",
+        "friday": "22:00-03:00",
+        "saturday": "22:00-04:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": 18,
+      "age_limit_varies": false,
+      "age_limit_by_day": null,
+      "dress_code": "Ingen speciell",
+      "website": "http://push.se/",
+      "instagram": "https://instagram.com/pushgbg",
+      "facebook": "https://www.facebook.com/pushgbg/?locale=sv_SE",
+      "tiktok": "https://www.tiktok.com/@entrgroup/video/7612810264823598359",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJq6qq_3DzT0YRK5hNvf-SKxw/photos/AU_ZVEFXPZB7q_zXWykNz1UixfVrYGH0tIi_jarbOHvxiEUPjPMSkFBJmk8pZjSw3IW91CvcBfIfCJ0NXMABEDiYU-RHI8UTrEKjHGaJi5DUCFCdjjYLDz7ivjqO-M4uHiNC4zxCOEzyDrDjdwcwQCiM2WarVzrpfI6pZ43mSR7QsMmqegSLGNYKWVUGRm5GvnD-q4h7fzhZGT2sv3lZN_BbMPVzK8BmpTye1OM_I0h4rkrsrdYzP11dvYTTF1JHGAV-vubgRlpvShBaf415yTFE0nutn7MA7i4QC0YQ0eB8IHQTFg/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "entry_price": null,
+      "resident_djs": [],
+      "nearest_transit": null,
+      "google_rating": 1.9,
+      "google_reviews": 163,
+      "confidence": {
+        "opening_hours": "medium",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-06T15:41:39.150682",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Trädgår'n",
+      "city": "Göteborg",
+      "short_description": "Göteborgsklubb med över 135 års historia som erbjuder konserter, krogshower och nattklubbs­kvällar inom alla musikgenrer. Populär nöjesarena för både arrangemang och klubbkväll.",
+      "full_description": "Trädgår'n i Göteborg är en legendarisk nöjesarena som arrangerar hundratals konserter, krogshower och nattlubbskvällar årligen med artister från ABBA till Iron Maiden. Klubben erbjuder allt från konsertlokaler och krogshower till företagsevents och stora galamiddagar. Med öppet från 23.00-03.00 på nätterna är det en mötesplats där människor samlas för oförglömliga upplevelser. Åldersgränsen varierar beroende på event, ofta +18 men vissa evenemang är för alla åldrar.",
+      "music_genre": "Varierande",
+      "description": "Göteborgsklubb med över 135 års historia som erbjuder konserter, krogshower och nattklubbs­kvällar inom alla musikgenrer. Populär nöjesarena för både arrangemang och klubbkväll.",
+      "address": "Nya Allén 11, 411 38 Göteborg, Sweden",
+      "lat": 57.704349099999995,
+      "lng": 11.9758227,
+      "google_maps_url": "https://maps.google.com/?cid=17028004037800626407&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": null,
+        "tuesday": null,
+        "wednesday": null,
+        "thursday": null,
+        "friday": null,
+        "saturday": null,
+        "sunday": null
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": 18,
+      "age_limit_varies": true,
+      "age_limit_by_day": null,
+      "dress_code": "Ingen speciell",
+      "website": "http://www.tradgarn.se/",
+      "instagram": "https://instagram.com/tradgarn_gbg",
+      "facebook": "https://www.facebook.com/tradgarn/?locale=sv_SE",
+      "tiktok": null,
+      "phone": "031-10 20 80",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJdRpiwnrzT0YR5wgGQ3SfT-w/photos/AU_ZVEEeEQdgdhMHColjoHMX88AyeGrFI9_AtkfU1UkLpBF_5R-EfJIJx1FI0wU9DrLSQfb6-ocPzXZPprNbhBv7_b8lkIGsJZ67NkPmfItNS1Sb09ROrF2W-m7fOfYsIgX2svoQ6W-oyT6R1mQJJQxKUK22DiSrsFtYIslP0UZJJqrOFJI3QReRlpTyRXiXpc7fpvnbtDnjG3u4gwz45--0LgHjqaygohb_86ZqFb_NlmE5pcXds1M7HZOqdq82gUZLzyTWdwHPH53FmpXAEFsmYgQ89MKgc_RySTvOKzRBFGJSs_GSAuiamMHTixm9OSI5F8orrm6yuY9fn7pp-8qQvcV--Kilzaf9hRyVA1Ir1UBjj9CnV7gbql_aipIQpnxzZbwLa804npwd0UwRtUYhmJH-SecEiJhI252841FDRcu2MFTB2jryLKv-wirsug/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "entry_price": null,
+      "resident_djs": [],
+      "nearest_transit": "Botaniska trädgården (Spårvagn 1, 2, 6, 7, 8, 13)",
+      "google_rating": 3.7,
+      "google_reviews": 2424,
+      "confidence": {
+        "opening_hours": "low",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "website",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-06T15:41:59.255729",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Lounge(s)",
+      "city": "Göteborg",
+      "short_description": "Lounge(s) är en social club mitt på Avenyn med tre våningar, barer och dansgolv. House, EDM och RnB varje torsdag till lördag.",
+      "full_description": "Lounge(s) Social Club ligger centralt på Kungsportsavenyn i Göteborg och erbjuder tre våningar med barer, DJs och dansgolv. Klubben spelar house, EDM, RnB och popigenkänning med både internationella och lokala DJs. Här finner du allt från after work på fredagar till fester och speciella events. Perfekt för mingel, dansgolv och en rolig kväll på Avenyn.",
+      "music_genre": "House, EDM, RnB, Pop",
+      "description": "Lounge(s) är en social club mitt på Avenyn med tre våningar, barer och dansgolv. House, EDM och RnB varje torsdag till lördag.",
+      "address": "Kungsportsavenyen 5, 411 36 Göteborg, Sweden",
+      "lat": 57.7011823,
+      "lng": 11.973253,
+      "google_maps_url": "https://maps.google.com/?cid=10573893285901897982&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "22:00-03:00",
+        "friday": "17:00-04:00",
+        "saturday": "22:00-04:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": 25,
+      "age_limit_varies": true,
+      "age_limit_by_day": {
+        "thursday": 20,
+        "friday": 23,
+        "saturday": 25
+      },
+      "dress_code": "Ingen speciell",
+      "website": "http://www.lounges.se/",
+      "instagram": "https://instagram.com/loungesgbg",
+      "facebook": "https://www.facebook.com/pages/Lounge-G%C3%B6teborg/186094778097543",
+      "tiktok": "https://www.tiktok.com/@nightli/video/7604538192968174881",
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJP5kiGHDzT0YR_hASr-sDvpI/photos/AU_ZVEFSFjiQRxKDncrzt-SB_Rb1bK6D8NWO2OGz2DMcaxun3bDgBioUlXsuXWURqvoA4xDQYSawAtUuOY9DQHtb028PzZ4_3yl8HoF5ezqf97PIUsXkBTOqOOzpCFkTHVfg4LG0xRO46UzA1tZZMYBpQ0CU7xwKmrMtsGQp0nufSQIg1mqTgPNE-M6hAJjI7XIjaFQ7M74kjSlIyP4_W7uDhSHfsrJSFA1DI8NH8u0VLX8L3AKSGx25UkXyXAKUErIWDpyS_ccyIC_7RMNdYsk91eqks2WDubDA0LZhKPSeBNWKeg/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "entry_price": null,
+      "resident_djs": [],
+      "nearest_transit": "Kungsportsplatsen (Spårvagn 1, 2, 3, 4, 5, 6, 9, 10)",
+      "google_rating": 3.4,
+      "google_reviews": 304,
+      "confidence": {
+        "opening_hours": "medium",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "website",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-06T15:42:17.474894",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Port Du Soleil",
+      "city": "Göteborg",
+      "short_description": "Legendär nöjesarena i Göteborg med över 135 år av historia. Kombinerar nattklubb, konserter och krogshow med allt från klassiker till modern musik.",
+      "full_description": "Trädgår'n är en av Sveriges mest populära nöjesarenor med ett omfattande utbud av konserter, krogshow och nattlubbskvällar inom alla musikgenrer. Varje år arrangeras hundratals event, från världskända artister till lokala favoriter. Här kan du också arrangera galamiddagar och företagsevents i en klassisk miljö. En plats där människor möts och skapar oförglömliga upplevelser sedan över ett århundrade.",
+      "music_genre": "Varierande",
+      "description": "Legendär nöjesarena i Göteborg med över 135 år av historia. Kombinerar nattklubb, konserter och krogshow med allt från klassiker till modern musik.",
+      "address": "Nya Allén 11, 411 38 Göteborg, Sweden",
+      "lat": 57.704221800000006,
+      "lng": 11.9755322,
+      "google_maps_url": "https://maps.google.com/?cid=6513466775809443230&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "22:00-03:00",
+        "wednesday": "stängt",
+        "thursday": "22:00-03:00",
+        "friday": "22:00-03:00",
+        "saturday": "22:00-03:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": 18,
+      "age_limit_varies": false,
+      "age_limit_by_day": null,
+      "dress_code": "Ingen speciell",
+      "website": "http://www.tradgarn.se/",
+      "instagram": "https://instagram.com/portdusoleilgbg",
+      "facebook": "https://www.facebook.com/portdusoleil/?locale=sv_SE",
+      "tiktok": "https://www.tiktok.com/@kaymynbrane/video/7514094716628045087",
+      "phone": "031-10 20 80",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJ5bzFN2fzT0YRnkVu1IV7ZFo/photos/AU_ZVEFh3CSUMW5ib1j4sVY78pZG7x3TSc8jGVR47bMh_nDrjiY8AokEebqqVK9u1Bvkhn5sO535PWLquGE95wga7Dt6IgV4WjWMBFopZ0835cnZ4a2kIixQp6-KzG_HJ7o6ccCEDG5kreSH2wbZi-QHqXP_63jxsn9ckI1S78WNZUA8-wDX7jPllwnArwxtHwUIgSIgxAJ-gv-v3HZPuVEVr2anqW7T7JepgVY1dLMJ-jXjUPnh6zL3G_KiinAlRhKzfcPY6IoFkE0XhkBm9jV64zhM2es4xsaz4wfGIAVhHWOpGOV1MNtSJ0dzTcYYMPzgK24LZLsoVX7eiw3TzpfeyNAYhQhrac_XuacwaoVKtrJWEvPoO_QbX6BbKcO6RDXz9lULHvt8INDiBDJVI_y61A0Ot3t50VeQ9Tg4bWvBFyNYQKbE/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "entry_price": null,
+      "resident_djs": [],
+      "nearest_transit": null,
+      "google_rating": 2.6,
+      "google_reviews": 212,
+      "confidence": {
+        "opening_hours": "medium",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "website",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-06T15:42:38.806702",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "The Melody Club",
+      "city": "Göteborg",
+      "short_description": "The Melody Club är en populär natklubb och restaurang/bar med två lokaler i Sverige – en i Göteborg och en i Uppsala.",
+      "full_description": "The Melody Club erbjuder en levande nattklubbsmiljö med matsalar och bardisk under dagtid, som förvandlas till en animerad natklubb på kvällarna. Klubben ligger på två platser för att passa gäster i både Göteborg och Uppsala. Med öppet från tisdagkväll till lördag sent är det en perfekt plats för att njuta av musik och underhållning.",
+      "music_genre": "Varierande",
+      "description": "The Melody Club är en populär natklubb och restaurang/bar med två lokaler i Sverige – en i Göteborg och en i Uppsala.",
+      "address": "Teatergatan 26, 411 35 Göteborg, Sweden",
+      "lat": 57.6996845,
+      "lng": 11.9747151,
+      "google_maps_url": "https://maps.google.com/?cid=3431096830774937596&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "17:00-01:00",
+        "thursday": "17:00-01:00",
+        "friday": "17:00-03:00",
+        "saturday": "17:00-03:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": 23,
+      "age_limit_varies": false,
+      "age_limit_by_day": null,
+      "dress_code": "Ingen speciell",
+      "website": "https://themelodyclub.se/",
+      "instagram": "https://instagram.com/themelodyclub_goteborg",
+      "facebook": "https://www.facebook.com/the.melody.club.se/",
+      "tiktok": null,
+      "phone": "031-793 30 00",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJdU8rJfrzT0YR_AdPjGO0nS8/photos/AU_ZVEEp-b7QGDWc1Kgp9NjweArCdBxtUcor9lT5kPuoa5fgUuPZdDhuBr7if61e-TGKtx1W1Shaqw_ynDRen2BU3YbDFYIqOJ_EwUEr8VbJW6ag6M8Zex3IQ4eqGiI7PlKx0Q26xzAzspvS_GghHMI5Tfu3Dp3eQleY1WetCrR_09ScSI4be5mm9pbUvhYXPGr37bfqORSNAPqn3YnN3nXxPVHXSOa37IxLvGcxhdk8HJLUacnQfBlSnCXORGmgIeofflqtcA0tKLIeFx2HuSJn_0rUupO40jU7OsoxLbNPHRdSrzOZI_9OHqY8JHmzakqeZa_4HTl0L3fP3VihmXjMwZq88ukU-s8O5yAGv0h8uz_NIJ2PB0W69r7Kn82NFXGjl-bW6eXoXzJ33gUR-l2FLl0g2INjW7Gt5PWtSjQlwUIL_g/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "entry_price": null,
+      "resident_djs": [],
+      "nearest_transit": "null\n\nThe text mentions \"Askimsbadet\" as the nearest bus station, but this appears to be an error in the provided text (it references Stockholm when discussing a Göteborg venue). The information is inconsistent and unreli",
+      "google_rating": 4.4,
+      "google_reviews": 361,
+      "confidence": {
+        "opening_hours": "medium",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-06T15:43:07.046343",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Bardot",
+      "city": "Göteborg",
+      "short_description": "Bardot Social Club är en 23+ social club på fredagar och lördagar dedikerad till drinkar, gemenskap och fester.",
+      "full_description": "Bardot Social Club är en ekslusiv venue i Göteborg som öppnar varje fredag och lördag från klockan 21:00. Med en strikt dörrpolicy för 23-åringar och äldre, erbjuder klubben en sofistikerad miljö för drinkar, gemenskap och festligheter. Stället kombinerar atmosfären av en social club med modern natklubbskultur. Klubben är stängd från söndag till torsdag och öppen till klockan 03:00.",
+      "music_genre": "Varierande",
+      "description": "Bardot Social Club är en 23+ social club på fredagar och lördagar dedikerad till drinkar, gemenskap och fester.",
+      "address": "Kungsportsavenyen 11, 411 36 Göteborg, Sweden",
+      "lat": 57.7011229,
+      "lng": 11.9734384,
+      "google_maps_url": "https://maps.google.com/?cid=5174306658545180630&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "stängt",
+        "friday": "23:00-03:00",
+        "saturday": "23:00-03:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": 23,
+      "age_limit_varies": false,
+      "age_limit_by_day": null,
+      "dress_code": "Ingen speciell",
+      "website": "https://bardotgbg.se/",
+      "instagram": "https://instagram.com/bardotgbg",
+      "facebook": "https://www.facebook.com/Bardotgbg/",
+      "tiktok": null,
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJiyfSAvTzT0YR1h-GxX3Uzkc/photos/AU_ZVEGu0nDY27dMLRXWscv66uv6L4k9_Zm_RQaN4ikSxXsSODDxdDSGYGb7rQXw19sDQ1VvX1WySrE3nugx-Yxc8Qm5kr2PVxsswvTBN7vvxsQzRQbLFCNAzL9epKdyGV_4DnEJojEYS_i7T0lJz0-WxdISDh0rfHEysUAXUes3Qc9ndHwDfCwekUAsdaeLxF-Jt7FQ4s3Im9IxbK-zDAbzOwxnAzCLYe62xbqb15npWuakGo9ppWg6YeMpX-wCBdMrC6IC-GuTjDrphLLaFzdro-4I6L596JmtvLYKpGjBNJhc8AvNgj6_jkAJLU6NbM1epxFnCkRdmOY2Fs7_nJpil95L4T5n8c0_2rdfWDxOAALv2zjw7wn72Y5ToT_Cr5NetTit0QDVUp6k6sAMi-GCDRVM9KpDh04QzrA_-Pqm7ndRCUZi/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "entry_price": null,
+      "resident_djs": [],
+      "nearest_transit": "Kungsportsplatsen (Spårvagn 1, 2, 3, 4, 5, 6, 7, 9, 10)",
+      "google_rating": 3.3,
+      "google_reviews": 34,
+      "confidence": {
+        "opening_hours": "medium",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "website",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-06T15:43:23.802104",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Gasquen",
+      "city": "Göteborg",
+      "short_description": "Chalmers Studentkårs nattklubb driven av studenter för studenter. Välkommen att fira studentlivet på Gasquen!",
+      "full_description": "Gasquen är Chalmers Studentkårs Nattklubb som drivs av studenter för studenter och är till för att främja studentlivet på Chalmers. Alla studenter är välkomna till Gasquen, där många kommittéer hjälps åt att arrangera gasquer med musik och fest. Inträdet kostar vanligtvis 35 kr för Chalmerister med laddat kårkort och 45 kr för andra. Under mottagningen går Nollan in gratis på eftersläppet.",
+      "music_genre": "Varierande",
+      "description": "Chalmers Studentkårs nattklubb driven av studenter för studenter. Välkommen att fira studentlivet på Gasquen!",
+      "address": "Teknologgatan 6, 412 58 Göteborg, Sweden",
+      "lat": 57.68868009999999,
+      "lng": 11.9749991,
+      "google_maps_url": "https://maps.google.com/?cid=2450226730285468274&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": null,
+        "tuesday": "18:00-00:00",
+        "wednesday": null,
+        "thursday": "18:00-00:00",
+        "friday": "18:00-00:00",
+        "saturday": null,
+        "sunday": "11:00-14:00"
+      },
+      "seasonal": {
+        "is_seasonal": true,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": "Event-baserad nattklubb, öppet vid arrangemang"
+      },
+      "age_limit": null,
+      "age_limit_varies": false,
+      "age_limit_by_day": null,
+      "dress_code": "Ingen speciell",
+      "website": "https://gasquen.se/",
+      "instagram": "https://instagram.com/gasquekchalmers",
+      "facebook": "https://www.facebook.com/goteborgsnation/posts/%C3%A4ntligen-dags-f%C3%B6r-knutgasquen-2026vi-vill-v%C3%A4lkomna-alla-till-en-fantastisk-hemv%C3%A4/1307926301362316/",
+      "tiktok": null,
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJW1OrggzzT0YRcgrVtTr0ACI/photos/AU_ZVEHEE4uoTKSYCgU3poxVK5vD-KMWa1igRqXInrmaVjos-v4YIa6yCz0yjk4eraZSxFMiL6j4NYrSYvuMlUWEWbdwchYXyLsXX2IUqxO20hoR9oUEpsBg9JaCf_arB7NuwpctjeIw8xbnh20KnOl5iLrBH9H18CUJa6OPmZkHM8A6hEBL032jKIk58bKP4pax591OPwm7rrj-txg7Kvb-TuVO0RwV41Ary_tq8NBU4kpWqihD_7tMU6njlY8l4Yv8_MFS-fYHmkhARnUaUFi-JXJkinhNiRt36SHv79PgrsQy7A/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "entry_price": "35-45 kr",
+      "resident_djs": [],
+      "nearest_transit": null,
+      "google_rating": 4.5,
+      "google_reviews": 52,
+      "confidence": {
+        "opening_hours": "medium",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "unknown",
+        "age_limit_source": "saknas",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-06T15:43:57.047673",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Rockbaren",
+      "city": "Göteborg",
+      "short_description": "Rockbaren är din andra vardagsrum intill Avenyn där du träffar vänner till rockmusik. Öppet till 03:00 alla dagar i veckan med livescen och Heavy Metal Tisdag.",
+      "full_description": "Välkommen till Rockbaren Göteborg, en populär rockbar belägen precis intill Avenyn. Här träffar du både nya och gamla vänner och njuter av musiken du älskar i en skön atmosfär. Klubben erbjuder livescen, Heavy Metal Tisdag och onsdagsquiz samt klubbkväll Günghest. Med öppettider från 17:00-03:00 på vardagar och 19:00-03:00 på söndagar är det perfekt för både early evening och sent nattliv.",
+      "music_genre": "Rock, Heavy Metal",
+      "description": "Rockbaren är din andra vardagsrum intill Avenyn där du träffar vänner till rockmusik. Öppet till 03:00 alla dagar i veckan med livescen och Heavy Metal Tisdag.",
+      "address": "Kristinelundsgatan 14, 411 36 Göteborg, Sweden",
+      "lat": 57.70009259999999,
+      "lng": 11.976455099999999,
+      "google_maps_url": "https://maps.google.com/?cid=3414102731254940705&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "17:00-03:00",
+        "tuesday": "17:00-03:00",
+        "wednesday": "17:00-03:00",
+        "thursday": "17:00-03:00",
+        "friday": "17:00-03:00",
+        "saturday": "17:00-03:00",
+        "sunday": "19:00-03:00"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": 20,
+      "age_limit_varies": false,
+      "age_limit_by_day": null,
+      "dress_code": "Ingen speciell",
+      "website": "http://www.rockbaren.com/",
+      "instagram": "https://instagram.com/rockbarengbg",
+      "facebook": "https://www.facebook.com/rockbaren/",
+      "tiktok": null,
+      "phone": "031-20 48 85",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJ1aqv93DzT0YRIUQka1hUYS8/photos/AU_ZVEFF0pRX1bk0Q3sIkruSQ2Fb_5jal3RXqgW9lfKgm5v_qh72YyuUJ36ue1hrf1-ymS0FfJRMSabjTeKJraVeerhongy7IRJbWqtTUPLc-k1lvSUuyyKOJH3CAovOQD83nFkfExroHXRhkZGHivO-fQEqazK-0l9CmklUAUYLnNBwoFuCcMwowLaZ2c-U8UkAGGEoQ4qOy0JzfRJqF_ENQ9ovRf903jXqQzX17Ff9Or7t4xJqDylog51jhStYGrN55YD7xDs4BBgeg_CO2Ut8EymgxIQ4B2-T_FvxZKf3eGIrGw/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "entry_price": null,
+      "resident_djs": [],
+      "nearest_transit": null,
+      "google_rating": 4,
+      "google_reviews": 1535,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "website",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-06T15:44:18.772477",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Club Galej",
+      "city": "Göteborg",
+      "short_description": "Club Galej är en nattklubb som öppnas på fredag och lördag kväll. En populär destination för nattlig underhållning.",
+      "full_description": "Club Galej är en nattklubb belägen i Köpenhamn som erbjuder nattlig underhållning på fredagar och lördagar. Klubben öppnar sent på kvällen och håller öppet långt in på natten för sina gäster. Med sitt centrala läge lockar klubben ett varierande publikum som söker en rolig kvällsunderhållning.",
+      "music_genre": "Varierande",
+      "description": "Club Galej är en nattklubb som öppnas på fredag och lördag kväll. En populär destination för nattlig underhållning.",
+      "address": "Östra Hamngatan 50B, 411 09 Göteborg, Sweden",
+      "lat": 57.70503699999999,
+      "lng": 11.9693963,
+      "google_maps_url": "https://maps.google.com/?cid=12161764582707842575&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "stängt",
+        "friday": "22:00-05:00",
+        "saturday": "22:00-05:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": null,
+      "age_limit_varies": false,
+      "age_limit_by_day": null,
+      "dress_code": "Ingen speciell",
+      "website": "https://www.clubgalej.se/",
+      "instagram": "https://instagram.com/clubgalej",
+      "facebook": "https://www.facebook.com/galejirishembassy/?locale=sv_SE",
+      "tiktok": null,
+      "phone": "031-13 90 20",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJVVXBp2XzT0YRD046wnNEx6g/photos/AU_ZVEGRRqZ6qyiEOo5hCizmrsLFJAHnhTxAW7XF2NTGyHMHW6D4xpp1GJ7gI0rIno0ouYnEFvSrLYJ1nmuBsO5AfOtAG3bsST1eIUtQFaadAjYowcLba23H3iTs6C0Z7qmYNyNpbxDl4G4pfSlmPkcEaZWVTwkYk3vBtdvkTvtn5FE4hK9CSHoEIVRhJck5cGij5yVrE4Do55BJ5wpPoY9JVIvEADHOslKf5sZwjiCzauvks4h_HW2kO9_Pm0h1_E_-dw0aulCd16OTrszlwIbR3vLLIC9U8_Zv69UM07udNoYIEj4KhwS1VfrLW3XMBEmHsvAD9u6DfucF7ykLHydgCstoplLra29aof_o-cAU2_jEvi-WjCtdRdBgIAvYu9YLDAz2c7ZUx_GYNvmDWN1Lcyg1E8Lq9hKEdymAakAC3nU/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "entry_price": null,
+      "resident_djs": [],
+      "nearest_transit": "null\n\nThe text provided is contradictory and unreliable. It mentions \"Galejet i Stockholm\" (in Stockholm) but then refers to \"Göteborg\" (Gothenburg), and provides unclear information about \"Göt",
+      "google_rating": 3.5,
+      "google_reviews": 13,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "unknown",
+        "age_limit_source": "saknas",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-06T15:44:49.926083",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Eight",
+      "city": "Göteborg",
+      "short_description": "Eight är din favorit-vardagsrum på fredagar och lördagar. En trendig nattklubb med 20-årsgräns och table service för special occasions.",
+      "full_description": "Eight Nightclub är en exklusiv nattklubb som erbjuder autentisk klubbkänsla med hemtrevlig atmosfär. Klubben är öppen fredagar och lördagar från 23:00 till 04:00 och erbjuder både stand och table service för de som vill göra kvällen extra speciell. Under sommarmånaderna fungerar Eight som officiell afterparty för den välkända nattklubben Port du Soleil, med utökade öppettider från 01:00-05:00. Klubben är perfekt för allt från private parties och bachelorpartys till birthday celebrations tillsammans med vänner.",
+      "music_genre": "Varierande",
+      "description": "Eight är din favorit-vardagsrum på fredagar och lördagar. En trendig nattklubb med 20-årsgräns och table service för special occasions.",
+      "address": "Kungsportsavenyen 8, 411 36 Göteborg, Sweden",
+      "lat": 57.701429999999995,
+      "lng": 11.9739772,
+      "google_maps_url": "https://maps.google.com/?cid=9583855657706999074&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "stängt",
+        "friday": "23:00-05:00",
+        "saturday": "23:00-05:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": true,
+        "open_from": "2024-05-31",
+        "open_to": "2024-09-30",
+        "closed_from": "2024-10-01",
+        "closed_to": "2025-05-30",
+        "note": "Sommarsäsong maj-september: öppettider 01:00-05:00 som officiell afterparty för Port du Soleil"
+      },
+      "age_limit": 20,
+      "age_limit_varies": false,
+      "age_limit_by_day": null,
+      "dress_code": "Ingen speciell",
+      "website": "https://www.eightnightclub.se/?utm_source=google",
+      "instagram": "https://instagram.com/eightgbg",
+      "facebook": "https://www.facebook.com/eightnightclubgbg/?locale=sv_SE",
+      "tiktok": null,
+      "phone": "031-10 58 30",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJ8atfVRbzT0YRIk0-ePGxAIU/photos/AU_ZVEGdRXFT10yvb1ILMch6AXAl_SVJbxmMWGcPMJrtGg2e7UBbTBhpyIsG2Cfa2C7fu94B1vxddmQyUqgipwrZrX6x34lYSxYjbkLIUuJpVlH2mDlLyAnoZV4GOseOWh-NLiePYsrQUIv2mTRoxgU0QUuJQI46wzm5-HEY7CTso1RvjIyqFFPE7cb1XUzB7gr8Xo8glPomjwMHFcERG2fbxMT6lovpIZ0cmfEYC-s4bk9vel7MC-GhPkDWTfbnHfyRJWUZXs1quF_aLm1OL9uEEWWP76WYcedwmEyPSqVVElB6nA/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "entry_price": null,
+      "resident_djs": [],
+      "nearest_transit": null,
+      "google_rating": 2.7,
+      "google_reviews": 132,
+      "confidence": {
+        "opening_hours": "medium",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "website",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-06T15:45:10.895864",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "SURROUNDED",
+      "city": "Göteborg",
+      "short_description": "Sommarvenue med fokus på midsommarfirande. Öppen lördagar under säsongen.",
+      "full_description": "SURROUNDED är en säsongsvenue som öppnar under sommaren för midsommarfirande. Klubben erbjuder en festlig atmosfär på lördagskvällar från sent på kvällen. Med utgångspunkt i midsommartematiken skapar SURROUNDED en unik sommarupplevelse för besökare.",
+      "music_genre": "Varierande",
+      "description": "Sommarvenue med fokus på midsommarfirande. Öppen lördagar under säsongen.",
+      "address": "Teatergatan 12, 411 35 Göteborg, Sweden",
+      "lat": 57.70089540000001,
+      "lng": 11.9732729,
+      "google_maps_url": "https://maps.google.com/?cid=5516904877762685637&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "stängt",
+        "friday": "stängt",
+        "saturday": "23:00-04:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": true,
+        "open_from": "2025-06-01",
+        "open_to": "2025-08-31",
+        "closed_from": "2025-09-01",
+        "closed_to": "2026-05-31",
+        "note": "Sommarvenue, endast öppet under midsommarsäsongen"
+      },
+      "age_limit": 21,
+      "age_limit_varies": false,
+      "age_limit_by_day": null,
+      "dress_code": "Ingen speciell",
+      "website": "https://surrounded.nu/",
+      "instagram": "https://instagram.com/___surrounded___",
+      "facebook": "https://www.facebook.com/surrounded.nu/",
+      "tiktok": null,
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJeScEW8vzT0YRxSqqqsH7j0w/photos/AU_ZVEF5lQ6wPruT_PofUG4KsAtWRC5f0XuV-jjTfJfkdDmIvxrDUVB508WFdl61oGtAdNFc0cn2FMJKksbDwTaKvUO-wPPFmDiV2R00rhpR0QKyORR0Qm7M4Qle6SVegDQWj044dkaeFCmvHUGm0hvlXjMYCOfPTe_neLvS-PCtdHQkfj9sRMPJQWAxXAS1dGMFA47ajzeDAeWBYDCUp35i51-Q8iYdkdma_yUdYSle1yurSkX_K-jdMZKfKdvdKPFQ4ZH05QfJnWfsxiZ5y3EenWAfr3gJpsM3HPdkfzo3qpopHQ/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "entry_price": null,
+      "resident_djs": [],
+      "nearest_transit": null,
+      "google_rating": 5,
+      "google_reviews": 1,
+      "confidence": {
+        "opening_hours": "medium",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-06T15:45:46.794660",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": [
+        {
+          "title": "Sing Sing karaoke - GOTHENBURG",
+          "date": "2026-04-15",
+          "artists": [],
+          "ticket_url": "https://billetto.se/e/sing-sing-karaoke-gothenburg-biljetter-1890648",
+          "image": "https://billetto.imgix.net/ashri1rzzdb2nnyp3h3hs2t291wo?w=640&h=360&fit=crop&auto=compress%2Cformat&rect=0%2C693%2C1200%2C675&ar=1%3A1&crop=faces&s=73665daa1ff115056c7f4abb00c18065",
+          "source": "https://billetto.se/e/sing-sing-karaoke-gothenburg-biljetter-1890648"
+        }
+      ]
+    },
+    {
+      "name": "Calma Bar & Restaurang",
+      "city": "Göteborg",
+      "short_description": "Mysig spansk tapasbar på Avenyn i Göteborg med högklassig mat, drinkar och nattklubb. Perfekt för både måltid och underhållning under kvällen.",
+      "full_description": "CALMA Tapasbar är en autentisk spansk restaurang och nattklubb belägen på Storgatan 45 i Göteborg. Här serveras högkvalitativa tapas med spanska rötter – perfekt att kombinera efter egen smak och aptit. Restaurangen erbjuder även en väl sorterad drinkmeny med klassiska cocktails, spansk sangria och månadens egna skapelser. Efter maten kan du sträcka på benen på klubbens dansgolv och njuta av en underhållande kväll. Öppet tisdag-torsdag från 16:00 sent, fredag-lördag från 16:00-03:00.",
+      "music_genre": "Varierande",
+      "description": "Mysig spansk tapasbar på Avenyn i Göteborg med högklassig mat, drinkar och nattklubb. Perfekt för både måltid och underhållning under kvällen.",
+      "address": "Storgatan 45, 411 38 Göteborg, Sweden",
+      "lat": 57.7012858,
+      "lng": 11.972528599999999,
+      "google_maps_url": "https://maps.google.com/?cid=16799025518974751072&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "16:00-23:00",
+        "wednesday": "16:00-23:00",
+        "thursday": "16:00-23:00",
+        "friday": "16:00-03:00",
+        "saturday": "16:00-03:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": 18,
+      "age_limit_varies": false,
+      "age_limit_by_day": null,
+      "dress_code": "Ingen speciell",
+      "website": "https://calmabar.se/",
+      "instagram": "https://instagram.com/calmagbg",
+      "facebook": "https://www.facebook.com/calmagbg/?locale=sv_SE",
+      "tiktok": "https://instagram.com/calmagbg",
+      "phone": "073-541 80 98",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJTwpyZp7zT0YRYFE2V7QgIuk/photos/AU_ZVEEQbFJOi4E4GNEiqeDzcTfzWBRLIlSP6G2OG4ETd8SSmFsURLjZXIso-0Rh0Z0LKxIewRd_4wweX-QSFm_DtUQCm4DO-i62UNuvXXRhAPqyyUwYUNhlsh1tqGyIf6TB5MG56AM1cUSTlJGTBE390EDQVdWaye88nPxc8_ugTZgovQC2digKOSdnHfgkCahNoLqRI_HAhmjmsgj9S2V6GaJHQ3wBB5TTysb3kQToGA1IHOlqgkHAaWJXvE1vC-E62GeyWoTPjlnzUmq96nTcTR2yYqawKPld0-DfXiOX6nCb1A/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "entry_price": null,
+      "resident_djs": [],
+      "nearest_transit": "null\n\nThe text does not provide specific information about the nearest metro/tram/bus stop to CALMA Tapasbar, only that it's \"easily accessible by public transport from all of Göteborg\" and that it's located",
+      "google_rating": 4.4,
+      "google_reviews": 510,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-06T15:46:17.274769",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Gretas",
+      "city": "Göteborg",
+      "short_description": null,
+      "full_description": null,
+      "music_genre": "Varierande",
+      "description": null,
+      "address": "Drottninggatan 35, 411 14 Göteborg, Sweden",
+      "lat": 57.705607699999995,
+      "lng": 11.9674623,
+      "google_maps_url": "https://maps.google.com/?cid=6580137549950196636&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "stängt",
+        "thursday": "stängt",
+        "friday": "22:00-05:00",
+        "saturday": "22:00-05:00",
+        "sunday": "stängt"
+      },
+      "seasonal": null,
+      "age_limit": 20,
+      "age_limit_varies": false,
+      "age_limit_by_day": null,
+      "dress_code": "Ingen speciell",
+      "website": null,
+      "instagram": "https://instagram.com/gretasgbg",
+      "facebook": "https://www.facebook.com/gretasgothenburg/?locale=sv_SE",
+      "tiktok": null,
+      "phone": "031-13 69 49",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJVf48ymXzT0YRnJv9FT1YUVs/photos/AU_ZVEGvFegQh4hWPYcPPEYjJuHQ8lUurumKj63dlgLidvw_oIQUUWTJOCd3qwV3f6bQVcrfIJKh_DrtTT17qstGDSX03KOmYaTyA58xaw9Y-sK0d0r9sBkm-yt3RkQUrFU1KnN7Kji27mF99i2cf3XviOLLkKMdw_qeTnAgJfJuHz91xp5iLmNTDUYppDH3x1IJpiCd126qL4RINbtq9-hBRAyBBbymDtu9hz_-KWFfdwfqrNPsc1QvZORPHIHed9CORcNFj4LhyuY9-3FV6jyQXq2CD9UsOuvDacY4UsNwyZDov5npfhUkZbC3Kw_2U8pB6mcDMSItvMpgRFwG7C8oAD9VBWqA2LSNtDNTNn5P8N-_s8WdjQwbtpy5gQdfgPYgjWbrNfsFfmCSeXHNh5GS5M0tGnWiIbc0k2_KTwcdwJk2s2U/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "entry_price": null,
+      "resident_djs": [],
+      "nearest_transit": "Brunnsparken (10)",
+      "google_rating": 3.3,
+      "google_reviews": 446,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": false,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-06T15:46:40.187021",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Nefertiti",
+      "city": "Göteborg",
+      "short_description": "Nefertiti är en jazz club och vinyl listening bar i Göteborg med live-musik från världskända artister och lokal talang.",
+      "full_description": "Nefertiti är en intim jazz club och vinyl listening bar belägen i Göteborg, specialiserad på live jazz-framträdanden och musikupplevelser av högsta klass. Klubben presenterar ett varierat musikprogram med allt från Grammy-belönad jazz till world music och soul. Med fokus på autentisk livemusik och vinyl-kultur skapar Nefertiti en unik atmosfär för musikälskare. Klubben fungerar som restaurang och bar på dagen innan den omvandlas till venue för konserter och evenemang på kvällen.",
+      "music_genre": "Jazz, Soul, Funk, Blues, World, Hiphop, Rock, Pop, Indie",
+      "description": "Nefertiti är en jazz club och vinyl listening bar i Göteborg med live-musik från världskända artister och lokal talang.",
+      "address": "Hvitfeldtsplatsen 6, 411 20 Göteborg, Sweden",
+      "lat": 57.701398499999996,
+      "lng": 11.9617905,
+      "google_maps_url": "https://maps.google.com/?cid=2811549137630817080&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "17:00-23:00",
+        "wednesday": "17:00-23:00",
+        "thursday": "17:00-23:00",
+        "friday": "17:00-01:00",
+        "saturday": "18:00-01:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": null,
+      "age_limit_varies": false,
+      "age_limit_by_day": null,
+      "dress_code": "Ingen speciell",
+      "website": "http://www.nefertiti.se/",
+      "instagram": "https://instagram.com/nefertiti.se",
+      "facebook": "https://www.facebook.com/NefertitiGBG/",
+      "tiktok": null,
+      "phone": "076-762 00 88",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJtzJh3WjzT0YROGsKYQuhBCc/photos/AU_ZVEGYRQkqHAYj5VxrrUPPGVAtiCDo1ScIwavbfFQMjl4wEuU4pfO_NovzIMNSHLB9GQv9B7f8VxisXuNop4j0ltd54T5Q82gz9mgnQIEXIR1MPy4l7AIj2Xc1scdSBmWv4gb96QIEoLjyo4JXdSVqr_wtMgvuhxHAxP0XkI2dDb7S7udQLsvPzBzWV5MuHq74k7U3E5qRXBbkyb8KWRkylwtWiEUmcH-jcMWnOokfGeaN1I7Y4RFvJuZQIMKLv_C26ihjoh-Nvt5jNJXmzgPjUvX5-ALtRJFtHdWdyffkTUCg7Q/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "entry_price": null,
+      "resident_djs": [],
+      "nearest_transit": "null\n\nThe provided text does not contain any information about 'Nefertiti' or nearby public transport stops in Göteborg. The text only describes general transit search functionality and mentions Stockholm, not Göteborg.",
+      "google_rating": 4.2,
+      "google_reviews": 961,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "unknown",
+        "age_limit_source": "saknas",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-06T15:47:12.326145",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Hard Rock Cafe Gothenburg",
+      "city": "Göteborg",
+      "short_description": "Hard Rock Cafe Göteborg är en fullskallig restaurang, bar och nattklubb belägen i hjärtat av Avenyn. Med tre våningar, live-underhållning och shuffleboard erbjuder de ett varierat nöjesliv för alla.",
+      "full_description": "Hard Rock Cafe Göteborg, etablerad 2004, är en populär destination på Göteborgspromenaden Avenyn. Stället erbjuder en avslappnad atmosfär med världsklass service, husgjord mat och skräddarsydda cocktails. Lokalen sträcker sig över tre våningar med restaurang, bar, nattklubb och fem Grand Champion shuffleboard-bord. Under sommaren finns även en stor populär uteplats på Avenyn-promenaden. Caféet är kontantfritt.",
+      "music_genre": "Varierande",
+      "description": "Hard Rock Cafe Göteborg är en fullskallig restaurang, bar och nattklubb belägen i hjärtat av Avenyn. Med tre våningar, live-underhållning och shuffleboard erbjuder de ett varierat nöjesliv för alla.",
+      "address": "Kungsportsavenyen 10, 411 36 Göteborg, Sweden",
+      "lat": 57.701406199999994,
+      "lng": 11.974606999999999,
+      "google_maps_url": "https://maps.google.com/?cid=10181971917624789220&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "10:00-03:00",
+        "tuesday": "10:00-03:00",
+        "wednesday": "10:00-03:00",
+        "thursday": "10:00-03:00",
+        "friday": "10:00-03:00",
+        "saturday": "10:00-03:00",
+        "sunday": "10:00-03:00"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": null,
+      "age_limit_varies": false,
+      "age_limit_by_day": null,
+      "dress_code": "Ingen speciell",
+      "website": "https://cafe.hardrock.com/gothenburg/#utm_source=Google&utm_medium=Yext&utm_campaign=Listings",
+      "instagram": "https://instagram.com/hrcgothenburg",
+      "facebook": "https://ka-ge.facebook.com/hardrock.gothenburg/",
+      "tiktok": null,
+      "phone": "031-10 23 30",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJrbRqFHDzT0YR5EgHP4OhTY0/photos/AU_ZVEFvvAF9cL4D2iunuHtNgsW7NWzbVPLpb3JfjEpavYQOhPyq5gxRhFDyTZHAKNitwXsB03C0nYGD0Cg7XVurSnSf6PR6kGvZkA-pua8iFdeCEYbL4C6BumYeraR0wW8f63ZlUZ3daZQLR6lIEQG6pfsuGDxJjeq7cqMLNuJAroZBufxPxPPgVEa4RevEwlzqbAICm3UOyvvH6JQSVhsndGoP4Js7LQcUAnNRDPnjYl-yALV9E3_ELsaM7YoF-pTsEQ1NJWUDDavRZ5NZJGCzBCQBqWzCAIpduWgavLhGdL7ZHA/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "entry_price": null,
+      "resident_djs": [],
+      "nearest_transit": null,
+      "google_rating": 4,
+      "google_reviews": 5702,
+      "confidence": {
+        "opening_hours": "medium",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "unknown",
+        "age_limit_source": "saknas",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-06T15:47:49.276351",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Star Karaoke",
+      "city": "Göteborg",
+      "short_description": "Göteborgs mest populära privata karaokebar med 8 moderna studios för upp till 20 personer. Sjung dina favoriter bland 120 000 låtar och njut av mat och dryck.",
+      "full_description": "Star Karaoke är en färgstark och avslappnad karaokebar i centrala Göteborg som erbjuder privata karaokestudios i olika storlekar. Med över 120 000 svenska och internationella låtar, modern ljudteknik och rolig rekvisita garanteras en minnesvärd upplevelse. Perfekt för fester, företagsevent eller bara en rolig kväll med vänner. Room service med mat och dryck beställs enkelt via beställningsskärmar. Från 199 kr per person.",
+      "music_genre": "Karaoke",
+      "description": "Göteborgs mest populära privata karaokebar med 8 moderna studios för upp till 20 personer. Sjung dina favoriter bland 120 000 låtar och njut av mat och dryck.",
+      "address": "Vallgatan 16, 411 16 Göteborg, Sweden",
+      "lat": 57.703728700000006,
+      "lng": 11.965205099999999,
+      "google_maps_url": "https://maps.google.com/?cid=3996430903349595170&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "19:00-01:00",
+        "thursday": "19:00-01:00",
+        "friday": "17:00-03:00",
+        "saturday": "17:00-03:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": 18,
+      "age_limit_varies": false,
+      "age_limit_by_day": null,
+      "dress_code": "Ingen speciell",
+      "website": "http://www.starkaraoke.se/",
+      "instagram": "https://instagram.com/starkaraokegbg",
+      "facebook": "https://www.facebook.com/starkaraoke.se/",
+      "tiktok": "https://tiktok.com/@starkaraokegbg",
+      "phone": "031-16 60 60",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJQ4YXavvzT0YRIsyLi7ssdjc/photos/AU_ZVEG-nE3UoQqCPzj-2idgMhZ2Lc7ixBFsZhCBFxbnSPvWu8uw5qppKHh_Y0qp_AykIj4CYdGSLrvED-dln9dUTXFo1HYcU9eU3YDisystmJEOItuPdRoQH9npFEyvlxM0qj8V-LXgmG_Ahb2HjPtCCsCTbObUmYfqqfb6u7t7U7YHoE2j1Sy2CkQANgrEDSBDDcdWy5pk0kB_G0_zFBypyPCVSfBdVSFwaPUgSuJf3rZ2Ul1bCHtwdla5PRrDhisz_gv3-Zcqj6tFNY_7w8D7ipqxWGLXJ1kWpc7ub_0vSOpfew/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "entry_price": "från 199 kr/person",
+      "resident_djs": [],
+      "nearest_transit": "I don't have access to real-time public transportation data or maps to determine the nearest metro/tram/bus stop to Star Karaoke at Vallgatan 16 in Göteborg. To get this information, I",
+      "google_rating": 4.7,
+      "google_reviews": 305,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "serper",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-06T15:48:23.435404",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Utopia Jazz",
+      "city": "Göteborg",
+      "short_description": "Jazzklubb och restaurang/bar med kvällsunderhållning. Öppet från tisdag till lördag.",
+      "full_description": "Utopia Jazz är en jazzklubb som fungerar som restaurang och bar på dagtid och blir nattklubb på kvällen. Klubben erbjuder live jazzkmusik och en avslappnad atmosfär för gäster som uppskattar klassisk underhållning. Öppet från tisdag till lördag med längre öppettider på fredag och lördag.",
+      "music_genre": "Jazz",
+      "description": "Jazzklubb och restaurang/bar med kvällsunderhållning. Öppet från tisdag till lördag.",
+      "address": "Karl Johansgatan 6, 414 59 Göteborg, Sweden",
+      "lat": 57.69838300000001,
+      "lng": 11.9323728,
+      "google_maps_url": "https://maps.google.com/?cid=11032118912137912395&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "17:00-23:00",
+        "wednesday": "17:00-23:00",
+        "thursday": "17:00-23:00",
+        "friday": "16:00-01:00",
+        "saturday": "16:00-01:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": null,
+      "age_limit_varies": false,
+      "age_limit_by_day": null,
+      "dress_code": "Ingen speciell",
+      "website": "http://utopiajazz.com/",
+      "instagram": "https://instagram.com/utopiajazzgbg",
+      "facebook": "https://www.facebook.com/utopiajazzgbg/?locale=sv_SE",
+      "tiktok": null,
+      "phone": null,
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJr5sj2c7zT0YRS2DZLbP1GZk/photos/AU_ZVEHoNANHu7Pf3s49b-92uWVCbPnVV31Z1OwfvgQqwEregl8EDse1P5gYhHS4R-lJ9LvHY6PVXwvBWBIBjLKmiynAYkj4xmT0WUaOC8KOUmRTy3NtxScmvSrdtLotaTBdLm1prA78T1ZtlzKb4woUyxAjKAo5jOZffqv0gq9jQakjb5zc-ZOWWrhyS4zWq9eWOZVLzkqCevkVWcMEhNZSDJKmIoA90puoEKm0GX32qnmVSJIRYuCSiA2S3x_iOj8Pb6oVpMl8L9GQULzXEvZDtMz3RzpLNc1DSKSn2zc69Mxwfk-1UcbentJ5D8W7rR5tQ9vQD7z3BQyOBGueIoEEL2mO5T7MGm6UqBke5RB0wOr9IaR0dMOY22cbG0Bc9S80yr1zsHFrhvCBGmQIUTKsMWjy_bgj57HrIN0L0l1lRlt0Fw/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "entry_price": null,
+      "resident_djs": [],
+      "nearest_transit": null,
+      "google_rating": 4.6,
+      "google_reviews": 259,
+      "confidence": {
+        "opening_hours": "medium",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "unknown",
+        "age_limit_source": "saknas",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-06T15:48:57.425995",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Shotluckan Göteborg",
+      "city": "Göteborg",
+      "short_description": "En lively bar i Vasastan med fokus på shots med show, spel och karaoke. Perfekt för förfest, AW eller spontan utekväll med autentiska tacos och nachos.",
+      "full_description": "Shotluckan är en bar i Göteborg som öppnade den 8 juli 2022 och levererar showtime varje gång du beställer. Menyn fokuserar på unika shots med namn som Breaking Bad, Äppelpaj och Scout, men erbjuder även öl, vin, cider och läsk. Lokalen är fylld med spel som Jenga, Beer Pong och Dart, och arrangerar regelbundna karaoke-kvällar. Här kan du boka bord för mindre sällskap, privata rum eller till och med hyra hela stället för din event.",
+      "music_genre": "Varierande",
+      "description": "En lively bar i Vasastan med fokus på shots med show, spel och karaoke. Perfekt för förfest, AW eller spontan utekväll med autentiska tacos och nachos.",
+      "address": "Viktoriagatan 3, 411 25 Göteborg, Sweden",
+      "lat": 57.699089699999995,
+      "lng": 11.9648533,
+      "google_maps_url": "https://maps.google.com/?cid=4388300876641042444&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "stängt",
+        "tuesday": "stängt",
+        "wednesday": "18:00-01:00",
+        "thursday": "18:00-03:00",
+        "friday": "18:00-03:00",
+        "saturday": "18:00-03:00",
+        "sunday": "stängt"
+      },
+      "seasonal": {
+        "is_seasonal": false
+      },
+      "age_limit": 18,
+      "age_limit_varies": false,
+      "age_limit_by_day": null,
+      "dress_code": "Ingen speciell",
+      "website": "https://shotluckan.se/goteborg/?utm_source=google",
+      "instagram": "https://instagram.com/shotluckan",
+      "facebook": "https://facebook.com/shotluckan",
+      "tiktok": null,
+      "phone": "031-49 22 48",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJuQqV117zT0YRDIC5p2Vg5jw/photos/AU_ZVEF3a_XQP2-LOvGQ1ortjrvP9FmfOtbrwPDDsde00wBfR-HuqA0NKMOQcGu5d4ULh9hHUS6_zaU1J776yczI9ODySmLoARGVR4hW_hUyyc_6FZffDseMij1P7zoHtWSzPC0rtGiDm3w8WmqCiBv4ctqqyA7vXx6qzOGk2Ai-UWEnh0SLK3mLb3qE-9Pqylc-7bBP7hFtGwv-iDsS2Ezs-z3xEvISfRIJFMnSxXWqvdd6snecep1d8w_G2DOZB4HqDwvCI0WjGPtQRsmuZ16tFP-Zq086kX391tT-ZrMuLDyiow/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "entry_price": null,
+      "resident_djs": [],
+      "nearest_transit": "I cannot find specific information about the nearest metro/tram/bus stop to 'Shotluckan Göteborg' in the provided text. The text mentions the bar is located in Vasastan, Göteborg, but",
+      "google_rating": 4.5,
+      "google_reviews": 141,
+      "confidence": {
+        "opening_hours": "medium",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "high",
+        "age_limit_source": "website",
+        "instagram_source": "website"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-06T15:49:18.433675",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    },
+    {
+      "name": "Irish Embassy Pub",
+      "city": "Göteborg",
+      "short_description": "Irish Embassy Pub är en klassisk irländsk pub som serverar mat och dryck från middag till långt på natten. En populär mötesplats för både mat och festligheter.",
+      "full_description": "Irish Embassy Pub är en autentisk irländsk pub som fungerar som restaurang och bar på dagtid och utvecklas till nattklubb på kvällen. Med öppet från 11:00 på vardagar och långöppet fram till 03:00-05:00 på natten erbjuds klassisk irländsk atmosfär och mat. Stället är känt som en social samlingspunkt för både mat och nattlig underhållning.",
+      "music_genre": "Varierande",
+      "description": "Irish Embassy Pub är en klassisk irländsk pub som serverar mat och dryck från middag till långt på natten. En populär mötesplats för både mat och festligheter.",
+      "address": "Östra Hamngatan 50B, 411 09 Göteborg, Sweden",
+      "lat": 57.704987900000006,
+      "lng": 11.9694082,
+      "google_maps_url": "https://maps.google.com/?cid=12152211976314442093&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "opening_hours": {
+        "monday": "11:00-03:00",
+        "tuesday": "11:00-03:00",
+        "wednesday": "11:00-03:00",
+        "thursday": "11:00-03:00",
+        "friday": "11:00-05:00",
+        "saturday": "11:00-05:00",
+        "sunday": "11:00-03:00"
+      },
+      "seasonal": {
+        "is_seasonal": false,
+        "open_from": null,
+        "open_to": null,
+        "closed_from": null,
+        "closed_to": null,
+        "note": null
+      },
+      "age_limit": null,
+      "age_limit_varies": false,
+      "age_limit_by_day": null,
+      "dress_code": "Ingen speciell",
+      "website": "https://irishembassypub.se/?utm_source=google",
+      "instagram": "https://instagram.com/irishembassygbg",
+      "facebook": "https://www.facebook.com/iedowntown/",
+      "tiktok": null,
+      "phone": "031-13 90 20",
+      "images": [
+        "https://places.googleapis.com/v1/places/ChIJF_hUr2XzT0YRbVF4Q2hUpag/photos/AU_ZVEHrDhaZ5s53Hebm2aiwFCseUKfaP4uCry6JCDtdyk6CKKi4Jf5-JrSy-h7M5hZgtVYQ9xjehtx1QHgwstUaDMDin-1ksIiKCaof7oFle-_uRbNqi6MGyStzWvD-INYEChIRJ9FGzuS-jKLc_eESKQ1yj8DkkLTUsqnKNKVickf8NX7bXh6J0RrlT7J59avTAjbauNpfEpRC5aVouNkvrpEIu7joAoEPmnajPNtkVqRqQIf4-twyXulNmmEylbzw3aDJ6xZkRvltEv93PNeRHb5uDqov684PVg6q0tq1fdXWXw/media?maxWidthPx=4800&key=AIzaSyBw9HE6MtTDaWtBQuSUP4zee-FO_xip8zQ"
+      ],
+      "entry_price": null,
+      "resident_djs": [],
+      "nearest_transit": "I don't have enough information in the provided text to determine the nearest metro/tram/bus stop to Irish Embassy Pub. While the address is given as Östra Hamngatan 50B, the text does not specify which",
+      "google_rating": 3.9,
+      "google_reviews": 4888,
+      "confidence": {
+        "opening_hours": "high",
+        "opening_hours_source": "google + serper",
+        "hours_verified": true,
+        "age_limit": "unknown",
+        "age_limit_source": "saknas",
+        "instagram_source": "serper"
+      },
+      "sources_used": {
+        "google_places": true,
+        "website_scraped": true,
+        "listing_site": false,
+        "serper": true
+      },
+      "last_scraped": "2026-04-06T15:49:52.216551",
+      "data_fresh": true,
+      "is_event_based": false,
+      "next_events": []
+    }
+  ]
+}
