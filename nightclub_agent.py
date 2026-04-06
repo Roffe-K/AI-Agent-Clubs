@@ -1009,23 +1009,31 @@ Svara ENBART med JSON (inga backticks):
     "closed_to":   "{current_year + 1}-05-31",
     "note":        "Endast öppet sommarsäsong juni-aug"
   }},
-  "short_description": "1-2 meningar max. Snappy och lockande. Visas i listvy bland alla klubbar. Ex: Sveriges mest ikoniska nattklubb med fokus på house och techno i lyxig miljö.",
-  "full_description": "3-5 meningar. Detaljerad och engagerande text för klubbens egna sida. Beskriv atmosfär, musikstil, historia om känd, målgrupp och vad som gör klubben unik.",
+  "short_description": "1-2 meningar max. Snappy och lockande. Visas i listvy bland alla klubbar.",
+  "full_description": "3-5 meningar. Detaljerad och engagerande text för klubbens egna sida.",
   "music_genre": "House, Techno",
   "dress_code": "Ingen speciell",
+  "entry_price": "100 kr",
+  "resident_djs": ["DJ Namn 1", "DJ Namn 2"],
+  "facebook": "https://facebook.com/klubbnamn",
+  "tiktok": "https://tiktok.com/@klubbnamn",
   "hours_confidence": "high",
   "is_event_based": false
 }}
 
 VIKTIGT för varje fält:
 - short_description: MAX 2 meningar, alltid på svenska, aldrig null
-- full_description: 3-5 meningar, alltid på svenska, aldrig null. Basera på all tillgänglig info – om lite info finns, skriv en trovärdig text baserad på klubbens namn och stad.
-- music_genre: Kommaseparerade genrer som "House, Techno" eller "Hip-Hop, R&B". Om okänt, gissa utifrån klubbens namn/stad/typ. Sätt ALDRIG null – använd "Varierande" om helt okänt.
+- full_description: 3-5 meningar, alltid på svenska, aldrig null
+- music_genre: Kommaseparerade genrer. Sätt ALDRIG null – använd "Varierande" om okänt
 - dress_code: Exakt klädkod om nämnd, annars ALLTID "Ingen speciell"
-- seasonal: Sätt is_seasonal: true ENDAST om klubben tydligt har säsongsvariationer
-- is_event_based: true om klubben ENDAST öppnar vid speciella events
+- entry_price: Inträdesavgift om nämnd (ex "100 kr", "Gratis", "100-200 kr"). Sätt null om okänt
+- resident_djs: Lista med fasta DJs om nämnda. Sätt [] om inga hittas
+- facebook: Full URL till Facebook-sida om nämnd. Sätt null om ej hittad
+- tiktok: Full URL till TikTok om nämnd. Sätt null om ej hittad
+- seasonal: Sätt is_seasonal: true ENDAST om klubben har säsongsvariationer
+- is_event_based: true ENBART om klubben saknar fasta veckoöppettider
 
-Åldersgräns måste vara officiell. Sätt null bara för age_limit och opening_hours om info saknas.
+Åldersgräns måste vara officiell. Sätt null om info saknas.
 """}]
     )
 
@@ -1034,6 +1042,52 @@ VIKTIGT för varje fält:
     except:
         return {}
 
+
+
+# ─────────────────────────────────────────────
+# SERPER – SOCIALA MEDIER & TRANSIT (SNABB)
+# ─────────────────────────────────────────────
+
+def quick_search_socials_and_transit(club_name: str, city: str) -> dict:
+    """
+    Snabb sökning efter Facebook, TikTok och närmaste kollektivtrafik.
+    Max 2 Serper-anrop – ingen djup scraping.
+    """
+    result = {"facebook": None, "tiktok": None, "nearest_transit": None}
+
+    # Sökning 1: Facebook + TikTok kombinerat
+    social_results = serper_search(
+        f"{club_name} {city} (site:facebook.com OR site:tiktok.com)", num=5
+    )
+    for r in social_results:
+        url = r.get("link", "")
+        if "facebook.com/" in url and not result["facebook"]:
+            # Filtrera bort generiska Facebook-sidor
+            skip = ["facebook.com/events", "facebook.com/search", "facebook.com/pages/search"]
+            if not any(s in url for s in skip):
+                result["facebook"] = url
+        if "tiktok.com/@" in url and not result["tiktok"]:
+            result["tiktok"] = url
+
+    # Sökning 2: Närmaste tunnelbana/spårväg
+    transit_results = serper_search(
+        f"{club_name} {city} tunnelbana spårväg närmaste kollektivtrafik", num=3
+    )
+    if transit_results:
+        snippets = " ".join(r.get("snippet", "") for r in transit_results[:3])
+        if snippets:
+            response = claude.messages.create(
+                model="claude-haiku-4-5-20251001",
+                max_tokens=50,
+                messages=[{"role": "user", "content": f"""What is the nearest metro/tram/bus stop to '{club_name}' in {city}?
+Reply with ONLY the stop name and line, e.g. "Östermalmstorg (T-bana röd linje)" or null.
+Text: {snippets[:500]}"""}]
+            )
+            answer = response.content[0].text.strip()
+            if answer.lower() != "null" and len(answer) > 3:
+                result["nearest_transit"] = answer
+
+    return result
 
 # ─────────────────────────────────────────────
 # MERGE & CONFIDENCE
@@ -1051,6 +1105,7 @@ def merge_sources(
     verified_hours: dict | None = None,
     is_event_based: bool = False,
     next_events: list | None = None,
+    socials: dict | None = None,
 ) -> dict:
     google_hours = parse_opening_hours(details)
 
@@ -1133,8 +1188,15 @@ def merge_sources(
         # ─── Kontakt & media ───
         "website":         website,
         "instagram":       f"https://instagram.com/{handle}" if handle else None,
+        "facebook":        ai_data.get("facebook") or (socials or {}).get("facebook"),
+        "tiktok":          ai_data.get("tiktok") or (socials or {}).get("tiktok"),
         "phone":           details.get("nationalPhoneNumber"),
         "images":          get_place_images(details.get("photos", [])),
+
+        # ─── Praktisk info ───
+        "entry_price":      ai_data.get("entry_price"),
+        "resident_djs":     ai_data.get("resident_djs") or [],
+        "nearest_transit":  (socials or {}).get("nearest_transit"),
 
         # ─── Google-metadata ───
         "google_rating":  details.get("rating"),
@@ -1292,6 +1354,17 @@ def run_agent(cities: list = None):
                     print(f"    ✅ Instagram: @{serper_instagram}")
                 time.sleep(0.3)
 
+            # ── Facebook, TikTok & transit ────────────────
+            print("    → Söker Facebook, TikTok och kollektivtrafik...")
+            socials = quick_search_socials_and_transit(name, city)
+            if socials.get("facebook"):
+                print(f"    ✅ Facebook hittad")
+            if socials.get("tiktok"):
+                print(f"    ✅ TikTok hittad")
+            if socials.get("nearest_transit"):
+                print(f"    ✅ Transit: {socials['nearest_transit']}")
+            time.sleep(0.3)
+
             # ── Åldersgräns fallback ──────────────────────
             serper_age = None
             has_age    = ai_data.get("age_limit") or listing_match.get("age_limit")
@@ -1346,7 +1419,7 @@ def run_agent(cities: list = None):
             club = merge_sources(
                 details, website_data, ai_data, listing_match, city,
                 serper_age, serper_instagram, serper_website, verified_hours,
-                event_info["is_event_based"], all_events
+                event_info["is_event_based"], all_events, socials
             )
 
             seasonal_str = "ja" if club.get("seasonal") and club["seasonal"].get("is_seasonal") else "nej"
