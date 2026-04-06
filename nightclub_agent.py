@@ -428,9 +428,10 @@ Text:\n{snippets_str[:3000]}"""}]
         response  = claude.messages.create(
             model="claude-haiku-4-5-20251001",
             max_tokens=10,
-            messages=[{"role": "user", "content": f"""What is the GENERAL/DEFAULT age limit for '{club_name}' in {city}?
-Return the standard age limit for normal nights. Ignore special lower-age events.
-If varies by day, return the strictest/most common limit.
+            messages=[{"role": "user", "content": f"""What is the STRICTEST/HIGHEST age limit for '{club_name}' in {city}?
+- Return the highest confirmed age limit for normal nights
+- Ignore special events with lower limits
+- If multiple ages mentioned, return the highest for regular nights
 Reply ONLY with: 18, 20, 21, 23 or null. Never guess.
 Text:\n{full_text[:3000]}"""}]
         )
@@ -1060,15 +1061,7 @@ Svara ENBART med JSON (inga backticks):
 {{
   "age_limit": 23,
   "age_limit_varies": false,
-  "age_limit_by_day": {{
-    "monday":    null,
-    "tuesday":   null,
-    "wednesday": 20,
-    "thursday":  20,
-    "friday":    20,
-    "saturday":  23,
-    "sunday":    null
-  }},
+  "age_limit_by_day": null,
   "opening_hours": {{
     "monday":    "stängt",
     "tuesday":   "stängt",
@@ -1103,11 +1096,13 @@ VIKTIGT för varje fält:
 - full_description: 3-5 meningar, alltid på svenska, aldrig null
 - music_genre: Kommaseparerade genrer. Sätt ALDRIG null – använd "Varierande" om okänt
 - dress_code: Exakt klädkod om nämnd, annars ALLTID "Ingen speciell"
-- age_limit: sätt den GENERELLA/VANLIGASTE åldersgränsen (ej specialevent-undantag)
-- age_limit_varies: true om åldersgränsen skiljer sig mellan olika dagar
-- age_limit_by_day: fyll i per dag om det varierar, annars sätt alla till null
-  Ex: "Lördagar 23+, övriga dagar 20+" → saturday: 23, resten: 20, age_limit: 23 (striktaste)
-  Ex: "Alltid 20+" → age_limit_varies: false, age_limit_by_day: alla null
+- age_limit: den STRIKTASTE/HÖGSTA officiella åldersgränsen du hittar för normala kvällar.
+  IGNORERA specialevent med lägre gräns. Om osäker, välj det HÖGSTA värdet du ser.
+  Vanliga värden: 18, 20, 23. Sätt null BARA om ingen info alls finns.
+- age_limit_varies: true BARA om du hittar KONKRET info om att det varierar per dag med specifika siffror
+- age_limit_by_day: null om varies=false. Om varies=true, fyll i BARA de dagar du har konkreta siffror för.
+  Format: {{"friday": 20, "saturday": 23}} – sätt null för dagar utan specifik info.
+  Sätt INTE varies=true om du bara gissar eller om alla dagar skulle bli null.
 - entry_price: Inträdesavgift om nämnd (ex "100 kr", "Gratis", "100-200 kr"). Sätt null om okänt
 - resident_djs: Lista med fasta DJs om nämnda. Sätt [] om inga hittas
 - facebook: Full URL till Facebook-sida om nämnd. Sätt null om ej hittad
@@ -1225,8 +1220,18 @@ def merge_sources(
         "serper"   if serper_age                     else
         "saknas"
     )
-    age_limit_varies  = ai_data.get("age_limit_varies", False)
-    age_limit_by_day  = ai_data.get("age_limit_by_day") if age_limit_varies else None
+    age_limit_varies = ai_data.get("age_limit_varies", False)
+    age_limit_by_day = ai_data.get("age_limit_by_day") if age_limit_varies else None
+
+    # Validera age_limit_by_day – om alla dagar är null, sätt varies=False
+    if age_limit_by_day:
+        real_values = [v for v in age_limit_by_day.values() if v is not None]
+        if not real_values:
+            age_limit_varies = False
+            age_limit_by_day = None
+        else:
+            # age_limit ska vara det HÖGSTA värdet i by_day
+            age_limit = max(real_values)
 
     # Instagram
     instagram_handle = (
